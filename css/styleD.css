@@ -1,0 +1,156 @@
+/* Customize the scrollbar */
+/* Width and height of the scrollbar track */
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+
+  }
+  
+  /* Color of the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #3179cca1;
+    border-radius: 0px;
+  }
+  
+  /* Color of the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background-color: #f8f8f83a;
+  }
+  
+  /* Color of the scrollbar corner */
+  ::-webkit-scrollbar-corner {
+    background-color: #f0f0f0;
+  }
+
+body{
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+}
+.br{
+    display: none;
+}
+.nav{
+    /* display: flex; */
+    background-color: black;
+    /* border: 2px solid red; */
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 900;
+}
+.navul{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    margin: 0px 0px;
+    padding-left: 15px;
+    display: flex;
+}
+.navulbr{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    margin: 0px 0px;
+    padding-left: 15px;
+    display: flex;
+}
+.time{
+    color: white;
+    list-style: none;
+    padding: 0;
+    padding-right: 8px;
+    margin: 0;
+}
+
+.time li{
+    font-size: 1em;
+}
+.time div{
+    text-align: right;
+}
+.navli{
+    padding: 0px 12px;
+}
+.navli:hover{
+    color: #2873ff;
+}
+.carouselimg{
+    width: 100%;
+    height: 30vw;
+    min-height: 250px;
+    background-color: #8e9eaf !important;
+    background-blend-mode: multiply;
+    display: flex;
+
+}
+.carouselspan{
+    
+    margin: auto;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.226);
+    backdrop-filter: blur(2px);
+    padding: 8px;
+    border-radius: 12px;
+    width: 45vw;
+    min-width: 280px;
+    font-size: 2.5vw;
+    
+}
+.carouselspan:hover{
+    box-shadow: 2px 2px 15px whitesmoke;
+    transform: perspective(350px) rotateY(1.5deg) rotateX(3.8deg) rotateZ(1deg);
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(7px);
+    color: white;
+
+    border-radius: 20px;
+}
+.carouselspan h1, .carouselspan  h2, .carouselspan  h3, .carouselspan h4, .carouselspan h5, .carouselspan h6{
+    color: rgb(252, 208, 167);
+}
+#carouselspan3{
+    width: 45vw;
+    min-width: 280px;
+    text-align: Center;
+    position: relative;
+    left: 20vw;
+    font-size: 2.8vw;
+}
+#carouselspan3:hover{
+    text-shadow: 0px 0px 18px rgb(255, 255, 255)smoke;
+}
+.cardbox{
+    border: 2px solid rgba(27, 27, 27, 0.137);
+    /* overflow: scroll !important; */
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4%;
+}
+.ca{
+    margin-top: 4%;
+    box-shadow: 1px 0px 5px rgb(197, 197, 197) ;
+    border-radius: 12px;
+}
+.ca:hover{
+    box-shadow: 2px 3px 12px rgb(53, 50, 50) ;
+    margin-top: 3%;
+    
+    transform: perspective(350px) rotateY(1deg) rotateX(2.8deg) rotateZ(-2deg);
+    transition: all ease 0.3s;
+}
+#staticBackdros{
+    background-color: #0000004a;
+    backdrop-filter: blur(7px);
+}
+#staticBackdros:hover{
+    backdrop-filter: blur(3px);
+}
