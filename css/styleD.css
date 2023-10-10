@@ -154,3 +154,59 @@ body{
 #staticBackdros:hover{
     backdrop-filter: blur(3px);
 }
+
+/* project page css */
+.urlbox{
+    border: 2px solid rgba(31, 52, 66, 0.692);
+    box-shadow:inset 0px 0px 5px rgb(68, 146, 209);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px ;
+
+}
+.gourl{
+    padding-right:12px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left: 2px solid rgb(66, 156, 66);
+    width: 80px;
+    /* border-radius: 30px 0px 0px 30px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(54, 252, 64);
+    padding: 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 30px;
+    margin: 0;
+}
+.gourl:hover{
+    border-radius: 30px 0px 0px 30px;
+    text-shadow: 0px 0px 5px rgba(137, 255, 68, 0.993);
+    padding-left: 22px;
+    box-shadow: inset 0px 0px 8px rgb(0, 124, 0);
+    transition: all ease 0.7s;
+}
+.showcase{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4%;
+    
+}
+.card{
+    flex-shrink: 0.1;
+    flex-basis: 400px;
+    max-width: 540px;
+    flex-grow: 0.2;
+}
+.projectimgbox{
+    background: url(../img/project.jpg);
+    background-size: cover;
+    background-position-x: center;
+    width: 100%;
+    height: 100%;
+}
