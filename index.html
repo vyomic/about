@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,22 +6,25 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" id="stylesheet" href="css/styleD.css">
     <link rel="stylesheet" href="icons4/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRf2vvoC9pHW5Qx4wn5F3L4aAr5FqF5liBo17b0be4" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/js/bootstrap.min.js" integrity="sha384-d7I10LUvzpGK5Aou3QWx0pSkAq9pLtf+6+BFp5s+E1fksDmP5Kb5z9Wj5oPp2st2T" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/devices.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hey explorer! welcome to my about page</title>
 </head>
 
-<body>
+<body id="contentbox">
     <div class="br">Vyomic's About Page</div>
     <nav class="nav">
         <ul class="navul">
-            <li class="navli" data-bs-toggle="tooltip" data-bs-placement="top" title="Contact Me"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></li>
+            <li class="navli" title="Contact Me"><i
+                    class="fa fa-envelope fa-2x" aria-hidden="true"></i></li>
             <li class="navli" title="Subscribe my Blogs"><i class="fa fa-bell fa-2x" aria-hidden="true"></i></li>
-            <li class="navli" title="My Projects"><a href="projects.html"><i class="fa fa-cubes fa-2x" aria-hidden="true"></i></a></li>
-            <li class="navli" id="theme" title="Change Theme"><i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i></li>
+            <li class="navli" id="projects-page-btn" data-url="projects.html" title="projects"> <i class="fa fa-cubes fa-2x"
+                    aria-hidden="true"></i></li>
+            <li class="navli" id="theme" title="Change Theme"><i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i>
+            </li>
         </ul>
         <ul class="navulbr">
             <li>
@@ -62,7 +64,7 @@
             <div class="carousel-item">
                 <div class="carouselimg" style="background: url(img/corousel3.jpg);  background-size: cover;
             background-repeat: no-repeat;background-position-y: center;">
-                    <div  class="carouselspan" id="carouselspan3"><i>
+                    <div class="carouselspan" id="carouselspan3"><i>
                             "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।<br>
                             मा कर्मफलहेतुर्भूर्मा ते संगोऽस्त्वकर्मणि।।"
                         </i>
@@ -166,41 +168,45 @@
 
     </div>
     <!-- cards end here -->
-    <div class="hbox">Page is still E-volving... <br>Work in progress...<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
-        <span class="sr-only">Loading...</span></div>
+    <div class="hbox">Page is still E-volving... <br>Work in progress...<i
+            class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+        <span class="sr-only">Loading...</span>
+    </div>
 
 
     <!-- modal for welcome -->
     <!-- Button trigger modal -->
-<button type="button" id="showModalButton" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Say Hello to me...
-</button>
+    <button type="button" id="showModalButton" class="btn btn-primary" data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop">
+        Say Hello to me...
+    </button>
 
-<!-- Modal -->
-<div class="modal fade modal-dialog-centered"  id="staticBackdros" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Welcome to Vyomic's About Page</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Let's Explore My Work.<br>Are you excited?
-      </div>
-      <div class="modal-footer">
-        <button type="button" id="enterFullscreenButton" class="btn btn-primary" data-bs-dismiss="modal">Yes</button>
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-      </div>
+    <!-- Modal -->
+    <div class="modal fade modal-dialog-centered" id="staticBackdros" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Welcome to Vyomic's About Page</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Let's Explore My Work.<br>Are you excited?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="enterFullscreenButton" class="btn btn-primary"
+                        data-bs-dismiss="modal">Yes</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
     <!-- script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-        <script src="js/clock.js"></script>
-        <script src="js/ux.js"></script>
-    </body>
+    <script src="js/ajax.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"        crossorigin="anonymous"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/ux.js"></script>
+</body>
 
 </html>

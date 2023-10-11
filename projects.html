@@ -3,31 +3,27 @@
 
 <head>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" id="stylesheet" href="css/styleD.css">
     <link rel="stylesheet" href="icons4/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRf2vvoC9pHW5Qx4wn5F3L4aAr5FqF5liBo17b0be4"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/js/bootstrap.min.js"
-        integrity="sha384-d7I10LUvzpGK5Aou3QWx0pSkAq9pLtf+6+BFp5s+E1fksDmP5Kb5z9Wj5oPp2st2T"
-        crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRf2vvoC9pHW5Qx4wn5F3L4aAr5FqF5liBo17b0be4" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="css/devices.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <title>Hey explorer! welcome to my about page</title>
 </head>
 
-<body>
+<body id="contentbox">
     <div class="br">Vyomic's About Page</div>
     <nav class="nav">
         <ul class="navul">
             <li class="navli" data-bs-toggle="tooltip" data-bs-placement="top" title="Contact Me"><i
                     class="fa fa-envelope fa-2x" aria-hidden="true"></i></li>
             <li class="navli" title="Subscribe my Blogs"><i class="fa fa-bell fa-2x" aria-hidden="true"></i></li>
-            <li class="navli" title="Home"><a href="index.html"><i class="fa fa-home fa-2x" aria-hidden="true"></i>
-            </a></li>
+            <li class="navli" id="home-page-btn" data-url="index.html" title="index"><i class="fa fa-home fa-2x" aria-hidden="true"></i>
+            </li>
             <li class="navli" id="theme" title="Change Theme"><i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i>
             </li>
         </ul>
@@ -43,8 +39,8 @@
             </li>
         </ul>
     </nav>
-    <div class="urlbox"><i>vyomic.github.io</i> <span class="gourl">&#10144;</span></div>
-
+    <form class="urlbox"> <input id="urlinput" type="text" placeholder="Vyomic"> <button type="submit" class="gourl">&#10144;</button></form>
+    <div id="mainbody">
     <h1>
         My Projects
     </h1>
@@ -193,13 +189,12 @@
         <!-- project card 1 end -->
        
     </div>
-
-    <!-- scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+</div>
+    <script src="js/ajax.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"        crossorigin="anonymous"></script>
     <script src="js/clock.js"></script>
     <script src="js/ux.js"></script>
+    <script src="js/searchbar.js"></script>
 </body>
 
-</html>
+<!-- </html> -->
