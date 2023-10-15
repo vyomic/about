@@ -4,17 +4,10 @@ $(document).ready(function() {
         event.preventDefault();
         var inputText = $('#urlinput').val();
         var query = "https://www.google.com/search?q="+inputText;
+      newHtml= "<iframe src='"+query+"' title='Your Search Results'></iframe>";
         console.log(query);
-        $.ajax({
-            url: query,
-            dataType: "html",
-            success: function(response) {
-          //     // Replace the entire body content with the content of newPage.html
-              $("#mainbody").html(response);
-            },
-            error: function() {
-              alert("Failed to load new page.");
-            }
-          });
+      $("#mainbody").html("");
+      
     });
+    
 });
