@@ -162,6 +162,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-left: 8px ;
+    margin: 0;
 
 }
 .gourl{
