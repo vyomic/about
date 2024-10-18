@@ -1,0 +1,3918 @@
+[
+    {
+        "QuestionNumber": 1,
+        "Question": "What is a computer virus?",
+        "Options": {
+            "A": "A type of hardware malfunction",
+            "B": "A malicious software program that replicates itself",
+            "C": "A harmless computer program",
+            "D": "A network error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 2,
+        "Question": "How do viruses typically spread?",
+        "Options": {
+            "A": "Through email attachments",
+            "B": "Through infected files",
+            "C": "Through the internet",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 3,
+        "Question": "What is a boot sector virus?",
+        "Options": {
+            "A": "A virus that infects the master boot record",
+            "B": "A virus that infects executable files",
+            "C": "A virus that infects email attachments",
+            "D": "A virus that infects the operating system"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 4,
+        "Question": "What is a file virus?",
+        "Options": {
+            "A": "A virus that infects executable files",
+            "B": "A virus that infects the boot sector",
+            "C": "A virus that infects email attachments",
+            "D": "A virus that infects the operating system"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 5,
+        "Question": "RAM stands for:",
+        "Options": {
+            "A": "Read Access Memory",
+            "B": "Random Access Memory",
+            "C": "Read Only Memory",
+            "D": "Recordable Access Memory"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 6,
+        "Question": "The binary system uses which digits?",
+        "Options": {
+            "A": "0 and 1",
+            "B": "0, 1, and 2",
+            "C": "0, 1, 2, and 3",
+            "D": "0, 1, 2, 3, and 4"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 7,
+        "Question": "Which component is responsible for converting digital signals to analog signals for display?",
+        "Options": {
+            "A": "CPU",
+            "B": "GPU",
+            "C": "RAM",
+            "D": "Motherboard"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 8,
+        "Question": "Anti-static wrist straps are used to:",
+        "Options": {
+            "A": "Prevent damage to components due to static electricity",
+            "B": "Improve computer performance",
+            "C": "Connect components to the motherboard",
+            "D": "Reduce noise"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 9,
+        "Question": "A driver is:",
+        "Options": {
+            "A": "A type of hardware",
+            "B": "A software program that controls hardware",
+            "C": "A type of operating system",
+            "D": "A user interface"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 10,
+        "Question": "When installing software, it's important to:",
+        "Options": {
+            "A": "Ignore any prompts or warnings",
+            "B": "Read and agree to the license agreement",
+            "C": "Install all software without considering system requirements",
+            "D": "Share the installation file with others"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 11,
+        "Question": "An operating system:",
+        "Options": {
+            "A": "Is a type of application software",
+            "B": "Manages computer hardware and software",
+            "C": "Is primarily used for gaming",
+            "D": "Is not essential for computer operation"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 12,
+        "Question": "Which type of memory is used for temporary storage of data?",
+        "Options": {
+            "A": "ROM",
+            "B": "RAM",
+            "C": "HDD",
+            "D": "SSD"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 13,
+        "Question": "Before disassembling a computer, it's crucial to:",
+        "Options": {
+            "A": "Unplug it from the power source",
+            "B": "Open the case immediately",
+            "C": "Remove all software",
+            "D": "Take a picture of the internal components"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 14,
+        "Question": "Malware is:",
+        "Options": {
+            "A": "Beneficial software",
+            "B": "Malicious software",
+            "C": "A type of hardware",
+            "D": "A computer game"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 15,
+        "Question": "Which type of memory is non-volatile and retains data even when the power is off?",
+        "Options": {
+            "A": "RAM",
+            "B": "ROM",
+            "C": "Cache",
+            "D": "Register"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 16,
+        "Question": "A device that converts analog signals into digital signals is called a:",
+        "Options": {
+            "A": "Modem",
+            "B": "Codec",
+            "C": "Amplifier",
+            "D": "DAC"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 17,
+        "Question": "The speed of a CPU is measured in:",
+        "Options": {
+            "A": "Hertz",
+            "B": "Bytes",
+            "C": "Bits",
+            "D": "Watts"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 18,
+        "Question": "The expansion slots on a motherboard are used to:",
+        "Options": {
+            "A": "Install additional memory",
+            "B": "Install expansion cards",
+            "C": "Connect cables",
+            "D": "Secure the CPU"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 19,
+        "Question": "A chipset is:",
+        "Options": {
+            "A": "A type of software",
+            "B": "A group of integrated circuits on the motherboard",
+            "C": "A cooling device",
+            "D": "A storage device"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 20,
+        "Question": "BIOS stands for:",
+        "Options": {
+            "A": "Basic Input Output System",
+            "B": "Binary Input Output System",
+            "C": "Built-in Input Output System",
+            "D": "Basic Internal Output System"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 21,
+        "Question": "Which component is responsible for converting digital data into analog signals for audio output?",
+        "Options": {
+            "A": "Sound card",
+            "B": "Modem",
+            "C": "Amplifier",
+            "D": "Speaker"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 22,
+        "Question": "A bus is:",
+        "Options": {
+            "A": "A physical channel for data transfer",
+            "B": "A type of software",
+            "C": "A storage device",
+            "D": "A cooling component"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 23,
+        "Question": "A case fan is used to:",
+        "Options": {
+            "A": "Improve CPU cooling",
+            "B": "Increase storage capacity",
+            "C": "Enhance graphics performance",
+            "D": "Improve airflow within the case"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 24,
+        "Question": "When organizing cables, it's recommended to:",
+        "Options": {
+            "A": "Use zip ties to bundle cables",
+            "B": "Leave cables loose for better airflow",
+            "C": "Hide all cables behind the motherboard",
+            "D": "Ignore cable management"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 25,
+        "Question": "After assembling a computer, it's crucial to:",
+        "Options": {
+            "A": "Immediately turn it on",
+            "B": "Check for loose components",
+            "C": "Ignore the power supply",
+            "D": "Install all software"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 26,
+        "Question": "A software patch is used to:",
+        "Options": {
+            "A": "Add new features",
+            "B": "Fix minor software issues",
+            "C": "Completely reinstall software",
+            "D": "Remove unwanted programs"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 27,
+        "Question": "Open-source software is:",
+        "Options": {
+            "A": "Always free",
+            "B": "Has limited functionality",
+            "C": "Cannot be modified",
+            "D": "Has publicly accessible source code"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 28,
+        "Question": "A backup is a:",
+        "Options": {
+            "A": "Copy of data for recovery purposes",
+            "B": "Type of software",
+            "C": "Open Source",
+            "D": "Internet connection"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 29,
+        "Question": "A software suite is a collection of:\n33.\tWhat is the purpose of a desktop environment?",
+        "Options": {
+            "A": "Hardware components",
+            "B": "Related software applications",
+            "C": "Drivers",
+            "D": "Operating systems"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 30,
+        "Question": "What is the difference between a full installation and a custom installation?",
+        "Options": {
+            "A": "Full installation installs all components, while custom allows selecting specific features.",
+            "B": "Full installation is faster, while custom is slower.",
+            "C": "Full installation requires more disk space, while custom requires less.",
+            "D": "There is no difference between the two."
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 31,
+        "Question": "What is a GUI?",
+        "Options": {
+            "A": "A text-based interface for interacting with a computer",
+            "B": "A graphical interface for interacting with a computer",
+            "C": "A programming language",
+            "D": "A type of hardware"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 32,
+        "Question": "Which of the following is an example of a GUI element?",
+        "Options": {
+            "A": "Command prompt",
+            "B": "Icon",
+            "C": "CLI",
+            "D": "Terminal"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 34,
+        "Question": "What is a window manager?",
+        "Options": {
+            "A": "A software application that controls the placement and appearance of windows",
+            "B": "A hardware component that manages the display",
+            "C": "A type of input device",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 35,
+        "Question": "What is a widget?",
+        "Options": {
+            "A": "A small graphical element that performs a specific function",
+            "B": "A type of software application",
+            "C": "A hardware component",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 36,
+        "Question": "Which of the following is an example of a CLI command?",
+        "Options": {
+            "A": "Click on the \"Start\" button",
+            "B": "Type \"ls\" to list files and directories",
+            "C": "Double-click on an icon",
+            "D": "Drag and drop a file"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 37,
+        "Question": "What is a shell?",
+        "Options": {
+            "A": "A hardware component",
+            "B": "A software application that provides a CLI interface",
+            "C": "A programming language",
+            "D": "A network protocol"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 38,
+        "Question": "What is Linux?",
+        "Options": {
+            "A": "A type of hardware",
+            "B": "A programming language",
+            "C": "An operating system",
+            "D": "A network protocol"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 39,
+        "Question": "Which of the following is a Linux distribution?",
+        "Options": {
+            "A": "Windows",
+            "B": "macOS",
+            "C": "Ubuntu",
+            "D": "Microsoft Office"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 40,
+        "Question": "What is the kernel of an operating system?",
+        "Options": {
+            "A": "The core component that manages hardware and software",
+            "B": "A user interface",
+            "C": "A type of application software",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 41,
+        "Question": "What is a process?",
+        "Options": {
+            "A": "A running instance of a program",
+            "B": "A type of hardware",
+            "C": "A file system",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 42,
+        "Question": "What is the purpose of the \"mkdir\" command in Linux?",
+        "Options": {
+            "A": "Make directory",
+            "B": "Move directory",
+            "C": "Modify directory",
+            "D": "Delete directory"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 43,
+        "Question": "What is the purpose of the \"rm\" command in Linux?",
+        "Options": {
+            "A": "Remove file or directory",
+            "B": "Rename file or directory",
+            "C": "Read file",
+            "D": "Write to file"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 44,
+        "Question": "What is the purpose of the \"cp\" command in Linux?",
+        "Options": {
+            "A": "Copy files or directories",
+            "B": "Create files or directories",
+            "C": "Compare files",
+            "D": "Delete files or directories"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 45,
+        "Question": "What is the primary function of Microsoft Word?",
+        "Options": {
+            "A": "Creating spreadsheets",
+            "B": "Creating presentations",
+            "C": "Creating documents",
+            "D": "Managing databases"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 46,
+        "Question": "What is the primary function of Microsoft Excel?",
+        "Options": {
+            "A": "Creating spreadsheets",
+            "B": "Creating presentations",
+            "C": "Creating documents",
+            "D": "Managing databases"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 47,
+        "Question": "What is the primary function of Microsoft PowerPoint?",
+        "Options": {
+            "A": "Creating spreadsheets",
+            "B": "Creating presentations",
+            "C": "Creating documents",
+            "D": "Managing databases"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 48,
+        "Question": "What is a database?",
+        "Options": {
+            "A": "A collection of organized information",
+            "B": "A type of software application",
+            "C": "A hardware component",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 49,
+        "Question": "What is a spreadsheet?",
+        "Options": {
+            "A": "A document containing text and images",
+            "B": "A table of organized data",
+            "C": "A presentation with slides",
+            "D": "A database for storing information"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 50,
+        "Question": "What is a chart in a spreadsheet?",
+        "Options": {
+            "A": "A graphical representation of data",
+            "B": "A formula for calculating values",
+            "C": "A database table",
+            "D": "A text format"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 51,
+        "Question": "What is a presentation?",
+        "Options": {
+            "A": "A collection of slides containing text, images, and multimedia",
+            "B": "A document containing text and images",
+            "C": "A spreadsheet with data",
+            "D": "A database for storing information"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 52,
+        "Question": "What is OpenOffice?",
+        "Options": {
+            "A": "A web browser",
+            "B": "An operating system",
+            "C": "A free and open-source office suite",
+            "D": "A programming language"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 53,
+        "Question": "Which of the following is NOT a core component of OpenOffice?",
+        "Options": {
+            "A": "Writer",
+            "B": "Excel",
+            "C": "Calc",
+            "D": "Impress"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 54,
+        "Question": "What is the purpose of the toolbar in OpenOffice applications?",
+        "Options": {
+            "A": "To display the document content",
+            "B": "To provide quick access to common commands",
+            "C": "To manage files",
+            "D": "To edit text"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 55,
+        "Question": "What is the purpose of styles in OpenOffice Writer?",
+        "Options": {
+            "A": "To format text consistently",
+            "B": "To create tables",
+            "C": "To insert images",
+            "D": "To check spelling"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 56,
+        "Question": "How do you insert a table in OpenOffice Writer?",
+        "Options": {
+            "A": "Use the \"Insert\" -> \"Table\" menu",
+            "B": "Press the \"Tab\" key multiple times",
+            "C": "Use the \"Draw\" toolbar",
+            "D": "All of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 57,
+        "Question": "What is the function of the AVERAGE function in OpenOffice Calc?",
+        "Options": {
+            "A": "Adds a range of numbers",
+            "B": "Averages a range of numbers",
+            "C": "Counts the number of cells",
+            "D": "Finds the maximum value"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 58,
+        "Question": "What is a filter in OpenOffice Calc?",
+        "Options": {
+            "A": "A way to display only specific data based on criteria",
+            "B": "A type of chart",
+            "C": "A formula for calculating values",
+            "D": "A data validation rule"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 59,
+        "Question": "What is a conditional formatting in OpenOffice Calc?",
+        "Options": {
+            "A": "Applying specific formatting based on certain conditions",
+            "B": "A type of chart",
+            "C": "A formula for calculating values",
+            "D": "A data validation rule"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 60,
+        "Question": "What is the default file extension for a presentation created in OpenOffice Impress?",
+        "Options": {
+            "A": ".pptx",
+            "B": ".ppt",
+            "C": ".odp",
+            "D": ".pdf"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 61,
+        "Question": "What is a shape in OpenOffice Draw?",
+        "Options": {
+            "A": "A basic geometric object",
+            "B": "A text box",
+            "C": "A picture",
+            "D": "A line"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 62,
+        "Question": "How do you insert a picture into OpenOffice Draw?",
+        "Options": {
+            "A": "Use the \"Insert\" -> \"Picture\" menu",
+            "B": "Copy and paste the picture",
+            "C": "Drag and drop the picture",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 63,
+        "Question": "What is a connector in OpenOffice Draw?",
+        "Options": {
+            "A": "A line that connects two objects",
+            "B": "A type of shape",
+            "C": "A text box",
+            "D": "A picture"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 64,
+        "Question": "What is a layer in OpenOffice Draw?",
+        "Options": {
+            "A": "A way to organize objects",
+            "B": "A type of shape",
+            "C": "A text box",
+            "D": "A picture"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 65,
+        "Question": "What is OpenOffice Base used for?",
+        "Options": {
+            "A": "Creating databases",
+            "B": "Creating spreadsheets",
+            "C": "Creating presentations",
+            "D": "Creating diagrams"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 66,
+        "Question": "What is a device driver?",
+        "Options": {
+            "A": "A software program that allows the operating system to communicate with hardware",
+            "B": "A type of hardware component",
+            "C": "A file system",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 67,
+        "Question": "How can you update a device driver?",
+        "Options": {
+            "A": "Through the Device Manager",
+            "B": "By downloading the driver from the manufacturer's website",
+            "C": "Both A and B",
+            "D": "Neither A nor B"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 68,
+        "Question": "What is a file system?",
+        "Options": {
+            "A": "A method of organizing and storing files on a storage device",
+            "B": "A physical division of a hard drive",
+            "C": "A logical division of a partition",
+            "D": "A type of file"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 69,
+        "Question": "What is the purpose of disk checking?",
+        "Options": {
+            "A": "Checking for errors on the hard drive",
+            "B": "Deleting unnecessary files",
+            "C": "Combining fragmented files into contiguous blocks",
+            "D": "Creating a backup of the hard drive"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 70,
+        "Question": "What is the purpose of the subscription feature in the Event Viewer?",
+        "Options": {
+            "A": "To receive notifications when specific events occur",
+            "B": "To save event logs automatically",
+            "C": "To filter events based on specific criteria",
+            "D": "To clear event logs automatically"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 71,
+        "Question": "How can you uninstall a device in the Device Manager?",
+        "Options": {
+            "A": "Right-click the device and select \"Uninstall device\"",
+            "B": "Delete the device's driver file",
+            "C": "Disconnect the device from the computer",
+            "D": "Use the \"Uninstall\" program"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 72,
+        "Question": "What is the primary function of an antivirus program?",
+        "Options": {
+            "A": "Protecting a computer from viruses and malware",
+            "B": "Speeding up a computer",
+            "C": "Increasing storage capacity",
+            "D": "Improving internet speed"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 73,
+        "Question": "How do antivirus programs protect computers?",
+        "Options": {
+            "A": "By detecting and removing viruses",
+            "B": "By preventing virus infections",
+            "C": "By repairing damaged files",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 74,
+        "Question": "What is a virus signature?",
+        "Options": {
+            "A": "A unique pattern of code that identifies a virus",
+            "B": "A type of antivirus software",
+            "C": "A computer hardware component",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 75,
+        "Question": "What is real-time protection?",
+        "Options": {
+            "A": "An antivirus feature that constantly monitors a computer for threats",
+            "B": "A type of antivirus software",
+            "C": "A hardware component",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 76,
+        "Question": "What is a worm?",
+        "Options": {
+            "A": "A self-replicating program that spreads through networks",
+            "B": "A virus that infects executable files",
+            "C": "A type of antivirus software",
+            "D": "A hardware component"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 77,
+        "Question": "What is a Trojan horse?",
+        "Options": {
+            "A": "A malicious program disguised as legitimate software",
+            "B": "A self-replicating program",
+            "C": "A virus that infects the boot sector",
+            "D": "A type of antivirus software"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 78,
+        "Question": "What is a spyware?",
+        "Options": {
+            "A": "Software that collects information about a user without their consent",
+            "B": "A self-replicating program",
+            "C": "A virus that infects executable files",
+            "D": "A type of antivirus software"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 79,
+        "Question": "What is a ransomware?\n83.\tWhat is cleaning computer hardware?",
+        "Options": {
+            "A": "Malware that encrypts files and demands a ransom to decrypt them",
+            "B": "A self-replicating program",
+            "C": "A virus that infects executable files",
+            "D": "A type of antivirus software"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 80,
+        "Question": "What is a malware?",
+        "Options": {
+            "A": "A general term for malicious software",
+            "B": "A specific type of virus",
+            "C": "A hardware component",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 81,
+        "Question": "What is adware?",
+        "Options": {
+            "A": "Software that displays unwanted ads",
+            "B": "A virus that infects executable files",
+            "C": "A type of antivirus software",
+            "D": "A hardware component"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 82,
+        "Question": "Why is preventive maintenance important?",
+        "Options": {
+            "A": "To extend the life of hardware components",
+            "B": "To improve computer performance",
+            "C": "To prevent data loss",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 84,
+        "Question": "How often should computer hardware be cleaned?",
+        "Options": {
+            "A": "Once a year",
+            "B": "Every six months",
+            "C": "Every three months",
+            "D": "Monthly"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 85,
+        "Question": "What is thermal paste used for?",
+        "Options": {
+            "A": "Cooling the CPU",
+            "B": "Cleaning the keyboard",
+            "C": "Lubricating moving parts",
+            "D": "Protecting against static electricity"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 86,
+        "Question": "What is a hardware driver?",
+        "Options": {
+            "A": "A software program that allows the operating system to communicate with hardware",
+            "B": "A type of hardware component",
+            "C": "A file system",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 87,
+        "Question": "What is BIOS?\n92. What is a hard disk drive (HDD)?",
+        "Options": {
+            "A": "Basic Input/Output System",
+            "B": "Binary Input/Output System",
+            "C": "Basic Internal Output System",
+            "D": "Built-in Input/Output System"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 88,
+        "Question": "What is a CPU?",
+        "Options": {
+            "A": "Central Processing Unit",
+            "B": "Control Processing Unit",
+            "C": "Computer Processing Unit",
+            "D": "Core Processing Unit"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 89,
+        "Question": "What is a GPU?",
+        "Options": {
+            "A": "Graphics Processing Unit",
+            "B": "General Processing Unit",
+            "C": "Game Processing Unit",
+            "D": "Graphical Processing Utility"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 90,
+        "Question": "What is a motherboard?",
+        "Options": {
+            "A": "The main circuit board of a computer",
+            "B": "A storage device",
+            "C": "A type of processor",
+            "D": "A cooling component"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 91,
+        "Question": "What is a power supply unit (PSU)?",
+        "Options": {
+            "A": "Provides power to the computer components",
+            "B": "Stores data",
+            "C": "Processes information",
+            "D": "Displays output"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 93,
+        "Question": "What is a solid-state drive (SSD)?",
+        "Options": {
+            "A": "A type of primary storage with no moving parts",
+            "B": "A type of optical storage",
+            "C": "A type of input device",
+            "D": "A type of output device"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 94,
+        "Question": "What is a RAM?",
+        "Options": {
+            "A": "Random Access Memory",
+            "B": "Read-Only Memory",
+            "C": "Read Access Memory",
+            "D": "Removable Access Memory"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 95,
+        "Question": "How often should you back up your data?",
+        "Options": {
+            "A": "Once a year",
+            "B": "Every six years",
+            "C": "Never",
+            "D": "Regularly, based on data importance"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 96,
+        "Question": "What is a hacker?",
+        "Options": {
+            "A": "Someone who breaks into computer systems",
+            "B": "A computer programmer",
+            "C": "A network administrator",
+            "D": "A hardware technician"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 97,
+        "Question": "What is the purpose of a wire stripper?",
+        "Options": {
+            "A": "To remove the outer jacket of a cable",
+            "B": "To crimp connectors onto wires",
+            "C": "To test network cables",
+            "D": "To connect computers to a network"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 98,
+        "Question": "Which type of malware is designed to replicate itself and spread to other systems?",
+        "Options": {
+            "A": "Trojan",
+            "B": "Virus",
+            "C": "Spyware",
+            "D": "Adware"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 99,
+        "Question": "Which of the following is/are true for Linux?",
+        "Options": {
+            "A": "Linux is an operating system or a kernel, it is open source and supports all kinds of hardware components.",
+            "B": "It is like the Unix system.",
+            "C": "Linux has a GUI system",
+            "D": "All mentioned are true"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 100,
+        "Question": "The user interface allows the user to\ncommunicate with the OS. Which of the following is/are example if interfaces:",
+        "Options": {
+            "A": "Command Line Interface,Graphical User Interface (GUI)and Menu-driven\n101.\tThe purpose of taskbar in GUI element is:\nA.\tTo show all the system task running in past.",
+            "B": "To show which programming is running currently in the system.",
+            "C": "To show all the directories present in the system",
+            "D": "All are true"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 102,
+        "Question": "pwd command in Linux OS does which\nof the following:",
+        "Options": {
+            "A": "It prints the path of the working directory, starting from the root.",
+            "B": "It is shell built-in command(pwd) or an actual binary(/bin/pwd).",
+            "C": "It is an environment variable which stores the path of the current directory.",
+            "D": "All are true"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 103,
+        "Question": "_________________ is the main package\nmanagement program in Debian used to install, build, remove, and manage packages.",
+        "Options": {
+            "A": "chmod",
+            "B": "fdisk",
+            "C": "dpkg",
+            "D": "Whatis"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 104,
+        "Question": "Which of the following Operating System\nis not type of Linux?",
+        "Options": {
+            "A": "BSD",
+            "B": "Ubuntu",
+            "C": "Redhat",
+            "D": "CentOS"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 105,
+        "Question": "The Linux command ___________________\ntape archive, is used to create Archive and extract the Archive files",
+        "Options": {
+            "A": "tar",
+            "B": "xvgh",
+            "C": "rmdir",
+            "D": "gzip"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 106,
+        "Question": "Taskbar is used for",
+        "Options": {
+            "A": "Navigation program",
+            "B": "Switching between program",
+            "C": "Start a program",
+            "D": "All of mentioned\nANSWER:D\n107.\tFolder may contain:\nA. Files and sub folders\nB.\tOnly files\nC.\tOnly sub folders\nD. None of the mentioned\nANSWER:A\n108.\tMost widely used Text Editor is________\nA.\tWordpad\nB.\tPaint\nC.\tPhotoshop\nD.\tNotepad"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 109,
+        "Question": "Collection of related files and subfolders\nis____________",
+        "Options": {
+            "A": "Menu",
+            "B": "Disk",
+            "C": "Operating System",
+            "D": "Folder\nANSWER:D\n110.\tOne Gigabyte (GB) is equal to__________-\nA.\t1024 bytes\nB.\t1024 KB\nC. 1024 MB\nD. 1024 TB\nANSWER:C\n111.\tA _____________________ is an all-purpose\nknife used for cutting.\nA. Metal Vise\nB.\tSteel File\nC.\tUtility knife\nD. Chalk Line"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 112,
+        "Question": "Which of the following is a hand tool?",
+        "Options": {
+            "A": "Bubble levels",
+            "B": "All of the mentioned",
+            "C": "Spanner",
+            "D": "Pliers"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 113,
+        "Question": "_____________________ protects the eyes from\nall directions during machining.",
+        "Options": {
+            "A": "Speed Square",
+            "B": "Safety goggles",
+            "C": "Respirator",
+            "D": "Face shield"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 114,
+        "Question": "An electronic tool that allows information\nto be input, processed, and output",
+        "Options": {
+            "A": "Operating Systems",
+            "B": "Motherboard",
+            "C": "Computer",
+            "D": "CPU"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 115,
+        "Question": "Which of the following tasks can be done\non a modern computer?",
+        "Options": {
+            "A": "Complex calculations",
+            "B": "Internet surfing",
+            "C": "All of the mentioned",
+            "D": "Watch movies"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 116,
+        "Question": "The physical part of the computer is\nknown as",
+        "Options": {
+            "A": "Hardware",
+            "B": "Software",
+            "C": "Internet",
+            "D": "Protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 117,
+        "Question": "Which of the following is a part of the\nCPU",
+        "Options": {
+            "A": "Mouse",
+            "B": "Keyboard",
+            "C": "Desktop",
+            "D": "Arithmetic Logic Unit"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 118,
+        "Question": "If you turn ON a PC and the unit is\nclearly ON but the monitor is dark, the problem could be that:",
+        "Options": {
+            "A": "The monitor is not plugged in",
+            "B": "The monitor is not turned on",
+            "C": "The monitor is not plugged into the PC",
+            "D": "Any or all of the mentioned"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 119,
+        "Question": "If a PC behaves freezes or behaves\nerratically and the system unit is very quiet, there is a chance that",
+        "Options": {
+            "A": "A virus has infected the system",
+            "B": "The RAM of the system is failing",
+            "C": "The power supply fan has failed and the system is overheating",
+            "D": "The hard drive is almost out of space"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 120,
+        "Question": "The hardware in a PC that keeps track of\nthe hardware resources of the system is called",
+        "Options": {
+            "A": "CMOS-RAM",
+            "B": "Motherboard",
+            "C": "ROM BIOS CHIP",
+            "D": "Power Supply"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 121,
+        "Question": "A message saying \u201cInvalid drive\nconfiguration\u201d appears during the bootup of a PC. The problem most likely could be",
+        "Options": {
+            "A": "The hard drive cable is not attached to the controller",
+            "B": "The hard drive has failed",
+            "C": "The hard drive has no partitions",
+            "D": "Any of the mentioned"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 122,
+        "Question": "You have loaded a new video card on\nyour computer and now everything looks really bad. What should you do first?",
+        "Options": {
+            "A": "Check the log in the event viewer",
+            "B": "View the device manager and see if the card is configured correctly.",
+            "C": "Go to the printed manual",
+            "D": "Restart the computer"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 123,
+        "Question": "Which of the following should be done\nfirst to remove an application that you no longer need?",
+        "Options": {
+            "A": "Delete the program files",
+            "B": "Use the uninstall program that came with the application",
+            "C": "Use the add or remove programs feature",
+            "D": "Use the registry editor to remove the references to the program"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 124,
+        "Question": "Which utility is useful to identify the\nprogram that is hogging the processing resources of the computer?",
+        "Options": {
+            "A": "Device Manager",
+            "B": "System Monitor",
+            "C": "Task Manager",
+            "D": "System Information"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 125,
+        "Question": "What program can be used to keep your\nsystem up to date and patched up?",
+        "Options": {
+            "A": "Windows dispatcher",
+            "B": "Windows Upgrade",
+            "C": "Windows Update",
+            "D": "Device Manager"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 126,
+        "Question": "What do we call the power protection\ndevice that has a battery and provides a few minutes of power?",
+        "Options": {
+            "A": "Generator",
+            "B": "UPS",
+            "C": "Line conditioner",
+            "D": "Surge suppressor"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 127,
+        "Question": "What is the measurement unit of\nresistance?",
+        "Options": {
+            "A": "Ohms",
+            "B": "Watts",
+            "C": "Volts",
+            "D": "Amperes"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 128,
+        "Question": "Different components of the motherboard\nof a PC are linked together by a set of parallel electrical conducting lines. What are these lines called?",
+        "Options": {
+            "A": "Buses",
+            "B": "Connectors",
+            "C": "Conductors",
+            "D": "Drivers"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 129,
+        "Question": "RS-232 is a standard that applies to?",
+        "Options": {
+            "A": "Serial Communication",
+            "B": "Parallel Communication",
+            "C": "Audio ports",
+            "D": "Network ports"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 130,
+        "Question": "In computer terminology, VGA stands\nfor?",
+        "Options": {
+            "A": "Volatile Graphics Access",
+            "B": "Video Graphics Array",
+            "C": "Video Graphics Adapter",
+            "D": "Voltage Graph Adapter"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 131,
+        "Question": "What is the software that controls system\nperformances called?",
+        "Options": {
+            "A": "Overlay Software",
+            "B": "System Software",
+            "C": "Control Software",
+            "D": "Application Software"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 132,
+        "Question": "A program is",
+        "Options": {
+            "A": "a device where information is stored",
+            "B": "control system that controls the ALU",
+            "C": "a sequence of instructions",
+            "D": "None of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 133,
+        "Question": "__________________is designed to solve a\nspecific problem or execute a specific task.",
+        "Options": {
+            "A": "Utility software",
+            "B": "User software",
+            "C": "Application software",
+            "D": "System software"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 134,
+        "Question": "Special Purpose Softwares are also called",
+        "Options": {
+            "A": "System Softwares",
+            "B": "Utility Softwares",
+            "C": "Application Softwares",
+            "D": "User Interface"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 135,
+        "Question": "In a computer, an Operating System is an\nexample of",
+        "Options": {
+            "A": "System Software",
+            "B": "Device drivers",
+            "C": "Application Softwares",
+            "D": "Custom Softwares"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 136,
+        "Question": "Choose the two main types of software\nfrom the following.",
+        "Options": {
+            "A": "Operating System and Device drivers",
+            "B": "LINUX and UNIX",
+            "C": "Application and System",
+            "D": "Windows and macOS"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 137,
+        "Question": "Which of the following is NOT an\nOperating System?",
+        "Options": {
+            "A": "Windows",
+            "B": "Android",
+            "C": "Ubuntu",
+            "D": "None of the mentioned"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 138,
+        "Question": "linux is a(an)________Operating System",
+        "Options": {
+            "A": "Microsoft",
+            "B": "Mac",
+            "C": "Open source",
+            "D": "Solaris\nANSWER:C\n139.\tWhich command will display the system\ndate?\nA. Date\nB. Ver\nC. Dir\nD. Format\nANSWER:A\n140.\tNot based Linux OS is___________\nA. Ubuntu\nB. Redhat\nC. CentOs\nD. BSD\nANSWER:D\n141.\tAbbreviation of GUI?\nA.\tGiga uses internet\nB.\tGeographical user interface\nC.\tGraphical User interface\nD.\tGraphical unlimited interface\nANSWER:C\n142.\tCursor is a_______________\nA. Pixel\nB.\tThin blinking line\nC.\tPointing indicator\nD. None of mentioned\nANSWER:C\n143.\tRun command for Calculator to open\nA. cals\nB.\tcalc\nC.\tcalee\nD. cal\nANSWER:B\n144.\tRecently deleted files are stored in which\nplace?\nA.\tDesktop\nB.\tRecycle bin\nC. Taskbar\nD.\tMy Computer\nANSWER:B\n145.\tOpen Office is\nA.\tApplication Software\nB.\tSystem Software\nC.\tOperating System\nD. All of the mentioned\nANSWER:A\n146.\tNavigating one page to another page is\ncalled________\nA.\tHyperlink\nB.\tMenu\nC. Source drive\nD. None of mentioned\nANSWER:A\nPage | 17\n147.\tWhat is the shortcutkey used for \"Open\t151.\tA joystick is primarily used to/for\nFile\" in Word\t\tA.\tComputer Gaming\nA.\tCtrl+F\tB.\tControl sound on screen\nB.\tCtrl+H\tC.\tEnter text\nC.\tCtrl+O\tD.\tDraw pictures\nD.\tCtrl+S\tANSWER: A\t\nANSWER:C\t\t\t\n\t\t152.\tWhich of the following is not hardware?\n148.\tText-style feature of word is\tA.\tMouse\nA.\tWordColor\tB.\tMotherboard\nB.\tWordFont\tC.\tPrinter\nC.\tWordArt\tD.\tJava\nD.\tWordFill\tANSWER: D\t\nANSWER:C\t\t\t\n\t\t153.\tWhich System Software acts as a link\n149.\tA disk that has a boot partition is called\tbetween the hardware and the software on a\t\nas ___\t\tcomputer?\t\nA.\tstart disk\tA.\tOperating System\nB.\tend disk\tB.\tDevice drivers\nC.\tboot disk\tC.\tUtility Software\nD.\tAll of the mentioned\tD.\tFirmware"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 150,
+        "Question": "File virus attaches itself to the file\t154. A.\tmv command used for which purpose? Renaming a file",
+        "Options": {
+            "A": "source file\tB.\tMove the file to different directory.",
+            "B": "object file\tC.\tNone of the mentioned",
+            "C": "executable file\tD.\tBoth A and B",
+            "D": "all of the mentioned\tANSWER:D\t\nANSWER:C\nPage | 18\n155.\tWhich of the following is primarily\nresponsible for converting input (data) into meaningful output (information)?\nA. RAM\nB.\tCPU\nC.\tStorage device\nD.\tInput and Output device"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 156,
+        "Question": "Which device is mostly used to enter data\nor information in a computer system?",
+        "Options": {
+            "A": "Touch screen",
+            "B": "mouse",
+            "C": "light pen",
+            "D": "keyboard"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 157,
+        "Question": "Which of the following is not a type of\nmouse?",
+        "Options": {
+            "A": "Wireless mouse",
+            "B": "Optical mouse",
+            "C": "Mechanical mouse",
+            "D": "Electromechanical mouse"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 158,
+        "Question": "Which memory unit communicates\ndirectly with the CPU?",
+        "Options": {
+            "A": "Main memory",
+            "B": "Register",
+            "C": "Secondary memory",
+            "D": "Auxiliary memory"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 159,
+        "Question": "Which of the following components\nremains on the motherboard?",
+        "Options": {
+            "A": "CMOS battery",
+            "B": "PCI slot",
+            "C": "Case fan",
+            "D": "Expansion slot\nE.\tAll of these\nANSWER: E\n160.\tWhich button is known as a middle\nbutton used as the third mouse button?\nA.\tRight button\nB.\tLeft button\nC.\tScroll wheel\nD.\tNone of these"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 161,
+        "Question": "Through what hardware does one person\nspeak to the other person on a video conference?",
+        "Options": {
+            "A": "Speaker",
+            "B": "Monitor",
+            "C": "Microphone",
+            "D": "Camera"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 162,
+        "Question": "The device that produces hard copies on\npaper is called _______.",
+        "Options": {
+            "A": "monitor",
+            "B": "scanner",
+            "C": "tablet",
+            "D": "printer"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 163,
+        "Question": "External devices/ peripherals like\nkeyboard and mouse can be connected to a computer using ___ ports.",
+        "Options": {
+            "A": "PS/2",
+            "B": "USB",
+            "C": "both A & B",
+            "D": "neither A nor B"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 164,
+        "Question": "Which is not a valid file system?",
+        "Options": {
+            "A": "FAT 16",
+            "B": "FAT 32",
+            "C": "NTFS",
+            "D": "FXZ"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 165,
+        "Question": "Which file system DOS typically use?",
+        "Options": {
+            "A": "FAT 16",
+            "B": "FAT 32",
+            "C": "NTFS",
+            "D": "LMFS"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 166,
+        "Question": "Which command changes a file\u2019s group\nowner",
+        "Options": {
+            "A": "cgrp",
+            "B": "chgrp",
+            "C": "change",
+            "D": "group"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 167,
+        "Question": "Which command is used to display disk\nconsumption of a specific directory",
+        "Options": {
+            "A": "du",
+            "B": "ds",
+            "C": "dd",
+            "D": "dds"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 168,
+        "Question": "The file system \"NTFS\" stands for",
+        "Options": {
+            "A": "New Type File System",
+            "B": "Never Terminated File System",
+            "C": "New Technology File System",
+            "D": "Non Terminated File System"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 169,
+        "Question": "What is a scareware?",
+        "Options": {
+            "A": "Malware that tries to trick users into buying unnecessary software",
+            "B": "A type of antivirus software",
+            "C": "A hardware component",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 170,
+        "Question": "The primary function of the CPU is:",
+        "Options": {
+            "A": "Storing data",
+            "B": "Processing data",
+            "C": "Inputting data",
+            "D": "Outputting data"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 171,
+        "Question": "Which storage device is typically the\nfastest?",
+        "Options": {
+            "A": "Hard Disk Drive (HDD)",
+            "B": "Solid State Drive (SSD)",
+            "C": "Optical Disk Drive (ODD)",
+            "D": "Magnetic Tape"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 172,
+        "Question": "When installing a CPU, it's essential to\nalign:",
+        "Options": {
+            "A": "The pins on the CPU with the socket",
+            "B": "The heatsink with the fan",
+            "C": "The RAM slots with the CPU",
+            "D": "The power supply connectors with the motherboard"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 173,
+        "Question": "The primary function of a motherboard is:",
+        "Options": {
+            "A": "Processing data",
+            "B": "Storing data",
+            "C": "Connecting computer components",
+            "D": "Displaying output"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 174,
+        "Question": "Which component is responsible for\nstoring the BIOS?",
+        "Options": {
+            "A": "RAM",
+            "B": "ROM",
+            "C": "HDD",
+            "D": "SSD"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 175,
+        "Question": "A graphics\tcard is\tprimarily\tused for:",
+        "Options": {
+            "A": "Processing\ttext",
+            "B": "Processing\taudio",
+            "C": "Processing\timages and\tvideo",
+            "D": "Storing data"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 176,
+        "Question": "A thermal paste should be:",
+        "Options": {
+            "A": "Thickly applied to the CPU",
+            "B": "Applied in a thin, even layer",
+            "C": "Not used at all",
+            "D": "Applied to the heatsink"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 177,
+        "Question": "When installing a graphics card, it's\nessential to:",
+        "Options": {
+            "A": "Use a screwdriver to tighten screws",
+            "B": "Align the PCIe slot correctly",
+            "C": "Install the card before the CPU",
+            "D": "Apply thermal paste to the graphics card"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 178,
+        "Question": "A software update is typically used to:",
+        "Options": {
+            "A": "Remove unwanted features",
+            "B": "Fix bugs and improve performance",
+            "C": "Increase hardware requirements",
+            "D": "Reduce software functionality"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 179,
+        "Question": "Freeware is software that:",
+        "Options": {
+            "A": "Has a high cost",
+            "B": "Requires payment after a trial period",
+            "C": "Can be used without payment",
+            "D": "Is only available for specific operating systems"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 180,
+        "Question": "Shareware is software that:\t184.\tWhen installing RAM, it's crucial to:",
+        "Options": {
+            "A": "Can be used freely without limitations\tA.\tUse excessive force",
+            "B": "Requires payment after a trial period\tB.\tAlign the notches correctly",
+            "C": "Is always free\tC.\tInstall all RAM sticks in the same slot",
+            "D": "Is only available for specific hardware\tD.\tApply thermal paste to the RAM"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 181,
+        "Question": "Which component acts as the\t185.\tA standoff is used to:\nintermediary between the CPU and main memory?\t\tA.\tImprove CPU cooling",
+        "Options": {
+            "A": "Hard disk\tB.\tSecure the motherboard to the case",
+            "B": "Cache\tC.\tConnect cables",
+            "C": "Motherboard\tD.\tReduce noise",
+            "D": "GPU\tANSWER: B"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 186,
+        "Question": "Proper grounding is essential to prevent:\n182.\tThe cooling system in a computer is\tA.\tOverheating\nessential to:\t\tB.\tStatic electricity damage",
+        "Options": {
+            "A": "Improve performance\tC.\tNoise",
+            "B": "Reduce noise\tD.\tSoftware conflicts",
+            "C": "Prevent overheating\tANSWER: B",
+            "D": "Increase storage capacity"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 187,
+        "Question": "A peripheral device is:\n\t\tA.\tAn internal component of the computer\n183.\tBefore installing a CPU, it's important to:\tB.\tAn external device connected to the",
+        "Options": {
+            "A": "Apply thermal paste directly to the CPU\t\tcomputer",
+            "B": "Check for bent pins\tC.\tA software application",
+            "C": "Install the RAM first\tD.\tA type of memory",
+            "D": "Connect the power supply\tANSWER: B"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 188,
+        "Question": "When installing a power supply unit, it's\nimportant to:",
+        "Options": {
+            "A": "Connect all cables before securing the PSU",
+            "B": "Align the mounting holes correctly",
+            "C": "Install the PSU before the motherboard",
+            "D": "Apply thermal paste to the PSU"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 189,
+        "Question": "A software update is often delivered\nthrough:",
+        "Options": {
+            "A": "Physical media",
+            "B": "Email",
+            "C": "Online download",
+            "D": "Hardware upgrade"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 190,
+        "Question": "Overclocking a CPU means:",
+        "Options": {
+            "A": "Reducing its clock speed",
+            "B": "Increasing its clock speed beyond the manufacturer's specifications",
+            "C": "Underclocking the GPU",
+            "D": "Adding more cores to the CPU"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 191,
+        "Question": "A heat sink is used to:",
+        "Options": {
+            "A": "Increase CPU performance",
+            "B": "Reduce noise",
+            "C": "Dissipate heat from the CPU",
+            "D": "Store data"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 192,
+        "Question": "When uninstalling software, it's important\nto:",
+        "Options": {
+            "A": "Delete the software folder manually",
+            "B": "Use the operating system's uninstaller",
+            "C": "Restart the computer before uninstalling",
+            "D": "Ignore any prompts or warnings"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 193,
+        "Question": "What is a software dependency?",
+        "Options": {
+            "A": "A requirement for specific hardware components.",
+            "B": "A requirement for other software to function correctly.",
+            "C": "A need for internet connection during installation.",
+            "D": "A limitation on the number of users."
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 194,
+        "Question": "What is the purpose of a software\nregistry?",
+        "Options": {
+            "A": "Stores user preferences and settings.",
+            "B": "Manages hardware drivers.",
+            "C": "Controls the operating system.",
+            "D": "All of the above."
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 195,
+        "Question": "What is a silent installation?",
+        "Options": {
+            "A": "An installation that requires no user interaction.",
+            "B": "An installation that is very quiet.",
+            "C": "An installation that does not require administrative privileges.",
+            "D": "An installation that installs only essential files."
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 196,
+        "Question": "What is the purpose of the \"cd\" command\nin Linux?",
+        "Options": {
+            "A": "Change directory",
+            "B": "Create directory",
+            "C": "Copy directory",
+            "D": "Delete directory"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 197,
+        "Question": "What is the purpose of the \"ls\" command\nin Linux?",
+        "Options": {
+            "A": "List files and directories",
+            "B": "Create a file",
+            "C": "Copy a file",
+            "D": "Delete a file"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 198,
+        "Question": "What is the purpose of the \"mv\"\ncommand in Linux?",
+        "Options": {
+            "A": "Move or rename files or directories",
+            "B": "Modify files or directories",
+            "C": "Make a copy of files or directories",
+            "D": "Delete files or directories"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 199,
+        "Question": "What is the purpose of the \"cat\"\ncommand in Linux?",
+        "Options": {
+            "A": "Create a file",
+            "B": "Append text to a file",
+            "C": "Display the contents of a file",
+            "D": "Delete a file"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 200,
+        "Question": "What is a shell script?",
+        "Options": {
+            "A": "A graphical user interface script",
+            "B": "A text-based program that runs in a shell environment",
+            "C": "A programming language",
+            "D": "A type of hardware"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 201,
+        "Question": "What is the purpose of the \"if\" statement\nin a shell script?",
+        "Options": {
+            "A": "To perform conditional execution",
+            "B": "To create loops",
+            "C": "To define functions",
+            "D": "To manipulate variables"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 202,
+        "Question": "What is a variable in a shell script?",
+        "Options": {
+            "A": "A named storage location for data",
+            "B": "A keyword",
+            "C": "A function",
+            "D": "A control structure"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 203,
+        "Question": "What is the purpose of the \"while\" loop in\na shell script?",
+        "Options": {
+            "A": "To perform conditional execution",
+            "B": "To create loops",
+            "C": "To define functions",
+            "D": "To manipulate variables"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 204,
+        "Question": "What is a function in a shell script?",
+        "Options": {
+            "A": "A reusable block of code",
+            "B": "A variable",
+            "C": "A control structure",
+            "D": "A command"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 205,
+        "Question": "What is a database management system\n(DBMS)?",
+        "Options": {
+            "A": "Software for creating, managing, and accessing databases",
+            "B": "A type of hardware",
+            "C": "A programming language",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 206,
+        "Question": "What is a query in a database?",
+        "Options": {
+            "A": "A request for information from a database",
+            "B": "A table in a database",
+            "C": "A record in a database",
+            "D": "A field in a database"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 207,
+        "Question": "What is a mail merge in Word?",
+        "Options": {
+            "A": "Combining a document template with a data source to create personalized documents",
+            "B": "Sending an email from within Word",
+            "C": "Merging multiple documents into one",
+            "D": "Formatting text in a specific style"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 208,
+        "Question": "What is a macro in Excel?",
+        "Options": {
+            "A": "A pre-defined formula",
+            "B": "A recorded series of actions that can be automated",
+            "C": "A chart type",
+            "D": "A data validation rule"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 209,
+        "Question": "What is a package manager in Linux?",
+        "Options": {
+            "A": "A software tool for installing, managing, and removing software packages",
+            "B": "A type of hardware",
+            "C": "A programming language",
+            "D": "A network protocol"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 210,
+        "Question": "What is the purpose of the \"xargs\"\ncommand in a shell script?",
+        "Options": {
+            "A": "Builds command lines from standard input",
+            "B": "Creating files",
+            "C": "Modifying file permissions",
+            "D": "Changing file ownership"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 211,
+        "Question": "What is a pivot chart in Excel?",
+        "Options": {
+            "A": "A graphical representation of pivot table data",
+            "B": "A type of chart",
+            "C": "A formula for calculating values",
+            "D": "A data validation rule"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 212,
+        "Question": "What is a conditional formatting in\nExcel?",
+        "Options": {
+            "A": "Applying specific formatting based on certain conditions",
+            "B": "A chart type",
+            "C": "A formula for calculating values",
+            "D": "A data validation rule"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 213,
+        "Question": "What is a template in Word?",
+        "Options": {
+            "A": "A pre-formatted document that can be used as a starting point",
+            "B": "A type of chart",
+            "C": "A formula for calculating values",
+            "D": "A data validation rule"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 214,
+        "Question": "What is a slide transition in PowerPoint?",
+        "Options": {
+            "A": "The animation effect between slides",
+            "B": "A chart type",
+            "C": "A formula for calculating values",
+            "D": "A data validation rule"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 215,
+        "Question": "What is a database query language?",
+        "Options": {
+            "A": "A language used to interact with and manipulate databases",
+            "B": "A programming language",
+            "C": "A scripting language",
+            "D": "A markup language"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 216,
+        "Question": "What is the purpose of the \"eval\"\ncommand in a shell script?",
+        "Options": {
+            "A": "To evaluate an expression",
+            "B": "To create a function",
+            "C": "To handle signals",
+            "D": "To change the working directory"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 217,
+        "Question": "What is the purpose of the \"return\"\nstatement in a shell script function?",
+        "Options": {
+            "A": "To return a value from the function",
+            "B": "To exit the script",
+            "C": "To create a loop",
+            "D": "To handle signals"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 218,
+        "Question": "What is the purpose of the header and\nfooter in OpenOffice Writer?",
+        "Options": {
+            "A": "To add text at the top and bottom of each page",
+            "B": "To format the main document content",
+            "C": "To insert images",
+            "D": "To create tables"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 219,
+        "Question": "What is the basic unit of data in\nOpenOffice Calc?",
+        "Options": {
+            "A": "Cell",
+            "B": "Row",
+            "C": "Column",
+            "D": "Worksheet"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 220,
+        "Question": "How do you enter a formula in\nOpenOffice Calc?",
+        "Options": {
+            "A": "Start with an equal sign (=)",
+            "B": "Use the \"Formula\" menu",
+            "C": "Click the \"Formula\" button",
+            "D": "All of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 221,
+        "Question": "What is the function of the SUM function\nin OpenOffice Calc?",
+        "Options": {
+            "A": "Adds a range of numbers",
+            "B": "Averages a range of numbers",
+            "C": "Counts the number of cells",
+            "D": "Finds the maximum value"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 222,
+        "Question": "How do you create a chart in OpenOffice\nCalc?",
+        "Options": {
+            "A": "Use the \"Insert\" -> \"Chart\" menu",
+            "B": "Use the \"Data\" -> \"Chart\" menu",
+            "C": "Use the \"Format\" -> \"Chart\" menu",
+            "D": "All of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 223,
+        "Question": "What is a pivot table in OpenOffice Calc?",
+        "Options": {
+            "A": "A type of chart",
+            "B": "A way to summarize and analyze data",
+            "C": "A formula for calculating values",
+            "D": "A database function"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 224,
+        "Question": "What is a slide master in OpenOffice\nImpress?",
+        "Options": {
+            "A": "A predefined layout for slides",
+            "B": "A type of chart",
+            "C": "A sound effect",
+            "D": "A transition effect"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 225,
+        "Question": "What is a transition effect in OpenOffice\nImpress?",
+        "Options": {
+            "A": "The animation effect between slides",
+            "B": "A type of chart",
+            "C": "A formula for calculating values",
+            "D": "A data validation rule"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 226,
+        "Question": "How do you start a slide show in\nOpenOffice Impress?",
+        "Options": {
+            "A": "Press the \"F5\" key",
+            "B": "Click the \"Slide Show\" button",
+            "C": "Use the \"File\" -> \"Slide Show\" menu",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 227,
+        "Question": "What is OpenOffice Draw primarily used\nfor?",
+        "Options": {
+            "A": "Creating text documents",
+            "B": "Creating spreadsheets",
+            "C": "Creating presentations",
+            "D": "Creating diagrams and illustrations"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 237,
+        "Question": "What is the purpose of disk cleanup?",
+        "Options": {
+            "A": "Deleting unnecessary files",
+            "B": "Combining fragmented files into contiguous blocks",
+            "C": "Creating a backup of the hard drive",
+            "D": "Checking for errors on the hard drive"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 238,
+        "Question": "What is a custom view in the Event\nViewer?",
+        "Options": {
+            "A": "A predefined filter for events",
+            "B": "A user-defined filter for events",
+            "C": "A type of event log",
+            "D": "A way to clear event logs"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 239,
+        "Question": "What is the purpose of the Clear Event\nLog option?",
+        "Options": {
+            "A": "Deletes all events from a log",
+            "B": "Deletes events older than a specified date",
+            "C": "Deletes events from a specific source",
+            "D": "Deletes events with a specific event ID"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 240,
+        "Question": "What is the difference between an error\nevent and a warning event?",
+        "Options": {
+            "A": "Error events indicate a critical problem, while warning events indicate a potential issue",
+            "B": "Error events are less severe than warning events",
+            "C": "There is no difference between the two",
+            "D": "Error events are always generated by hardware, while warning events are always generated by software"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 241,
+        "Question": "How can you save an event log for later\nanalysis?",
+        "Options": {
+            "A": "By exporting it to a text file",
+            "B": "By copying and pasting the contents",
+            "C": "By saving it as a CSV file",
+            "D": "By printing the log"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 242,
+        "Question": "What is the purpose of the \"Scan for\nhardware changes\" option in the Device Manager?",
+        "Options": {
+            "A": "To detect newly installed or modified hardware",
+            "B": "To fix hardware problems",
+            "C": "To uninstall hardware",
+            "D": "To update device drivers"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 243,
+        "Question": "How can you troubleshoot a device\nproblem using the Device Manager?",
+        "Options": {
+            "A": "Check for yellow exclamation marks",
+            "B": "Update device drivers",
+            "C": "Uninstall and reinstall the device",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 244,
+        "Question": "What is a keylogger?",
+        "Options": {
+            "A": "Software that records keystrokes",
+            "B": "A virus that infects executable files",
+            "C": "A type of antivirus software",
+            "D": "A hardware component"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 245,
+        "Question": "What is a polymorphic virus?",
+        "Options": {
+            "A": "A virus that changes its code to avoid detection",
+            "B": "A virus that infects multiple files",
+            "C": "A type of antivirus software",
+            "D": "A hardware component"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 246,
+        "Question": "What is a social engineering attack?",
+        "Options": {
+            "A": "A type of malware",
+            "B": "A technique used to manipulate people into revealing personal information",
+            "C": "A hardware failure",
+            "D": "A network error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 247,
+        "Question": "What is the purpose of software updates?",
+        "Options": {
+            "A": "To improve performance and security",
+            "B": "To increase hardware compatibility",
+            "C": "To reduce storage space",
+            "D": "To change the operating system"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 248,
+        "Question": "What should you do if your computer\noverheats?",
+        "Options": {
+            "A": "Ignore it",
+            "B": "Increase the fan speed",
+            "C": "Check for dust buildup and improve ventilation",
+            "D": "Overclock the CPU"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 249,
+        "Question": "What is the purpose of using surge\nprotectors?",
+        "Options": {
+            "A": "To protect computer equipment from power surges",
+            "B": "To increase internet speed",
+            "C": "To improve computer performance",
+            "D": "To reduce noise"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 250,
+        "Question": "What is the importance of regular system\nscans for malware?",
+        "Options": {
+            "A": "To detect and remove malicious software",
+            "B": "To improve computer performance",
+            "C": "To increase storage space",
+            "D": "To change the operating system"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 251,
+        "Question": "What is crimping?",
+        "Options": {
+            "A": "The process of connecting wires to a connector",
+            "B": "The process of testing network cables",
+            "C": "The process of installing network devices",
+            "D": "The process of configuring network settings"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 252,
+        "Question": "What tools are used for crimping?",
+        "Options": {
+            "A": "Crimping tool and wire stripper",
+            "B": "Screwdriver and pliers",
+            "C": "Multimeter and cable tester",
+            "D": "None of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 253,
+        "Question": "What is a server?",
+        "Options": {
+            "A": "A computer that provides services to other computers",
+            "B": "A computer that requests services from other computers",
+            "C": "A software application",
+            "D": "A network device"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 254,
+        "Question": "What is a client?",
+        "Options": {
+            "A": "A computer that provides services to other computers",
+            "B": "A computer that requests services from other computers",
+            "C": "A software application",
+            "D": "A network device"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 255,
+        "Question": "What is the client-server model?",
+        "Options": {
+            "A": "A distributed computing model where clients request services from servers",
+            "B": "A centralized computing model",
+            "C": "A peer-to-peer computing model",
+            "D": "A cloud computing model"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 256,
+        "Question": "What is a database server?",
+        "Options": {
+            "A": "A computer that stores and manages databases",
+            "B": "A software application",
+            "C": "A network device",
+            "D": "A type of hardware"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 257,
+        "Question": "What is encryption?",
+        "Options": {
+            "A": "Converting data into a secret code",
+            "B": "Speeding up data transfer",
+            "C": "Compressing data",
+            "D": "Storing data"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 258,
+        "Question": "Types of malware is?",
+        "Options": {
+            "A": "Caterpillars",
+            "B": "Worms",
+            "C": "Lions",
+            "D": "Horses\nANSWER:B\n259.\tWhich one Not a linux distribution?\nA. debian\nB.\tgentoo\nC.\topen SUSE\nD. multicsr\nANSWER:D\n260.\t\tare computer programs that are\ndesigned by attackers to gain root access to your computer\nA. Backdoors\nB.\tRootkits\nC.\tMalware\nD.\tSpyware\nANSWER:B\nPage | 31\n261.\tAntivirus software is an example\t265.\tA strong password should contain these\nof\t\t\tare\t\nA.\tbusiness software\tA.\tBoth uppercase and lowercase letters.\nB.\tan operating system\tB.\tA word that is easy to remember, such as\nC.\ta security utility\t\tthe name of a pet.\nD.\tAn office suite\tC.\tAt least 8 characters, and a combination of letters, numbers, and characters.\nANSWER:C\t\tD.\tNone of the mentioned\n\t\tANSWER:C\t\n262.\tWhich of the following self-replicating\t\t\nsoftware that causes damages to file and system?\t\t\t\nA.\tViruses\t266.\tWhat is the first boot sector virus?\nB.\tTrojan horses\tA.\tBrain\nC.\tBots\tB.\tMind\nD.\tWorms\tC.\tELK cloner\nANSWER:D\t\tD.\tNone of the mentioned\n\t\tANSWER:A\t\n263.\tThe altering of data so that it is not usable\t\t\nunless the changes are undone is\t\t267.\tWhich of the following retains the\nA.\tbiometrics\tinformation it's storing even when the power to the system is turned off?\t\nB.\tencryption\tA.\tALU\nC.\tergonomics\tB.\tROM\nD.\tcompression\tC.\tRAM\nANSWER:B\t\tD.\tDROM\n\t\tANSWER:B\t\n264.\t\tare used in DOS\t\t\nattacks,against targeted web sites.\t\t\t\nA.\tTrojan horse\t268.\tWhich one provide command interpreter environment?\t\nB.\tZombie\tA.\tKernel\nC.\tWorm\tB.\tShell\nD.\tVirus\tC.\tCELL\nANSWER:B\t\tD.\tHardware\n\t\tANSWER:B\t\nPage | 32\n269\t.\tThe taskbar located in the windows (by\t273.\tPressing and releasing the left mouse\n\tdefault) \t- A.\tOn the start menu B.\tAt the bottom of the screen C.\tOn the quick launch toolbar D.\tat the top of the screen ANSWER:B\tbutton quickly is called\t A.\tclicking B.\tdropping C.\tpointing D.\tdragging ANSWER:A\n270\t.\tDate and Time are available on the desktop at A.\tKey board B.\trecycle Bin C.\tMy computer D. Task bar ANSWER:D\t274.\tGraphics Application in windows named is\t A. Brush B.\tNotepad C.\tpaint D. Fill ANSWER:C\n271\t.\tThe computer administrative tools is called A.\tControl panel B.\tStart button C.\tInternet explorer D.\tRecycle bin ANSWER:A\t275.\tThe distance between lines in a paragraph is called\t. A.\tSpacing B.\tWord Spacing C.\tLine Spacing D.\tRow Spacing ANSWER:C\n272\t.\tElements is used to manage files & folders is A.\tControl panel B.\tWindows C.\tWindow explorer D.\tInternet explorer ANSWER:C\t276.\tWhich of the following is an example of open source software? A.\tAdobe Photoshop B.\tMicrosoft Word C.\tLibre Office D.\tSkype ANSWER:C\nPage | 33\n277.\tShortcut key used in Word select\neverything\nA.\tCtrl+S\nB.\tCtrl+Alt+Delete\nC.\tCtrl+N\nD.\tCtrl+A\nANSWER:D\n278.\tWatermark uses of word document\nis_________\nA.\tText\nB.\tImage\nC.\tBoth A & B\nD.\tNone of the mentioned\nANSWER:C\n279.\tWhich item is printed at the TOP of each\npage\nA.\tHeader\nB.\tFoot Note\nC.\tTitle\nD.\tFooter\nANSWER:A\n280.\t\t is a type of tweezer.\nA.\tDiamond point\nB.\tPointed slant\nC.\tFlathead\nD.\tTorx"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 281,
+        "Question": "Which of the following is NOT a type of\npliers.",
+        "Options": {
+            "A": "Electronic",
+            "B": "Pump",
+            "C": "Flush cutter",
+            "D": "Square"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 282,
+        "Question": "A computer program which is designed to\nhelp people perform an activity using the computer.",
+        "Options": {
+            "A": "Internet",
+            "B": "Application",
+            "C": "Hardware",
+            "D": "Software"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 283,
+        "Question": "In a computer, ALU can perform",
+        "Options": {
+            "A": "Addition",
+            "B": "Subtraction",
+            "C": "Multiplication",
+            "D": "All of the mentioned"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 284,
+        "Question": "Combination of Arithmetic Logic Unit\nand Control Unit results in a",
+        "Options": {
+            "A": "Arithmetic Control Unit",
+            "B": "Control Processing Unit",
+            "C": "Central Processing Unit",
+            "D": "Central Control Logic Unit"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 285,
+        "Question": "All the parts of the computers are connected to this part and this allows all the part of the computer to work together\t289.\tWhich of the following should be used to extinguish a computer fire? A. Fire hose",
+        "Options": {
+            "A": "Operating System B.\tDisk Drive C.\tOutput Device D. Motherboard ANSWER: D\tB.\tClass A extinguisher C.\tClass C extinguisher D. Silver Foam Water ANSWER: C\n286.\tDefault pointing device in a laptop is called A. Mouse B.\tKeyboard C.\tTouchpad D.\tTap-pad\t290.\tIf the boot-up process of a PC halts and the message - \u201cNon-System disk or disk error\t Replace and press any key when ready\u201d appears, the problem might be A. A non-bootable CD is in the CD-Drive and you should remove it B. The hard drive has failed and you should replace it\nANSWER: C\tC. RAM has failed and you should remove it\n287.\tThis part stores programs and other information on 2 or more disks that are located inside the computer\tD. A key on the keyboard is stuck and you should replace the keyboard ANSWER: A\nA. Motherboard B. Hard drive\t291.\tInstallation of software in a computer means\nC. CPU D. Operating System ANSWER: B 288.\t\t keys are present on the top row of the keyboard.\tA.\tonly copying the software in the computer B.\tmaking the software ready for execution C.\tdownloading the software from the internet D.\trunning a drive containing the software\nA. Function\tANSWER: B",
+            "B": "Typewriter C. Numeric D. Navigation ANSWER: A\t292.\tWhat part of the computer can be used on its own? A. Hardware B. Software\n\tC. Firmware\n\tD. None of the mentioned\n\tANSWER: D\nPage | 35\n293.\tIf a program is being executed, we call it\na ________________\nA. Task\nB. Instance",
+            "C": "Instruction",
+            "D": "Process"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 294,
+        "Question": "Choose the correct statement from the\nfollowing.",
+        "Options": {
+            "A": "Software is a collection of programs",
+            "B": "A program is a collection of software",
+            "C": "There is no relation between software and program",
+            "D": "Software becomes a program after installation"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 295,
+        "Question": "What beep codes may indicate a system\nboard or power supply failure?",
+        "Options": {
+            "A": "No beep",
+            "B": "Continuous beep",
+            "C": "Steady long beeps",
+            "D": "All of the mentioned"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 296,
+        "Question": "What are physical ports on a computer\nusually referred to as?",
+        "Options": {
+            "A": "Buses",
+            "B": "Jacks",
+            "C": "Interfaces",
+            "D": "Hardware plugs"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 297,
+        "Question": "Which of the following can be transferred\nover HDMI cable?",
+        "Options": {
+            "A": "Video",
+            "B": "Sound",
+            "C": "Video and Sound",
+            "D": "Neither Video nor Sound"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 298,
+        "Question": "Which type of connector is mostly used\nthese days to connect to network cards?",
+        "Options": {
+            "A": "BNC",
+            "B": "6 pin",
+            "C": "RJ-11",
+            "D": "RJ-45"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 299,
+        "Question": "From the following choose the option\nwhich is NOT system software.",
+        "Options": {
+            "A": "MS Office",
+            "B": "Language translator",
+            "C": "Navigator",
+            "D": "Utility"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 300,
+        "Question": "Who takes care of running and loading\nprograms by use of peripherals?",
+        "Options": {
+            "A": "Operating System",
+            "B": "Control System",
+            "C": "Dump programs",
+            "D": "Function System"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 301,
+        "Question": "Uninstalling an application can be done\nonly by removing the program folder.",
+        "Options": {
+            "A": "True",
+            "B": "False\nANSWER: B\nPage | 36\n302.\tSome software in linux is assembled\t306.\tSyntax used to get the following\nusing other programs in order to use.this is called: A.\tCreating B.\tInitiating C.\tCompiling D.\tProgramming ANSWER: C\tpermissions -rwxrw-rw- A. chmod 744 B. chmod 766 C. chmod 777 D. chmod 754 ANSWER: B\n303.\tLinux has configuration files stored in one folder.What is the folder name? A. etc B. var C. bin D. home ANSWER: A\t307.\tWhich program provides user access to delete files in Windows OS? A.\tWindow Manager B.\tWindow Explorer C.\tInternet Explorer D. Start Menu ANSWER: B\n304.\tEvaluates the bash order of evalution to determine the first instance to the given command A.\ttype B.\twhich-a C. which D. hash ANSWER: A\t308.\tWindow task bar shows which programs are currently running on the computer A. True B. False ANSWER: A 309.\tAdding new peripherals(hardware) to your computer often requires what software to allow Windows to communicate with the new\n305.\tWhich will return a value of 9: A. echo $[[4+5]] B.\techo $((4+5)) C.\techo [4+5] D. echo \"4+5\" ANSWER: B\thardware? A.\tApplication Software B.\tDriver C.\tPassenger D. Installers ANSWER: B\nPage | 37\n310.\tWhat program shows the user how much\nfree space remains on their hard drive?\nA.\tWindow Explorer\nB.\tWindow Manager",
+            "C": "Internet Explorer",
+            "D": "Task Managment"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 311,
+        "Question": "Windows displays three icons on the top\nright window of an application.The icon appear in the form of a dash,square, and an x.What function below occurs after clicking the square?",
+        "Options": {
+            "A": "Program is Maximized",
+            "B": "Program is Minimized",
+            "C": "Program is deleted",
+            "D": "Program reboots"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 312,
+        "Question": "Which of the following is NOT a type of\na screwdriver?",
+        "Options": {
+            "A": "Slotted",
+            "B": "Phillips",
+            "C": "Hex",
+            "D": "Diamond"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 313,
+        "Question": "Wire strippers remove what from wires?",
+        "Options": {
+            "A": "Magnetism",
+            "B": "Excess wire",
+            "C": "Insulation",
+            "D": "Oil"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 314,
+        "Question": "TPI stands for",
+        "Options": {
+            "A": "Tongs passing increments",
+            "B": "Triangle penetrating increments",
+            "C": "Teeth per inch",
+            "D": "Tangible penetrating instruments"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 315,
+        "Question": "Which of the following is NOT a trait of\nmodern computers",
+        "Options": {
+            "A": "Speed",
+            "B": "Accuracy",
+            "C": "Intelligence",
+            "D": "Reliability"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 316,
+        "Question": "Which of the following is the best way to\nprevent damaging your PC from static electricity?",
+        "Options": {
+            "A": "Wear an Electrostatic Discharge(ESD) wrist strap",
+            "B": "Wear leather or rubber-soled shoes",
+            "C": "Periodically touch a safe ground spot on the PC to discharge yourself",
+            "D": "Place your PC on a rubber mat"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 317,
+        "Question": "Choose the correct pair from the\nfollowing.",
+        "Options": {
+            "A": "Application Software - Low-Level Software",
+            "B": "System Software - High-Level Software",
+            "C": "System Software - Low-Level Software",
+            "D": "Middleware - High-Level Software"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 318,
+        "Question": "Firewall is_________",
+        "Options": {
+            "A": "A program that protects against viruses.",
+            "B": "A wall that is reinforced and cannot catch on fire.",
+            "C": "A filter for an internet connection that monitors outgoing and incoming activity.",
+            "D": "None of the mentioned\nANSWER:C\n319.\tWhich among the following is the fastest\nmemory in a computer that holds information?\nA.\tRegister\nB.\tCache\nC.\tMain memory\nD. RAM"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 320,
+        "Question": "Which of the following are the\npredominant manufacturers for desktop and laptop processors?",
+        "Options": {
+            "A": "Intel",
+            "B": "AMD (Advanced Micro Devices)",
+            "C": "Motorola",
+            "D": "Both A and B"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 321,
+        "Question": "Which bus is used to carry data to and\nfrom the memory?",
+        "Options": {
+            "A": "Address bus",
+            "B": "Data bus",
+            "C": "Control bus",
+            "D": "None of these"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 322,
+        "Question": "Computer gets the input with the help of",
+        "Options": {
+            "A": "mouse and keyboard",
+            "B": "joystick",
+            "C": "printer",
+            "D": "both a and b"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 323,
+        "Question": "Which of the following are not input\ndevices?",
+        "Options": {
+            "A": "Keyboard, trackball, light pen",
+            "B": "Barcode reader, OMR, OCR, MICR",
+            "C": "Biometric sensor, scanner, Mic",
+            "D": "Plotter, projector, headphones"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 324,
+        "Question": "CPU is fabricated on a single integrated\ncircuit board that is known as",
+        "Options": {
+            "A": "Motherboard",
+            "B": "Microprocessor",
+            "C": "CU",
+            "D": "ALU"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 325,
+        "Question": "Monitor is connected to a computer using\n__________port.",
+        "Options": {
+            "A": "RS232/ serial",
+            "B": "PS/2",
+            "C": "VGA (Video Graphics Array)",
+            "D": "LPT (Line printer Terminal)"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 326,
+        "Question": "On a dot matrix printer, you should never\nlubricate which part?",
+        "Options": {
+            "A": "carriage rails",
+            "B": "printhead pins",
+            "C": "paper advance bearings",
+            "D": "carriage bearings"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 327,
+        "Question": "Which provides the fastest data access\ntime?",
+        "Options": {
+            "A": "RAM",
+            "B": "ROM",
+            "C": "CD-ROM",
+            "D": "Hard disk"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 328,
+        "Question": "What is the first thing you could do to\ncheck for damage to a printer after receiving it?",
+        "Options": {
+            "A": "Run MSD diagnostics",
+            "B": "Attach it to a PC and print something",
+            "C": "Check the cables",
+            "D": "Unbox it and examine it for physical damage"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 329,
+        "Question": "Files are maintain in which hierachical\nstructure?",
+        "Options": {
+            "A": "Descriptors",
+            "B": "Directories",
+            "C": "Modifiers",
+            "D": "Relative Files\nANSWER:B\n330.\tSecondary storage of a computer\nperforms__________operation\nA. Volatile\nB.\tNon-volatile\nC.\tComplex\nD. Non-circuit\nANSWER:B\n331.\tThe most common buses inside the\nmicrocomputer are\nA. Address bus\nB. Address bus and Data bus\nC. Address bus and Control bus\nD. Address bus, Data bus, and Control bus"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 332,
+        "Question": "Which command creates an empty file if\nfile does not exist?",
+        "Options": {
+            "A": "cat",
+            "B": "touch",
+            "C": "ed",
+            "D": "read"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 333,
+        "Question": "A driver conflict occurs when:",
+        "Options": {
+            "A": "Two or more drivers are incompatible",
+            "B": "The operating system is corrupted",
+            "C": "The hardware is faulty",
+            "D": "The software is outdated"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 334,
+        "Question": "A rollback is used to:",
+        "Options": {
+            "A": "Restore a system to a previous state",
+            "B": "Upgrade the operating system",
+            "C": "Install new software",
+            "D": "Increase system performance"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 335,
+        "Question": "It's generally recommended to create a\nsystem restore point before:",
+        "Options": {
+            "A": "Installing new hardware",
+            "B": "Installing new software",
+            "C": "Making significant system changes",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 336,
+        "Question": "What is the difference between a major\nand minor software update?",
+        "Options": {
+            "A": "Major updates add new features, while minor updates fix bugs and improve performance.",
+            "B": "Major updates are paid, while minor updates are free.",
+            "C": "Major updates require a complete reinstallation, while minor updates do not.",
+            "D": "There is no difference between the two."
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 337,
+        "Question": "What is a slide master in PowerPoint?",
+        "Options": {
+            "A": "A predefined layout for slides",
+            "B": "A special type of chart",
+            "C": "A sound effect",
+            "D": "A transition effect"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 338,
+        "Question": "What is a database relationship?",
+        "Options": {
+            "A": "A connection between two tables based on a common field",
+            "B": "A formula for calculating values",
+            "C": "A chart type",
+            "D": "A report format"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 339,
+        "Question": "What is a file permission in Linux?",
+        "Options": {
+            "A": "Controls who can access and modify a\nfile",
+            "B": "Determines the file size",
+            "C": "Specifies the file type",
+            "D": "Indicates the file creation date"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 340,
+        "Question": "What is a process ID (PID)?",
+        "Options": {
+            "A": "A unique identifier for a running process",
+            "B": "A file permission",
+            "C": "A network port number",
+            "D": "A hardware address"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 341,
+        "Question": "What is a user group in Linux?",
+        "Options": {
+            "A": "A collection of users with similar privileges",
+            "B": "A physical group of people",
+            "C": "A software application",
+            "D": "A hardware component"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 342,
+        "Question": "What is a soft link in Linux?",
+        "Options": {
+            "A": "A physical copy of a file",
+            "B": "A pointer to another file",
+            "C": "A type of hardware device",
+            "D": "A network protocol"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 343,
+        "Question": "What is the purpose of the \"exit\"\ncommand in a shell script?",
+        "Options": {
+            "A": "To terminate the script execution",
+            "B": "To display a message",
+            "C": "To perform arithmetic operations",
+            "D": "To create a loop"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 344,
+        "Question": "What is the purpose of the \"trap\"\ncommand in a shell script?",
+        "Options": {
+            "A": "To handle signals and errors",
+            "B": "To create functions",
+            "C": "To perform arithmetic operations",
+            "D": "To control the flow of the script"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 345,
+        "Question": "What is the purpose of the \"shift\"\ncommand in a shell script?",
+        "Options": {
+            "A": "To shift the positional parameters",
+            "B": "To change the working directory",
+            "C": "To create a function",
+            "D": "To exit the script"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 346,
+        "Question": "What is the purpose of the \"getopts\"\ncommand in a shell script?",
+        "Options": {
+            "A": "To parse command-line arguments",
+            "B": "To create functions",
+            "C": "To handle signals",
+            "D": "To perform arithmetic operations"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 347,
+        "Question": "What is the purpose of the \"awk\"\ncommand in a shell script?",
+        "Options": {
+            "A": "Text processing and pattern matching",
+            "B": "Creating files",
+            "C": "Modifying file permissions",
+            "D": "Changing file ownership"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 348,
+        "Question": "What is the purpose of the \"sed\"\ncommand in a shell script?",
+        "Options": {
+            "A": "Stream editor for filtering and transforming text",
+            "B": "Creating files",
+            "C": "Modifying file permissions",
+            "D": "Changing file ownership"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 349,
+        "Question": "What is the purpose of the \"test\"\ncommand or the square brackets [ ] in a shell script?",
+        "Options": {
+            "A": "To perform arithmetic operations",
+            "B": "To create functions",
+            "C": "To test conditions and make decisions",
+            "D": "To handle signals"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 350,
+        "Question": "What is the difference between single\nquotes and double quotes in a shell script?",
+        "Options": {
+            "A": "Single quotes treat all characters literally, while double quotes allow variable expansion",
+            "B": "Single quotes allow variable expansion, while double quotes treat all characters literally",
+            "C": "There is no difference between single quotes and double quotes",
+            "D": "Single quotes are used for strings, double quotes for numbers"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 351,
+        "Question": "What is the purpose of the \"here\ndocument\" (<<) in a shell script?",
+        "Options": {
+            "A": "To redirect output to a file",
+            "B": "To create a multi-line string",
+            "C": "To define a function",
+            "D": "To handle signals"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 352,
+        "Question": "What is an absolute cell reference in\nOpenOffice Calc?",
+        "Options": {
+            "A": "A cell reference that changes when a formula is copied",
+            "B": "A cell reference that remains constant when a formula is copied",
+            "C": "A type of chart",
+            "D": "A data validation rule"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 353,
+        "Question": "What is a relative cell reference in\nOpenOffice Calc?",
+        "Options": {
+            "A": "A cell reference that changes when a formula is copied",
+            "B": "A cell reference that remains constant when a formula is copied",
+            "C": "A type of chart",
+            "D": "A data validation rule"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 354,
+        "Question": "What are the three main types of logs in\nthe Event Viewer?",
+        "Options": {
+            "A": "System, Application, and Security",
+            "B": "Error, Warning, and Information",
+            "C": "Critical, Error, and Warning",
+            "D": "Debug, Information, and Verbose"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 355,
+        "Question": "What is a hidden device in the Device\nManager?",
+        "Options": {
+            "A": "A device that is physically broken",
+            "B": "A device that is not currently installed",
+            "C": "A device that is not visible by default",
+            "D": "A device that is malfunctioning"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 356,
+        "Question": "Which security feature prevents a user\nfrom accessing websites that may contain malware or inappropriate content?",
+        "Options": {
+            "A": "Content Filtering",
+            "B": "Encryption",
+            "C": "Authentication",
+            "D": "Hashing"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 357,
+        "Question": "What is latency?",
+        "Options": {
+            "A": "The time taken for a data packet to travel from one point to another",
+            "B": "The error rate of a communication channel",
+            "C": "Amount of data that can be transmitted over a communication channel in a given amount of time",
+            "D": "The type of network topology"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 358,
+        "Question": "How can you filter events in the Event\nViewer?",
+        "Options": {
+            "A": "By event type, source, and date",
+            "B": "By user account only",
+            "C": "By event description only",
+            "D": "By event ID only"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 359,
+        "Question": "What are the two types of firewalls?",
+        "Options": {
+            "A": "Internal and external",
+            "B": "Hardware and software",
+            "C": "Public and private",
+            "D": "Static and dynamic"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 360,
+        "Question": "What does a red exclamation mark icon\nnext to an event typically indicate?",
+        "Options": {
+            "A": "A successful event",
+            "B": "A warning event",
+            "C": "An error event",
+            "D": "An informational event"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 361,
+        "Question": "How do we comment in shell script?",
+        "Options": {
+            "A": "#",
+            "B": "/* */",
+            "C": "'",
+            "D": "//"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 362,
+        "Question": "cd command in Linux is used for;",
+        "Options": {
+            "A": "Change directory",
+            "B": "Copy dictionary",
+            "C": "Create directory",
+            "D": "Delete directory"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 363,
+        "Question": "What does the \"cat\" command do in\nLinux?",
+        "Options": {
+            "A": "Create a file",
+            "B": "Append text to a file",
+            "C": "Display the contents of a file",
+            "D": "Delete a file"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 364,
+        "Question": "The default file extension for a\npresentation created in OpenOffice Impress is",
+        "Options": {
+            "A": ".pptx",
+            "B": ".ppt",
+            "C": ".odp",
+            "D": ".pdf"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 365,
+        "Question": "What is the Device Manager used for?",
+        "Options": {
+            "A": "Managing files and folders",
+            "B": "Managing hardware devices",
+            "C": "Managing system processes",
+            "D": "Managing network connections"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 366,
+        "Question": "What is disk defragmentation?",
+        "Options": {
+            "A": "Deleting unnecessary files",
+            "B": "Combining fragmented files into contiguous blocks",
+            "C": "Creating a backup of the hard drive",
+            "D": "Checking for errors on the hard drive"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 367,
+        "Question": "What is the function of \"chown\"\ncommand in Linux?",
+        "Options": {
+            "A": "Change file owner",
+            "B": "Change file permissions",
+            "C": "Change file group",
+            "D": "Change file name"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 368,
+        "Question": "Why do we use single quotes and double\nquotes in a shell script?",
+        "Options": {
+            "A": "Single quotes treat all characters literally, while double quotes allow variable expansion",
+            "B": "Single quotes allow variable expansion, while double quotes treat all characters literally",
+            "C": "There is no difference between single quotes and double quotes",
+            "D": "Single quotes are used for strings, double quotes for numbers"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 369,
+        "Question": "A thermal paste is used to:",
+        "Options": {
+            "A": "Improve CPU performance",
+            "B": "Conduct electricity",
+            "C": "Improve heat transfer between CPU and heatsink",
+            "D": "Reduce noise"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 370,
+        "Question": "CPU serves the purpose of:",
+        "Options": {
+            "A": "Storing data",
+            "B": "Inputting data",
+            "C": "Outputting data",
+            "D": "Processing data"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 371,
+        "Question": "Who can be said to be a hacker?",
+        "Options": {
+            "A": "Someone who breaks into computer systems",
+            "B": "A hardware technician",
+            "C": "A computer programmer",
+            "D": "A network administrator"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 372,
+        "Question": "What is preventive maintenance?",
+        "Options": {
+            "A": "Repairing a computer after it breaks down",
+            "B": "Regularly inspecting and maintaining computer hardware",
+            "C": "Upgrading computer components",
+            "D": "Installing new software"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 373,
+        "Question": "Which type of memory is non-volatile\nand retains data though the power is off?",
+        "Options": {
+            "A": "Cache",
+            "B": "Register",
+            "C": "ROM",
+            "D": "RAM"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 374,
+        "Question": "Cable management is important for:\t379.\tWhich component stores the BIOS?",
+        "Options": {
+            "A": "Better aesthetics\tA.\tROM",
+            "B": "Reducing noise\tB.\tHDD",
+            "C": "Improving airflow\tC.\tSSD",
+            "D": "All of these\tD.\tRAM"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 375,
+        "Question": "Disk Management is primarily used for\t380.\tWhich unit is used to measure the speed",
+        "Options": {
+            "A": "Managing files and folders\tof CPU:",
+            "B": "Managing hardware devices\tA.\tHertz",
+            "C": "Managing system processes\tB.\tBytes",
+            "D": "Managing network connections\tC.\tBits"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 376,
+        "Question": "A power supply unit (PSU) converts:",
+        "Options": {
+            "A": "DC power to AC power\t381.\tWhat is a CLI?",
+            "B": "Data to information\tA.\tA graphical interface for interacting with a computer",
+            "C": "AC power to DC power\tB.\tA text-based interface for interacting with",
+            "D": "Digital signals to analog signals\t\ta computer"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 377,
+        "Question": "When removing a CPU cooler, it's\tANSWER: B\t\nimportant to:",
+        "Options": {
+            "A": "Remove the motherboard first\t382.\tA beta version of software is:",
+            "B": "Avoid touching the CPU core\tA.\tThe final, released version",
+            "C": "Use excessive force\tB.\tA preliminary version for testing",
+            "D": "Apply pressure evenly\tC.\tA type of malware"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 378,
+        "Question": "A software license grants:",
+        "Options": {
+            "A": "The right to modify the software",
+            "B": "Permission to use the software",
+            "C": "Ownership of the software",
+            "D": "All of these"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 383,
+        "Question": "What is bandwidth?",
+        "Options": {
+            "A": "The amount of data that can be transmitted over a communication channel in a given amount of time",
+            "B": "The distance between two points on a network",
+            "C": "The number of devices connected to a network",
+            "D": "The type of network topology"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 384,
+        "Question": "The clock speed of a CPU determines:",
+        "Options": {
+            "A": "The amount of data it can process",
+            "B": "The speed at which it can execute instructions",
+            "C": "The amount of memory it can access",
+            "D": "The size of the CPU"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 385,
+        "Question": "What is the purpose of the \"case\"\nstatement in a shell script?",
+        "Options": {
+            "A": "To perform conditional execution based on multiple conditions",
+            "B": "To create loops",
+            "C": "To define functions",
+            "D": "To manipulate variables"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 386,
+        "Question": "Copying a process from memory to disk\nto allow space for other processes is",
+        "Options": {
+            "A": "Swapping",
+            "B": "Deadlock",
+            "C": "Demand Paging",
+            "D": "Page Fault\nANSWER:A\n387.\tWhich is not a System tool?\nA. Files\nB.\tBackup\nC. Scandisk\nD. Format\nANSWER:A\n388.\tDir/W is\nA. Show all details of file\nB.\tShow only file name and directory name\nC.\tShows only directory\nD. All of the mentioned\nANSWER:B\n389.\tValid permission in the linux system\nis____________\nA. Write\nB.\tHalf control\nC.\tModify\nD.\tChange\nANSWER:A\n390.\tFAT Stands for\nA. File Accomodation Table\nB. File Access Tape\nC. File Allocation Table\nD. File Activity Table\nANSWER:C\n391.\tWhich of the following directory contains\nconfiguration files?\nA. /dev/\nB. /etc/\nC. /bin/\nD. /root/\nANSWER:B\nPage | 47\n392.\tWhich command will show the\nconfiguration details of a wireless connection in Linux?\nA.\tgrep\nB.\tipconfig\nC.\tiwconfig\nD.\tifconfig"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 393,
+        "Question": "What type of file system is used in most\nmodern Linux Operating Systems?",
+        "Options": {
+            "A": "FAT32",
+            "B": "FAT16",
+            "C": "NTFS",
+            "D": "EXT4"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 394,
+        "Question": "What is the difference between touch and\ncat command?",
+        "Options": {
+            "A": "cat command is used to create the file with content whereas touch command is used to create a file without any content.",
+            "B": "touch command is used to create the file with content whereas cat command is used to create a file without any content.",
+            "C": "cat command is used to create the folder with content whereas touch command is used to create a folder without any content.",
+            "D": "touch command is used to create the file with content whereas cat command is used to create a folder without any content."
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 395,
+        "Question": "Which command on Debian/ubuntu based\nLinux platform gives root permissions for other commands?",
+        "Options": {
+            "A": "sudo",
+            "B": "grep",
+            "C": "aptitude",
+            "D": "apt-get"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 396,
+        "Question": "The operations of the arithmetic unit and\nthe control unit in a computer are controlled by",
+        "Options": {
+            "A": "ALU itself",
+            "B": "Control Unit itself",
+            "C": "Applications",
+            "D": "Memory Unit"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 397,
+        "Question": "The programs and data currently being\nprocessed by CPU is stored in",
+        "Options": {
+            "A": "Mass Memory",
+            "B": "RAM",
+            "C": "PROM",
+            "D": "Non-volatile Memory"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 398,
+        "Question": "Which of the following controls the\nprocess of interaction between the user and the computer?",
+        "Options": {
+            "A": "User interface",
+            "B": "Screensaver",
+            "C": "Platform",
+            "D": "Language translator"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 399,
+        "Question": "What characteristic of read-only memory\n(ROM) makes it useful?",
+        "Options": {
+            "A": "ROM information can be easily updated.",
+            "B": "Data in ROM is non-volatile, that is, it remains there even without electrical power.",
+            "C": "ROM provides very large amounts of inexpensive data storage.",
+            "D": "ROM chips are easily swapped between different brands of computers"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 400,
+        "Question": "A light-sensitive device that converts\ndrawing, printed text or other images into digital form is",
+        "Options": {
+            "A": "Keyboard",
+            "B": "Scanner",
+            "C": "Plotter",
+            "D": "OMR"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 401,
+        "Question": "Which of the following groups consists of\nonly input devices?",
+        "Options": {
+            "A": "Mouse, Keyboard, Monitor",
+            "B": "Mouse, Scanner, Printer",
+            "C": "Joystick, Keyboard, Plotter",
+            "D": "Mouse, Keyboard, Scanner"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 402,
+        "Question": "What is GPF?",
+        "Options": {
+            "A": "A hard drive with insufficient space",
+            "B": "Part of the Microsoft General Procedures Windows Format toolkit",
+            "C": "A Windows General Protection Fault",
+            "D": "None of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 403,
+        "Question": "If the Windows system resources drop\nbelow 60%, the system is likely to",
+        "Options": {
+            "A": "Overheat",
+            "B": "Crash",
+            "C": "Run optimally if it has an Intel chip",
+            "D": "Anti-virus systems start running"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 404,
+        "Question": "How do you know the right direction of\nplugging in an unscreened flat ribbon cable into a connector?",
+        "Options": {
+            "A": "The red line in the cable goes to the highest pin number",
+            "B": "The colored line in the cable goes to the first pin",
+            "C": "The colored line in the cable goes to the last pin",
+            "D": "It can be connected in any way."
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 405,
+        "Question": "What should be the first action when\nWindows reports that your hard drive is developing bad sectors?",
+        "Options": {
+            "A": "Replace the hard drive",
+            "B": "Run secclean from DOS",
+            "C": "Run defrag on the hard drive",
+            "D": "Run Scandisk with the thorough option"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 406,
+        "Question": "To test the serial and parallel ports on\nyour computer, which of the following tools might be used?",
+        "Options": {
+            "A": "High Volt probe",
+            "B": "Cable Scanner",
+            "C": "Oscilloscope",
+            "D": "Loopbacks (Wrap Plugs)"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 407,
+        "Question": "How can the CMOS be cleared, including\nthe password?",
+        "Options": {
+            "A": "Unplug the PC",
+            "B": "Unplug the PC and remove the CMOS battery",
+            "C": "Run a CMOS command from the command line",
+            "D": "It is not possible"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 408,
+        "Question": "What could result in a fixed disk error?",
+        "Options": {
+            "A": "No CD-Drive installed",
+            "B": "Bad RAM",
+            "C": "Incorrect CMOS settings",
+            "D": "Bad ROM"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 409,
+        "Question": "What is the bus architecture used by\nSATA cables?",
+        "Options": {
+            "A": "Parallel",
+            "B": "Serial",
+            "C": "Depends on the chipset used",
+            "D": "Multiplexed"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 410,
+        "Question": "How many pins does a PS/2 connector\nhave?",
+        "Options": {
+            "A": "5",
+            "B": "9",
+            "C": "12",
+            "D": "6"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 411,
+        "Question": "How many pins are there in the USB-C\nConnector?",
+        "Options": {
+            "A": "12",
+            "B": "24",
+            "C": "16",
+            "D": "20"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 412,
+        "Question": "The software can be installed on a\ncomputer by\n(i\t) Simply copying the software into a folder on the computer\n(i\ti) Running an installation procedure to make the software executable",
+        "Options": {
+            "A": "Only (i)",
+            "B": "Only (ii)",
+            "C": "Neither (i) nor (ii)",
+            "D": "Both (i) and (ii)"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 413,
+        "Question": "The supermarket near your house has\ninstalled a new inventory management system. What type of software is that?",
+        "Options": {
+            "A": "Operating System",
+            "B": "Communications Software",
+            "C": "System Software",
+            "D": "Database Software"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 414,
+        "Question": "Select the correct statement about\napplication software\n(i)\tFirst, the user deals with system software and then deals with application software.\n(ii)\tIt is programmed for simple as well as complex tasks.\n(iii)\tIt can only be installed on a computer.\n(iv)\tIt can be a single program or a group of small programs that are referred to as an application suite.",
+        "Options": {
+            "A": "All the above statements are correct",
+            "B": "Only (i), (ii), and (iv)",
+            "C": "Only (i), (ii), and (iii)",
+            "D": "Only (i) and (ii)"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 415,
+        "Question": "Which of the following is NOT a function\nperformed by application software?",
+        "Options": {
+            "A": "Managing Information",
+            "B": "Manipulating Data",
+            "C": "Calculating figures",
+            "D": "Memory Management"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 416,
+        "Question": "Which command is used to view\nprocesses running in the background in linux?",
+        "Options": {
+            "A": "ls",
+            "B": "bg",
+            "C": "jobs",
+            "D": "dmsg\nANSWER:C\n417.\tWhich command are using view Hidden\nfiles?\nA. ls -a\nB.\tls -l\nC.\tls -h\nD. Is -k\nANSWER:A\n418.\tWhich command is used to change\npassword of linux system?\nA.\tpassword\nB.\tpass\nC.\tchange -p\nD.\tpasswd\nANSWER:D\n419.\tWhich of the following command is used\nto print the login shell of an user?\nA. echo $SHELL\nB.\techo $LSHELL\nC.\techo $LOGIN\nD. None of the mentioned\nANSWER:A\n420.\tWhich of the following command is used\ndelete the directory?\nA. Deltree/f\nB. Erase *.*\nC. Deltree *.*\nD. Del *.*/p"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 421,
+        "Question": "We can change the thickness of a line\nfrom ________",
+        "Options": {
+            "A": "Line width",
+            "B": "Line Height",
+            "C": "Line Thick",
+            "D": "Line Style\nANSWER:D\n422.\tColor and pattern used to fill a closed\nshape is called___________\nA.\tShapes\nB.\tWord\nC.\tFill Style\nD. Fill Back"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 423,
+        "Question": "Which of the following is program\ngroup?",
+        "Options": {
+            "A": "Accessories",
+            "B": "paint",
+            "C": "Word",
+            "D": "All the mentioned\nANSWER:A\n424.\tMaximum number of lines you can set for\na drop cap in Word?\nA. 15\nB.\t20\nC.\t10\nD. Undefined\nANSWER:C\n425.\tOpen office writer is not compatible with\nthese extension?\nA. txt\nB. doc\nC. sxw\nD. csv\nANSWER:D\n426.\tList of files are waiting to be printed on\nprinter is called\nA.\tprint list\nB.\tprint stack\nC.\tprint queue\nD.\tprint line\nANSWER:C\n427.\tZip files are_______\nA.\tCompressed Files\nB.\tFragmented File\nC. Deleted Files\nD. Save Files\nANSWER:A\n428.\tAll device files are stored in which\ndirectory in Linux\nA. /dev\nB.\t/usr\nC.\t/etc\nD. None of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 429,
+        "Question": "Home directory represented by a \t\t433.\twhich of the following attacks firewall\nsymbol\t.\tprotects is?",
+        "Options": {
+            "A": "#\tA.\tPhishing",
+            "B": "~\tB.\tDumpster diving",
+            "C": "!\tC.\tDenial of Service (DoS)",
+            "D": "$\tD.\tShoulder surfing\nANSWER:B\t\tANSWER:C\t\n430.\tWhich of the command will be used to\t434.\tNot a reason why people create a\ndelete all the files from the current directory ?\t\tcomputer virus ?\t\nA.\trm ?\tA.\tProtection\nB.\trm ?*\tB.\tIdentity theft\nC.\trm [*1\tC.\tPranks\nD.\trm *\tD.\tResearch purpose\nANSWER:D\t\tANSWER:A\t\n431.\tWhich module gives control of the CPU\nto the process selected by the short-term scheduler?\nA.\tdispatcher\nB.\tinterrupt\nC. schedule\nD. None of the mentioned\nANSWER:A\n432.\tMaintaining the security of important\ndata is known as\nA.\tdata backup\nB.\tdata protection\nC.\tdata locking\nD.\tdata securing"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 435,
+        "Question": "How to set the environmental variable in\nLinux?",
+        "Options": {
+            "A": "grep i NAME=VALUE",
+            "B": "grep NAME=VALUE",
+            "C": "export NAME=VALUE",
+            "D": "env NAME=VALUE"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 436,
+        "Question": "If you want to execute the file name\ndemo.sh in linux, what command will you use ?",
+        "Options": {
+            "A": "chmod -x sh demo",
+            "B": "chmod +x demo.sh",
+            "C": "chmod sh demo.sh",
+            "D": "chmod +x sh demo"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 437,
+        "Question": "When is it mandatory to use a antivirus\non linux machine?",
+        "Options": {
+            "A": "While updating the softwares in linux",
+            "B": "For Upgrading linux versions",
+            "C": "When running linux based fileserver/mailserver",
+            "D": "While executing the linux commands in shell"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 438,
+        "Question": "How to find a word hello in a\nwelcome.txt file using linux command?",
+        "Options": {
+            "A": "grep welcome.txt find \"hello\"",
+            "B": "grep \"hello\" welcome.txt",
+            "C": "grep --find \"hello\" welcome.txt",
+            "D": "find \"hello\" welcome.txt"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 439,
+        "Question": "What is the period character of the hidden\nfile ssh in linux?",
+        "Options": {
+            "A": ".ssh",
+            "B": "_ssh",
+            "C": "ssh.",
+            "D": "All of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 440,
+        "Question": "What is the following command used to\ncheck the IP Address of the machine using command prompt?",
+        "Options": {
+            "A": "ipcheck",
+            "B": "ipaddress",
+            "C": "ipaddr",
+            "D": "ipconfig"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 441,
+        "Question": "How to check how long the windows\nmachine was running in windows machine?",
+        "Options": {
+            "A": "System time in Administration Tab",
+            "B": "System up time in Administration Tab",
+            "C": "System wakeup time in Performance Tab",
+            "D": "System up time in Performance Tab"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 442,
+        "Question": "Which of the following statement is\ncorrect in windows?",
+        "Options": {
+            "A": "MSI is used only with installers",
+            "B": "MSI files cannot be used with installers",
+            "C": "MSI & EXE can be executed with installers",
+            "D": "Something else"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 443,
+        "Question": "command is used to check the\nconnection between a local computer and other computer device?",
+        "Options": {
+            "A": "check",
+            "B": "ping",
+            "C": "connect",
+            "D": "search"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 444,
+        "Question": "Which register holds the actual\ninstruction being executed currently by the computer?",
+        "Options": {
+            "A": "Memory address register (MIR)",
+            "B": "Instruction register (IR)",
+            "C": "Memory data register (MDR)",
+            "D": "Program counter register"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 445,
+        "Question": "Which register holds the address of the\t449.\tA device that allows entering data and\ncurrent instruction being executed?\tinstruction into a computer system is called",
+        "Options": {
+            "A": "Instruction register\tA.\tinteraction",
+            "B": "Memory data register (MDR)\tB.\tterminal",
+            "C": "Stack register\tC.\tcommunication",
+            "D": "Program counter\tD.\tinput"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 446,
+        "Question": "Which register holds the address of a memory location?\t450.\tWhich of the keys are also known as modifier keys?",
+        "Options": {
+            "A": "Memory data register\tA.\tShift",
+            "B": "Memory address register\tB.\tCtrl",
+            "C": "Status register\tC.\tAlt",
+            "D": "Stack address\tD.\tAll the above"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 447,
+        "Question": "Which register shows the results of arithmetic and logical operations such as carry, overflow, negative? A.\tStack register B.\tStatus register C.\tMemory data register D.\tMemory buffer ANSWER: B\t451.\tWhich keys are also known as toggle keys? A.\tCaps lock, Num lock B.\tControl key, Enter key C.\tShift, Esc D. Both a and b ANSWER: A\t\n448.\tWhich of the following register holds a data value that is being stored to or retrieved from the memory location?\t452. A. B.\tWhich key is used to indent a paragraph? Spacebar Tab",
+        "Options": {
+            "A": "PSW\tC.\tShift",
+            "B": "Main memory\tD.\tNone",
+            "C": "Memory data register\tANSWER: B",
+            "D": "Cache register"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 453,
+        "Question": "Which key is used to open the Start\nmenu?",
+        "Options": {
+            "A": "Windows",
+            "B": "Alt",
+            "C": "Ctrl + Alt",
+            "D": "None of these"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 454,
+        "Question": "Which key is used to erase data from the\ncomputer\u2019s memory and characters on the screen?",
+        "Options": {
+            "A": "Backspace",
+            "B": "Delete",
+            "C": "Shift + Alt",
+            "D": "Both A and B"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 455,
+        "Question": "Which bus is used to connect external\ndevices?",
+        "Options": {
+            "A": "Address",
+            "B": "Data",
+            "C": "Control",
+            "D": "External"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 456,
+        "Question": "Which of the following is not an integral\npart of the computer system?",
+        "Options": {
+            "A": "CPU",
+            "B": "Mouse",
+            "C": "Monitor",
+            "D": "UPS"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 457,
+        "Question": "Which of the following device provides\nsurge protection and battery backup power during a power outage?",
+        "Options": {
+            "A": "Battery strip",
+            "B": "Surge strip",
+            "C": "UPS",
+            "D": "USB"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 458,
+        "Question": "Which of the following is a temporary\nstorage location attached to CPU for input and output operations?",
+        "Options": {
+            "A": "Memory chip",
+            "B": "Register",
+            "C": "Buffer",
+            "D": "Core"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 459,
+        "Question": "Which of the following is used to\nmeasure the speed of the CPU (processor)?",
+        "Options": {
+            "A": "Processing speed",
+            "B": "Unit",
+            "C": "Coprocessor",
+            "D": "Clock speed"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 460,
+        "Question": "A uniform interval of CPU time allocated\nfor performing a task is called",
+        "Options": {
+            "A": "real time",
+            "B": "seek time",
+            "C": "time slice",
+            "D": "unit time"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 461,
+        "Question": "What is the full form of DMA?\t465.\tMost PCs give a single beep on bootup to indicate they are ok hardware wise. You boot your PC and don\u2019t get a beep. What should you check first?",
+        "Options": {
+            "A": "Direct memory access",
+            "B": "Dynamic memory access",
+            "C": "Double memory access\tA. system board",
+            "D": "None of these\tB. RAM"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 462,
+        "Question": "Internal memory of central processing\tD. speaker ANSWER: D\nunit is nothing but A. a set of registers\t466.\t\tis the term used to refer to the\nB. a set of ALU and CU\tprocess of two modems establishing\n\tcommunications with each other.\nD. None\tA. interacting\nANSWER: A\tB. handshaking\n463.\tWhich memory is used for storing data and program instructions currently being executed\tC. connecting D. linking ANSWER: B\nby CPU? A. Mass memory\t467.\tThe opening provided in the front panel\nB. Auxiliary memory\tor rear panel of a CPU for connecting peripherals\nC.\tInternal memory D.\tNon-volatile memory ANSWER: C\tis called \t. A. socket B. pin\n464.\tWhich of the following key should be pressed to move to the beginning of a line of text?\tC. port D. part ANSWER: C",
+        "Options": {
+            "A": "Page up B. Shift\t468.\tExternal dialup MODEM can be\nC. Home\tconnected to a computer using \tport.\nD. Enter ANSWER: C\tA. RS232/ serial B. PS/2 C. VGA D. LPT ANSWER: A\nPage | 57\n469.\tHome Key helps of\nA.\tMoves the cursor beginning of the document",
+            "B": "Moves the cursor beginning of the paragraph",
+            "C": "Moves the cursor beginning of the screen",
+            "D": "Moves the cursor beginning of the line\nANSWER:D\n470.\tShortcutkey for Replace\nA. Ctrl+J\nB.\tCtrl+F\nC. Ctrl+H\nD. Ctrl+X\nANSWER:C\n471.\tA tool used to put in cross-head screws.\nA.\tPhillips head screwdriver\nB.\tArchitect ruler\nC. Flathead screwdriver\nD.\tBall peen hammer"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 472,
+        "Question": "You suspect that your system is failing to\nboot because of a corrupt master boot record.\nWhich utility is the best to fix this?",
+        "Options": {
+            "A": "Device Manager",
+            "B": "Task Manager",
+            "C": "Recovery Console",
+            "D": "Automated System Restore"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 473,
+        "Question": "You suspect that a virus has entered your\nPC. What will not be affected by the virus?",
+        "Options": {
+            "A": "Program Files",
+            "B": "Boot sector",
+            "C": "CD in the CD-Drive",
+            "D": "CMOS"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 474,
+        "Question": "Every video card must have a",
+        "Options": {
+            "A": "Control Unit",
+            "B": "ROM",
+            "C": "RAM",
+            "D": "All of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 475,
+        "Question": "Which option of rm command is used to\nremove a directory with all its subdirectories",
+        "Options": {
+            "A": "-b",
+            "B": "-o",
+            "C": "-p",
+            "D": "-r"
+        },
+        "Answer": "D"
+    }
+]
