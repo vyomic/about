@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $("#navigation").load("module/navbar.html");
     $('#contentbox').load("module/home.html");
+    
     // load content from module
     $('#navigation').on('click', 'li', function(e) {
         e.preventDefault();
@@ -10,6 +11,9 @@ $(document).ready(function() {
             if(page=="module/contact.html"){
                 $('#contactbox').load(page);  
             }
+                else if (page=="module/quiz.html") {
+             $('#contentbox').load("module/quiz.html");
+}
             else{
                 console.log('clicked')
                 // Load the clicked page into #content div
