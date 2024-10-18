@@ -15,7 +15,7 @@
             padding-bottom: 60px; /* Space for the fixed buttons */
         }
         .questionsBox {
-            margin-bottom: 20px;
+            margin-bottom: 20px; 
             padding: 15px;
             background-color: #ffffff;
             border-radius: 10px;
@@ -88,6 +88,39 @@
             justify-content: space-between;
             margin-bottom: 20px;
         }
+        #jump {
+            display: flex;
+            justify-content: center;
+            flex-wrap: no-wrap;
+            width: 150px;
+            margin: auto;
+           padding: 5px;
+        
+    }
+
+    #jumpTo, #jumpButton {
+           /* Equal width for both buttons */
+            margin: 0 5px; /* Space between buttons */
+            padding: 10px 0;
+            background-color: #99ddff;
+            text-align: center;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight:700;
+            font-size: 18px;
+    }
+#jumpTo {
+width: 85px;
+color:black;}
+
+    #jumpButton {
+width:45px ;
+background-color: #1A8CD8;
+        /* Adjusts width to fit content */
+    }
+        #scoreBoard{
+         display:flex;}
         .score {
             padding: 10px;
             border-radius: 5px;
@@ -115,24 +148,32 @@
   
 
 
-    <h1 id="header">Upload a JSON file and Answer Questions.
+    <div id="header"> <h1>Upload a JSON file of Questions.</h1>
 <h3> If you dont have file get file download <a href="https://qtext.io/0001">link here</a></h3>
-</h1>
+</div>
     <input type="file" id="fileInput" accept=".json">
     <h2 id="questionCount" style="display: none;"></h2>
     <div id="timer" style="display: none;"></div>
-    
-    <div id="scoreBoard" style="display: none;">
+    <div id = "util" style="display: none;" >
+    <div id="scoreBoard" >
         <div class="score correct" id="correctCount">Correct Answers: 0</div>
         <div class="score incorrect" id="incorrectCount">Incorrect Answers: 0</div>
-    </div>
+        </div>
+       <div id="jump">
+        <input type="number" id="jumpTo" placeholder="Que. No." min="1">
+        <button id="jumpButton" class="jumpBtn">Go</button>
+
+
+ </div>
+</div>
 
     <div id="quizContainer"></div>
 
     <div class="navigation">
         <button id="prevButton" style="display: none;">Previous</button>
         <button id="nextButton" style="display: none;">Next</button>
-    </div>
+         </div>
+
 
     <script>
         let currentQuestionIndex = 0;
@@ -152,7 +193,7 @@
                     document.getElementById('header').style.display = 'none'; // Hide the header
                     document.getElementById('questionCount').textContent = `Total Questions: ${questionsData.length}`;
                     document.getElementById('questionCount').style.display = 'block'; // Show question count
-                    document.getElementById('scoreBoard').style.display = 'flex'; // Show score board
+                    document.getElementById('util').style.display = 'block'; // Show score board
                     startTimer(); // Start the timer
                     displayQuestion(currentQuestionIndex);
                 };
@@ -249,6 +290,7 @@
             document.getElementById('prevButton').style.display = index > 0 ? 'inline-block' : 'none';
             document.getElementById('nextButton').style.display = index < questionsData.length - 1 ? 'inline-block' : 'none';
         }
+            
 
         function showCorrectAnswer(answerBox, correctAnswer) {
             answerBox.style.display = 'block';
@@ -267,6 +309,19 @@
                 displayQuestion(currentQuestionIndex);
             }
         });
+
+document.getElementById('jumpButton').addEventListener('click', () => {
+            const jumpTo = parseInt(document.getElementById('jumpTo').value) - 1;
+            document.getElementById('jumpTo').value =''; 
+         
+            if (jumpTo >= 0 && jumpTo < questionsData.length) {
+                currentQuestionIndex = jumpTo;
+                displayQuestion(currentQuestionIndex);
+                } else {
+                alert('Invalid question number');
+            }
+        });
+
         </script>
         
     </body>
