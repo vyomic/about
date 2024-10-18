@@ -1,0 +1,367 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+      margin: 0;
+      position: relative;
+      min-height: 100vh;
+      padding-bottom: 60px; /* Space for the fixed buttons */
+    }
+    .loadQuiz {
+    border: 1px solid blue;
+    background-color:#1A8CD8;
+    width:55px;
+    height:30px;
+    padding:5px;
+    border-radius:5px;
+    margin:auto;
+    }
+    .questionsBox {
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .questionNumber {
+      font-weight: bold;
+      display: block;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .question {
+      display: block;
+      font-size: 27px;
+      margin-bottom: 10px;
+    }
+    .optionBox {
+      margin-bottom: 15px;
+    }
+    .optionBox button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: white; /* No background */
+      border: 2px solid #0d64d6; /* Border color */
+      border-radius: 7px; /* Rounded corners */
+      font-size: 22px; /* Font size */
+      color: #0d64d6; /* Text color */
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .optionBox button:hover {
+    background-color:white;
+      color: black; /* Change text color on hover */
+    }
+    .correctAnswer {
+      display: none;
+      padding: 10px;
+      background-color: #d1fae5;
+      color: #065f46;
+      border: 1px solid #065f46;
+      border-radius: 5px;
+    }
+    .navigation {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .navigation button {
+      flex: 1; /* Equal width for both buttons */
+      margin: 0 5px; /* Space between buttons */
+      padding: 10px 0;
+      background-color: #1e3a8a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .navigation button:hover {
+      background-color: #1d2e5a;
+    }
+    #timer {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    #scoreBoard {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    #jump {
+      display: flex;
+      justify-content: center;
+      flex-wrap: no-wrap;
+      width: 150px;
+      margin: auto;
+      padding: 5px;
+    }
+
+
+    #jumpTo, #jumpButton {
+      margin: 0 5px; /* Space between buttons */
+      padding: 10px 0;
+      background-color: #99ddff;
+      text-align: center;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    #jumpTo {
+      width: 85px;
+      color: black;
+    }
+
+
+    #jumpButton {
+      width: 45px;
+      background-color: #1A8CD8;
+    }
+    .score {
+      padding: 10px;
+      border-radius: 5px;
+      color: white;
+      font-size: 18px;
+    }
+    .correct {
+      background-color: #7affa9; /* Light green */
+      color: darkgreen;
+    }
+    .incorrect {
+      background-color: orangered; /* Red */
+      color: darkred;
+    }
+  </style>
+</head>
+<body>
+ <h3>
+  Mock Test App by <a href="https://github.com/vyomic">😎Me🤓</a>
+ </h3>
+ <h2>Lets Prepare ADIT Exam in a better way.</h2>
+
+
+ <div id="header">
+  <h1>Upload a JSON file of Questions.</h1>
+  <h3>If you don't have a file, get it <a href="https://qtext.io/0001">here</a></h3>
+ </div>
+
+
+ <!-- Button for loading default JSON file -->
+ <button id="loadJsonButton" class="loadQuiz"> Core Module 2</button>
+ <input type="file" id="fileInput" accept=".json">
+ <h2 id="questionCount" style="display: none;"></h2>
+ <div id="timer" style="display: none;"></div>
+ <div id="util" style="display: none;">
+  <div id="scoreBoard">
+   <div class="score correct" id="correctCount">Correct Answers: 0</div>
+   <div class="score incorrect" id="incorrectCount">Incorrect Answers: 0</div>
+  </div>
+  <div id="jump">
+   <input type="number" id="jumpTo" placeholder="Que. No." min="1">
+   <button id="jumpButton" class="jumpBtn">Go</button>
+  </div>
+ </div>
+
+
+ <div id="quizContainer"></div>
+
+
+ <div class="navigation">
+  <button id="prevButton" style="display: none;">Previous</button>
+  <button id="nextButton" style="display: none;">Next</button>
+ </div>
+
+
+ <script>
+  let currentQuestionIndex = 0;
+  let questionsData = [];
+  let startTime;
+  let timerInterval;
+  let correctAnswers = 0;
+  let incorrectAnswers = 0;
+
+
+  // Event listener for manual file upload
+  document.getElementById('fileInput').addEventListener('change', function(event) {
+   const file = event.target.files[0];
+   if (file) {
+    const reader = new FileReader();
+    reader.onload = function(e) {
+     questionsData = JSON.parse(e.target.result);
+     loadQuizData();
+    };
+    reader.readAsText(file);
+   }
+  });
+
+
+  // Event listener for loading the default JSON
+  document.getElementById('loadJsonButton').addEventListener('click', function() {
+   fetch('quiz_questions.json')
+    .then(response => response.json())
+    .then(data => {
+     questionsData = data;
+     loadQuizData();
+    })
+    .catch(error => {
+     console.error('Error loading the JSON file:', error);
+     alert('Error loading the quiz_questions.json file.');
+    });
+  });
+
+
+  function loadQuizData() {
+   document.getElementById('fileInput').style.display = 'none'; // Hide the file input
+   document.getElementById('loadJsonButton').style.display = 'none'; // Hide the load button
+   document.getElementById('header').style.display = 'none'; // Hide the header
+   document.getElementById('questionCount').textContent = `Total Questions: ${questionsData.length}`;
+   document.getElementById('questionCount').style.display = 'block'; // Show question count
+   document.getElementById('util').style.display = 'block'; // Show score board
+   startTimer(); // Start the timer
+   displayQuestion(currentQuestionIndex);
+  }
+
+
+  function startTimer() {
+   startTime = Date.now();
+   timerInterval = setInterval(() => {
+    const elapsed = Math.floor((Date.now() - startTime) / 1000);
+    const minutes = Math.floor(elapsed / 60);
+    const seconds = elapsed % 60;
+    document.getElementById('timer').textContent = `Time: ${minutes}m ${seconds}s`;
+    document.getElementById('timer').style.display = 'block'; // Show timer
+   }, 1000);
+  }
+
+
+  function displayQuestion(index) {
+   const quizContainer = document.getElementById('quizContainer');
+   quizContainer.innerHTML = ''; // Clear previous content
+
+
+   const item = questionsData[index];
+
+
+   const questionsBox = document.createElement('div');
+   questionsBox.className = 'questionsBox';
+
+
+   const questionNumber = document.createElement('span');
+   questionNumber.className = 'questionNumber';
+   questionNumber.textContent = 'Question ' + item.QuestionNumber;
+
+
+   const questionText = document.createElement('span');
+   questionText.className = 'question';
+   questionText.textContent = item.Question;
+
+
+   questionsBox.appendChild(questionNumber);
+   questionsBox.appendChild(questionText);
+
+
+   const optionBox = document.createElement('div');
+   optionBox.className = 'optionBox';
+
+
+   for (let key in item.Options) {
+    const optionButton = document.createElement('button');
+    optionButton.textContent = `${key}: ${item.Options[key]}`;
+
+
+    optionButton.addEventListener('click', function() {
+     Array.from(optionBox.children).forEach(button => button.disabled = true);
+     Array.from(optionBox.children).forEach(button => {
+      button.style.backgroundColor = 'transparent';
+      button.style.color = '#0d64d6'; // Reset text color
+     });
+
+
+     if (key === item.Answer) {
+      optionButton.style.backgroundColor = '#7affa9'; // Correct answer color
+      optionButton.style.color = 'black'; // Change text color for visibility
+      correctAnswers++;
+     } else {
+      optionButton.style.backgroundColor = 'red'; // Incorrect answer color
+      optionButton.style.color = 'white'; // Change text color for visibility
+      incorrectAnswers++;
+     }
+
+
+     document.getElementById('correctCount').textContent = `Correct Answers: ${correctAnswers}`;
+     document.getElementById('incorrectCount').textContent = `Incorrect Answers: ${incorrectAnswers}`;
+
+
+     showCorrectAnswer(correctAnswerBox, item.Answer);
+    });
+
+
+    optionBox.appendChild(optionButton);
+   }
+
+
+   const correctAnswerBox = document.createElement('div');
+   correctAnswerBox.className = 'correctAnswer';
+   correctAnswerBox.textContent = 'Correct Answer: ' + item.Answer;
+
+
+   quizContainer.appendChild(questionsBox);
+   quizContainer.appendChild(optionBox);
+   quizContainer.appendChild(correctAnswerBox);
+
+
+   document.getElementById('prevButton').style.display = index > 0 ? 'inline-block' : 'none';
+   document.getElementById('nextButton').style.display = index < questionsData.length - 1 ? 'inline-block' : 'none';
+  }
+
+
+  function showCorrectAnswer(answerBox, correctAnswer) {
+   answerBox.style.display = 'block';
+  }
+
+
+  document.getElementById('prevButton').addEventListener('click', function() {
+   if (currentQuestionIndex > 0) {
+    currentQuestionIndex--;
+    displayQuestion(currentQuestionIndex);
+   }
+  });
+
+
+  document.getElementById('nextButton').addEventListener('click', function() {
+   if (currentQuestionIndex < questionsData.length - 1) {
+    currentQuestionIndex++;
+    displayQuestion(currentQuestionIndex);
+   }
+  });
+
+
+  document.getElementById('jumpButton').addEventListener('click', () => {
+   const jumpTo = parseInt(document.getElementById('jumpTo').value) - 1;
+   document.getElementById('jumpTo').value = '';
+
+
+   if (jumpTo >= 0 && jumpTo < questionsData.length) {
+    currentQuestionIndex = jumpTo;
+    displayQuestion(currentQuestionIndex);
+   } else {
+    alert('Invalid question number');
+   }
+  });
+ </script>
+
+
+</body>
+</html>
