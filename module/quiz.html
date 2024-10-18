@@ -186,8 +186,9 @@ input[type="file"]::-webkit-file-upload-button{
 
 
  <!-- Button for loading default JSON file -->
- <button id="loadJsonButton" class="loadQuiz"> Core Module 2</button>
- <h2 style="text-align: center;">or</h2>
+ <button id="loadJsonButton1" class="loadQuiz"> Core Module 1</button>
+<button id="loadJsonButton2" class="loadQuiz"> Core Module 2</button>
+  <h2 style="text-align: center;">or</h2>
  <div id="fileInputbox">
    
  
@@ -240,8 +241,8 @@ input[type="file"]::-webkit-file-upload-button{
 
 
   // Event listener for loading the default JSON
-  document.getElementById('loadJsonButton').addEventListener('click', function() {
-   fetch('quiz_questions.json')
+  document.getElementById('loadJsonButton1').addEventListener('click', function() {
+   fetch('Quiz1.json')
     .then(response => response.json())
     .then(data => {
      questionsData = data;
@@ -252,7 +253,18 @@ input[type="file"]::-webkit-file-upload-button{
      alert('Error loading the quiz_questions.json file.');
     });
   });
-
+document.getElementById('loadJsonButton2').addEventListener('click', function() {
+   fetch('Quiz1.json')
+    .then(response => response.json())
+    .then(data => {
+     questionsData = data;
+     loadQuizData();
+    })
+    .catch(error => {
+     console.error('Error loading the JSON file:', error);
+     alert('Error loading the quiz_questions.json file.');
+    });
+  });
 
   function loadQuizData() {
    document.getElementById('fileInput').style.display = 'none';
