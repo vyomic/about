@@ -254,7 +254,7 @@ input[type="file"]::-webkit-file-upload-button{
     });
   });
 document.getElementById('loadJsonButton2').addEventListener('click', function() {
-   fetch('Quiz1.json')
+   fetch('quiz_questions.json')
     .then(response => response.json())
     .then(data => {
      questionsData = data;
