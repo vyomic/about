@@ -1,0 +1,5442 @@
+[
+    {
+        "QuestionNumber": 1,
+        "Question": "How will this HTML5 code be displayed? <header><h1>Welcome to India. Athithi Devo Bhava.</h1></header>",
+        "Options": {
+            "A": "As a paragraph",
+            "B": "As a footer",
+            "C": "As a navigation bar",
+            "D": "As a header with large bold text"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 2,
+        "Question": "In HTML5, which element is best suited for content that is tangentially related to the main content, like a sidebar?",
+        "Options": {
+            "A": "<footer>",
+            "B": "<article>",
+            "C": "<aside>",
+            "D": "<header>"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 3,
+        "Question": "In the following Query, which of the following can be placed in the Query's blank portion to display the salary from highest to lowest amount, and sorting the employs name alphabetically? SELECT * FROM instructor ORDER BY salary ____, name ___;",
+        "Options": {
+            "A": "All of the below",
+            "B": "Desc, Asc",
+            "C": "Asc, Desc",
+            "D": "Ascending, Descending"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 4,
+        "Question": "What is the purpose of the <figure> and <figcaption> elements in HTML5?",
+        "Options": {
+            "A": "To define self-contained content with a caption",
+            "B": "To create a navigation bar",
+            "C": "To display a figure in a scientific paper",
+            "D": "To create a photo gallery"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 5,
+        "Question": "Spot the error in this HTML5 audio tag: <audio controls><source src=\"audio.mp3\" type=\"audio/mpeg\"><source src=\"audio.ogg\" type=\"audio/ogg\"></audio>",
+        "Options": {
+            "A": "Incorrect MIME type for the .ogg file",
+            "B": "No error",
+            "C": "The controls attribute should be inside the <source> tag",
+            "D": "Missing src attribute in the <audio> tag"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 6,
+        "Question": "The default character encoding in HTML5 is_____",
+        "Options": {
+            "A": "UTF-16",
+            "B": "ISO-8859-1",
+            "C": "UTF-32",
+            "D": "UTF-8"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 7,
+        "Question": "Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?",
+        "Options": {
+            "A": "Relational Schema",
+            "B": "DML(Data Manipulation Language)",
+            "C": "Query",
+            "D": "DDL(Data Definition Language)"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 8,
+        "Question": "Which CSS property is used to change the text color of an element?",
+        "Options": {
+            "A": "font-color",
+            "B": "text-color",
+            "C": "background-color",
+            "D": "color"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 9,
+        "Question": "What is the primary purpose of CSS in web development?",
+        "Options": {
+            "A": "To store data",
+            "B": "To program web applications",
+            "C": "To style web pages",
+            "D": "To create web pages"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 10,
+        "Question": "Which of the following is a valid way to integrate CSS into a webpage?",
+        "Options": {
+            "A": "Internal",
+            "B": "Inline",
+            "C": "External",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 11,
+        "Question": "Given the following CSS, what color will the <h1> text be? body { color: red; } h1 { color: blue; }",
+        "Options": {
+            "A": "Black",
+            "B": "Red",
+            "C": "Green",
+            "D": "Blue"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 12,
+        "Question": "Which of the following is a correct syntax to display “Hello World” in an alert box using JavaScript?",
+        "Options": {
+            "A": "alertBox('Hello World');",
+            "B": "displayAlert('Hello World');",
+            "C": "msgAlert('Hello World');",
+            "D": "alert('Hello World');"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 13,
+        "Question": "Which of the following is a valid variable name in JavaScript?",
+        "Options": {
+            "A": "$name",
+            "B": "2names",
+            "C": "-name",
+            "D": "name2"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 14,
+        "Question": "What does the undefined value in JavaScript represent?",
+        "Options": {
+            "A": "A null value",
+            "B": "An unassigned variable",
+            "C": "A logical false",
+            "D": "An error condition"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 15,
+        "Question": "Which data type in JavaScript is used to represent logical values?",
+        "Options": {
+            "A": "String",
+            "B": "Boolean",
+            "C": "Undefined",
+            "D": "Number"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 16,
+        "Question": "What will be the output of the following code? console.log(typeof null);",
+        "Options": {
+            "A": "'null'",
+            "B": "'object'",
+            "C": "'undefined'",
+            "D": "'number'"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 17,
+        "Question": "What is the purpose of JavaScript in web development?",
+        "Options": {
+            "A": "To structure web pages",
+            "B": "To style web pages",
+            "C": "To add interactivity and dynamic content to web pages",
+            "D": "To store data on the server"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 18,
+        "Question": "The given Query can also be replaced with_______: SELECT name, course_id FROM instructor, teaches WHERE instructor_ID= teaches_ID;",
+        "Options": {
+            "A": "Select course_id from instructor join teaches;",
+            "B": "Select name, course_id from instructor natural join teaches;",
+            "C": "Select name, course_id from instructor;",
+            "D": "Select name, course_id from teaches,instructor where instructor_id=course_id;"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 19,
+        "Question": "What do you mean by one to many relationships?",
+        "Options": {
+            "A": "One class may have many teachers",
+            "B": "One teacher can have many classes",
+            "C": "Many teachers may have many classes",
+            "D": "Many classes may have many teachers"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 20,
+        "Question": "Which of the following provides the ability to query information from the database and insert tuples into, delete tuples from, and modify tuples in the database?",
+        "Options": {
+            "A": "DML(Data Manipulation Language)",
+            "B": "Query",
+            "C": "Relational Schema",
+            "D": "DDL(Data Definition Language)"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 21,
+        "Question": "Which one of the following given statements possibly contains the error?",
+        "Options": {
+            "A": "select empid from emp where empid = 10006;",
+            "B": "select empid from emp;",
+            "C": "select empid where empid = 1009 and Lastname = 'GELLER';",
+            "D": "select * from emp where empid = 10003;"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 22,
+        "Question": "Ready the Query carefully: SELECT emp_name FROM department WHERE dept_name LIKE ' _____ Computer Science'; In the above-given Query, which of the following can be placed in the Query's blank portion to select the \"dept_name\" that also contains Computer Science as its ending string?",
+        "Options": {
+            "A": "_",
+            "B": "&",
+            "C": "$",
+            "D": "%"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 23,
+        "Question": "How many phases are there in SDLC?",
+        "Options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 24,
+        "Question": "How many SDLC models are there?",
+        "Options": {
+            "A": "2",
+            "B": "5",
+            "C": "3",
+            "D": "4"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 25,
+        "Question": "SDLC stands for",
+        "Options": {
+            "A": "Software Design Life Cycle",
+            "B": "Software Development Life Cycle",
+            "C": "System Development Life Cycle",
+            "D": "System Design Life Cycle"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 26,
+        "Question": "Which of the following class in Bootstrap is used to create a dropdown menu?",
+        "Options": {
+            "A": ".select-list",
+            "B": ".dropdown",
+            "C": ".select",
+            "D": "None of the above"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 27,
+        "Question": "How many columns are allowed in a bootstrap grid system?",
+        "Options": {
+            "A": "3",
+            "B": "2",
+            "C": "12",
+            "D": "5"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 28,
+        "Question": "Is Bootstrap3 mobile-first?",
+        "Options": {
+            "A": "May be",
+            "B": "Can't say",
+            "C": "True",
+            "D": "False"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 29,
+        "Question": "Which of the following class is used to create a black navigation bar?",
+        "Options": {
+            "A": ".navbar-inverse",
+            "B": ".navbar-black",
+            "C": ".navbar-dark",
+            "D": ".navbar-default"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 30,
+        "Question": "Which of the following class in Bootstrap is used to provide a responsive fixed width container?",
+        "Options": {
+            "A": ".container",
+            "B": ".container-fixed",
+            "C": ".container-fluid",
+            "D": "All of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 31,
+        "Question": "Which of the following class in bootstrap is used to create a big box for calling extra attention?",
+        "Options": {
+            "A": ".box",
+            "B": ".container",
+            "C": ".jumbotron",
+            "D": ".container-fluid"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 32,
+        "Question": "What does the 'text-' prefix in Bootstrap's utility classes generally modify?",
+        "Options": {
+            "A": "Font size",
+            "B": "Text alignment",
+            "C": "Font style",
+            "D": "Text decoration"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 33,
+        "Question": "The plugin used to create a cycle through elements as a slideshow is -",
+        "Options": {
+            "A": "scrollspy",
+            "B": "None of the above",
+            "C": "slideshow",
+            "D": "carousel"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 34,
+        "Question": "The correct syntax of creating a standard navigation bar is -",
+        "Options": {
+            "A": "<nav class=\"nav navbar\">",
+            "B": "<nav class=\"navbar default\">",
+            "C": "<nav class=\"navbar navbar-default\">",
+            "D": "<nav class=\"navigationbar navbar\">"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 35,
+        "Question": "Adding a border to your image helps the visitor to recognize it as what?",
+        "Options": {
+            "A": "A frame",
+            "B": "A link",
+            "C": "None of the above",
+            "D": "A picture"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 36,
+        "Question": "In HTML, how are all tags enclosed?",
+        "Options": {
+            "A": "# and #",
+            "B": "< and >",
+            "C": "? and !",
+            "D": "{ and }"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 37,
+        "Question": "What will this HTML5 code display as a result? <video src=\"movie.mp4\" width=\"320\" height=\"240\"></video>",
+        "Options": {
+            "A": "A static image from \"movie.mp4\"",
+            "B": "A broken video link",
+            "C": "An audio player playing \"movie.mp4\"",
+            "D": "A video player with a video from \"movie.mp4\""
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 38,
+        "Question": "Which of the following should be used to add a plain color background to your web page?",
+        "Options": {
+            "A": "<body bgcolor= \"#FF000\">",
+            "B": "<body color= \"#FF000\">",
+            "C": "<body color= ##FF000>",
+            "D": "<body bgcolor= \"36,24,35\">"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 39,
+        "Question": "What is the first tag that must be placed inside the <TABLE> tag?",
+        "Options": {
+            "A": "<HEAD>",
+            "B": "<TD>",
+            "C": "<CAPTION>",
+            "D": "<TR>"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 40,
+        "Question": "How will this HTML5 code be displayed in the output? <audio src=\"sound.mp3\" controls></audio>",
+        "Options": {
+            "A": "A static image with a sound icon",
+            "B": "Text with a link to \"sound.mp3\"",
+            "C": "An audio player for \"sound.mp3\" with controls",
+            "D": "A video player playing \"sound.mp3\""
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 41,
+        "Question": "What effect does the <br> tag have on your webpage?",
+        "Options": {
+            "A": "Boldens the text",
+            "B": "Adds a horizontal line",
+            "C": "Breaks the line and adds space",
+            "D": "Changes the text color"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 42,
+        "Question": "Why is the DOCTYPE declaration important in HTML?",
+        "Options": {
+            "A": "It enables JavaScript in HTML",
+            "B": "It links HTML with CSS",
+            "C": "It defines the HTML version being used",
+            "D": "It is required for creating HTML forms"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 43,
+        "Question": "Identify the mistake in this HTML5 video tag: <video src=\"movie.mp4\" controls autoplay></video>",
+        "Options": {
+            "A": "No error",
+            "B": "Incorrect file path in src",
+            "C": "Autoplay should not be used with controls",
+            "D": "Missing width and height attributes"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 44,
+        "Question": "Which tag will you add to specify a font for your whole page?",
+        "Options": {
+            "A": "<font>",
+            "B": "<defaultfont>",
+            "C": "<targetfont>",
+            "D": "<basefont>"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 45,
+        "Question": "The tag which allows you to nest other HTML tags within the description",
+        "Options": {
+            "A": "<TR>",
+            "B": "<TD>",
+            "C": "<CAPTION>",
+            "D": "None of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 46,
+        "Question": "In HTML, tags that include both on and off tag are called",
+        "Options": {
+            "A": "Container tag",
+            "B": "Document tag",
+            "C": "None of the above",
+            "D": "Comment tag"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 47,
+        "Question": "What does the universal selector (*) do in CSS?",
+        "Options": {
+            "A": "Targets no elements",
+            "B": "Targets all elements in a document",
+            "C": "Targets elements with a specific id",
+            "D": "Targets the body element"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 48,
+        "Question": "Which property is used to set the background color of an element?",
+        "Options": {
+            "A": "color",
+            "B": "bgcolor",
+            "C": "background",
+            "D": "background-color"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 49,
+        "Question": "What is the correct syntax to select all <p> elements inside <div> elements?",
+        "Options": {
+            "A": "div > p",
+            "B": "div p",
+            "C": "p > div",
+            "D": "div + p"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 50,
+        "Question": "How do you select elements with the class name 'example'?",
+        "Options": {
+            "A": "#example",
+            "B": "*example",
+            "C": ".example",
+            "D": "example"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 51,
+        "Question": "Which selector is used to target an element based on its id?",
+        "Options": {
+            "A": "*id",
+            "B": "id",
+            "C": ".id",
+            "D": "#id"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 52,
+        "Question": "Why might the CSS rule .container p { color: green; } not apply to a paragraph inside a div with class 'container'?",
+        "Options": {
+            "A": "The paragraph is not a direct child",
+            "B": "There is a more specific rule overriding this one",
+            "C": "The CSS file is not linked properly",
+            "D": "The div does not have the 'container' class"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 53,
+        "Question": "What components make up the CSS Box Model?",
+        "Options": {
+            "A": "Padding, Margin, Border, Shadow",
+            "B": "Content, Margin, Border, Outline",
+            "C": "Content, Padding, Border, Margin",
+            "D": "Content, Padding, Shadow, Margin"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 54,
+        "Question": "What will be the font size of <p class='text'>Hello World!</p> with the CSS .text { font-size: 20px; }?",
+        "Options": {
+            "A": "15px",
+            "B": "30px",
+            "C": "20px",
+            "D": "25px"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 55,
+        "Question": "Identify the error in the CSS code: '.class { color: blue; font-weight; bold; }'",
+        "Options": {
+            "A": "Missing class name",
+            "B": "Incorrect property value",
+            "C": "Syntax error in property declaration",
+            "D": "No error"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 56,
+        "Question": "Which CSS property is used to control the outer space around an element?",
+        "Options": {
+            "A": "Content",
+            "B": "Padding",
+            "C": "Border",
+            "D": "Margin"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 57,
+        "Question": "What does the 'box-sizing' property do?",
+        "Options": {
+            "A": "Alters the display property",
+            "B": "Modifies the margin size",
+            "C": "Adjusts the border thickness",
+            "D": "Changes the CSS Box Model calculation"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 58,
+        "Question": "Which of the following is true about the CSS selector div.example?",
+        "Options": {
+            "A": "Selects the first div with the class 'example'",
+            "B": "Selects all divs with the class 'example'",
+            "C": "Selects all elements with the class 'example'",
+            "D": "Selects all divs"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 59,
+        "Question": "How do you access the value of a property in a JavaScript object?",
+        "Options": {
+            "A": "object{propertyName}",
+            "B": "Both C and D",
+            "C": "object[propertyName]",
+            "D": "object.propertyName"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 60,
+        "Question": "How can you make the total width of an element be 100px including padding and border?",
+        "Options": {
+            "A": "Set width to 100px without 'box-sizing' property",
+            "B": "Use 'box-sizing: border-box;' with width set to 100px",
+            "C": "Set width, padding, and border so their sum is 100px",
+            "D": "Use 'box-sizing: content-box;' with width set to 100px"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 61,
+        "Question": "What will be the output of console.log(typeof {})?",
+        "Options": {
+            "A": "'undefined'",
+            "B": "'array'",
+            "C": "'object'",
+            "D": "'null'"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 62,
+        "Question": "What will be the output of this code snippet? numbers[10] = 11;",
+        "Options": {
+            "A": "11",
+            "B": "4",
+            "C": "3",
+            "D": "10"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 63,
+        "Question": "Identify the issue in this array declaration: let numbers = new Array(-5);",
+        "Options": {
+            "A": "Logical error",
+            "B": "Syntax error",
+            "C": "No error",
+            "D": "Negative size"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 64,
+        "Question": "What is a method in JavaScript?",
+        "Options": {
+            "A": "A function stored as an object property",
+            "B": "A predefined function",
+            "C": "A loop inside an object",
+            "D": "An external library function"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 65,
+        "Question": "let fruits = ['apple', 'banana', 'mango']; console.log(fruits[1]);",
+        "Options": {
+            "A": "apple",
+            "B": "apple,banana",
+            "C": "mango",
+            "D": "banana"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 66,
+        "Question": "Which of the following array methods in JavaScript does not change the original array?",
+        "Options": {
+            "A": "splice()",
+            "B": "forEach()",
+            "C": "push()",
+            "D": "sort()"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 67,
+        "Question": "Spot the mistake in this code snippet: let data = [1, 2, 3]; delete data[1]; console.log(data[1]);",
+        "Options": {
+            "A": "Syntax error",
+            "B": "No error",
+            "C": "2 is not deleted",
+            "D": "undefined is logged instead of 2"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 68,
+        "Question": "Consider the following code: let arr = [1, 2, 3]; arr[5] = 5; console.log(arr.filter(x => x === undefined).length); What is the output?",
+        "Options": {
+            "A": "3",
+            "B": "0",
+            "C": "5",
+            "D": "2"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 69,
+        "Question": "Which of the following keys is generally used to represent the relationships between the tables?",
+        "Options": {
+            "A": "Primary key",
+            "B": "Candidate key",
+            "C": "Foreign key",
+            "D": "Secondary key"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 70,
+        "Question": "The language used in application programs to request data from the DBMS is referred to as the",
+        "Options": {
+            "A": "DML",
+            "B": "TCL",
+            "C": "DDL",
+            "D": "DCL"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 71,
+        "Question": "Which one of the following keywords is used to find out the number of values in a column?",
+        "Options": {
+            "A": "ADD",
+            "B": "COUNT",
+            "C": "TOTAL",
+            "D": "SUM"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 72,
+        "Question": "The Database Management Query language is generally designed for the _____",
+        "Options": {
+            "A": "Support end-users who use English like commands",
+            "B": "All of the above",
+            "C": "Support in the development of the complex applications software",
+            "D": "Specifying the structure of the database"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 73,
+        "Question": "A logical schema",
+        "Options": {
+            "A": "is a standard way of organizing information into accessible parts.",
+            "B": "describes how data is actually stored on disk.",
+            "C": "both (A) and (C)",
+            "D": "is the entire database."
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 74,
+        "Question": "Related fields in a database are grouped to form a",
+        "Options": {
+            "A": "menu",
+            "B": "data table",
+            "C": "data file",
+            "D": "data record."
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 75,
+        "Question": "Which of the following levels is considered as the level closest to the end-users?",
+        "Options": {
+            "A": "Internal Level",
+            "B": "Physical Level",
+            "C": "Conceptual Level",
+            "D": "External Level"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 76,
+        "Question": "The database environment has all of the following components except:",
+        "Options": {
+            "A": "database administrator.",
+            "B": "separate files.",
+            "C": "database",
+            "D": "users"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 77,
+        "Question": "The language which has recently become the de facto standard for interfacing application programs with relational database systems is",
+        "Options": {
+            "A": "Oracle",
+            "B": "Postgre SQL",
+            "C": "SQL",
+            "D": "Mongo DB"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 78,
+        "Question": "Which operator is used to check both the value and the type of a variable in JavaScript?",
+        "Options": {
+            "A": "==",
+            "B": "!==",
+            "C": "===",
+            "D": "!="
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 79,
+        "Question": "Which of the following is not a loop structure in JavaScript?",
+        "Options": {
+            "A": "if",
+            "B": "do-while",
+            "C": "while",
+            "D": "for"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 80,
+        "Question": "What will be the output of the following code? let a = 2; if(a > 3) { console.log('Yes'); } else { console.log('No'); }",
+        "Options": {
+            "A": "Yes",
+            "B": "Undefined",
+            "C": "Error",
+            "D": "No"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 81,
+        "Question": "What is the output of the following code snippet? let x = 'Hello'; let y = 'World'; console.log(x + ' ' + y);",
+        "Options": {
+            "A": "'Hello World'",
+            "B": "HelloWorld",
+            "C": "'Hello' 'World'",
+            "D": "Hello World"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 82,
+        "Question": "What does the if statement in JavaScript do?",
+        "Options": {
+            "A": "Declares a variable",
+            "B": "Executes a block of code based on a condition",
+            "C": "Loops through a block of code",
+            "D": "Prints a message to the console"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 83,
+        "Question": "What is the output of this code snippet? for (let i = 1; i < 3; i++) { console.log(i); }",
+        "Options": {
+            "A": "123",
+            "B": "0-1-2",
+            "C": "12",
+            "D": "37623"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 84,
+        "Question": "Consider the following code: let x = 50; let result = (x > 13) ? 'Yes' : 'No'; console.log(result); What is the output?",
+        "Options": {
+            "A": "'Yes'",
+            "B": "FALSE",
+            "C": "TRUE",
+            "D": "'No'"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 85,
+        "Question": "In a switch statement, what keyword is used to terminate a case in JavaScript?",
+        "Options": {
+            "A": "stop",
+            "B": "break",
+            "C": "exit",
+            "D": "end"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 86,
+        "Question": "Which of the following is an example of a loosely typed language?",
+        "Options": {
+            "A": "C++",
+            "B": "Java",
+            "C": "Python",
+            "D": "JavaScript"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 87,
+        "Question": "Identify the problem in this code: let j = 0; while (j < 5) { console.log(j); }",
+        "Options": {
+            "A": "Logical error",
+            "B": "Infinite loop",
+            "C": "No output",
+            "D": "Syntax error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 88,
+        "Question": "What are the three optional expressions, separated by semicolons in a for loop?",
+        "Options": {
+            "A": "Initializer, Condition, Incrementer",
+            "B": "Incrementer, Initializer, Condition",
+            "C": "Condition, Incrementer, Initializer",
+            "D": "Condition, Initializer, Incrementer"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 89,
+        "Question": "Find the error in the following code: for (let i = 0; i <= 5; i++) { if(i % 2 == 0) continue; console.log(i); }",
+        "Options": {
+            "A": "Syntax error",
+            "B": "It only prints even numbers",
+            "C": "It doesn't print any number",
+            "D": "It only prints odd numbers"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 90,
+        "Question": "What happens when you increase the cellpadding in a table?",
+        "Options": {
+            "A": "Increase the softness of your site",
+            "B": "All of the above",
+            "C": "Increase the distance between cell and content",
+            "D": "Increase the space between cells"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 91,
+        "Question": "Which of the following is not a valid SQL type?",
+        "Options": {
+            "A": "DECIMAL",
+            "B": "NUMERIC",
+            "C": "CHARACTER",
+            "D": "FLOAT"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 92,
+        "Question": "In which of the following cases a DML statement is not executed?",
+        "Options": {
+            "A": "When some rows are deleted.",
+            "B": "None of the them",
+            "C": "When existing rows are modified.",
+            "D": "When a table is deleted."
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 93,
+        "Question": "Which statement is used to delete all rows in a table without having the action logged?",
+        "Options": {
+            "A": "REMOVE",
+            "B": "DELETE",
+            "C": "TRUNCATE",
+            "D": "DROP"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 94,
+        "Question": "Which operator tests a column for absence of data?",
+        "Options": {
+            "A": "NOT Operator",
+            "B": "Exists Operator",
+            "C": "IS NULL Operator",
+            "D": "None of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 95,
+        "Question": "If we have not specified ASC or DESC after a SQL ORDER BY clause, the following is used by default",
+        "Options": {
+            "A": "DESC",
+            "B": "None of the mentioned",
+            "C": "There is no default value",
+            "D": "ASC"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 96,
+        "Question": "To start a list using circles, what should be used?",
+        "Options": {
+            "A": "<ul type='circle'>",
+            "B": "<ul type='round'>",
+            "C": "<ul ='round'>",
+            "D": "<ul 'round'>"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 97,
+        "Question": "Which of the following is the correct HTML for creating a hyperlink?",
+        "Options": {
+            "A": "<a href='https://www.india.com'> india.com</a>",
+            "B": "<a name='https://w.w.w.india.com'> india.com</a>",
+            "C": "<a>https://w.w.w.india.com</a>",
+            "D": "<a url='https://w.w.w.india.com'> india.com</a>"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 98,
+        "Question": "The main container for <TR>, <TD> and <TH> is ______",
+        "Options": {
+            "A": "<DATA>",
+            "B": "None of the above",
+            "C": "<TABLE>",
+            "D": "<GROUP>"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 99,
+        "Question": "Which of the following best completes the statement: All normal webpages consists of ______",
+        "Options": {
+            "A": "Body and frameset",
+            "B": "Top and bottom",
+            "C": "Head and body",
+            "D": "None of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 100,
+        "Question": "What is the primary purpose of the <body> tag in an HTML document?",
+        "Options": {
+            "A": "Holds the content visible to the user",
+            "B": "Specifies external resources",
+            "C": "Defines the title of the document",
+            "D": "Contains the document's metadata"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 101,
+        "Question": "Which tag is used for creating hypertext and hypermedia links?",
+        "Options": {
+            "A": "<IMG>",
+            "B": "<HR>",
+            "C": "<PRE>",
+            "D": "<A>"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 102,
+        "Question": "Which HTML element is used to define the footer of an HTML document?",
+        "Options": {
+            "A": "<end>",
+            "B": "<footer>",
+            "C": "<bottom>",
+            "D": "<foot>"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 103,
+        "Question": "To create a bulleted list, use _____",
+        "Options": {
+            "A": "<ol>",
+            "B": "<li>",
+            "C": "None of the above",
+            "D": "<ul>"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 104,
+        "Question": "Which HTML tag is used to add a paragraph break after the text?",
+        "Options": {
+            "A": "<HR>",
+            "B": "<PARAGRAPH>",
+            "C": "<BR>",
+            "D": "<P>"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 105,
+        "Question": "To create a bulleted list, use _____",
+        "Options": {
+            "A": "<ul>",
+            "B": "<ol>",
+            "C": "<li>",
+            "D": "None of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 106,
+        "Question": "The tag which allows you to nest other HTML tags within the description:",
+        "Options": {
+            "A": "<CAPTION>",
+            "B": "None of the above",
+            "C": "<TD>",
+            "D": "<TR>"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 107,
+        "Question": "Which property would you use to create space between elements?",
+        "Options": {
+            "A": "Padding",
+            "B": "Border",
+            "C": "Margin",
+            "D": "Outline"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 108,
+        "Question": "If an element has a width of 100px, padding of 10px, and border of 5px, what is the total width of the element if 'box-sizing' is set to 'border-box'?",
+        "Options": {
+            "A": "100px",
+            "B": "120px",
+            "C": "150px",
+            "D": "130px"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 109,
+        "Question": "What is the effect of setting margin: 0 auto; on an element?",
+        "Options": {
+            "A": "It removes the element's margins",
+            "B": "It centers the element horizontally",
+            "C": "It sets the margin on all sides to auto",
+            "D": "It increases the margin size"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 110,
+        "Question": "A block element inside a container does not respect the specified margin-top. What could be the reason?",
+        "Options": {
+            "A": "Margin collapse",
+            "B": "Border interference",
+            "C": "Incorrect box-sizing",
+            "D": "Padding on the container"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 111,
+        "Question": "What is the default value of the 'box-sizing' property?",
+        "Options": {
+            "A": "content-box",
+            "B": "border-box",
+            "C": "padding-box",
+            "D": "margin-box"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 112,
+        "Question": "If an element has margin: 10px; and padding: 20px; what is the space between the element and its neighboring element?",
+        "Options": {
+            "A": "20px",
+            "B": "30px",
+            "C": "10px",
+            "D": "40px"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 113,
+        "Question": "How does setting 'margin: auto;' affect an element?",
+        "Options": {
+            "A": "Centers the element horizontally",
+            "B": "Increases the element's height",
+            "C": "Adds automatic padding",
+            "D": "Does nothing specific"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 114,
+        "Question": "Given an element with padding: 20px; and width: 200px;, what is the total width of the element?",
+        "Options": {
+            "A": "220px",
+            "B": "200px",
+            "C": "240px",
+            "D": "260px"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 115,
+        "Question": "An element has width: 100px; padding: 15px; border: 5px solid black;. What is its total width if box-sizing: content-box;?",
+        "Options": {
+            "A": "115px",
+            "B": "130px",
+            "C": "100px",
+            "D": "150px"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 116,
+        "Question": "What is the problem with using margin: 0 auto; on an inline element?",
+        "Options": {
+            "A": "Inline elements cannot be centered this way",
+            "B": "The margin will collapse",
+            "C": "No issue",
+            "D": "The auto value is invalid for inline elements"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 117,
+        "Question": "Identify the issue: div { width: 100%; padding: 20px; } without using box-sizing: border-box;.",
+        "Options": {
+            "A": "The div will be wider than its parent",
+            "B": "The padding is ignored",
+            "C": "No issue",
+            "D": "The div's width is too small"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 118,
+        "Question": "In a relation database, every tuples divided into the fields are known as the______.",
+        "Options": {
+            "A": "Queries",
+            "B": "Domains",
+            "C": "Relations",
+            "D": "All of the above"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 119,
+        "Question": "Which of the following refers to the number of attributes in a relation?",
+        "Options": {
+            "A": "Row",
+            "B": "Degree",
+            "C": "All of the above",
+            "D": "Column"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 120,
+        "Question": "Which one of the following command is a type of Data Definition language command?",
+        "Options": {
+            "A": "Update",
+            "B": "Create",
+            "C": "Merge",
+            "D": "Delete"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 121,
+        "Question": "Which one of the following command is used to delete the existing row in a table?",
+        "Options": {
+            "A": "Update",
+            "B": "Insert",
+            "C": "Delete",
+            "D": "None of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 122,
+        "Question": "The term 'TCL' stands for_____",
+        "Options": {
+            "A": "Transaction Control Language",
+            "B": "Ternary Control Language",
+            "C": "Transmission Control Language",
+            "D": "Transaction Central Language"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 123,
+        "Question": "How do you apply a font family of 'Arial' to an element?",
+        "Options": {
+            "A": "\"font-family: 'Arial';\"",
+            "B": "\"font: 'Arial';\"",
+            "C": "\"font-type: 'Arial';\"",
+            "D": "\"typeface: 'Arial';\""
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 124,
+        "Question": "Which HTML5 tag is used to embed video files into a web page?",
+        "Options": {
+            "A": "<clip>",
+            "B": "<media>",
+            "C": "<movie>",
+            "D": "<video>"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 125,
+        "Question": "What is wrong with this HTML5 code: <main><article>This is a new article</article><aside>This is a new aside</aside></main>?",
+        "Options": {
+            "A": "No error",
+            "B": "Missing <h1> in <article>",
+            "C": "<aside> should not be inside <main>",
+            "D": "<main> should not contain <article>"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 126,
+        "Question": "Which property is used to set the text color?",
+        "Options": {
+            "A": "text-color",
+            "B": "color",
+            "C": "font-color",
+            "D": "text-style"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 127,
+        "Question": "What does the loop attribute do in an HTML5 <video> element?",
+        "Options": {
+            "A": "Repeats the video a specified number of times",
+            "B": "Automatically plays the next video",
+            "C": "Continuously loops the video",
+            "D": "Causes the video to play in reverse"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 128,
+        "Question": "Find the error in this code: <figure><img src='image.jpg'><figcaption>Indian Flag</figure>",
+        "Options": {
+            "A": "Missing closing </figcaption> tag",
+            "B": "No error",
+            "C": "Incorrect placement of <figcaption>",
+            "D": "Missing alt attribute in <img>"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 129,
+        "Question": "How do you make text uppercase using CSS?",
+        "Options": {
+            "A": "text-case: uppercase;",
+            "B": "font-case: uppercase;",
+            "C": "text-transform: uppercase;",
+            "D": "text-style: uppercase;"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 130,
+        "Question": "How do you apply a font family of 'Arial' to an element?",
+        "Options": {
+            "A": "font-family: 'Arial';",
+            "B": "font: 'Arial';",
+            "C": "font-type: 'Arial';",
+            "D": "typeface: 'Arial';"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 131,
+        "Question": "Which HTML5 tag is used to embed video files into a web page?",
+        "Options": {
+            "A": "<clip>",
+            "B": "<media>",
+            "C": "<movie>",
+            "D": "<video>"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 132,
+        "Question": "What is wrong with this HTML5 code: <main><article>This is a new article</article><aside>This is a new aside</aside></main>?",
+        "Options": {
+            "A": "No error",
+            "B": "Missing <h1> in <article>",
+            "C": "<aside> should not be inside <main>",
+            "D": "<main> should not contain <article>"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 133,
+        "Question": "Which property is used to set the text color?",
+        "Options": {
+            "A": "text-color",
+            "B": "color",
+            "C": "font-color",
+            "D": "text-style"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 134,
+        "Question": "What does the loop attribute do in an HTML5 <video> element?",
+        "Options": {
+            "A": "Repeats the video a specified number of times",
+            "B": "Automatically plays the next video",
+            "C": "Continuously loops the video",
+            "D": "Causes the video to play in reverse"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 135,
+        "Question": "Find the error in this code: <figure><img src='image.jpg'><figcaption>Indian Flag</figure>",
+        "Options": {
+            "A": "Missing closing </figcaption> tag",
+            "B": "No error",
+            "C": "Incorrect placement of <figcaption>",
+            "D": "Missing alt attribute in <img>"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 136,
+        "Question": "How do you make text uppercase using CSS?",
+        "Options": {
+            "A": "text-case: uppercase;",
+            "B": "font-case: uppercase;",
+            "C": "text-transform: uppercase;",
+            "D": "text-style: uppercase;"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 137,
+        "Question": "SQL keywords are case sensitive.",
+        "Options": {
+            "A": "All keywords are sensitive",
+            "B": "Some are sensitive",
+            "C": "None are sensitive",
+            "D": "Depends on version"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 138,
+        "Question": "Which of the following statement is correct regarding the difference between TRUNCATE, DELETE and DROP command?",
+        "Options": {
+            "A": "TRUNCATE and DROP operations can be rolled back but DELETE operations cannot be rolled back.",
+            "B": "DELETE is an example of DML, but TRUNCATE and DROP are examples of DDL.",
+            "C": "DELETE operation can be rolled back but TRUNCATE and DROP operations cannot be rolled back.",
+            "D": "All are examples of DDL."
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 139,
+        "Question": "Identify the issue in the following SQL statement: SELECT FROM users WHERE username='admin';",
+        "Options": {
+            "A": "SELECT clause is incomplete",
+            "B": "Syntax is correct",
+            "C": "Missing semicolon",
+            "D": "WHERE clause is incorrect"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 140,
+        "Question": "The types of Triggers in SQL are:",
+        "Options": {
+            "A": "Logon Triggers",
+            "B": "DDL Triggers",
+            "C": "DML Triggers",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 141,
+        "Question": "Which one of the following commands is used to create middleware in Laravel?",
+        "Options": {
+            "A": "php artisan make: middleware",
+            "B": "php arti make: middleware",
+            "C": "php artisan: middleware",
+            "D": "none of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 142,
+        "Question": "Which of the following method is used to delete an item from the session?",
+        "Options": {
+            "A": "Delete()",
+            "B": "Del()",
+            "C": "Expire()",
+            "D": "Forget()"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 143,
+        "Question": "Who developed Laravel?",
+        "Options": {
+            "A": "Guido van Rossum",
+            "B": "Rasmus Lerdorf",
+            "C": "Taylor Otwell",
+            "D": "Brendan Eich"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 144,
+        "Question": "What does 'CRUD' stand for in MongoDB?",
+        "Options": {
+            "A": "Create, Read, Utilize, Deploy",
+            "B": "Create, Read, Update, Delete",
+            "C": "Create, Retrieve, Upload, Delete",
+            "D": "Connect, Read, Unload, Display"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 145,
+        "Question": "Which CRUD operation is used to add new data to a MongoDB database?",
+        "Options": {
+            "A": "Select",
+            "B": "Update",
+            "C": "Insert",
+            "D": "Delete"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 146,
+        "Question": "What is the primary function of the mongo shell?",
+        "Options": {
+            "A": "User authentication",
+            "B": "Data backup",
+            "C": "Database management and querying",
+            "D": "Server monitoring"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 147,
+        "Question": "Which of the following is required to install MongoDB?",
+        "Options": {
+            "A": "Java Runtime Environment",
+            "B": "Python",
+            "C": "Node.js",
+            "D": "None of these"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 148,
+        "Question": "Which method is used to insert a single document into a MongoDB collection?",
+        "Options": {
+            "A": "db.collection.insert()",
+            "B": "db.collection.insertOne()",
+            "C": "db.collection.create()",
+            "D": "db.collection.addOne()"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 149,
+        "Question": "In MongoDB, what is the role of the mongod process?",
+        "Options": {
+            "A": "Manages the database",
+            "B": "Handles replication",
+            "C": "Manages client connections",
+            "D": "Runs the shell interface"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 150,
+        "Question": "What does the find() method in MongoDB return?",
+        "Options": {
+            "A": "A cursor",
+            "B": "A JSON object",
+            "C": "An array of documents",
+            "D": "A single document"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 151,
+        "Question": "In MongoDB, what does the term 'collection' refer to?",
+        "Options": {
+            "A": "A type of index",
+            "B": "A group of databases",
+            "C": "A group of documents",
+            "D": "A single document"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 152,
+        "Question": "MongoDB fails to start with error 'Address already in use'. What is the likely cause?",
+        "Options": {
+            "A": "Insufficient permissions",
+            "B": "Port conflict with another application",
+            "C": "Corrupted installation",
+            "D": "Outdated MongoDB version"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 153,
+        "Question": "How do you specify an alternate configuration file when starting MongoDB?",
+        "Options": {
+            "A": "mongod -c /path/to/config",
+            "B": "mongod --use /path/to/config",
+            "C": "mongod --config /path/to/config",
+            "D": "mongod --file /path/to/config"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 154,
+        "Question": "Which file format is used for MongoDB configuration?",
+        "Options": {
+            "A": "JSON",
+            "B": "INI",
+            "C": "YAML",
+            "D": "XML"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 155,
+        "Question": "Which operating system is NOT supported by MongoDB?",
+        "Options": {
+            "A": "Windows",
+            "B": "Linux",
+            "C": "macOS",
+            "D": "iOS"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 156,
+        "Question": "What is the outcome of the command db.createCollection(\"FirstCollection\") in MongoDB?",
+        "Options": {
+            "A": "Creates a new document",
+            "B": "Creates a new collection",
+            "C": "Deletes a collection",
+            "D": "Updates a collection"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 157,
+        "Question": "What is the default port for MongoDB server?",
+        "Options": {
+            "A": "27018",
+            "B": "27017",
+            "C": "28017",
+            "D": "27015"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 158,
+        "Question": "What does the upsert option do in an update operation in MongoDB?",
+        "Options": {
+            "A": "Updates all matching documents",
+            "B": "Deletes the document if it exists",
+            "C": "Inserts a new document if no match is found",
+            "D": "Updates an existing document, otherwise does nothing"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 159,
+        "Question": "In MongoDB, what is the purpose of the $unset operator in an update operation?",
+        "Options": {
+            "A": "To create a new field",
+            "B": "To delete a field from a document",
+            "C": "To hide a field in the output",
+            "D": "To set a field to null"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 160,
+        "Question": "What is the purpose of the $set operator in an update operation in MongoDB?",
+        "Options": {
+            "A": "To delete a document",
+            "B": "To update a document",
+            "C": "To add a new document",
+            "D": "To insert a document"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 161,
+        "Question": "Which command is used to start a MongoDB server?",
+        "Options": {
+            "A": "mongo start",
+            "B": "mongod start",
+            "C": "run mongod",
+            "D": "start mongod"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 162,
+        "Question": "How does MongoDB treat fields that are not specified in the $set part of an update operation?",
+        "Options": {
+            "A": "They are marked as undefined",
+            "B": "They remain unchanged",
+            "C": "They are deleted",
+            "D": "They are set to null"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 163,
+        "Question": "Identify the issue: mongodb --start",
+        "Options": {
+            "A": "Incorrect command format",
+            "B": "Missing configuration file",
+            "C": "Outdated MongoDB version",
+            "D": "Incorrect file permissions"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 164,
+        "Question": "How to check if a form has been submitted in PHP?",
+        "Options": {
+            "A": "Checking if $_POST is set",
+            "B": "Checking if $_REQUEST is set",
+            "C": "Checking if $_SERVER['REQUEST_METHOD'] is POST",
+            "D": "Checking if $_GET is set"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 165,
+        "Question": "Which is a correct way to define a constant in PHP?",
+        "Options": {
+            "A": "define('CONST_NAME', 'Value');",
+            "B": "const CONST_NAME = 'Value';",
+            "C": "Both a and b",
+            "D": "None of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 166,
+        "Question": "How to access form data sent via the GET method in PHP?",
+        "Options": {
+            "A": "Using the $_GET superglobal",
+            "B": "Using the $_POST superglobal",
+            "C": "Using the $_REQUEST superglobal",
+            "D": "Using the $_SERVER superglobal"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 167,
+        "Question": "How will you connect PHP function to a MySQL database?",
+        "Options": {
+            "A": "mysqli_connect()",
+            "B": "mysql_connect()",
+            "C": "db_connect()",
+            "D": "connect_db()"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 168,
+        "Question": "Identify the issue in this PHP code for handling a form input: if (isset($_GET['submit'])) { echo $_POST['name']; } ?>",
+        "Options": {
+            "A": "Incorrect use of $_GET and $_POST",
+            "B": "No issue",
+            "C": "Syntax error",
+            "D": "The input name should be 'submit' instead of 'name'"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 169,
+        "Question": "Identify the error in this PHP database connection code: \"$mysqli = new mysqli(“localhost”, “user”, “password”); $mysqli->select_db(“database”);\"",
+        "Options": {
+            "A": "Missing database in the constructor",
+            "B": "No error in the code",
+            "C": "Syntax error in mysqli instantiation",
+            "D": "Improper method to select a database"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 170,
+        "Question": "Identify the error in the following PHP form handling code: if ($_SERVER['REQUEST_METHOD'] == 'POST') { echo $_POST[name]; } ?>",
+        "Options": {
+            "A": "Missing quotes around array key name",
+            "B": "Syntax error in if statement",
+            "C": "No error in the code",
+            "D": "Missing semicolon in echo statement"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 171,
+        "Question": "Which attribute in a form input element specifies the field's initial value?",
+        "Options": {
+            "A": "value",
+            "B": "name",
+            "C": "type",
+            "D": "placeholder"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 172,
+        "Question": "What is the correct way to declare a variable in PHP?",
+        "Options": {
+            "A": "int $varName",
+            "B": "var $varName",
+            "C": "declare $varName",
+            "D": "$varName"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 173,
+        "Question": "Given a form with method=“post”, which PHP array will contain the form's submitted data?",
+        "Options": {
+            "A": "$_POST",
+            "B": "$_REQUEST",
+            "C": "$_GET",
+            "D": "$_SERVER"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 174,
+        "Question": "Identify the output of the following PHP code if a user submits a form with an input named email? if (isset($_POST['email'])) { echo $_POST['email']; } ?>",
+        "Options": {
+            "A": "NULL",
+            "B": "The value of the email input field",
+            "C": "An empty string",
+            "D": "An error message"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 175,
+        "Question": "When retrieving data from a MySQL database, which PHP function is used to fetch a row as an associative array?",
+        "Options": {
+            "A": "mysqli_fetch_assoc()",
+            "B": "mysqli_fetch_row()",
+            "C": "mysqli_fetch_array()",
+            "D": "mysqli_fetch_all()"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 176,
+        "Question": "In PHP, which function is used to execute a SQL query against a MySQL database?",
+        "Options": {
+            "A": "mysqli_query()",
+            "B": "execute_sql()",
+            "C": "mysql_query()",
+            "D": "run_query()"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 177,
+        "Question": "Who is the father of PHP?",
+        "Options": {
+            "A": "List Barely",
+            "B": "Rasmus Lerdorf",
+            "C": "Willam Makepiece",
+            "D": "Drek Kolkevi"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 178,
+        "Question": "Which is the right way of declaring a variable in PHP?",
+        "Options": {
+            "A": "$this",
+            "B": "$3hello",
+            "C": "$_hello",
+            "D": "$5_Hello"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 179,
+        "Question": "What does the connect_errno property of a mysqli object indicate in PHP?",
+        "Options": {
+            "A": "It returns the total number of failed connection attempts",
+            "B": "It stores the MySQL server version",
+            "C": "It is a boolean value indicating whether the connection was successful",
+            "D": "It indicates the error number of the last connection attempt"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 180,
+        "Question": "How to define a function in PHP?",
+        "Options": {
+            "A": "function {function body}",
+            "B": "function functionName(parameters) {function body}",
+            "C": "functionName(parameters) {function body}",
+            "D": "data type functionName(parameters) {function body}"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 181,
+        "Question": "Which of the following is the correct syntax to write a PHP code?",
+        "Options": {
+            "A": "< php >",
+            "B": "<?php ?>",
+            "C": "<? ?>",
+            "D": "< ? php ?>"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 182,
+        "Question": "What is the significance of the <main> element in HTML5?",
+        "Options": {
+            "A": "To create the main header",
+            "B": "To define the primary footer",
+            "C": "To specify the main content of a document",
+            "D": "To define the main navigation links"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 183,
+        "Question": "What does this HTML5 code result in? <video width=\"420\" height=\"340\" controls><source src=\"movie.mp4\" type=\"video/mp4\"><source src=\"movie.ogg\" type=\"video/ogg\">Your browser does not support the video tag.</video>",
+        "Options": {
+            "A": "Displays two different videos side by side",
+            "B": "Chooses the best video format automatically",
+            "C": "Shows an error message",
+            "D": "Plays two videos in sequence"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 184,
+        "Question": "Identify the issue in this HTML5 code: <footer><nav><ul><li>Contact Us</li></ul></nav></footer>",
+        "Options": {
+            "A": "Inappropriate use of <ul>",
+            "B": "Incorrect placement of <nav> within <footer>",
+            "C": "No error",
+            "D": "Missing <a> tags in <nav>"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 185,
+        "Question": "What does this HTML5 code create? <nav><ul><li><a href=\"#home\">Home</a></li><li><a href=\"#about\">About Us</a></li></ul></nav>",
+        "Options": {
+            "A": "A list of images",
+            "B": "A group of checkboxes",
+            "C": "A navigation bar with links",
+            "D": "A set of radio buttons"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 186,
+        "Question": "What will this HTML5 code represent? <article><h2>Environment</h2><p>Noise pollution</p></article>",
+        "Options": {
+            "A": "An independent, self-contained composition",
+            "B": "A comment section",
+            "C": "A main navigation bar",
+            "D": "A header section"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 187,
+        "Question": "How can you fix a layout that breaks at certain viewport sizes?",
+        "Options": {
+            "A": "Remove all media queries and use fixed sizes",
+            "B": "Increase the base font size",
+            "C": "Use additional media queries to adjust styles at those sizes",
+            "D": "Decrease the overall page width"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 188,
+        "Question": "Spot the mistake in this HTML5 snippet: <section><header><h1>WELCOME</h1></header><p>Paragraph</section>",
+        "Options": {
+            "A": "Missing closing </p> tag",
+            "B": "Incomplete <section> tag",
+            "C": "Missing closing </header> tag",
+            "D": "Incorrect order of tags"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 189,
+        "Question": "What does this HTML5 code achieve? <section><h2>Heading</h2><p>Any text...</p></section>",
+        "Options": {
+            "A": "Generates a pop-up",
+            "B": "Creates a new webpage",
+            "C": "Defines a specific section of a document",
+            "D": "Designs a new template"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 190,
+        "Question": "In HTML5, which attribute is used to automatically play a video when the page is loaded?",
+        "Options": {
+            "A": "auto",
+            "B": "load",
+            "C": "autoplay",
+            "D": "play"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 191,
+        "Question": "Which property is used to change the font size of text in CSS?",
+        "Options": {
+            "A": "font-style",
+            "B": "text-transform",
+            "C": "font-weight",
+            "D": "font-size"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 192,
+        "Question": "How does this HTML5 snippet function? <aside><p>This is a notification section.</p></aside>",
+        "Options": {
+            "A": "Creates a sidebar",
+            "B": "Creates a footer section",
+            "C": "Creates a header",
+            "D": "Creates a main content area"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 193,
+        "Question": "How can you create a flexible grid layout that uses available space but limits column width to 500px?",
+        "Options": {
+            "A": "Use display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));",
+            "B": "Use display: flex; flex-wrap: wrap; and set children's flex-basis: 500px;",
+            "C": "Use display: grid; grid-template-columns: repeat(auto-fill, minmax(auto, 500px));",
+            "D": "Use display: grid; grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 194,
+        "Question": "How do you apply styles for landscape and portrait orientations of a device?",
+        "Options": {
+            "A": "@media (orientation: landscape) { ... } and @media (orientation: portrait) { ... }",
+            "B": "@media screen and (orientation: landscape) { ... }",
+            "C": "@media only screen and (orientation: portrait) { ... }",
+            "D": "Both A and B are correct"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 195,
+        "Question": "Which format is universally supported by the HTML5 <audio> tag across all major browsers?",
+        "Options": {
+            "A": "OGG",
+            "B": "MP3",
+            "C": "WAV",
+            "D": "AAC"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 196,
+        "Question": "What is the impact of using !important in CSS?",
+        "Options": {
+            "A": "It makes debugging more difficult by breaking the natural cascade",
+            "B": "It is required for responsive design",
+            "C": "It enhances security by enforcing style rules",
+            "D": "It improves performance by prioritizing certain styles"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 197,
+        "Question": "How does CSS minification improve website performance?",
+        "Options": {
+            "A": "By reducing the number of CSS files",
+            "B": "By increasing the specificity of selectors",
+            "C": "By decreasing the file size, leading to faster download times",
+            "D": "By automatically correcting syntax errors"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 198,
+        "Question": "What is the best practice for organizing CSS selectors and rules?",
+        "Options": {
+            "A": "Ordering selectors alphabetically",
+            "B": "Separating layout and typography styles into different files",
+            "C": "Grouping selectors and rules by page section",
+            "D": "All of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 199,
+        "Question": "Which practice is recommended to optimize CSS rendering performance?",
+        "Options": {
+            "A": "Relying heavily on inline styles",
+            "B": "Using ID selectors extensively",
+            "C": "Minimizing the use of universal selectors",
+            "D": "Employing a large number of animations"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 200,
+        "Question": "What is a common issue when using multiple CSS frameworks or libraries simultaneously?",
+        "Options": {
+            "A": "Conflicting styles leading to unexpected visual results",
+            "B": "Incompatibility with JavaScript frameworks",
+            "C": "Increased load times due to additional HTTP requests",
+            "D": "All of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 201,
+        "Question": "How can specificity conflicts in CSS be best resolved?",
+        "Options": {
+            "A": "Using !important tags liberally",
+            "B": "Refactoring CSS to simplify selectors",
+            "C": "Relying on inline styles for overrides",
+            "D": "Increasing the specificity of conflicting selectors"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 202,
+        "Question": "How do you position an element at the bottom right corner of its positioned ancestor?",
+        "Options": {
+            "A": "position: fixed; bottom: 0; right: 0;",
+            "B": "position: sticky; bottom: 0; right: 0;",
+            "C": "position: absolute; bottom: 0; right: 0;",
+            "D": "position: relative; bottom: 0; right: 0;"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 203,
+        "Question": "What does setting position: sticky; on an element do?",
+        "Options": {
+            "A": "Keeps the element fixed at the top of the viewport",
+            "B": "Allows the element to scroll away with the page",
+            "C": "Positions the element based on the user's scroll position, toggling between relative and fixed",
+            "D": "Makes the element unresponsive to scroll events"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 204,
+        "Question": "How do you make an element with position: fixed; cover the entire viewport?",
+        "Options": {
+            "A": "width: 100%; height: 100%;",
+            "B": "right: 0; left: 0;",
+            "C": "top: 0; right: 0; bottom: 0; left: 0;",
+            "D": "top: 0; bottom: 0;"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 205,
+        "Question": "Why might an element with position: absolute; not appear where expected?",
+        "Options": {
+            "A": "It has a z-index of -1",
+            "B": "It's outside the viewport",
+            "C": "Its containing block is not positioned",
+            "D": "Both B and C are correct"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 206,
+        "Question": "What could cause a position: fixed; element to behave like position: absolute;?",
+        "Options": {
+            "A": "The element is inside a transformed ancestor",
+            "B": "The document is in quirks mode",
+            "C": "The viewport is not defined",
+            "D": "The browser does not support position: fixed;"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 207,
+        "Question": "How can you solve an issue where a sticky positioned element isn't sticking?",
+        "Options": {
+            "A": "Ensure the element has a defined top, right, bottom, or left value",
+            "B": "Increase the z-index",
+            "C": "Remove any overflow properties on ancestors",
+            "D": "Both A and B are correct"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 208,
+        "Question": "Why might elements with different z-index values not stack as expected?",
+        "Options": {
+            "A": "They are in different stacking contexts",
+            "B": "There's a CSS error",
+            "C": "The z-index is not supported",
+            "D": "They have different position values"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 209,
+        "Question": "What is the purpose of responsive web design?",
+        "Options": {
+            "A": "To make web pages render well on a variety of devices and window or screen sizes",
+            "B": "To improve the speed of web pages",
+            "C": "To enhance the security of web pages",
+            "D": "To create a single design for all devices"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 210,
+        "Question": "Which HTML element is used to set the viewport to the device's width?",
+        "Options": {
+            "A": "<meta name=\"viewport\" content=\"width=device-width\">",
+            "B": "<meta name=\"device\" content=\"width=viewport\">",
+            "C": "<viewport width=\"device-width\">",
+            "D": "<device width=\"viewport\">"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 211,
+        "Question": "What does a media query allow you to do in CSS?",
+        "Options": {
+            "A": "Change the layout based on the device's orientation",
+            "B": "Apply different styles for different devices based on criteria like width, height, or orientation",
+            "C": "Increase the loading speed of web pages",
+            "D": "Encrypt web page data for security"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 212,
+        "Question": "Which CSS unit is recommended for responsive typography?",
+        "Options": {
+            "A": "px",
+            "B": "em",
+            "C": "rem",
+            "D": "pt"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 213,
+        "Question": "How do you apply a CSS style only for screens smaller than 600px?",
+        "Options": {
+            "A": "@media only screen and (max-width: 599px) { ... }",
+            "B": "@media screen and (max-width: 600px) { ... }",
+            "C": "@media (min-width: 600px) { ... }",
+            "D": "@media (width < 600px) { ... }"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 214,
+        "Question": "What is the difference between min-width and max-width in media queries?",
+        "Options": {
+            "A": "min-width applies styles for widths greater than or equal to the specified value, while max-width applies styles for widths less than or equal to the specified value",
+            "B": "min-width applies styles for heights, while max-width applies styles for widths",
+            "C": "min-width is used for mobile devices, while max-width is used for desktops",
+            "D": "There is no difference, they are interchangeable"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 215,
+        "Question": "What is the output of this code if the HTML contains an element with id demo and text 'Morning'?",
+        "Options": {
+            "A": "Error",
+            "B": "'Good'",
+            "C": "undefined",
+            "D": "'Morning'"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 216,
+        "Question": "What is the difference between innerHTML and textContent properties in DOM manipulation?",
+        "Options": {
+            "A": "innerHTML can include HTML tags; textContent cannot",
+            "B": "There is no difference",
+            "C": "textContent is faster than innerHTML",
+            "D": "textContent can include HTML tags; innerHTML cannot"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 217,
+        "Question": "Which Bootstrap component is best suited for displaying a list of items with contextual background colors?",
+        "Options": {
+            "A": "Progress bar",
+            "B": "Tooltip",
+            "C": "Table",
+            "D": "List group"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 218,
+        "Question": "What class is used to make a navigation bar sticky at the top of the viewport in Bootstrap?",
+        "Options": {
+            "A": ".fixed-top",
+            "B": ".top-nav",
+            "C": ".nav-fixed",
+            "D": ".sticky-top"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 219,
+        "Question": "How do you create a basic alert box in Bootstrap that can be dismissed by the user?",
+        "Options": {
+            "A": "Use .alert with .alert-dismissible",
+            "B": "Use .alert with .alert-close",
+            "C": "Use .alert with .close",
+            "D": "Use .alert with .dismiss-alert"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 220,
+        "Question": "Design phase is followed by ______.",
+        "Options": {
+            "A": "Maintenance",
+            "B": "Coding",
+            "C": "None of the above",
+            "D": "Testing"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 221,
+        "Question": "What is the advantage of using Bootstrap’s built-in mixins for customizations?",
+        "Options": {
+            "A": "Less code redundancy",
+            "B": "Easier debugging",
+            "C": "None of the above",
+            "D": "Faster compilation"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 222,
+        "Question": "Which of the following is a critical consideration when upgrading Bootstrap versions in a heavily customized project?",
+        "Options": {
+            "A": "Reducing page size",
+            "B": "Increasing compatibility with browsers",
+            "C": "Checking for deprecated features",
+            "D": "Rewriting all custom code"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 223,
+        "Question": "How does creating a custom theme differ from modifying Bootstrap’s core files?",
+        "Options": {
+            "A": "It's more stable across updates",
+            "B": "It requires more coding skills",
+            "C": "It's less flexible",
+            "D": "It's cheaper"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 224,
+        "Question": "The tags which are required for every HTML page you create",
+        "Options": {
+            "A": "Document",
+            "B": "Comment",
+            "C": "Container",
+            "D": "None of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 225,
+        "Question": "Given the following code, what is printed to the console? let obj1 = { a: 1 }; let obj2 = { a: 1 }; console.log(obj1 === obj2);",
+        "Options": {
+            "A": "TRUE",
+            "B": "FALSE",
+            "C": "null",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 226,
+        "Question": "Consider the code: let person = { name: 'Ankita', age: 21 }; delete person.age; console.log(person.age);",
+        "Options": {
+            "A": "21",
+            "B": "undefined",
+            "C": "Ankita",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 227,
+        "Question": "In an E-R diagram attributes are represented by",
+        "Options": {
+            "A": "square",
+            "B": "rectangle",
+            "C": "ellipse",
+            "D": "triangle"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 228,
+        "Question": "Which JavaScript method is used to select an HTML element by its ID?",
+        "Options": {
+            "A": "getElementsByTagName()",
+            "B": "querySelector()",
+            "C": "getElementById()",
+            "D": "getElementsByClassName()"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 229,
+        "Question": "Model preferred to create client/server applications is",
+        "Options": {
+            "A": "Incremental Model",
+            "B": "Concurrent Model",
+            "C": "WINWIN Spiral Model",
+            "D": "Spiral Model"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 230,
+        "Question": "Spiral model was developed by",
+        "Options": {
+            "A": "Victor Bisili",
+            "B": "Roger Pressman",
+            "C": "Bev Littlewood",
+            "D": "Berry Boehm"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 231,
+        "Question": "How can you troubleshoot a custom Bootstrap build that fails to compile?",
+        "Options": {
+            "A": "Ensure file paths are correct",
+            "B": "Review SCSS syntax errors",
+            "C": "Check for missing dependencies",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 232,
+        "Question": "Software evolution does not comprise:",
+        "Options": {
+            "A": "Re-engineering activities",
+            "B": "Development activities",
+            "C": "Negotiating with client",
+            "D": "Maintenance activities"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 233,
+        "Question": "Explain the purpose of a function in JavaScript?",
+        "Options": {
+            "A": "To store data",
+            "B": "To repeat a task multiple times",
+            "C": "To encapsulate code that performs a specific task",
+            "D": "To create web pages"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 234,
+        "Question": "What is the way to define a function in JavaScript?",
+        "Options": {
+            "A": "function = myFunc() {}",
+            "B": "function: myFunc() {}",
+            "C": "function myFunc() {}",
+            "D": "myFunc() = function {}"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 235,
+        "Question": "What will be the output of this function call? function addition(a, b) { return a + b; } console.log(addition(30, 40));",
+        "Options": {
+            "A": "30",
+            "B": "40",
+            "C": "70",
+            "D": "Error"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 236,
+        "Question": "In JavaScript, what is a callback function?",
+        "Options": {
+            "A": "A function that runs after the page loads",
+            "B": "A function passed as an argument to another function",
+            "C": "A function that calls itself",
+            "D": "A function that performs an HTTP request"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 237,
+        "Question": "Which of the following is true about arrow functions in JavaScript?",
+        "Options": {
+            "A": "They do not have their own this context",
+            "B": "They can be used as constructors",
+            "C": "They must have a return statement",
+            "D": "They are the same as traditional functions"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 238,
+        "Question": "Which command is used to access a MySQL database via command line?",
+        "Options": {
+            "A": "mysql -u user -p",
+            "B": "ssh database",
+            "C": "connect to mysql",
+            "D": "open mysql"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 239,
+        "Question": "What does the following MySQL command do? CREATE DATABASE SampleDB;",
+        "Options": {
+            "A": "Creates a new schema named SampleDB",
+            "B": "Deletes the database SampleDB",
+            "C": "Creates a new database named SampleDB",
+            "D": "Creates a new table named SampleDB"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 240,
+        "Question": "Which is not a feature of a cursor?",
+        "Options": {
+            "A": "Binds variables in a query.",
+            "B": "Allows positioning at specific rows of the result set.",
+            "C": "It is used to execute a single SQL query.",
+            "D": "Allows the rows of a result set to be processed one at a time."
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 241,
+        "Question": "Which of the following is not a valid SQL keyword?",
+        "Options": {
+            "A": "IN",
+            "B": "BETWEEN",
+            "C": "LIKE",
+            "D": "WHEN"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 242,
+        "Question": "What does the GROUP BY statement do in a SQL query?",
+        "Options": {
+            "A": "Modifies data in a group",
+            "B": "Sorts the output",
+            "C": "Groups data based on one or more columns",
+            "D": "Deletes groups of data"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 243,
+        "Question": "Which SQL statement is used to change data in an existing row?",
+        "Options": {
+            "A": "ALTER",
+            "B": "CREATE",
+            "C": "UPDATE",
+            "D": "INSERT"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 244,
+        "Question": "What does the DISTINCT keyword do in a SQL query?",
+        "Options": {
+            "A": "Orders results",
+            "B": "Removes duplicates from results",
+            "C": "Creates a distinct file",
+            "D": "Counts rows"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 245,
+        "Question": "Which data type would be best for storing an email address?",
+        "Options": {
+            "A": "CHAR(50)",
+            "B": "VARCHAR(100)",
+            "C": "BLOB",
+            "D": "TEXT"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 246,
+        "Question": "Which SQL statement correctly creates a table with a column for storing binary data?",
+        "Options": {
+            "A": "CREATE TABLE Files (Data BINARY(64));",
+            "B": "CREATE TABLE Files (Data CHAR(64));",
+            "C": "CREATE TABLE Files (Data TEXT);",
+            "D": "CREATE TABLE Files (Data BLOB);"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 247,
+        "Question": "What is the purpose of the VARCHAR data type in MySQL?",
+        "Options": {
+            "A": "To store variable-length strings",
+            "B": "To store large text objects",
+            "C": "To store integers",
+            "D": "To store fixed-length strings"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 248,
+        "Question": "What is the default sort order of the ORDER BY statement in SQL?",
+        "Options": {
+            "A": "Descending",
+            "B": "Fixed",
+            "C": "Random",
+            "D": "Ascending"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 249,
+        "Question": "Which data type in MySQL is used to store boolean values?",
+        "Options": {
+            "A": "BOOLEAN",
+            "B": "VARCHAR",
+            "C": "SMALLINT",
+            "D": "TINYINT"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 250,
+        "Question": "Which of the following SQL statements is used to add new data into a database?",
+        "Options": {
+            "A": "CREATE",
+            "B": "UPDATE",
+            "C": "SELECT",
+            "D": "INSERT"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 251,
+        "Question": "What is the result of the following SQL query? SELECT 15 + 25;",
+        "Options": {
+            "A": "'15 + 25'",
+            "B": "15",
+            "C": "40",
+            "D": "25"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 252,
+        "Question": "Consider the following SQL command: DELETE FROM Customers WHERE CustomerID = 3; What does it do?",
+        "Options": {
+            "A": "Updates CustomerID to 3",
+            "B": "Deletes the customer record with CustomerID 3",
+            "C": "Deletes all records from Customers",
+            "D": "None of the above"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 253,
+        "Question": "What does the following SQL command achieve? UPDATE Products SET Price = Price * 1.1 WHERE Category = 'Electronics';",
+        "Options": {
+            "A": "Increases the price of all products by 10%",
+            "B": "None of the above",
+            "C": "Decreases the price of all products by 10%",
+            "D": "Increases the price of electronics products by 10%"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 254,
+        "Question": "Identify the error in this SQL statement: INSERT INTO Order (ID, Product) VALUES (101, 'Laptop');",
+        "Options": {
+            "A": "The Product column does not exist",
+            "B": "Missing semicolon at the end",
+            "C": "Table name should be Orders",
+            "D": "Syntax is correct"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 255,
+        "Question": "What is the primary use of the ENUM data type in MySQL?",
+        "Options": {
+            "A": "To create a queue structure",
+            "B": "To store arrays",
+            "C": "To limit input to a list of possible values",
+            "D": "To log changes"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 256,
+        "Question": "In MySQL, which data type is most appropriate for storing monetary values?",
+        "Options": {
+            "A": "FLOAT",
+            "B": "DOUBLE",
+            "C": "INTEGER",
+            "D": "DECIMAL"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 257,
+        "Question": "What is the main difference between CHAR and VARCHAR data types in MySQL?",
+        "Options": {
+            "A": "CHAR is variable-length, VARCHAR is fixed-length",
+            "B": "CHAR stores binary data, VARCHAR does not",
+            "C": "CHAR has unlimited length, VARCHAR is limited",
+            "D": "CHAR is fixed-length, VARCHAR is variable-length"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 258,
+        "Question": "Consider the following SQL statement: ALTER TABLE Employees ADD COLUMN Birthdate DATE; What does this statement do?",
+        "Options": {
+            "A": "Changes the data type of Birthdate",
+            "B": "Adds a new column Birthdate to store dates",
+            "C": "Adds a new row called Birthdate",
+            "D": "Deletes the Birthdate column"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 259,
+        "Question": "What does the following SQL command achieve? CREATE TABLE Orders (OrderID INT, OrderDate DATETIME DEFAULT CURRENT_TIMESTAMP);",
+        "Options": {
+            "A": "Creates a table and makes OrderDate a primary key",
+            "B": "Creates a table and sets a default timestamp for OrderDate",
+            "C": "Creates a table with two columns without defaults",
+            "D": "None of the above"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 260,
+        "Question": "What does this command do? db.products.find({price: {$gt: 100}})",
+        "Options": {
+            "A": "Finds products with a price less than 100",
+            "B": "Finds products with a price equal to 100",
+            "C": "Updates the price of products over 100",
+            "D": "Finds products with a price greater than 100"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 261,
+        "Question": "Which MongoDB command is used to add a new field to an existing document?",
+        "Options": {
+            "A": "db.collection.addField({newField: value})",
+            "B": "db.collection.newField({newField: value})",
+            "C": "db.collection.add({}, {newField: value})",
+            "D": "db.collection.update({}, {$set: {newField: value}})"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 262,
+        "Question": "Identify the issue: db.users.find({age: \"25\"})",
+        "Options": {
+            "A": "Incorrect field name",
+            "B": "Incorrect collection name",
+            "C": "Missing query operator",
+            "D": "Type mismatch in query value"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 263,
+        "Question": "Which of the following code snippets demonstrates the correct way to create an index on the \"name\" field in the \"Firstcollection\" collection?",
+        "Options": {
+            "A": "collection.createIndex(Indexes.ascending(\"name\"));",
+            "B": "collection.createIndex(new Document(\"name\", 1));",
+            "C": "collection.createIndex(Field.name(\"name\"));",
+            "D": "collection.createIndex(\"name\");"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 264,
+        "Question": "Spot the error in this command: db.collection.deleteOne({ _id: 101 })",
+        "Options": {
+            "A": "No error",
+            "B": "Missing quotation marks around the _id value",
+            "C": "Incorrect field value",
+            "D": "Incorrect method name"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 265,
+        "Question": "What is a 'schema' in MongoDB?",
+        "Options": {
+            "A": "A security feature",
+            "B": "A predefined structure for data",
+            "C": "A query language for the database",
+            "D": "A tool for data replication"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 266,
+        "Question": "Which of the following code snippets demonstrates the correct way to count the number of documents in the \"FirstCollection\" collection that match a specific condition?",
+        "Options": {
+            "A": "db.FirstCollection.countDocuments({condition})",
+            "B": "db.FirstCollection.find({condition}).count()",
+            "C": "db.FirstCollection.count({condition})",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 267,
+        "Question": "What is the primary benefit of embedding documents in MongoDB?",
+        "Options": {
+            "A": "To enforce data consistency",
+            "B": "To reduce data duplication",
+            "C": "To speed up queries",
+            "D": "To simplify query syntax"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 268,
+        "Question": "Which of the following code snippets demonstrates the correct way to delete all documents from the 'FirstCollection' collection where the 'age' field is greater than 25?",
+        "Options": {
+            "A": "collection.remove(new Document('age', new Document('$gt', 25)));",
+            "B": "collection.deleteMany(new Document('age', new Document('$gt', 25)));",
+            "C": "collection.delete(new Document('age', new Document('$gt', 25)));",
+            "D": "collection.remove(new Document('age', '>' + 25));"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 269,
+        "Question": "What will the following command do? db.users.remove({})",
+        "Options": {
+            "A": "Remove the 'users' collection",
+            "B": "Remove one random document",
+            "C": "Do nothing",
+            "D": "Remove all documents from the 'users' collection"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 270,
+        "Question": "In MongoDB, what is a potential drawback of deeply nested documents?",
+        "Options": {
+            "A": "Increased query performance",
+            "B": "Improved data consistency",
+            "C": "Simplified data retrieval",
+            "D": "Limitations in depth and size"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 271,
+        "Question": "Which of the following code snippets demonstrates the correct way to drop the 'newcollection' collection from the database?",
+        "Options": {
+            "A": "db.collection('newcollection').drop();",
+            "B": "db.dropCollection('newcollection');",
+            "C": "collection.drop();",
+            "D": "collection.dropCollection();"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 272,
+        "Question": "What's wrong with this update command? db.users.update({name: 'John'}, {age: 30})",
+        "Options": {
+            "A": "It updates all users named John",
+            "B": "There's no issue",
+            "C": "It's missing the $set operator",
+            "D": "It replaces the entire document"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 273,
+        "Question": "What is the advantage of using a normalized data model in MongoDB?",
+        "Options": {
+            "A": "Improved write performance",
+            "B": "Simplified queries",
+            "C": "Increased data redundancy",
+            "D": "Reduced data redundancy"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 274,
+        "Question": "Which command is used to update all documents that meet certain criteria in MongoDB?",
+        "Options": {
+            "A": "db.collection.updateMany()",
+            "B": "db.collection.modify()",
+            "C": "db.collection.update()",
+            "D": "db.collection.updateOne()"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 275,
+        "Question": "Why might db.collection.insertOne({name: 'Jack', age: null}) not add a new document?",
+        "Options": {
+            "A": "'name' field is duplicated",
+            "B": "Collection does not exist",
+            "C": "'age' field cannot be null",
+            "D": "Missing required fields"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 276,
+        "Question": "In MongoDB, when should you use references instead of embedding?",
+        "Options": {
+            "A": "When data is rarely accessed",
+            "B": "When data size is small",
+            "C": "When data duplication is a concern",
+            "D": "When data is frequently updated"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 277,
+        "Question": "How does MongoDB handle schema validation?",
+        "Options": {
+            "A": "Automatically upon every insert and update",
+            "B": "It does not support schema validation",
+            "C": "Through user-defined validation rules",
+            "D": "Only during collection creation"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 278,
+        "Question": "Which PHP functions can be used for generating unique ids?",
+        "Options": {
+            "A": "md5()",
+            "B": "uniqueid()",
+            "C": "mdid()",
+            "D": "id()"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 279,
+        "Question": "What does PHP stand for?",
+        "Options": {
+            "A": "PHP stands for Preprocessor Home Page",
+            "B": "PHP stands for Pretext Hypertext Processor",
+            "C": "PHP stands for Hypertext Preprocessor",
+            "D": "PHP stands for Personal Hyper Processor"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 280,
+        "Question": "A function which starts with __ (double underscore) is known as __________",
+        "Options": {
+            "A": "Default Function",
+            "B": "User Defined Function",
+            "C": "Inbuilt Function",
+            "D": "Magic Function"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 281,
+        "Question": "Which of the following web servers are required to run the PHP script?",
+        "Options": {
+            "A": "Apache and PHP",
+            "B": "IIS",
+            "C": "XAMPP",
+            "D": "Anyone mentioned above"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 282,
+        "Question": "In the following PHP program, what is/are the properties? <?php class Example { public $name; function Sample() { 'echo “Learn PHP @ India”;' } } ?>",
+        "Options": {
+            "A": "function Sample()",
+            "B": "echo “This is an example”;",
+            "C": "public $name;",
+            "D": "class Example"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 283,
+        "Question": "Find the output of the following PHP code? <?php 'define(“GREETING”, “PHP is a scripting language”);' echo $GREETING; ?>",
+        "Options": {
+            "A": "$GREETING",
+            "B": "no output",
+            "C": "PHP is a scripting language",
+            "D": "GREETING"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 284,
+        "Question": "How many functions does PHP offer for searching and modifying strings using Perl-compatible regular expressions?",
+        "Options": {
+            "A": "10",
+            "B": "5",
+            "C": "8",
+            "D": "2"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 285,
+        "Question": "Find the output of the following PHP code snippet? <?php '$url = “phpmcq@India.com”;' 'echo ltrim(strstr($url, “@”),”@”);' ?>",
+        "Options": {
+            "A": "phpmcq@India.com",
+            "B": "php@India.com",
+            "C": "phpmcq@",
+            "D": "India.com"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 286,
+        "Question": "Which of the following functions can be used to get the current memory usage?",
+        "Options": {
+            "A": "memory_get_usage()",
+            "B": "memory_get_peak_usage()",
+            "C": "get_peak_usage()",
+            "D": "get_usage()"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 287,
+        "Question": "Which function is used to determine a file’s last access time?",
+        "Options": {
+            "A": "filetime()",
+            "B": "fileatime()",
+            "C": "fileltime()",
+            "D": "filectime()"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 288,
+        "Question": "PHP recognizes constructors by the name _________",
+        "Options": {
+            "A": "function __construct()",
+            "B": "function _construct()",
+            "C": "classname()",
+            "D": "_construct()"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 289,
+        "Question": "Find the output of the following PHP code? <?php $x = 50; $y = 100; function fun() { $y = $GLOBALS['x'] + $GLOBALS['y']; } fun(); echo $y; ?>",
+        "Options": {
+            "A": "50",
+            "B": "100",
+            "C": "150",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 290,
+        "Question": "Which version of PHP deprecated the safe mode feature?",
+        "Options": {
+            "A": "PHP 5.3.1",
+            "B": "PHP 5.3.0",
+            "C": "PHP 5.1.0",
+            "D": "PHP 5.2.0"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 291,
+        "Question": "Define the value of the variable $input in the following PHP program? <?php $input = “PHP<td>stands for</td>Hypertext<i>Preprocessor</i>!”; $input = strip_tags($input,”<i></i>“); echo $input; ?>",
+        "Options": {
+            "A": "PHP stands for Hypertext <i>Preprocessor</i>!",
+            "B": "PHP stands for Hypertext Preprocessor!",
+            "C": "PHP <td>stands for</td> Hypertext <i>Preprocessor</i>!",
+            "D": "PHP <td>stands for</td> Hypertext Preprocessor!"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 292,
+        "Question": "Which of the following variables does PHP use to authenticate a user?",
+        "Options": {
+            "A": "ii) and iv)",
+            "B": "i) and iv)",
+            "C": "ii) and iii)",
+            "D": "i) and ii)"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 293,
+        "Question": "PDO stands for?",
+        "Options": {
+            "A": "PHP Database Orientation",
+            "B": "PHP Data Orientation",
+            "C": "PHP Data Object",
+            "D": "PHP Database Object"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 294,
+        "Question": "Identify the output of the following PHP program? <?php $a = 200; if ($a > 100) printf(“PHP Quiz”); else if ($a > 200) printf(“PHP MCQ”); else if($a >= 300) printf(“PHP Program”); ?>",
+        "Options": {
+            "A": "PHP Quiz",
+            "B": "PHP MCQ",
+            "C": "PHP Program",
+            "D": "No output"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 295,
+        "Question": "Different looping statements supported by PHP?",
+        "Options": {
+            "A": "Only iv)",
+            "B": "i) and ii)",
+            "C": "i), ii) and iii)",
+            "D": "i), ii), iii) and iv)"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 296,
+        "Question": "Identify the PHP statement will give output as $x on the screen?",
+        "Options": {
+            "A": "echo “\\$x”;",
+            "B": "echo “$$x”;",
+            "C": "echo “/$x”;",
+            "D": "echo “$x;”;"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 297,
+        "Question": "Which version of PHP introduced the advanced concepts of OOP?",
+        "Options": {
+            "A": "PHP 6",
+            "B": "PHP 4",
+            "C": "PHP 5",
+            "D": "PHP 5.3"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 298,
+        "Question": "What is the purpose of Laravel's php artisan tinker command?",
+        "Options": {
+            "A": "To run tests for the application",
+            "B": "To generate API documentation",
+            "C": "To optimize the application's performance",
+            "D": "To interact with the application's code in an interactive shell"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 299,
+        "Question": "Which of the following is NOT a valid HTTP method in Laravel's routing system?",
+        "Options": {
+            "A": "PATCH",
+            "B": "OPTIONS",
+            "C": "DELETE",
+            "D": "REDIRECT"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 300,
+        "Question": "Which of the following code snippets demonstrates how to define a route with a prefix in Laravel?",
+        "Options": {
+            "A": "Defines routes for admin dashboard and profile.",
+            "B": "Defines routes for managing comments.",
+            "C": "Defines routes for managing user profiles.",
+            "D": "Defines routes for managing blog posts."
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 301,
+        "Question": "Which of the following is NOT a valid method to define a route prefix in Laravel?",
+        "Options": {
+            "A": "Route::setPrefix('admin')",
+            "B": "Route::namespace('admin')",
+            "C": "Route::prefix('admin')",
+            "D": "Route::group(['prefix' => 'admin'])"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 302,
+        "Question": "Laravel uses the Blade @extends directive for defining the child elements.",
+        "Options": {
+            "A": "Can be true or false",
+            "B": "TRUE",
+            "C": "FALSE",
+            "D": "Cannot say"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 303,
+        "Question": "What is the purpose of Laravel's php artisan make:provider command?",
+        "Options": {
+            "A": "To create a new middleware provider",
+            "B": "To create a new service provider",
+            "C": "To create a new event provider",
+            "D": "To create a new authentication provider"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 304,
+        "Question": "What is the purpose of Laravel's php artisan make:job command?",
+        "Options": {
+            "A": "To create a new queueable job",
+            "B": "To create a new model job",
+            "C": "To create a new controller job",
+            "D": "To create a new database migration job"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 305,
+        "Question": "What is the purpose of Laravel's php artisan route:clear command?",
+        "Options": {
+            "A": "To clear the application cache",
+            "B": "To clear the session data",
+            "C": "To clear the route cache",
+            "D": "To clear the configuration cache"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 306,
+        "Question": "Which of the following code snippets demonstrates how to define a middleware group in Laravel?",
+        "Options": {
+            "A": "Defines a middleware group for admin users.",
+            "B": "Defines a middleware group for API requests.",
+            "C": "Defines a middleware group for guest users.",
+            "D": "Defines a middleware group for authenticated users."
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 307,
+        "Question": "Which of the following statements is true about Laravel's events and listeners?",
+        "Options": {
+            "A": "Events are responsible for handling HTTP requests",
+            "B": "Listeners are responsible for defining database schema",
+            "C": "Events are triggered by listeners",
+            "D": "Listeners are triggered by events"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 308,
+        "Question": "Which of the following code snippets demonstrates how to define a resourceful route in Laravel?",
+        "Options": {
+            "A": "Defines routes for managing photos.",
+            "B": "Defines routes for managing user profiles.",
+            "C": "Defines routes for managing blog posts.",
+            "D": "Defines routes for managing comments."
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 309,
+        "Question": "Which of the following code snippets demonstrates how to define a route group in Laravel?",
+        "Options": {
+            "A": "Defines a route group for API routes.",
+            "B": "Defines a route group for admin-specific routes.",
+            "C": "Defines a route group for guest-specific routes.",
+            "D": "Defines a route group for user-specific routes."
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 310,
+        "Question": "Consider the following PHP function: function multiply(&$value) { $value *= 2; } $num = 10; multiply($num); What will be the value of $num after the function call?",
+        "Options": {
+            "A": "Error",
+            "B": "Null",
+            "C": "10",
+            "D": "20"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 311,
+        "Question": "Identify the error in this PHP function definition: function multi($x, $y) { return $x * $y return $x + $y; }",
+        "Options": {
+            "A": "Multiple return statements",
+            "B": "Missing semicolon",
+            "C": "Syntax error in return statements",
+            "D": "No error in the code"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 312,
+        "Question": "Spot the mistake in this PHP function: function Sum($arr) { $sum = 0; foreach($arr as $num) { $sum += $num; } return $sum; } What will getSum([11, 22, 33]) return?",
+        "Options": {
+            "A": "Nothing, there is a syntax error",
+            "B": "66",
+            "C": "Error due to incorrect parameter type",
+            "D": "33"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 313,
+        "Question": "In PHP, which function is used to count the number of elements in an array?",
+        "Options": {
+            "A": "get_length()",
+            "B": "size()",
+            "C": "count()",
+            "D": "array_size()"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 314,
+        "Question": "What is the purpose of the explode() function in PHP?",
+        "Options": {
+            "A": "To split a string into an array",
+            "B": "To sort an array",
+            "C": "To search for a string in an array",
+            "D": "To combine array elements into a string"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 315,
+        "Question": "In PHP, which function is used to join array elements with a string?",
+        "Options": {
+            "A": "merge()",
+            "B": "concat()",
+            "C": "array_join()",
+            "D": "join()"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 316,
+        "Question": "Which of the following is a correct way to declare a multidimensional array in PHP?",
+        "Options": {
+            "A": "$array = array(array(10, 20, 30), array(40, 50, 60));",
+            "B": "$array = [array(10, 20, 30), array(40, 50, 60)];",
+            "C": "$array = {(10, 20, 30), (40, 50, 60)};",
+            "D": "$array = {array(10, 20, 30), array(40, 50, 60)};"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 317,
+        "Question": "What will be the output of the following PHP code? \"$array = ['a1', 'b1', 'c1']; echo $array[1];\"",
+        "Options": {
+            "A": "a1",
+            "B": "b1",
+            "C": "c1",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 318,
+        "Question": "Consider this PHP code: \"$str = 'Hello World';\" \"$arr = 'Hello World';\" print_r($array); What does print_r($array); output?",
+        "Options": {
+            "A": "Error",
+            "B": "Array ( [0] => Hello [1] => World )",
+            "C": "Array ( [0] => H [1] => e [2] => l [3] => l [4] => o [5] => [6] => W [7] => o [8] => r [9] => l [10] => d )",
+            "D": "Array ( [0] => Hel [1] => lo [2] => Wo [3] => rld )"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 319,
+        "Question": "What is the keyword used to define a function in PHP?",
+        "Options": {
+            "A": "def",
+            "B": "func",
+            "C": "function",
+            "D": "create"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 320,
+        "Question": "Spot the mistake in this PHP while loop: $x = 1; while ($x <= 10) { echo $x } $x++; ?>",
+        "Options": {
+            "A": "Infinite loop",
+            "B": "Missing increment inside loop",
+            "C": "Missing semicolon after echo",
+            "D": "Syntax error in while"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 321,
+        "Question": "Find the error in this PHP code involving a for loop: \"for ($i = 0, $i <= 10, $i++) {\" echo $i; } ?>",
+        "Options": {
+            "A": "Syntax error in for loop",
+            "B": "Missing semicolon after echo",
+            "C": "No error in the code",
+            "D": "Infinite loop"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 322,
+        "Question": "What is a primary purpose of a function in PHP?",
+        "Options": {
+            "A": "To declare variables",
+            "B": "To repeat a block of code multiple times",
+            "C": "To organize and reuse code",
+            "D": "To stop the execution of a script"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 323,
+        "Question": "In PHP, what is a function parameter that is given a default value called?",
+        "Options": {
+            "A": "Optional parameter",
+            "B": "Static parameter",
+            "C": "Dynamic parameter",
+            "D": "Mandatory parameter"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 324,
+        "Question": "What is the scope of a variable declared inside a PHP function?",
+        "Options": {
+            "A": "Universal",
+            "B": "Static",
+            "C": "Local",
+            "D": "Global"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 325,
+        "Question": "Which of the following statements about PHP anonymous functions is true?",
+        "Options": {
+            "A": "They can be assigned to a variable or passed as an argument",
+            "B": "They must have a name",
+            "C": "They are a type of PHP class",
+            "D": "They cannot use external variables"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 326,
+        "Question": "What will be the output of this PHP function call? function addition($x, $y) { return $x + $y; } echo addition(2, 3);",
+        "Options": {
+            "A": "5",
+            "B": "23",
+            "C": "Error",
+            "D": "Nothing"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 327,
+        "Question": "Given the PHP function: function isEven($num) { return $num % 2 == 0; } What will isEven(6) return?",
+        "Options": {
+            "A": "TRUE",
+            "B": "FALSE",
+            "C": "5",
+            "D": "null"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 328,
+        "Question": "In PHP, the switch statement is used as an alternative to which other control structure?",
+        "Options": {
+            "A": "if",
+            "B": "if-else",
+            "C": "foreach",
+            "D": "while"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 329,
+        "Question": "What is the purpose of the break statement in PHP loops?",
+        "Options": {
+            "A": "To continue loop execution",
+            "B": "To pause the loop execution",
+            "C": "To skip the current iteration",
+            "D": "To exit the loop"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 330,
+        "Question": "In PHP, what will happen if you forget to increment the counter in a while loop?",
+        "Options": {
+            "A": "The loop will throw an error",
+            "B": "The loop will skip iterations",
+            "C": "The loop will exit immediately",
+            "D": "The loop will run indefinitely"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 331,
+        "Question": "Which looping structure is best for iterating over an associative array in PHP?",
+        "Options": {
+            "A": "foreach",
+            "B": "for",
+            "C": "do-while",
+            "D": "while"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 332,
+        "Question": "What will be the output of the following PHP code? $i = 0; while($i < 6) { echo $i; $i++; } ?>",
+        "Options": {
+          "A": "12345",
+          "B": "12345",
+          "C": "543210",
+          "D": "An error"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 333,
+        "Question": "Consider the following PHP code: for ($i = 1; $i <= 5; $i++) { if ($i == 4) { continue; } echo $i; } ?> What will be the output?",
+        "Options": {
+          "A": "1235",
+          "B": "135",
+          "C": "1234",
+          "D": "12345"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 334,
+        "Question": "Identify the error in this PHP foreach loop: foreach($item as $value) { echo $value } ?>",
+        "Options": {
+          "A": "No error in the code",
+          "B": "Missing $ before array",
+          "C": "Syntax error in foreach",
+          "D": "Missing semicolon after echo"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 335,
+        "Question": "What's wrong with this trigger? CREATE TRIGGER ValidateCredit BEFORE INSERT ON Orders FOR EACH ROW BEGIN IF NEW.Credit > 20000 THEN SET NEW.Credit = 20000; END IF; END;",
+        "Options": {
+          "A": "It modifies data during a BEFORE trigger which is not allowed",
+          "B": "It should use the AFTER keyword",
+          "C": "The IF condition is incorrectly formulated",
+          "D": "Syntax is correct"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 336,
+        "Question": "Which statement is true about updatable views in MySQL?",
+        "Options": {
+          "A": "Views based on multiple tables cannot be updated",
+          "B": "Views cannot be updated",
+          "C": "Only views created with the WITH CHECK OPTION are updatable",
+          "D": "All views are updatable"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 337,
+        "Question": "How do stored procedures contribute to database security?",
+        "Options": {
+          "A": "By encrypting data automatically",
+          "B": "By restricting direct access to data",
+          "C": "By logging user actions",
+          "D": "By validating user inputs"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 338,
+        "Question": "What differentiates a deterministic function from a non-deterministic function in MySQL?",
+        "Options": {
+          "A": "Non-deterministic functions cannot be indexed",
+          "B": "Non-deterministic functions are faster",
+          "C": "Deterministic functions return the same result any time they are called with a specific set of input values",
+          "D": "Deterministic functions perform better"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 339,
+        "Question": "What does this SQL command do: CREATE FUNCTION GetCustomerLevel(p_credit DOUBLE) RETURNS VARCHAR(20) RETURN CASE WHEN p_credit > 40000 THEN 'Platinum' WHEN p_credit > 10000 THEN 'Gold' ELSE 'Silver' END;?",
+        "Options": {
+          "A": "Creates a function that returns a customer's level based on credit",
+          "B": "Deletes a function",
+          "C": "Modifies an existing function",
+          "D": "None of the above"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 340,
+        "Question": "What is a compound index in MongoDB?",
+        "Options": {
+          "A": "An index on a single field",
+          "B": "An index combining multiple fields",
+          "C": "A unique index",
+          "D": "A text index"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 341,
+        "Question": "What happens when you create an index on a field that has duplicate values in MongoDB?",
+        "Options": {
+          "A": "Only the first occurrence is indexed",
+          "B": "The index is created with no issues",
+          "C": "The index creation fails",
+          "D": "The duplicate values are removed"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 342,
+        "Question": "How does the $group stage in the aggregation pipeline operate?",
+        "Options": {
+          "A": "It groups documents by specified criteria",
+          "B": "It sorts the documents",
+          "C": "It merges documents into a single document",
+          "D": "It filters the documents"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 343,
+        "Question": "What is the impact of indexing on write performance in MongoDB?",
+        "Options": {
+          "A": "It can slow down write performance",
+          "B": "It improves write performance",
+          "C": "It has no impact",
+          "D": "It varies depending on the document size"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 344,
+        "Question": "Which command creates a simple index on the 'firstname' field in MongoDB?",
+        "Options": {
+          "A": "db.collection.createIndex({firstname: 1})",
+          "B": "db.collection.index({firstname: 1})",
+          "C": "db.collection.addIndex({firstname: 1})",
+          "D": "db.collection.setIndex({firstname: 1})"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 345,
+        "Question": "What could be wrong if db.collection.createIndex({email: 1}, {unique: true}) fails to enforce uniqueness?",
+        "Options": {
+          "A": "The 'email' field is not indexed",
+          "B": "The collection already has duplicate emails",
+          "C": "MongoDB does not support unique indexes",
+          "D": "The index is not properly configured"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 346,
+        "Question": "Which of the following is not a browser-specific version of linear-gradient()?",
+        "Options": {
+          "A": "-mac-linear-gradient()",
+          "B": "-moz-linear-gradient()",
+          "C": "-webkit-linear-gradient()",
+          "D": "-o-linear-gradient()"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 347,
+        "Question": "Which of the following property adds padding to the top of an element?",
+        "Options": {
+          "A": "padding-top",
+          "B": "top",
+          "C": "padding-height",
+          "D": "height"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 348,
+        "Question": "Which of the following css property specifies an image to use as the background of an element?",
+        "Options": {
+          "A": "background-image",
+          "B": "none of the mentioned",
+          "C": "background-img",
+          "D": "background"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 349,
+        "Question": "Which of the following css property specifies a delay for the transition effect?",
+        "Options": {
+          "A": "transition-delay",
+          "B": "transition-duration",
+          "C": "transition",
+          "D": "transition-effect"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 350,
+        "Question": "Which of the following method rotates an element around its Y-axis at a given degree using transform 3D?",
+        "Options": {
+          "A": "rotateY()",
+          "B": "rotate-Yaxis()",
+          "C": "none of the mentioned",
+          "D": "rotate-Y()"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 351,
+        "Question": "Which of the following property defines the style for the bottom border of an element?",
+        "Options": {
+          "A": "border-bottom-style",
+          "B": "none of the mentioned",
+          "C": "border-style-bottom",
+          "D": "border-collapse"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 352,
+        "Question": "Which of the following property defines labels for a list of items?",
+        "Options": {
+          "A": "list-style",
+          "B": "list-type",
+          "C": "list-shape",
+          "D": "list-style-type"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 353,
+        "Question": "Which of the following property defines in a shorthand form the width, style, and color for all four sides of an element’s border?",
+        "Options": ["A. border", "B. border-color", "C. border-style", "D. border-all"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 354,
+        "Question": "Which of the following display property value is described by treats the element as inline?",
+        "Options": ["A. inline", "B. block", "C. list-item", "D. inline-block"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 355,
+        "Question": "Which of the following argument is not accepted by radial-gradient() function?",
+        "Options": ["A. Time", "B. Shape", "C. Position", "D. Color stops"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 356,
+        "Question": "Which of the following property defines in a shorthand form the width, style, and color for the left border of an element?",
+        "Options": ["A. border-left", "B. border-style", "C. border", "D. none of the mentioned"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 357,
+        "Question": "Which of the following is not a HTML5 added form element?",
+        "Options": ["A. <password>", "B. <datalist>", "C. <keygen>", "D. <output>"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 358,
+        "Question": "__________ allows the iframe to pull in content from elsewhere in the same domain.",
+        "Options": ["A. allow-same-origin", "B. allow-scripts", "C. allow-forms", "D. allow-pointer-lock"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 359,
+        "Question": "Which element specifies a list of pre-defined options for an input element?",
+        "Options": ["A. <datalist>", "B. <output>", "C. <password>", "D. <keygen>"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 360,
+        "Question": "Which of the following defines a group of related options in a drop-down list?",
+        "Options": ["A. <optgroup>", "B. <output>", "C. <form>", "D. <option>"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 361,
+        "Question": "What is the result of trying to extend the length of an array using a function in JavaScript? function extendArray(arr) { arr.push(5); } \"let myArr = [11, 22, 33];\" extendArray(myArr); console.log(myArr.length);",
+        "Options": ["A. 3", "B. 4", "C. 5", "D. Error"],
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 362,
+        "Question": "What is an event in the context of JavaScript?",
+        "Options": ["A. A user action like a mouse click", "B. A change in the state of the program", "C. A server response", "D. All of the above"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 363,
+        "Question": "Consider the following code snippet: function display() { return 'Hello World'; } console.log(display()); What is the output?",
+        "Options": ["A. 'display'", "B. 'Hello World'", "C. undefined", "D. Error"],
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 364,
+        "Question": "What will be the output of the following function? function checkEven(number) { return number % 2 === 0; } console.log(checkEven(17));",
+        "Options": ["A. TRUE", "B. FALSE", "C. 3", "D. Error"],
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 365,
+        "Question": "Identify the error in this function: function multiplication(x, y) { console.log(x * y); }",
+        "Options": ["A. It does not return any value", "B. It returns the wrong value", "C. Syntax error", "D. No error"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 366,
+        "Question": "Identify the error in this code: document.getElementByld('demo').innerText = 'Welcome';",
+        "Options": ["A. Typo in method name", "B. Missing element with id 'demo'", "C. Incorrect property innerText", "D. No error"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 367,
+        "Question": "Spot the mistake in this code: let btn = document.getElementById('submit'); btn.onClick = function() { console.log('Clicked'); };",
+        "Options": ["A. Incorrect event handler", "B. Missing element with id 'submit'", "C. Syntax error in the function", "D. No error"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 368,
+        "Question": "Which method is commonly used to attach an event handler to an element in JavaScript?",
+        "Options": ["A. addEventListener()", "B. attachEvent()", "C. onEvent()", "D. bindEvent()"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 369,
+        "Question": "What is event bubbling in JavaScript?",
+        "Options": ["A. When an event on a child element is also triggered on parent elements", "B. When an event triggers a server request", "C. When an event occurs repeatedly in a short period", "D. When an event fails to trigger"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 370,
+        "Question": "Which of the following is not a mouse event in JavaScript?",
+        "Options": ["A. onclick", "B. onmouseover", "C. onmousemove", "D. onchange"],
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 371,
+        "Question": "How can you stop event propagation in JavaScript?",
+        "Options": ["A. event.stopPropagation()", "B. event.preventDefault()", "C. event.stop()", "D. event.pause()"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 372,
+        "Question": "What does the following JavaScript code do? document.getElementById('btn').onclick = function() { alert('Button clicked'); };",
+        "Options": ["A. Displays an alert when a button is clicked", "B. Changes the text of a button", "C. Reloads the page", "D. Does nothing"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 373,
+        "Question": "Consider the following code snippet: element.addEventListener('click', function() { console.log('Element clicked'); }); What does this code do?",
+        "Options": ["A. Logs a message when the element is clicked", "B. Changes the style of the element when clicked", "C. Logs a message when the element is double-clicked", "D. Submits a form when the element is clicked"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 374,
+        "Question": "What will be the result of this code if div1 is inside div2 in the HTML structure? document.getElementById('div1').addEventListener('click', function(event) { console.log('div1 clicked'); event.stopPropagation(); }); document.getElementById('div2').addEventListener('click', function() { console.log('div2 clicked'); });",
+        "Options": ["A. Only 'div1 clicked' will be logged", "B. Only 'div2 clicked' will be logged", "C. Both 'div1 clicked' and 'div2 clicked' will be logged", "D. No message will be logged"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 375,
+        "Question": "Identify the error in this code: document.getElementById('CLICK ME').onClick = function() { console.log('Button clicked'); };",
+        "Options": ["A. Incorrect event property", "B. Syntax error", "C. Logic error", "D. No error"],
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 376,
+        "Question": "What is the issue with this code? button.addEventListener('click', doSomething); function doSomething() { alert('Clicked'); }",
+        "Options": {
+          "A": "Missing event listener",
+          "B": "doSomething is not defined",
+          "C": "Incorrect event type",
+          "D": "No error"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 377,
+        "Question": "What does AJAX stand for in web development?",
+        "Options": {
+          "A": "Asynchronous JavaScript And XML",
+          "B": "Automated JavaScript And XHTML",
+          "C": "Advanced JavaScript And XML",
+          "D": "Asynchronous Java And XML"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 378,
+        "Question": "What is the main advantage of using AJAX in a web application?",
+        "Options": {
+          "A": "Faster server response time",
+          "B": "Increased security",
+          "C": "Reduced server load and asynchronous requests",
+          "D": "Simpler coding requirements"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 379,
+        "Question": "What is the purpose of the Fetch API in JavaScript?",
+        "Options": {
+          "A": "To send data to a server",
+          "B": "To manipulate the DOM",
+          "C": "To retrieve resources asynchronously over the network",
+          "D": "To store data in the browser"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 380,
+        "Question": "What is the difference between the Fetch API and XMLHttpRequest?",
+        "Options": {
+          "A": "Fetch can only send asynchronous requests",
+          "B": "Fetch returns a promise, making it easier to work with asynchronous operations",
+          "C": "XMLHttpRequest is faster than Fetch",
+          "D": "Fetch cannot handle responses in JSON format"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 381,
+        "Question": "Which keyword is used for declaring a variable in JavaScript that can be reassigned?",
+        "Options": {
+          "A": "const",
+          "B": "let",
+          "C": "var",
+          "D": "static"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 382,
+        "Question": "What will this Fetch API code snippet do? fetch('https://api.example.com/update', { method: 'POST', body: JSON.stringify({name: 'Alice'}) }) .then(response => response.json()) .then(data => console.log(data));",
+        "Options": {
+          "A": "Retrieves data from the URL",
+          "B": "Updates data at the URL and logs the response",
+          "C": "Deletes data at the URL",
+          "D": "Submits data to the URL and logs the response"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 383,
+        "Question": "How does this code handle errors when using the Fetch API? fetch('https://api.example.com/data') .then(response => { if (!response.ok) { throw new Error('Network response was not ok'); } return response.json(); }) .catch(error => console.error('Fetch error:', error));",
+        "Options": {
+          "A": "It logs errors to the console",
+          "B": "It redirects the user to an error page",
+          "C": "It retries the fetch request",
+          "D": "It sends an error report to the server"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 384,
+        "Question": "The given Query can be replaced with ____________: SELECT name FROM instructor1 WHERE salary <= 100000 AND salary >= 90000;",
+        "Options": {
+          "A": "SELECT name FROM instructor1 WHERE salary BETWEEN 100000 AND 90000",
+          "B": "SELECT name FROM instructor1 WHERE salary BETWEEN 90000 AND 100000;",
+          "C": "SELECT name FROM instructor1 WHERE salary BETWEEN 90000 AND 100000;",
+          "D": "SELECT name FROM instructor1 WHERE salary <= 90000 AND salary >= 100000;"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 385,
+        "Question": "A Database Management System is a type of _________software.",
+        "Options": {
+          "A": "It is a type of system software",
+          "B": "It is a kind of application software",
+          "C": "It is a kind of general software",
+          "D": "Both A and C"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 386,
+        "Question": "The term \"FAT\" stands for_____",
+        "Options": {
+          "A": "File Allocation Tree",
+          "B": "File Allocation Table",
+          "C": "File Allocation Graph",
+          "D": "All of the above"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 387,
+        "Question": "Which of the following can be considered as the maximum size that is supported by FAT?",
+        "Options": {
+          "A": "8GB",
+          "B": "4GB",
+          "C": "4TB",
+          "D": "None of the above"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 388,
+        "Question": "The term \"NTFS\" refers to which one of the following?",
+        "Options": {
+          "A": "New Technology File System",
+          "B": "New Tree File System",
+          "C": "New Table type File System",
+          "D": "Both A and C"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 389,
+        "Question": "Which of the following can be considered as the maximum size that is supported by NTFS?",
+        "Options": {
+          "A": "4GB",
+          "B": "16TB",
+          "C": "64TB",
+          "D": "8TB"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 390,
+        "Question": "A huge collection of the information or data accumulated from several different sources is known as ________:",
+        "Options": {
+          "A": "Data Management",
+          "B": "Data Mining",
+          "C": "Data Warehouse",
+          "D": "Both B and C"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 391,
+        "Question": "Which of the following can be used to extract or filter the data & information from the data warehouse?",
+        "Options": {
+          "A": "Data redundancy",
+          "B": "Data recovery tool",
+          "C": "Data mining",
+          "D": "Both B and C"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 392,
+        "Question": "Which one of the following refers to the copies of the same data (or information) occupying the memory space at multiple places.",
+        "Options": {
+          "A": "Data Repository",
+          "B": "Data Inconsistency",
+          "C": "Data Mining",
+          "D": "Data Redundancy"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 393,
+        "Question": "Which one of the following refers to the \"data about data\"?",
+        "Options": {
+          "A": "Directory",
+          "B": "Sub Data",
+          "C": "Warehouse",
+          "D": "Meta Data"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 394,
+        "Question": "Which of the following refers to the level of data abstraction that describes exactly how the data actually stored?",
+        "Options": {
+          "A": "Conceptual Level",
+          "B": "Physical Level",
+          "C": "File Level",
+          "D": "Logical Level"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 395,
+        "Question": "To which of the following the term DBA\" referred?",
+        "Options": {
+          "A": "Data Bank Administrator",
+          "B": "Database Administrator",
+          "C": "Data Administrator",
+          "D": "None of the above"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 396,
+        "Question": "In general, a file is basically a collection of all related______.",
+        "Options": {
+          "A": "Rows & Columns",
+          "B": "Fields",
+          "C": "Database",
+          "D": "Records"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 397,
+        "Question": "The term Data\" refers to:",
+        "Options": {
+          "A": "The electronic representation of the information( or data)",
+          "B": "Basic information",
+          "C": "Row Facts and figures",
+          "D": "Both A and C"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 398,
+        "Question": "Rows of a relation are known as the _______.",
+        "Options": {
+          "A": "Degree",
+          "B": "Tuples",
+          "C": "Entity",
+          "D": "All of the above"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 399,
+        "Question": "What will the following JavaScript code do? fetch('https://api.example.com/data') .then(response => response.json()) .then(data => console.log(data));",
+        "Options": {
+          "A": "Sends data to 'https://api.example.com/data'",
+          "B": "Requests data from 'https://api.example.com/data' and logs it",
+          "C": "Creates a new resource at 'https://api.example.com/data'",
+          "D": "Deletes data from 'https://api.example.com/data'"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 400,
+        "Question": "Which of the following refers to the number of tuples in a relation?",
+        "Options": {
+          "A": "Entity",
+          "B": "Column",
+          "C": "Cardinality",
+          "D": "None of the above"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 401,
+        "Question": "Which of the following is used in developing the product stage of SDLC?",
+        "Options": {
+          "A": "Compilers",
+          "B": "Interpreters",
+          "C": "Debuggers",
+          "D": "All of the above"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 402,
+        "Question": "Is minimal testing done at every stage of SDLC?",
+        "Options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "Maybe",
+          "D": "Not sure"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 403,
+        "Question": "What happens to all the probable flaws in the testing stage of SDLC?",
+        "Options": {
+          "A": "Tracked",
+          "B": "Fixed",
+          "C": "Retested",
+          "D": "All of the above"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 404,
+        "Question": "Which of the following layout can be used to provide 100% width in Bootstrap 4?",
+        "Options": {
+          "A": "Fluid Layout",
+          "B": "Fixed Layout",
+          "C": "Both (a) and (b) are correct",
+          "D": "None of the above options is correct"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 405,
+        "Question": "Which among the following grid classes can be used for desktop?",
+        "Options": {
+          "A": "md",
+          "B": "sm",
+          "C": "xs",
+          "D": "None of the above"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 406,
+        "Question": "In Bootstrap 4, the contents can be placed within which of the following elements?",
+        "Options": {
+          "A": "Columns",
+          "B": "Containers",
+          "C": "Rows",
+          "D": "None of the above"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 407,
+        "Question": "Which of the following is the main difference between an ID and a class?",
+        "Options": {
+          "A": "Classes are for use with spans and IDs are for use with DIVs",
+          "B": "IDs are supposed to be only used once per page but Classes can be used multiple times per page, and one element can have more than one Class but should have only one ID",
+          "C": "IDs are better than Classes",
+          "D": "None of the above"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 408,
+        "Question": "Which of the following bootstrap style makes a set of buttons appear vertically stacked instead of horizontally placed?",
+        "Options": {
+          "A": ".btn-group",
+          "B": ".btn-toolbar",
+          "C": ".btn-group-lg",
+          "D": ".btn-group-vertical"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 409,
+        "Question": "Which of the following bootstrap styles can be used to create an Animated progress bar?",
+        "Options": {
+          "A": ".progress-active",
+          "B": ".active",
+          "C": ".progress-striped",
+          "D": "None of the above."
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 410,
+        "Question": "Which of the following is correct about bootstrap media objects?",
+        "Options": {
+          "A": "The media objects are abstract object styles which can be used for creating various types of components such as blog comments, Tweets, and so on. The feature is left - aligned or right - aligned image alongside the textual content.",
+          "B": "The main objective of the media object is to make the code for developing these blocks of information shorter.",
+          "C": "Both (a) and (b) are correct",
+          "D": "None of the above."
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 411,
+        "Question": "Which of the following is correct about data - html Data attribute of Tooltip Plugin?",
+        "Options": {
+          "A": "It can be used to apply a CSS fade transition to the tooltip.",
+          "B": "It can add the HTML into the tooltip. If false, jQuery's text method will be used to insert content into the dom.",
+          "C": "It can specify the position the tooltip (i.e., top | bottom | left | right | auto).",
+          "D": "It can delegate to the specified targets."
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 412,
+        "Question": "Which CSS function is crucial for adding new utilities with custom properties in Bootstrap?",
+        "Options": {
+          "A": "@keyframes",
+          "B": "@apply",
+          "C": "@import",
+          "D": "@extend"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 413,
+        "Question": "Why might changes in a media query not reflect in a browser?",
+        "Options": {
+          "A": "The media query syntax is incorrect",
+          "B": "The browser cache is outdated",
+          "C": "The stylesheet link is broken",
+          "D": "All of the above"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 414,
+        "Question": "Find the issue in this object definition: let obj = { '1a': 40, b: 80 }; console.log(obj.1a);",
+        "Options": {
+          "A": "Invalid property name",
+          "B": "Syntax error in console.log",
+          "C": "Incorrect value assignment",
+          "D": "No error"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 415,
+        "Question": "What is a V-shaped model called?",
+        "Options": {
+          "A": "Validification model",
+          "B": "Verification model",
+          "C": "Both (A) and (B)",
+          "D": "Neither (A) nor (B)"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 416,
+        "Question": "__________ model is most appropriate for handling risks.",
+        "Options": {
+          "A": "Spiral model",
+          "B": "V-shaped model",
+          "C": "Agile model",
+          "D": "Waterfall model"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 417,
+        "Question": "Which method is used to insert a single document into a MongoDB collection?",
+        "Options": {
+          "A": "db.collection.create()",
+          "B": "db.collection.addOne()",
+          "C": "db.collection.insert()",
+          "D": "db.collection.insertOne()"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 418,
+        "Question": "What does the upsert option do in an update operation in MongoDB?",
+        "Options": {
+          "A": "Deletes the document if it exists",
+          "B": "Updates all matching documents",
+          "C": "Inserts a new document if no match is found",
+          "D": "Updates an existing document, otherwise does nothing"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 419,
+        "Question": "What does the find() method in MongoDB return?",
+        "Options": {
+          "A": "A JSON object",
+          "B": "A single document",
+          "C": "A cursor",
+          "D": "An array of documents"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 420,
+        "Question": "How do you specify an alternate configuration file when starting MongoDB?",
+        "Options": {
+          "A": "mongod --config /path/to/config",
+          "B": "mongod --use /path/to/config",
+          "C": "mongod -c /path/to/config",
+          "D": "mongod --file /path/to/config"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 421,
+        "Question": "What will the following command do? db.users.remove({})",
+        "Options": {
+          "A": "Remove the 'users' collection",
+          "B": "Remove one random document",
+          "C": "Remove all documents from the 'users' collection",
+          "D": "Do nothing"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 422,
+        "Question": "What does the $unset operator do in an update operation in MongoDB?",
+        "Options": {
+          "A": "To delete a field from a document",
+          "B": "To set a field to null",
+          "C": "To create a new field",
+          "D": "To hide a field in the output"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 423,
+        "Question": "Which command is used to update all documents that meet certain criteria in MongoDB?",
+        "Options": {
+          "A": "db.collection.updateOne()",
+          "B": "db.collection.updateMany()",
+          "C": "db.collection.modify()",
+          "D": "db.collection.update()"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 424,
+        "Question": "MongoDB fails to start with error 'Address already in use'. What is the likely cause?",
+        "Options": {
+          "A": "Insufficient permissions",
+          "B": "Port conflict with another application",
+          "C": "Corrupted installation",
+          "D": "Outdated MongoDB version"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 425,
+        "Question": "Which CRUD operation is used to add new data to a MongoDB database?",
+        "Options": {
+          "A": "Delete",
+          "B": "Update",
+          "C": "Insert",
+          "D": "Select"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 426,
+        "Question": "What does this command do? db.products.find({price: {$gt: 100}})",
+        "Options": {
+          "A": "Updates the price of products over 100",
+          "B": "Finds products with a price less than 100",
+          "C": "Finds products with a price greater than 100",
+          "D": "Finds products with a price equal to 100"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 427,
+        "Question": "What is the purpose of the $set operator in MongoDB?",
+        "Options": {
+          "A": "To add a new field to an existing document",
+          "B": "To modify an existing field",
+          "C": "To remove a document",
+          "D": "To hide a field from output"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 428,
+        "Question": "What does 'CRUD' stand for in MongoDB?",
+        "Options": {
+          "A": "Create, Read, Utilize, Deploy",
+          "B": "Connect, Read, Unload, Display",
+          "C": "Create, Read, Update, Delete",
+          "D": "Create, Retrieve, Upload, Delete"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 429,
+        "Question": "How does MongoDB treat fields that are not specified in the $set part of an update operation?",
+        "Options": {
+          "A": "They are deleted",
+          "B": "They are set to null",
+          "C": "They remain unchanged",
+          "D": "They are marked as undefined"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 430,
+        "Question": "Which command is used to start a MongoDB server?",
+        "Options": {
+          "A": "mongo start",
+          "B": "run mongod",
+          "C": "mongod start",
+          "D": "start mongod"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 431,
+        "Question": "Identify the issue: mongodb --start",
+        "Options": {
+          "A": "Incorrect command format",
+          "B": "Incorrect file permissions",
+          "C": "Missing configuration file",
+          "D": "Outdated MongoDB version"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 432,
+        "Question": "Which MongoDB command is used to add a new field to an existing document?",
+        "Options": {
+          "A": "db.collection.addField({newField: value})",
+          "B": "db.collection.update({}, {$set: {newField: value}})",
+          "C": "db.collection.newField({newField: value})",
+          "D": "db.collection.add({}, {newField: value})"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 433,
+        "Question": "Which command is used to create a new Laravel project?",
+        "Options": {
+          "A": "composer create-project --prefer-dist laravel/laravel project-name",
+          "B": "php artisan new project-name",
+          "C": "laravel create project-name",
+          "D": "laravel new project-name"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 434,
+        "Question": "What is the purpose of Laravel's middleware?",
+        "Options": {
+          "A": "To process HTTP responses",
+          "B": "To route HTTP requests",
+          "C": "To filter HTTP requests",
+          "D": "To handle HTTP requests"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 435,
+        "Question": "How can you access the value of an environment variable in Laravel?",
+        "Options": {
+          "A": "getenv('VAR_NAME')",
+          "B": "$_ENV['VAR_NAME']",
+          "C": "config('app.VAR_NAME')",
+          "D": "env('VAR_NAME')"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 436,
+        "Question": "Which Laravel command is used to clear the route cache?",
+        "Options": {
+          "A": "php artisan cache",
+          "B": "php artisan route",
+          "C": "php artisan clear-route",
+          "D": "php artisan cache-route"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 437,
+        "Question": "Which file is used to define global helper functions in Laravel?",
+        "Options": {
+          "A": "functions.php",
+          "B": "helpers.php",
+          "C": "app.php",
+          "D": "GlobalHelpers.php"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 438,
+        "Question": "What is Laravel's service container used for?",
+        "Options": {
+          "A": "Handling database queries",
+          "B": "Configuring routes",
+          "C": "Managing sessions",
+          "D": "Dependency injection"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 439,
+        "Question": "Which method is used to define a 'one-to-one' relationship in Laravel's Eloquent ORM?",
+        "Options": {
+          "A": "belongsToMany()",
+          "B": "hasMany()",
+          "C": "hasOne()",
+          "D": "belongsTo()"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 440,
+        "Question": "Which function is used to retrieve old input data in Laravel views?",
+        "Options": {
+          "A": "input()",
+          "B": "previous()",
+          "C": "old()",
+          "D": "request()"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 441,
+        "Question": "Which directory stores the application controllers in Laravel?",
+        "Options": {
+          "A": "app/Http/Controllers",
+          "B": "app/Controllers",
+          "C": "app/Models",
+          "D": "app/Http/Routes"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 442,
+        "Question": "What is the purpose of Laravel's php artisan migrate command?",
+        "Options": {
+          "A": "To rollback migrations",
+          "B": "To create a new migration file",
+          "C": "To run the pending migrations",
+          "D": "To delete all migration files"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 443,
+        "Question": "What is the purpose of the php artisan tinker command in Laravel?",
+        "Options": {
+          "A": "To run unit tests",
+          "B": "To interact with the application's code in an interactive shell",
+          "C": "To generate a new controller",
+          "D": "To clear the cache"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 444,
+        "Question": "What is the default database connection type used by Laravel?",
+        "Options": {
+          "A": "MySQL",
+          "B": "SQLite",
+          "C": "PostgreSQL",
+          "D": "MariaDB"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 445,
+        "Question": "Which command is used to create a new migration file in Laravel?",
+        "Options": {
+          "A": "php artisan generate create_users_table",
+          "B": "php artisan make create_users_table",
+          "C": "php artisan create create_users_table",
+          "D": "php artisan new create_users_table"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 446,
+        "Question": "Which method is used to define a 'many-to-many' relationship in Laravel?",
+        "Options": {
+          "A": "belongsToMany()",
+          "B": "belongsTo()",
+          "C": "hasOne()",
+          "D": "hasMany()"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 447,
+        "Question": "Which of the following is NOT a valid HTTP method supported by Laravel routes?",
+        "Options": {
+          "A": "PATCH",
+          "B": "CONNECT",
+          "C": "DELETE",
+          "D": "OPTIONS"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 448,
+        "Question": "What is wrong with this SQL command: DELETE FROM Products WHERE;",
+        "Options": {
+          "A": "Unnecessary semicolon",
+          "B": "Incomplete WHERE clause",
+          "C": "Extra space in statement",
+          "D": "Syntax is correct"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 449,
+        "Question": "Which type of JOIN returns only the rows that have a match in both joined tables?",
+        "Options": {
+          "A": "FULL JOIN",
+          "B": "INNER JOIN",
+          "C": "LEFT JOIN",
+          "D": "RIGHT JOIN"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 450,
+        "Question": "What does the SQL clause 'ON DUPLICATE KEY UPDATE' do in an INSERT statement?",
+        "Options": {
+          "A": "Deletes the duplicate row",
+          "B": "Updates the row if it already exists",
+          "C": "Inserts a new row as a duplicate",
+          "D": "None of the above"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 451,
+        "Question": "Which SQL statement is used to read data from a database?",
+        "Options": {
+          "A": "DELETE",
+          "B": "UPDATE",
+          "C": "INSERT",
+          "D": "SELECT"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 452,
+        "Question": "What is the main purpose of using a JOIN in SQL?",
+        "Options": {
+          "A": "To update records in a table",
+          "B": "To merge rows from two or more tables",
+          "C": "To delete records from a table",
+          "D": "To create a new table"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 453,
+        "Question": "How does the SQL statement `INSERT INTO Orders (ProductID, Quantity) VALUES (101, 1) ON DUPLICATE KEY UPDATE Quantity = Quantity + 1;` function?",
+        "Options": {
+          "A": "Adds a new order or increases quantity if exists",
+          "B": "Creates multiple entries for same product",
+          "C": "Deletes previous entries for product",
+          "D": "None of the above"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 454,
+        "Question": "How does enabling the require_secure_transport option in MySQL enhance security?",
+        "Options": {
+          "A": "Increases connection timeout",
+          "B": "Forces connections to use SSL/TLS",
+          "C": "Disables all database connections",
+          "D": "Forces connections to use SSH"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 455,
+        "Question": "What is the result of the following SQL query? SELECT COUNT(*) FROM Users;",
+        "Options": {
+          "A": "The list of users",
+          "B": "The first user in the table",
+          "C": "Total data size of Users",
+          "D": "The number of rows in Users"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 456,
+        "Question": "What does the UPDATE statement do in SQL?",
+        "Options": {
+          "A": "Deletes records",
+          "B": "Modifies existing records",
+          "C": "Inserts new records",
+          "D": "Creates a table"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 457,
+        "Question": "What is the purpose of the DELETE statement in SQL?",
+        "Options": {
+          "A": "To create a new table",
+          "B": "To modify rows",
+          "C": "To drop a table",
+          "D": "To remove specific rows from a table"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 458,
+        "Question": "What is incorrect in the following SQL statement? CREATE TABLE Users (ID INT, Name CHAR(20), Email VARHCAR(100));",
+        "Options": {
+          "A": "Syntax is correct",
+          "B": "Spelling mistake in data type for Email",
+          "C": "Name should be TEXT",
+          "D": "ID should be VARCHAR"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 459,
+        "Question": "Identify the error in this user creation SQL command: CREATE USER 'admin'@'localhost' IDENTIFIED BY password;",
+        "Options": {
+          "A": "Syntax is correct",
+          "B": "Password is too simple",
+          "C": "Wrong host specified",
+          "D": "Missing quotes around 'password'"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 460,
+        "Question": "Which clause should be used with the DELETE statement to specify which rows to remove?",
+        "Options": {
+          "A": "ORDER BY",
+          "B": "GROUP BY",
+          "C": "WHERE",
+          "D": "HAVING"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 461,
+        "Question": "Which version of PHP introduced the advanced concepts of OOP?",
+        "Options": {
+          "A": "PHP 5",
+          "B": "PHP 4",
+          "C": "PHP 6",
+          "D": "PHP 5.3"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 462,
+        "Question": "What does the following SQL statement do? UPDATE Users SET Age = Age + 1 WHERE ID = 1;",
+        "Options": {
+          "A": "Increments age of all users",
+          "B": "Increments age of the user with ID 1",
+          "C": "Sets all users' age to 1",
+          "D": "Deletes user with ID 1"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 463,
+        "Question": "Identify the mistake in this SQL statement: UPDATE User SET Status = 'Active' WHER ID = 5;",
+        "Options": {
+          "A": "Incorrect column name",
+          "B": "Typo in WHERE clause",
+          "C": "Both",
+          "D": "None of the above"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 464,
+        "Question": "What is the purpose of the SQL statement below? INSERT INTO Customers (Name, Age) VALUES ('Alice', 30);",
+        "Options": {
+          "A": "Updates a row in Customers",
+          "B": "Deletes a row from Customers",
+          "C": "None of the above",
+          "D": "Inserts a new row into Customers"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 465,
+        "Question": "Which function is used to determine a file’s last access time?",
+        "Options": {
+          "A": "filectime()",
+          "B": "fileltime()",
+          "C": "fileatime()",
+          "D": "filetime()"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 466,
+        "Question": "Identify the error in this SQL command: CREATE TABLE Products (ProductID INT, Price DECIMAL(5));",
+        "Options": {
+          "A": "Price should be an INTEGER",
+          "B": "No error",
+          "C": "ProductID should be a TEXT",
+          "D": "DECIMAL definition is incomplete"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 467,
+        "Question": "Identify the output of the following PHP program? <?php $a = 200; if ($a > 100) \"printf(“PHP Quiz”);\" else if ($a > 200) \"printf(“PHP MCQ”);\" else if($a >= 300) \"printf(“PHP Program”);\" ?>",
+        "Options": {
+          "A": "PHP Program",
+          "B": "No output",
+          "C": "PHP MCQ",
+          "D": "PHP Quiz"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 468,
+        "Question": "Which of the following functions can be used to get the current memory usage?",
+        "Options": {
+          "A": "memory_get_usage()",
+          "B": "get_usage()",
+          "C": "memory_get_peak_usage()",
+          "D": "get_peak_usage()"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 469,
+        "Question": "Find the output of the following PHP code? <?php \"$input = “PHP<td>stands for</td>Hypertext<i>Preprocessor</i>!”;\" \"$input = strip_tags($input,”<i></i>“);\" echo $input; ?>",
+        "Options": {
+          "A": "PHP <td>stands for</td> Hypertext <i>Preprocessor</i>!",
+          "B": "PHP stands for Hypertext <i>Preprocessor</i>!",
+          "C": "PHP stands for Hypertext Preprocessor!",
+          "D": "PHP stands for Hypertext Preprocessor!"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 470,
+        "Question": "What does PHP stand for?",
+        "Options": {
+          "A": "PHP stands for Personal Hyper Processor",
+          "B": "PHP stands for Hypertext Preprocessor",
+          "C": "PHP stands for Preprocessor Home Page",
+          "D": "PHP stands for Pretext Hypertext Processor"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 471,
+        "Question": "A function which starts with __ (double underscore) is known as __________",
+        "Options": {
+          "A": "Inbuilt Function",
+          "B": "Magic Function",
+          "C": "User Defined Function",
+          "D": "Default Function"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 472,
+        "Question": "Identify the PHP statement will give output as $x on the screen?",
+        "Options": {
+          "A": "echo \"$x;\";",
+          "B": "echo \"/$x\";",
+          "C": "echo \"$$x\";",
+          "D": "echo \"\\$x\";"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 473,
+        "Question": "Which of the following variables does PHP use to authenticate a user?",
+        "Options": {
+          "i": "$_SERVER['PHP_AUTH_USER']",
+          "ii": "$_SERVER['PHP_AUTH_USERS']",
+          "iii": "$_SERVER['PHP_AUTH_PU']",
+          "iv": "$_SERVER['PHP_AUTH_PW']"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 474,
+        "Question": "Find the output of the following PHP code snippet?",
+        "Options": {
+          "A": "phpmcq@",
+          "B": "India.com",
+          "C": "php@India.com",
+          "D": "phpmcq@India.com"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 475,
+        "Question": "Different looping statements supported by PHP?",
+        "Options": {
+          "A": "i), ii) and iii)",
+          "B": "Only iv)",
+          "C": "i), ii), iii) and iv)",
+          "D": "i) and ii)"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 476,
+        "Question": "How many functions does PHP offer for searching and modifying strings using Perl-compatible regular expressions?",
+        "Options": {
+          "A": "5",
+          "B": "10",
+          "C": "8",
+          "D": "2"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 477,
+        "Question": "Which version of PHP deprecated the safe mode feature?",
+        "Options": {
+          "A": "PHP 5.3.0",
+          "B": "PHP 5.1.0",
+          "C": "PHP 5.2.0",
+          "D": "PHP 5.3.1"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 478,
+        "Question": "Identify the error in the following PHP program:",
+        "Options": {
+          "A": "class Example",
+          "B": "public $name;",
+          "C": "function Sample()",
+          "D": "echo \"This is an example\";"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 479,
+        "Question": "Which of the following web servers are required to run the PHP script?",
+        "Options": {
+          "A": "Anyone mentioned above",
+          "B": "Apache and PHP",
+          "C": "XAMPP",
+          "D": "IIS"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 480,
+        "Question": "What is the purpose of the PHP statement below?",
+        "Options": {
+          "A": "Deletes previous entries",
+          "B": "Echoes the message",
+          "C": "Adds an element to an array",
+          "D": "Updates a variable"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 481,
+        "Question": "Find the output of the following PHP code?",
+        "Options": {
+          "A": "50",
+          "B": "100",
+          "C": "150",
+          "D": "Error"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 482,
+        "Question": "Identify the error in this SQL statement:",
+        "Options": {
+          "A": "There is no error",
+          "B": "Misuse of JOIN",
+          "C": "Syntax error in the WHERE clause",
+          "D": "Column name mismatch in the ON clause"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 483,
+        "Question": "What is the purpose of Laravel's queue system?",
+        "Options": {
+          "A": "To handle background jobs",
+          "B": "To manage HTTP requests",
+          "C": "To manage database connections",
+          "D": "To handle session storage"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 484,
+        "Question": "What does the following SQL statement accomplish?",
+        "Options": {
+          "A": "Deletes departments",
+          "B": "Retrieves all employees and their department data",
+          "C": "Updates employee records",
+          "D": "Creates new departments"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 485,
+        "Question": "What does a FULL OUTER JOIN do?",
+        "Options": {
+          "A": "Combines all rows from both tables where matches exist, filling with NULLs where there is no match",
+          "B": "Only returns non-matching rows of both tables",
+          "C": "Only combines matching rows",
+          "D": "None of the above"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 486,
+        "Question": "What is incorrect in the following SQL command?",
+        "Options": {
+          "A": "SELECT clause is incomplete",
+          "B": "WHERE clause is incorrect",
+          "C": "Syntax is correct",
+          "D": "Using WHERE instead of ON"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 487,
+        "Question": "Which SQL keyword is used to create a subquery?",
+        "Options": {
+          "A": "IN",
+          "B": "WITH",
+          "C": "SELECT",
+          "D": "SUB"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 488,
+        "Question": "Which version of PHP introduced the advanced concepts of OOP?",
+        "Options": {
+          "A": "PHP 6",
+          "B": "PHP 5.2",
+          "C": "PHP 5",
+          "D": "PHP 5.3"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 489,
+        "Question": "Find the output of the following PHP code?",
+        "Options": {
+          "A": "150",
+          "B": "80",
+          "C": "10",
+          "D": "$z"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 490,
+        "Question": "Find the output of the following PHP program?",
+        "Options": {
+          "A": "/",
+          "B": "$looser",
+          "C": "/$looser",
+          "D": "$winner/$looser"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 491,
+        "Question": "Which one of the following is the default PHP session name?",
+        "Options": {
+          "A": "PHPSESSIONID",
+          "B": "PHPIDSESS",
+          "C": "PHPSESSID",
+          "D": "PHPSESID"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 492,
+        "Question": "Find the output of the following PHP program?",
+        "Options": {
+          "A": "test1test1",
+          "B": "test1value1",
+          "C": "error, constant value cannot be changed",
+          "D": "test1"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 493,
+        "Question": "Find the output of the following PHP program?",
+        "Options": {
+          "A": "error",
+          "B": "1HTML",
+          "C": "1JavaScript",
+          "D": "1CSS"
+        },
+        "Answer": "D"
+      },
+      {
+        "QuestionNumber": 494,
+        "Question": "Which function displays the web page’s most recent modification date?",
+        "Options": {
+          "A": "getlastmod()",
+          "B": "get_last_mod()",
+          "C": "lastmod()",
+          "D": "last_mod()"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 495,
+        "Question": "Identify the variable used to collect form data sent with both the GET and POST methods?",
+        "Options": {
+          "A": "$_BOTH",
+          "B": "$REQUEST",
+          "C": "$_REQUEST",
+          "D": "$BOTH"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 496,
+        "Question": "Consider this SQL statement: SELECT Name, Product FROM Customers LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID WHERE Orders.OrderID IS NULL; What does this query return?",
+        "Options": {
+          "A": "Names and products of customers who have not placed any orders",
+          "B": "All customers and their orders",
+          "C": "All customer and order pairs",
+          "D": "Invalid query"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 497,
+        "Question": "What does the MySQL SECURITY command do when applied to a view?",
+        "Options": {
+          "A": "Changes the view's charset",
+          "B": "Sets who can access the view",
+          "C": "Deletes the view after a certain period",
+          "D": "Modifies the view's collation setting"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 498,
+        "Question": "How can you restrict user access to specific columns in a MySQL table?",
+        "Options": {
+          "A": "By setting column-level privileges",
+          "B": "By deleting unwanted columns",
+          "C": "By using table-level firewalls",
+          "D": "By encrypting specific columns"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 499,
+        "Question": "What is the primary benefit of implementing database auditing in MySQL?",
+        "Options": {
+          "A": "To increase data retrieval speed",
+          "B": "To monitor and log database activity",
+          "C": "To reduce database size",
+          "D": "To automatically fix database errors"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 500,
+        "Question": "What does this SQL command achieve? REVOKE ALL PRIVILEGES ON database.* FROM 'user'@'localhost';",
+        "Options": {
+          "A": "Grants all privileges to a user",
+          "B": "Removes all privileges from a user for a database",
+          "C": "Changes the user's password",
+          "D": "None of the above"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 501,
+        "Question": "What's wrong with using the following SQL statement for password management? SET PASSWORD FOR 'user'@'localhost' = PASSWORD('open_sesame');",
+        "Options": {
+          "A": "Depreciated method for setting passwords",
+          "B": "Syntax error",
+          "C": "No error",
+          "D": "Incorrect hostname usage"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 502,
+        "Question": "What is the result of the following PHP code? $file = fopen(“test.txt”, “w”); fwrite($file, “Hello, India!”); fclose($file);",
+        "Options": {
+          "A": "A new file named “test.txt” is created with “Hello, India!” inside",
+          "B": "An error occurs",
+          "C": "Nothing happens",
+          "D": "The file “test.txt” is deleted"
+        },
+        "Answer": "A"
+      },
+      {
+        "QuestionNumber": 503,
+        "Question": "In PHP, what does the file_put_contents() function do when the FILE_APPEND flag is used?",
+        "Options": {
+          "A": "Replaces the content of the file",
+          "B": "Deletes the file and creates a new one",
+          "C": "Appends content to the end of the file",
+          "D": "Creates a new file"
+        },
+        "Answer": "C"
+      },
+      {
+        "QuestionNumber": 504,
+        "Question": "Identify the error in this PHP file handling code: \"$file = fopen(“nonexistent.txt”, “r”); fwrite($file, “Data”); fclose($file);\"",
+        "Options": {
+          "A": "The file does not exist",
+          "B": "Incorrect mode for fwrite",
+          "C": "Syntax error",
+          "D": "No error in the code"
+        },
+        "Answer": "B"
+      },
+      {
+        "QuestionNumber": 505,
+        "Question": "Spot the mistake in this PHP code for reading a file: $file = fopen(“file.txt”, “r”); $data = fread($file, filesize(“file.txt”)); fclose($file); echo $data;",
+        "Options": {
+          "A": "There is no mistake",
+          "B": "Missing error handling for file opening",
+          "C": "Incorrect use of filesize()",
+          "D": "The file is not closed properly"
+        },
+        "Answer": "B"
+      }
+]
