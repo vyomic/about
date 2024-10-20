@@ -42,7 +42,16 @@
             if ("geolocation" in navigator) {
                 navigator.geolocation.watchPosition(position => {
                     const speed = position.coords.speed || 0; // speed in m/s
-                    updateSpeedDisplay(speed);
+                    
+                    document.getElementById('switchUnit').addEventListener('click', () => {
+            isKmph = !isKmph; // Toggle the unit
+            const currentSpeedText = document.getElementById('speed').innerText;
+            const currentSpeed = parseFloat(currentSpeedText); // Adjust to correctly parse
+            const newSpeed = isKmph ? currentSpeed * 3.6 : currentSpeed / 3.6; // Convert speed
+            updateSpeedDisplay(newSpeed);
+        });
+        
+        
                 }, error => {
                     console.error("Error obtaining location", error);
                     document.getElementById('speed').innerText = "Error obtaining speed";
@@ -56,13 +65,7 @@
             }
         });
 
-        document.getElementById('switchUnit').addEventListener('click', () => {
-            isKmph = !isKmph; // Toggle the unit
-            const currentSpeedText = document.getElementById('speed').innerText;
-            const currentSpeed = parseFloat(currentSpeedText); // Adjust to correctly parse
-            const newSpeed = isKmph ? currentSpeed * 3.6 : currentSpeed / 3.6; // Convert speed
-            updateSpeedDisplay(newSpeed);
-        });
+        
 
         function updateSpeedDisplay(speed) {
             const unit = isKmph ? 'km/h' : 'm/s';
