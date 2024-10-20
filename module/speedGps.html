@@ -19,7 +19,7 @@
             font-size: 24px;
             margin-top: 20px;
         }
-        #grantPermission {
+        #grantPermission, #switchUnit {
             margin-top: 20px;
             padding: 10px 20px;
             background-color: lightblue;
@@ -33,13 +33,16 @@
     <h1>Current Speed</h1>
     <div id="speed">0 m/s</div>
     <button id="grantPermission">Grant Location Permission</button>
+    <button id="switchUnit">Switch to km/h</button>
 
     <script>
+        let isKmph = false;
+
         document.getElementById('grantPermission').addEventListener('click', () => {
             if ("geolocation" in navigator) {
                 navigator.geolocation.watchPosition(position => {
                     const speed = position.coords.speed || 0; // speed in m/s
-                    document.getElementById('speed').innerText = speed.toFixed(2) + ' m/s';
+                    updateSpeedDisplay(speed);
                 }, error => {
                     console.error("Error obtaining location", error);
                     document.getElementById('speed').innerText = "Error obtaining speed";
@@ -52,6 +55,19 @@
                 document.getElementById('speed').innerText = "Geolocation not supported";
             }
         });
+
+        document.getElementById('switchUnit').addEventListener('click', () => {
+            isKmph = !isKmph; // Toggle the unit
+            const currentSpeedText = document.getElementById('speed').innerText;
+            const currentSpeed = parseFloat(currentSpeedText);
+            const newSpeed = isKmph ? currentSpeed * 3.6 : currentSpeed / 3.6; // Convert speed
+            updateSpeedDisplay(newSpeed);
+        });
+
+        function updateSpeedDisplay(speed) {
+            const unit = isKmph ? 'km/h' : 'm/s';
+            document.getElementById('speed').innerText = speed.toFixed(2) + ' ' + unit;
+        }
     </script>
 </body>
 </html>
