@@ -42,11 +42,8 @@
             if ("geolocation" in navigator) {
                 navigator.geolocation.watchPosition(position => {
                     const speed = position.coords.speed || 0; // speed in m/s
-                    const newSpeed = speed * 3.6;
-                    updateSpeedDisplay(newSpeed);)
-                    
-        
-        
+                    const newSpeed = isKmph ? speed * 3.6 : speed; // Keep speed in correct unit
+                    updateSpeedDisplay(newSpeed);
                 }, error => {
                     console.error("Error obtaining location", error);
                     document.getElementById('speed').innerText = "Error obtaining speed";
