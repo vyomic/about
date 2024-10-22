@@ -12,8 +12,95 @@
       margin: 0;
       position: relative;
       min-height: 100vh;
-      padding-bottom: 60px; /* Space for the fixed buttons */
+      padding-bottom: 60px; 
+      transition: background-color 0.3s ease;/* Space for the fixed buttons */
     }
+          .toggle-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .toggle {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        .toggle input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #492061;
+            box-shadow: 0px 0px 6px #ffd036;
+            transition: .4s;
+            border-radius: 34px;
+            
+        }
+        .day-glow{
+          background-color: #ffe19c;
+            box-shadow: 0px 0px 6px #dfddfd;
+           
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: #edcdfd;
+            box-shadow: 0px 0px 8px #492061;
+            
+            transition: .4s;
+            border-radius: 50%;
+        }
+.day-glow:before{
+           
+            background-color: #ffd036;
+            box-shadow: 0px 0px 12px #fff717;
+            left: 25px;
+            bottom: -2px;
+            height: 40px;
+            width: 40px;
+            transition: .4s;
+            border-radius: 50%;
+animation: firefly 1.5s infinite; /* Apply the animation */
+        }
+
+        @keyframes firefly {
+            0% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            50% {
+                opacity: 0.5;
+                transform: translateY(-5px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        input:checked + .slider {
+            background-color: #69665c;
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
     .loadQuiz {
     border: 1px solid blue;
     background-color:#99ddff;
@@ -177,7 +264,13 @@ input[type="file"]::-webkit-file-upload-button{
  <h3>
   Mock Test App by <a href="https://github.com/vyomic">😎Me🤓</a>
  </h3>
- <h2>Lets Prepare ADIT Exam in a better way.</h2>
+ <h2>Theme:</h2>
+  <div class="toggle-container">
+        <label class="toggle">
+            <input type="checkbox" id="toggleButton">
+            <span class="slider"></span>
+        </label>
+  </div>
 
 
  <div id="header">
@@ -447,6 +540,20 @@ document.getElementById('loadJsonButton4').addEventListener('click', function() 
     alert('Invalid question number');
    }
   });
+   const toggleButton = document.getElementById('toggleButton');
+        const slider = document.getElementsByClassName('slider')[0]; // Access the first slider element
+
+        toggleButton.addEventListener('change', () => {
+            if (toggleButton.checked) {
+                document.body.style.backgroundColor = '#000';
+                // Change slider color when checked
+                slider.classList.add('day-glow');
+            } else {
+                document.body.style.backgroundColor = '';
+                 // Reset slider color when unchecked
+                slider.classList.remove('day-glow');
+            }
+        });
  </script>
 
 
