@@ -543,24 +543,37 @@ document.getElementById('loadJsonButton4').addEventListener('click', function() 
     alert('Invalid question number');
    }
   });
-   const toggleButton = document.getElementById('toggleButton');
-        const slider = document.getElementsByClassName('slider')[0]; // Access the first slider element
+   document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('toggleButton');
+    const slider = document.getElementsByClassName('slider')[0];
+    const questionsBox = document.getElementsByClassName('questionsBox'); // Get the questionsBox element
 
-        toggleButton.addEventListener('change', () => {
-            if (toggleButton.checked) {
-                document.body.style.backgroundColor = '#000';
-              document.querySelectorAll('h2').style.color ='#ffedb3';
-              document.querySelectorAll('h3').style.color = '#ffedb3';
-                // Change slider color when checked
-                slider.classList.add('day-glow');
-            } else {
-                document.body.style.backgroundColor = '';
-                 // Reset slider color when unchecked
-                slider.classList.remove('day-glow');
-              document.querySelectorAll('h2').style.color ='#000000';
-              document.querySelectorAll('h3').style.color = '#000000';
-            }
-        });
+    toggleButton.addEventListener('change', () => {
+        if (toggleButton.checked) {
+            document.body.style.backgroundColor = '#000';
+            document.querySelectorAll('h2').forEach(h2 => {
+                h2.style.color = '#ffedb3';
+            });
+            document.querySelectorAll('h3').forEach(h3 => {
+                h3.style.color = '#ffedb3';
+            });
+            slider.classList.add('day-glow');
+
+              } else {
+            document.body.style.backgroundColor = '';
+            slider.classList.remove('day-glow');
+            document.querySelectorAll('h2').forEach(h2 => {
+                h2.style.color = '#000000';
+            });
+            document.querySelectorAll('h3').forEach(h3 => {
+                h3.style.color = '#000000';
+            });
+
+            
+        }
+    });
+});
+
  </script>
 
 
