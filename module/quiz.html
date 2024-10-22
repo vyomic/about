@@ -19,7 +19,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+             height: fit-content;
+            position: absolute;
+            right: 25px;
+            top:15px;
         }
 
         .toggle {
@@ -264,7 +267,7 @@ input[type="file"]::-webkit-file-upload-button{
  <h3>
   Mock Test App by <a href="https://github.com/vyomic">😎Me🤓</a>
  </h3>
- <h2>Theme:</h2>
+ <h2>Lets prepare 😎 Exam in a better way.</h2>
   <div class="toggle-container">
         <label class="toggle">
             <input type="checkbox" id="toggleButton">
@@ -546,12 +549,16 @@ document.getElementById('loadJsonButton4').addEventListener('click', function() 
         toggleButton.addEventListener('change', () => {
             if (toggleButton.checked) {
                 document.body.style.backgroundColor = '#000';
+              document.h2.style.color ='#ffedb3';
+              document.h3.style.color = '#ffedb3';
                 // Change slider color when checked
                 slider.classList.add('day-glow');
             } else {
                 document.body.style.backgroundColor = '';
                  // Reset slider color when unchecked
                 slider.classList.remove('day-glow');
+              document.h2.style.color ='#000000';
+              document.h3.style.color = '#000000';
             }
         });
  </script>
