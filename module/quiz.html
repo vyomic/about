@@ -286,6 +286,7 @@ input[type="file"]::-webkit-file-upload-button{
    <button id="loadJsonButton3" class="loadQuiz"> Core Module 3</button>
  <button id="loadJsonButton4" class="loadQuiz"> Core Module 4</button>
    <button id="loadJsonButton5" class="loadQuiz" style="background-color:#ffe08a; color:#e38509; font-weight:600;"> Core Module 5</button>
+   <button id="loadJsonButton6" class="loadQuiz" style="background-color:#6732fa; color:#ffffff; font-weight:600;"> Elective Module-1</button>
   <h2 style="text-align: center;">or</h2>
    <h3>Upload a your custom Questions.json file.</h3>
  <div id="fileInputbox">
@@ -343,6 +344,18 @@ input[type="file"]::-webkit-file-upload-button{
   // Event listener for loading the default JSON
   document.getElementById('loadJsonButton5').addEventListener('click', function() {
    fetch('quiz5.json')
+    .then(response => response.json())
+    .then(data => {
+     questionsData = data;
+     loadQuizData();
+    })
+    .catch(error => {
+     console.error('Error loading the database:', error);
+     alert('Error loading the quiz database.');
+    });
+  });
+    document.getElementById('loadJsonButton6').addEventListener('click', function() {
+   fetch('em1quiz6.json')
     .then(response => response.json())
     .then(data => {
      questionsData = data;
