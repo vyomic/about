@@ -487,9 +487,7 @@
     },
     {
         "QuestionNumber": 45,
-        "Question": "The following code create a dataframe named ‘D1’ with how many columns?
-        
-        D1 = pd.DataFrame([1,2,3] )",
+        "Question": "The following code create a dataframe named ‘D1’ with how many columns?\nD1 = pd.DataFrame([1,2,3] )",
         "Options": {
             "A": "3",
             "B": "2",
