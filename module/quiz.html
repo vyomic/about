@@ -296,7 +296,7 @@ input[type="file"]::-webkit-file-upload-button{
  </div>
  </div>
  <h2 id="questionCount" style="display: none;"></h2>
- <div id="timer" style="display: none;"></div>
+ <div id="timer" style="display: none;">Time: <span id="timerspn"></span></div>
  <div id="util" style="display: none;">
   <div id="scoreBoard">
    <div class="score correct" id="correctCount">Correct Answers: 0</div>
@@ -436,7 +436,7 @@ document.getElementById('loadJsonButton4').addEventListener('click', function() 
     const elapsed = Math.floor((Date.now() - startTime) / 1000);
     const minutes = Math.floor(elapsed / 60);
     const seconds = elapsed % 60;
-    document.getElementById('timer').textContent = `Time: ${minutes}m ${seconds}s`;
+    document.getElementById('timerspn').textContent = `Time: ${minutes}m ${seconds}s`;
     document.getElementById('timer').style.display = 'block'; // Show timer
    }, 1000);
   }
