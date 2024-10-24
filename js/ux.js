@@ -1,4 +1,29 @@
 $(document).ready(function() {
+// full screen new bootstrap.Modal(
+if (document.getElementById('staticBackdros')!== null){
+
+
+    var myModal = new bootstrap.Modal(document.getElementById('staticBackdros'));
+    myModal.show();
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var enterFullscreenButton = document.getElementById('enterFullscreenButton');
+
+        enterFullscreenButton.addEventListener('click', function () {
+            var element = document.documentElement;
+            if (element.requestFullscreen) {
+                element.requestFullscreen();
+            } else if (element.mozRequestFullScreen) { // Firefox
+                element.mozRequestFullScreen();
+            } else if (element.webkitRequestFullscreen) { // Chrome, Safari, and Opera
+                element.webkitRequestFullscreen();
+            } else if (element.msRequestFullscreen) { // IE/Edge
+                element.msRequestFullscreen();
+            }
+        });
+    });
+}
+  
   // Function to update time and date
   function updateTime() {
     var now = new Date();
