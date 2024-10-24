@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,95 +13,102 @@
       margin: 0;
       position: relative;
       min-height: 100vh;
-      padding-bottom: 60px; 
-      transition: background-color 0.3s ease;/* Space for the fixed buttons */
+      padding-bottom: 60px;
+      transition: background-color 0.3s ease;
+      /* Space for the fixed buttons */
     }
-          .toggle-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-             height: fit-content;
-            position: absolute;
-            right: 25px;
-            top:15px;
-        }
 
-        .toggle {
-            position: relative;
-            display: inline-block;
-            width: 60px;
-            height: 34px;
-        }
+    .toggle-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: fit-content;
+      position: absolute;
+      right: 25px;
+      top: 15px;
+    }
 
-        .toggle input {
-            opacity: 0;
-            width: 0;
-            height: 0;
-        }
+    .toggle {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
 
-        .slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: #492061;
-            box-shadow: 0px 0px 6px #ffd036;
-            transition: .4s;
-            border-radius: 34px;
-            
-        }
-        .day-glow{
-          background-color: #ffe19c;
-            box-shadow: 0px 0px 6px #dfddfd;
-           
-        }
+    .toggle input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
 
-        .slider:before {
-            position: absolute;
-            content: "";
-            height: 26px;
-            width: 26px;
-            left: 4px;
-            bottom: 4px;
-            background-color: #edcdfd;
-            box-shadow: 0px 0px 8px #492061;
-            
-            transition: .4s;
-            border-radius: 50%;
-        }
-.day-glow:before{
-            background-color: #ffd036;
-            box-shadow: 0px 0px 12px #fff717;
-            left: 25px;
-            bottom: -2px;
-            height: 40px;
-            width: 40px;
-            transition: .4s;
-            border-radius: 50%;
-            animation: firefly 1.5s infinite; /* Apply the animation */
-        }
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #492061;
+      box-shadow: 0px 0px 6px #ffd036;
+      transition: .4s;
+      border-radius: 34px;
+
+    }
+
+    .day-glow {
+      background-color: #ffe19c;
+      box-shadow: 0px 0px 6px #dfddfd;
+
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: #edcdfd;
+      box-shadow: 0px 0px 8px #492061;
+
+      transition: .4s;
+      border-radius: 50%;
+    }
+
+    .day-glow:before {
+      background-color: #ffd036;
+      box-shadow: 0px 0px 12px #fff717;
+      left: 25px;
+      bottom: -2px;
+      height: 40px;
+      width: 40px;
+      transition: .4s;
+      border-radius: 50%;
+      animation: firefly 1.5s infinite;
+      /* Apply the animation */
+    }
 
 
-        input:checked + .slider {
-            background-color: #69665c;
-        }
+    input:checked+.slider {
+      background-color: #69665c;
+    }
 
-        input:checked + .slider:before {
-            transform: translateX(26px);
-        }
+    input:checked+.slider:before {
+      transform: translateX(26px);
+    }
+
     .loadQuiz {
-    border: 1px solid blue;
-    background-color:#99ddff;
-    width:170px;
-    height:30px;
-    padding:5px;
-    border-radius:5px;
-    margin:auto;
-      margin-bottom:10px;
-    display: block;
+      border: 1px solid blue;
+      background-color: #99ddff;
+      width: 170px;
+      height: 30px;
+      padding: 5px;
+      border-radius: 5px;
+      margin: auto;
+      margin-bottom: 10px;
+      display: block;
     }
+
     .questionsBox {
       margin-bottom: 20px;
       padding: 15px;
@@ -108,36 +116,48 @@
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
+
     .questionNumber {
       font-weight: bold;
       display: block;
       font-size: 24px;
       margin-bottom: 10px;
     }
+
     .question {
       display: block;
       font-size: 27px;
       margin-bottom: 10px;
     }
+
     .optionBox {
       margin-bottom: 15px;
     }
+
     .optionBox button {
       width: 100%;
       padding: 10px;
       margin-bottom: 10px;
-      background-color: white; /* No background */
-      border: 2px solid #0d64d6; /* Border color */
-      border-radius: 7px; /* Rounded corners */
-      font-size: 22px; /* Font size */
-      color: #0d64d6; /* Text color */
+      background-color: white;
+      /* No background */
+      border: 2px solid #0d64d6;
+      /* Border color */
+      border-radius: 7px;
+      /* Rounded corners */
+      font-size: 22px;
+      /* Font size */
+      color: #0d64d6;
+      /* Text color */
       cursor: pointer;
       transition: background-color 0.3s, color 0.3s;
     }
+
     .optionBox button:hover {
-    background-color:white;
-      color: black; /* Change text color on hover */
+      background-color: white;
+      color: black;
+      /* Change text color on hover */
     }
+
     .correctAnswer {
       display: none;
       padding: 10px;
@@ -146,6 +166,7 @@
       border: 1px solid #065f46;
       border-radius: 5px;
     }
+
     .navigation {
       position: fixed;
       bottom: 20px;
@@ -154,9 +175,12 @@
       display: flex;
       justify-content: space-between;
     }
+
     .navigation button {
-      flex: 1; /* Equal width for both buttons */
-      margin: 0 5px; /* Space between buttons */
+      flex: 1;
+      /* Equal width for both buttons */
+      margin: 0 5px;
+      /* Space between buttons */
       padding: 10px 0;
       background-color: #1e3a8a;
       color: white;
@@ -164,18 +188,22 @@
       border-radius: 5px;
       cursor: pointer;
     }
+
     .navigation button:hover {
       background-color: #1d2e5a;
     }
+
     #timer {
       font-size: 20px;
       margin-top: 10px;
     }
+
     #scoreBoard {
       display: flex;
       justify-content: space-between;
       margin-bottom: 20px;
     }
+
     #jump {
       display: flex;
       justify-content: center;
@@ -186,8 +214,10 @@
     }
 
 
-    #jumpTo, #jumpButton {
-      margin: 0 5px; /* Space between buttons */
+    #jumpTo,
+    #jumpButton {
+      margin: 0 5px;
+      /* Space between buttons */
       padding: 10px 0;
       background-color: #99ddff;
       text-align: center;
@@ -197,6 +227,7 @@
       font-weight: 700;
       font-size: 18px;
     }
+
     #jumpTo {
       width: 85px;
       color: black;
@@ -207,31 +238,39 @@
       width: 45px;
       background-color: #1A8CD8;
     }
+
     #fileInputbox {
-     
-    display:flex;
-    width: 100%;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-   /* Adjust based on header height */
-}
-input[type="file"] {
-  text-align: center;
- 
-  width: 100px;
-  
-}
-input[type="file"]::-webkit-file-upload-button{
-  display:block;
-  background-color: #4CAF50; /* Match background color */
-    color: white; /* Text color */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 10px 15px;/* Match padding */
-    cursor: pointer;
-    margin:8px 0;
-}
+
+      display: flex;
+      width: 100%;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      /* Adjust based on header height */
+    }
+
+    input[type="file"] {
+      text-align: center;
+
+      width: 100px;
+
+    }
+
+    input[type="file"]::-webkit-file-upload-button {
+      display: block;
+      background-color: #4CAF50;
+      /* Match background color */
+      color: white;
+      /* Text color */
+      border: none;
+      /* No border */
+      border-radius: 5px;
+      /* Rounded corners */
+      padding: 10px 15px;
+      /* Match padding */
+      cursor: pointer;
+      margin: 8px 0;
+    }
 
     .score {
       padding: 10px;
@@ -239,369 +278,381 @@ input[type="file"]::-webkit-file-upload-button{
       color: white;
       font-size: 18px;
     }
+
     .correct {
-      background-color: #7affa9; /* Light green */
+      background-color: #7affa9;
+      /* Light green */
       color: darkgreen;
     }
+
     .incorrect {
-      background-color: orangered; /* Red */
+      background-color: orangered;
+      /* Red */
       color: darkred;
     }
+
     @keyframes firefly {
-            0% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-            50% {
-                opacity: 0.5;
-                transform: translateY(-5px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
+      0% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      50% {
+        opacity: 0.5;
+        transform: translateY(-5px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
+
 <body>
- <h3>
-  Mock Test App by <a href="https://github.com/vyomic">😎Me🤓</a>
- </h3>
- <h2>Lets prepare 😎 Exam in a better way.</h2>
+  <h3>
+    Mock Test App by <a href="https://github.com/vyomic">😎Me🤓</a>
+  </h3>
+  <h2>Lets prepare 😎 Exam in a better way.</h2>
   <div class="toggle-container">
-        <label class="toggle">
-            <input type="checkbox" id="toggleButton">
-            <span class="slider"></span>
-        </label>
+    <label class="toggle">
+      <input type="checkbox" id="toggleButton">
+      <span class="slider"></span>
+    </label>
   </div>
 
 
- <div id="header">
- 
-<h3>Choose Exam Module</h3>
+  <div id="header">
 
- <!-- Button for loading default JSON file -->
-<button id="loadJsonButton1" class="loadQuiz"> Core Module 1</button>
-<button id="loadJsonButton2" class="loadQuiz"> Core Module 2</button>
-<button id="loadJsonButton3" class="loadQuiz"> Core Module 3</button>
-<button id="loadJsonButton4" class="loadQuiz"> Core Module 4</button>
-<button id="loadJsonButton5" class="loadQuiz" style="background-color:#ffe08a; color:#e38509; font-weight:600;"> Core Module 5</button>
-<button id="loadJsonButton6" class="loadQuiz" style="background-color:#6732fa; color:#ffffff; font-weight:600;"> Elective Module-1</button>
-<button id="loadJsonButton7" class="loadQuiz" style="background-color:#6732fa; color:#ffffff; font-weight:600;"> Elective Module-3</button>
-  <h2 style="text-align: center;">or</h2>
-   <h3>Upload a your custom Questions.json file.</h3>
- <div id="fileInputbox">
-   
- 
- <input type="file" id="fileInput" accept=".json">
- </div>
- </div>
- <h2 id="questionCount" style="display: none;"></h2>
- <div id="timer" style="display: none;">Time: <span id="timerspn"></span></div>
- <div id="util" style="display: none;">
-  <div id="scoreBoard">
-   <div class="score correct" id="correctCount">Correct Answers: 0</div>
-   <div class="score incorrect" id="incorrectCount">Incorrect Answers: 0</div>
+    <h3>Choose Exam Module</h3>
+
+    <!-- Button for loading default JSON file -->
+    <button id="loadJsonButton1" class="loadQuiz"> Core Module 1</button>
+    <button id="loadJsonButton2" class="loadQuiz"> Core Module 2</button>
+    <button id="loadJsonButton3" class="loadQuiz"> Core Module 3</button>
+    <button id="loadJsonButton4" class="loadQuiz"> Core Module 4</button>
+    <button id="loadJsonButton5" class="loadQuiz" style="background-color:#ffe08a; color:#e38509; font-weight:600;">
+      Core Module 5</button>
+    <button id="loadJsonButton6" class="loadQuiz" style="background-color:#6732fa; color:#ffffff; font-weight:600;">
+      Elective Module-1</button>
+    <button id="loadJsonButton7" class="loadQuiz" style="background-color:#6732fa; color:#ffffff; font-weight:600;">
+      Elective Module-3</button>
+    <h2 style="text-align: center;">or</h2>
+    <h3>Upload a your custom Questions.json file.</h3>
+    <div id="fileInputbox">
+
+
+      <input type="file" id="fileInput" accept=".json">
+    </div>
   </div>
-  <div id="jump">
-   <input type="number" id="jumpTo" placeholder="Que. No." min="1">
-   <button id="jumpButton" class="jumpBtn">Go</button>
+  <h2 id="questionCount" style="display: none;"></h2>
+  <div id="timer" style="display: none;">Time: <span id="timerspn"></span></div>
+  <div id="util" style="display: none;">
+    <div id="scoreBoard">
+      <div class="score correct" id="correctCount">Correct Answers: 0</div>
+      <div class="score incorrect" id="incorrectCount">Incorrect Answers: 0</div>
+    </div>
+    <div id="jump">
+      <input type="number" id="jumpTo" placeholder="Que. No." min="1">
+      <button id="jumpButton" class="jumpBtn">Go</button>
+    </div>
   </div>
- </div>
 
 
- <div id="quizContainer"></div>
+  <div id="quizContainer"></div>
 
 
- <div class="navigation">
-  <button id="prevButton" style="display: none;">Previous</button>
-  <button id="nextButton" style="display: none;">Next</button>
- </div>
+  <div class="navigation">
+    <button id="prevButton" style="display: none;">Previous</button>
+    <button id="nextButton" style="display: none;">Next</button>
+  </div>
 
 
- <script>
-  let currentQuestionIndex = 0;
-  let questionsData = [];
-  let startTime;
-  let timerInterval;
-  let correctAnswers = 0;
-  let incorrectAnswers = 0;
+  <script>
+    let currentQuestionIndex = 0;
+    let questionsData = [];
+    let startTime;
+    let timerInterval;
+    let correctAnswers = 0;
+    let incorrectAnswers = 0;
 
 
-  // Event listener for manual file upload
-  document.getElementById('fileInput').addEventListener('change', function(event) {
-   const file = event.target.files[0];
-   if (file) {
-    const reader = new FileReader();
-    reader.onload = function(e) {
-     questionsData = JSON.parse(e.target.result);
-     loadQuizData();
-    };
-    reader.readAsText(file);
-   }
-  });
-
-
-  // Event listener for loading the default JSON
-  document.getElementById('loadJsonButton5').addEventListener('click', function() {
-   fetch('quiz5.json')
-    .then(response => response.json())
-    .then(data => {
-     questionsData = data;
-     loadQuizData();
-    })
-    .catch(error => {
-     console.error('Error loading the database:', error);
-     alert('Error loading the quiz database.');
-    });
-  });
-    document.getElementById('loadJsonButton6').addEventListener('click', function() {
-   fetch('em1quiz6.json')
-    .then(response => response.json())
-    .then(data => {
-     questionsData = data;
-     loadQuizData();
-    })
-    .catch(error => {
-     console.error('Error loading the database:', error);
-     alert('Error loading the quiz database.');
-    });
-  });
-   document.getElementById('loadJsonButton1').addEventListener('click', function() {
-   fetch('Quiz1.json')
-    .then(response => response.json())
-    .then(data => {
-     questionsData = data;
-     loadQuizData();
-    })
-    .catch(error => {
-     console.error('Error loading the JSON file:', error);
-     alert('Error loading the quiz CM1 file.');
-    });
-  });
-document.getElementById('loadJsonButton2').addEventListener('click', function() {
-   fetch('quiz_questions.json')
-    .then(response => response.json())
-    .then(data => {
-     questionsData = data;
-     loadQuizData();
-    })
-    .catch(error => {
-     console.error('Error loading the JSON file:', error);
-     alert('Error loading the quiz file.');
-    });
-  });
-document.getElementById('loadJsonButton3').addEventListener('click', function() {
-   fetch('quiz3.json')
-    .then(response => response.json())
-    .then(data => {
-     questionsData = data;
-     loadQuizData();
-    })
-    .catch(error => {
-     console.error('Error loading the JSON file:', error);
-     alert('Error loading the quiz file.');
-    });
-  });
-document.getElementById('loadJsonButton7').addEventListener('click', function() {
-   fetch('em3quiz.json')
-    .then(response => response.json())
-    .then(data => {
-     questionsData = data;
-     loadQuizData();
-    })
-    .catch(error => {
-     console.error('Error loading the JSON file:', error);
-     alert('Error loading the quiz file.');
-    });
-  });
-document.getElementById('loadJsonButton4').addEventListener('click', function() {
-   fetch('quiz4.json')
-    .then(response => response.json())
-    .then(data => {
-     questionsData = data;
-     loadQuizData();
-    })
-    .catch(error => {
-     console.error('Error loading the JSON file:', error);
-     alert('Error loading the quiz file.');
-    });
-  });
-
-  function loadQuizData() {
-   document.getElementById('fileInput').style.display = 'none';
-   document.getElementById('fileInputbox').style.display = 'none';
-   // Hide the file input
-   document.getElementById('loadJsonButton1').style.display = 'none'; // Hide the load button
-   document.getElementById('loadJsonButton2').style.display = 'none'; // Hide the load button
-   document.getElementById('header').style.display = 'none'; // Hide the header
-   document.getElementById('questionCount').textContent = `Total Questions: ${questionsData.length}`;
-   document.getElementById('questionCount').style.display = 'block'; // Show question count
-   document.getElementById('util').style.display = 'block'; // Show score board
-   startTimer(); // Start the timer
-   displayQuestion(currentQuestionIndex);
-  }
-
-
-  function startTimer() {
-   startTime = Date.now();
-   timerInterval = setInterval(() => {
-    const elapsed = Math.floor((Date.now() - startTime) / 1000);
-    const minutes = Math.floor(elapsed / 60);
-    const seconds = elapsed % 60;
-    document.getElementById('timerspn').textContent = `Time: ${minutes}m ${seconds}s`;
-    document.getElementById('timer').style.display = 'block'; // Show timer
-   }, 1000);
-  }
-
-
-  function displayQuestion(index) {
-   const quizContainer = document.getElementById('quizContainer');
-   quizContainer.innerHTML = ''; // Clear previous content
-
-
-   const item = questionsData[index];
-
-
-   const questionsBox = document.createElement('div');
-   questionsBox.className = 'questionsBox';
-
-
-   const questionNumber = document.createElement('span');
-   questionNumber.className = 'questionNumber';
-   questionNumber.textContent = 'Question ' + item.QuestionNumber;
-
-
-   const questionText = document.createElement('span');
-   questionText.className = 'question';
-   questionText.textContent = item.Question;
-
-
-   questionsBox.appendChild(questionNumber);
-   questionsBox.appendChild(questionText);
-
-
-   const optionBox = document.createElement('div');
-   optionBox.className = 'optionBox';
-
-
-   for (let key in item.Options) {
-    const optionButton = document.createElement('button');
-    optionButton.textContent = `${key}: ${item.Options[key]}`;
-
-
-    optionButton.addEventListener('click', function() {
-     Array.from(optionBox.children).forEach(button => button.disabled = true);
-     Array.from(optionBox.children).forEach(button => {
-      button.style.backgroundColor = 'transparent';
-      button.style.color = '#0d64d6'; // Reset text color
-     });
-
-
-     if (key === item.Answer) {
-      optionButton.style.backgroundColor = '#7affa9'; // Correct answer color
-      optionButton.style.color = 'black'; // Change text color for visibility
-      correctAnswers++;
-     } else {
-      optionButton.style.backgroundColor = 'red'; // Incorrect answer color
-      optionButton.style.color = 'white'; // Change text color for visibility
-      incorrectAnswers++;
-     }
-
-
-     document.getElementById('correctCount').textContent = `Correct Answers: ${correctAnswers}`;
-     document.getElementById('incorrectCount').textContent = `Incorrect Answers: ${incorrectAnswers}`;
-
-
-     showCorrectAnswer(correctAnswerBox, item.Answer);
+    // Event listener for manual file upload
+    document.getElementById('fileInput').addEventListener('change', function (event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          questionsData = JSON.parse(e.target.result);
+          loadQuizData();
+        };
+        reader.readAsText(file);
+      }
     });
 
 
-    optionBox.appendChild(optionButton);
-   }
+    // Event listener for loading the default JSON
+    document.getElementById('loadJsonButton5').addEventListener('click', function () {
+      fetch('quiz5.json')
+        .then(response => response.json())
+        .then(data => {
+          questionsData = data;
+          loadQuizData();
+        })
+        .catch(error => {
+          console.error('Error loading the database:', error);
+          alert('Error loading the quiz database.');
+        });
+    });
+    document.getElementById('loadJsonButton6').addEventListener('click', function () {
+      fetch('em1quiz6.json')
+        .then(response => response.json())
+        .then(data => {
+          questionsData = data;
+          loadQuizData();
+        })
+        .catch(error => {
+          console.error('Error loading the database:', error);
+          alert('Error loading the quiz database.');
+        });
+    });
+    document.getElementById('loadJsonButton1').addEventListener('click', function () {
+      fetch('Quiz1.json')
+        .then(response => response.json())
+        .then(data => {
+          questionsData = data;
+          loadQuizData();
+        })
+        .catch(error => {
+          console.error('Error loading the JSON file:', error);
+          alert('Error loading the quiz CM1 file.');
+        });
+    });
+    document.getElementById('loadJsonButton2').addEventListener('click', function () {
+      fetch('quiz_questions.json')
+        .then(response => response.json())
+        .then(data => {
+          questionsData = data;
+          loadQuizData();
+        })
+        .catch(error => {
+          console.error('Error loading the JSON file:', error);
+          alert('Error loading the quiz file.');
+        });
+    });
+    document.getElementById('loadJsonButton3').addEventListener('click', function () {
+      fetch('quiz3.json')
+        .then(response => response.json())
+        .then(data => {
+          questionsData = data;
+          loadQuizData();
+        })
+        .catch(error => {
+          console.error('Error loading the JSON file:', error);
+          alert('Error loading the quiz file.');
+        });
+    });
+    document.getElementById('loadJsonButton7').addEventListener('click', function () {
+      fetch('em3quiz.json')
+        .then(response => response.json())
+        .then(data => {
+          questionsData = data;
+          loadQuizData();
+        })
+        .catch(error => {
+          console.error('Error loading the JSON file:', error);
+          alert('Error loading the quiz file.');
+        });
+    });
+    document.getElementById('loadJsonButton4').addEventListener('click', function () {
+      fetch('quiz4.json')
+        .then(response => response.json())
+        .then(data => {
+          questionsData = data;
+          loadQuizData();
+        })
+        .catch(error => {
+          console.error('Error loading the JSON file:', error);
+          alert('Error loading the quiz file.');
+        });
+    });
+
+    function loadQuizData() {
+      document.getElementById('fileInput').style.display = 'none';
+      document.getElementById('fileInputbox').style.display = 'none';
+      // Hide the file input
+      document.getElementById('loadJsonButton1').style.display = 'none'; // Hide the load button
+      document.getElementById('loadJsonButton2').style.display = 'none'; // Hide the load button
+      document.getElementById('header').style.display = 'none'; // Hide the header
+      document.getElementById('questionCount').textContent = `Total Questions: ${questionsData.length}`;
+      document.getElementById('questionCount').style.display = 'block'; // Show question count
+      document.getElementById('util').style.display = 'block'; // Show score board
+      startTimer(); // Start the timer
+      displayQuestion(currentQuestionIndex);
+    }
 
 
-   const correctAnswerBox = document.createElement('div');
-   correctAnswerBox.className = 'correctAnswer';
-   correctAnswerBox.textContent = 'Correct Answer: ' + item.Answer;
+    function startTimer() {
+      startTime = Date.now();
+      timerInterval = setInterval(() => {
+        const elapsed = Math.floor((Date.now() - startTime) / 1000);
+        const minutes = Math.floor(elapsed / 60);
+        const seconds = elapsed % 60;
+        document.getElementById('timerspn').textContent = `Time: ${minutes}m ${seconds}s`;
+        document.getElementById('timer').style.display = 'block'; // Show timer
+      }, 1000);
+    }
 
 
-   quizContainer.appendChild(questionsBox);
-   quizContainer.appendChild(optionBox);
-   quizContainer.appendChild(correctAnswerBox);
+    function displayQuestion(index) {
+      const quizContainer = document.getElementById('quizContainer');
+      quizContainer.innerHTML = ''; // Clear previous content
 
 
-   document.getElementById('prevButton').style.display = index > 0 ? 'inline-block' : 'none';
-   document.getElementById('nextButton').style.display = index < questionsData.length - 1 ? 'inline-block' : 'none';
-  }
+      const item = questionsData[index];
 
 
-  function showCorrectAnswer(answerBox, correctAnswer) {
-   answerBox.style.display = 'block';
-  }
+      const questionsBox = document.createElement('div');
+      questionsBox.className = 'questionsBox';
 
 
-  document.getElementById('prevButton').addEventListener('click', function() {
-   if (currentQuestionIndex > 0) {
-    currentQuestionIndex--;
-    displayQuestion(currentQuestionIndex);
-   }
-  });
+      const questionNumber = document.createElement('span');
+      questionNumber.className = 'questionNumber';
+      questionNumber.textContent = 'Question ' + item.QuestionNumber;
 
 
-  document.getElementById('nextButton').addEventListener('click', function() {
-   if (currentQuestionIndex < questionsData.length - 1) {
-    currentQuestionIndex++;
-    displayQuestion(currentQuestionIndex);
-   }
-  });
+      const questionText = document.createElement('span');
+      questionText.className = 'question';
+      questionText.textContent = item.Question;
 
 
-  document.getElementById('jumpButton').addEventListener('click', () => {
-   const jumpTo = parseInt(document.getElementById('jumpTo').value) - 1;
-   document.getElementById('jumpTo').value = '';
+      questionsBox.appendChild(questionNumber);
+      questionsBox.appendChild(questionText);
 
 
-   if (jumpTo >= 0 && jumpTo < questionsData.length) {
-    currentQuestionIndex = jumpTo;
-    displayQuestion(currentQuestionIndex);
-   } else {
-    alert('Invalid question number');
-   }
-  });
-   document.addEventListener('DOMContentLoaded', () => {
-    const toggleButton = document.getElementById('toggleButton');
-    const slider = document.getElementsByClassName('slider')[0];
-    const questionsBox = document.getElementsByClassName('questionsBox'); // Get the questionsBox element
+      const optionBox = document.createElement('div');
+      optionBox.className = 'optionBox';
 
-    toggleButton.addEventListener('change', () => {
+
+      for (let key in item.Options) {
+        const optionButton = document.createElement('button');
+        optionButton.textContent = `${key}: ${item.Options[key]}`;
+
+
+        optionButton.addEventListener('click', function () {
+          Array.from(optionBox.children).forEach(button => button.disabled = true);
+          Array.from(optionBox.children).forEach(button => {
+            button.style.backgroundColor = 'transparent';
+            button.style.color = '#0d64d6'; // Reset text color
+          });
+
+
+          if (key === item.Answer) {
+            optionButton.style.backgroundColor = '#7affa9'; // Correct answer color
+            optionButton.style.color = 'black'; // Change text color for visibility
+            correctAnswers++;
+          } else {
+            optionButton.style.backgroundColor = 'red'; // Incorrect answer color
+            optionButton.style.color = 'white'; // Change text color for visibility
+            incorrectAnswers++;
+          }
+
+
+          document.getElementById('correctCount').textContent = `Correct Answers: ${correctAnswers}`;
+          document.getElementById('incorrectCount').textContent = `Incorrect Answers: ${incorrectAnswers}`;
+
+
+          showCorrectAnswer(correctAnswerBox, item.Answer);
+        });
+
+
+        optionBox.appendChild(optionButton);
+      }
+
+
+      const correctAnswerBox = document.createElement('div');
+      correctAnswerBox.className = 'correctAnswer';
+      correctAnswerBox.textContent = 'Correct Answer: ' + item.Answer;
+
+
+      quizContainer.appendChild(questionsBox);
+      quizContainer.appendChild(optionBox);
+      quizContainer.appendChild(correctAnswerBox);
+
+
+      document.getElementById('prevButton').style.display = index > 0 ? 'inline-block' : 'none';
+      document.getElementById('nextButton').style.display = index < questionsData.length - 1 ? 'inline-block' : 'none';
+    }
+
+
+    function showCorrectAnswer(answerBox, correctAnswer) {
+      answerBox.style.display = 'block';
+    }
+
+
+    document.getElementById('prevButton').addEventListener('click', function () {
+      if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        displayQuestion(currentQuestionIndex);
+      }
+    });
+
+
+    document.getElementById('nextButton').addEventListener('click', function () {
+      if (currentQuestionIndex < questionsData.length - 1) {
+        currentQuestionIndex++;
+        displayQuestion(currentQuestionIndex);
+      }
+    });
+
+
+    document.getElementById('jumpButton').addEventListener('click', () => {
+      const jumpTo = parseInt(document.getElementById('jumpTo').value) - 1;
+      document.getElementById('jumpTo').value = '';
+
+
+      if (jumpTo >= 0 && jumpTo < questionsData.length) {
+        currentQuestionIndex = jumpTo;
+        displayQuestion(currentQuestionIndex);
+      } else {
+        alert('Invalid question number');
+      }
+    });
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggleButton = document.getElementById('toggleButton');
+      const slider = document.getElementsByClassName('slider')[0];
+      const questionsBox = document.getElementsByClassName('questionsBox'); // Get the questionsBox element
+
+      toggleButton.addEventListener('change', () => {
         if (toggleButton.checked) {
-            document.body.style.backgroundColor = '#000';
-            document.querySelectorAll('h2').forEach(h2 => {
-                h2.style.color = '#ffedb3';
-            });
-            document.querySelectorAll('h3').forEach(h3 => {
-                h3.style.color = '#ffedb3';
-            });
-            slider.classList.add('day-glow');
+          document.body.style.backgroundColor = '#000';
+          document.querySelectorAll('h2').forEach(h2 => {
+            h2.style.color = '#ffedb3';
+          });
+          document.querySelectorAll('h3').forEach(h3 => {
+            h3.style.color = '#ffedb3';
+          });
+          slider.classList.add('day-glow');
 
-              } else {
-            document.body.style.backgroundColor = '';
-            slider.classList.remove('day-glow');
-            document.querySelectorAll('h2').forEach(h2 => {
-                h2.style.color = '#000000';
-            });
-            document.querySelectorAll('h3').forEach(h3 => {
-                h3.style.color = '#000000';
-            });
+        } else {
+          document.body.style.backgroundColor = '';
+          slider.classList.remove('day-glow');
+          document.querySelectorAll('h2').forEach(h2 => {
+            h2.style.color = '#000000';
+          });
+          document.querySelectorAll('h3').forEach(h3 => {
+            h3.style.color = '#000000';
+          });
 
-            
+
         }
+      });
     });
-});
 
- </script>
+  </script>
 
 
 </body>
+
 </html>
