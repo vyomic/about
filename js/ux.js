@@ -1,10 +1,6 @@
 $(document).ready(function() {
 // full screen new bootstrap.Modal(
-if (document.getElementById('staticBackdros')!== null){
 
-
-    var myModal = new bootstrap.Modal(document.getElementById('staticBackdros'));
-    myModal.show();
 
     document.addEventListener('DOMContentLoaded', function () {
         var enterFullscreenButton = document.getElementById('enterFullscreenButton');
