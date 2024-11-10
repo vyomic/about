@@ -1,8 +1,7 @@
 $(document).ready(function() {
 // full screen 
         var enterFullscreenButton = document.getElementById('enterFullscreenButton');
-
-        enterFullscreenButton.addEventListener('click', function () {
+function fullScreen() {
             var element = document.documentElement;
             if (element.requestFullscreen) {
                 element.requestFullscreen();
@@ -13,7 +12,7 @@ $(document).ready(function() {
             } else if (element.msRequestFullscreen) { // IE/Edge
                 element.msRequestFullscreen();
             }
-        });
+        };
 }
   
   // Function to update time and date
