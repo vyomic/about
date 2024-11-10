@@ -1,8 +1,5 @@
 $(document).ready(function() {
-// full screen new bootstrap.Modal(
-
-
-    document.addEventListener('DOMContentLoaded', function () {
+// full screen 
         var enterFullscreenButton = document.getElementById('enterFullscreenButton');
 
         enterFullscreenButton.addEventListener('click', function () {
@@ -17,7 +14,6 @@ $(document).ready(function() {
                 element.msRequestFullscreen();
             }
         });
-    });
 }
   
   // Function to update time and date
