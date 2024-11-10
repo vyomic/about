@@ -1,20 +1,24 @@
 $(document).ready(function() {
-// full screen 
-        var enterFullscreenButton = document.getElementById('enterFullscreenButton');
-function fullScreen() {
-            var element = document.documentElement;
-            if (element.requestFullscreen) {
-                element.requestFullscreen();
-            } else if (element.mozRequestFullScreen) { // Firefox
-                element.mozRequestFullScreen();
-            } else if (element.webkitRequestFullscreen) { // Chrome, Safari, and Opera
-                element.webkitRequestFullscreen();
-            } else if (element.msRequestFullscreen) { // IE/Edge
-                element.msRequestFullscreen();
-            }
-        };
-}
-  
+    // Full screen function
+    function fullScreen() {
+        var element = document.documentElement;
+        if (element.requestFullscreen) {
+            element.requestFullscreen();
+        } else if (element.mozRequestFullScreen) { // Firefox
+            element.mozRequestFullScreen();
+        } else if (element.webkitRequestFullscreen) { // Chrome, Safari, and Opera
+            element.webkitRequestFullscreen();
+        } else if (element.msRequestFullscreen) { // IE/Edge
+            element.msRequestFullscreen();
+        }
+    }
+
+    // Attach the fullScreen function to the button click event
+    $('#enterFullscreenButton').click(function() {
+        fullScreen();
+    });
+});
+
   // Function to update time and date
   function updateTime() {
     var now = new Date();
