@@ -1,15 +1,25 @@
-$(document).ready(function() {
+$(function() {
     // Full screen function
     function fullScreen() {
         var element = document.documentElement;
+        
+        // Standard Fullscreen API
         if (element.requestFullscreen) {
             element.requestFullscreen();
-        } else if (element.mozRequestFullScreen) { // Firefox
+        } 
+        // Firefox Fullscreen API
+        else if (element.mozRequestFullScreen) {
             element.mozRequestFullScreen();
-        } else if (element.webkitRequestFullscreen) { // Chrome, Safari, and Opera
+        } 
+        // Webkit Fullscreen API (Chrome, Safari, Opera)
+        else if (element.webkitRequestFullscreen) {
             element.webkitRequestFullscreen();
-        } else if (element.msRequestFullscreen) { // IE/Edge
+        } 
+        // IE/Edge Fullscreen API
+        else if (element.msRequestFullscreen) {
             element.msRequestFullscreen();
+        } else {
+            console.error("Fullscreen API is not supported by this browser.");
         }
     }
 
@@ -18,6 +28,7 @@ $(document).ready(function() {
         fullScreen();
     });
 });
+
 
   // Function to update time and date
   function updateTime() {
