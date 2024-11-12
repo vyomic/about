@@ -28,7 +28,7 @@ $(document).ready(function() {
     return truncatedWords.join(' ');
 }
 
-$(document).ready(function() {
+
     fetch('data.json')
       .then(response => response.json())
       .then(data => {
@@ -63,4 +63,3 @@ $(document).ready(function() {
       .catch(error => console.error('Error fetching data:', error));
   });
   
-})
