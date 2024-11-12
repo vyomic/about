@@ -1,32 +1,30 @@
-$(function() {
-    // Full screen function
-    function fullScreen() {
-        var element = document.documentElement;
-        
-        // Standard Fullscreen API
-        if (element.requestFullscreen) {
-            element.requestFullscreen();
-        } 
-        // Firefox Fullscreen API
-        else if (element.mozRequestFullScreen) {
-            element.mozRequestFullScreen();
-        } 
-        // Webkit Fullscreen API (Chrome, Safari, Opera)
-        else if (element.webkitRequestFullscreen) {
-            element.webkitRequestFullscreen();
-        } 
-        // IE/Edge Fullscreen API
-        else if (element.msRequestFullscreen) {
-            element.msRequestFullscreen();
-        } else {
-            console.error("Fullscreen API is not supported by this browser.");
-        }
+// Full screen function
+function fullScreen() {
+    var element = document.documentElement;
+    
+    // Standard Fullscreen API
+    if (element.requestFullscreen) {
+        element.requestFullscreen();
+    } 
+    // Firefox Fullscreen API
+    else if (element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+    } 
+    // Webkit Fullscreen API (Chrome, Safari, Opera)
+    else if (element.webkitRequestFullscreen) {
+        element.webkitRequestFullscreen();
+    } 
+    // IE/Edge Fullscreen API
+    else if (element.msRequestFullscreen) {
+        element.msRequestFullscreen();
+    } else {
+        console.error("Fullscreen API is not supported by this browser.");
     }
+}
 
-    // Attach the fullScreen function to the button click event
-    $('#enterFullscreenButton').click(function() {
-        fullScreen();
-    });
+// Attach the fullScreen function to the button click event
+$('#enterFullscreenButton').click(function() {
+    fullScreen();
 });
 
 
