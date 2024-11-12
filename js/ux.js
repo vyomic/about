@@ -1,4 +1,4 @@
-// Full screen function
+// Fullscreen function
 function fullScreen() {
     var element = document.documentElement;
     
@@ -22,25 +22,25 @@ function fullScreen() {
     }
 }
 
-// Attach the fullScreen function to the button click event
+// Handle the fullscreen button click
 $('#enterFullscreenButton').click(function() {
     fullScreen();
 });
 
-
-  // Function to update time and date
-  function updateTime() {
+// Function to update time and date
+function updateTime() { 
     var now = new Date();
+
     var hours = now.getHours().toString().padStart(2, '0');
     var minutes = now.getMinutes().toString().padStart(2, '0');
     var day = now.getDate().toString().padStart(2, '0');
     var month = now.toLocaleString('default', { month: 'short' });
     var year = now.getFullYear().toString().substr(-2);
-    // var dayOfWeek = now.toLocaleString('default', { weekday: 'long' });
 
-    var timeString = hours + ':' + minutes;
-    var dateString = day + '-' + month + '-' + year;
+    var timeString = `${hours}:${minutes}`;
+    var dateString = `${day}-${month}-${year}`;
 
+    // Update the elements with the new time and date
     $('#timebox .time').text(timeString);
     $('#timebox .date').text(dateString);
 }
@@ -51,31 +51,23 @@ updateTime();
 // Set interval to update time and date every second
 setInterval(updateTime, 1000);
 
-
-   // Handle click event on navigation links
-   $('#navigation').on('click', 'li',(function(e) {
+// Handle navigation clicks
+$('#navigation').on('click', 'li', function(e) {
     e.preventDefault(); // Prevent default link behavior
-    if ($(this).attr('title')=='Contact Me'){
-      // Remove active class from all links
-      if ($('#contactbox').hasClass('contact')){
-      $('#contactbox').removeClass('contact');
-      $('nav ul li').removeClass('active');
+
+    var $this = $(this);
+    
+    // Check if it's the "Contact Me" link
+    if ($this.attr('title') === 'Contact Me') {
+        // Toggle the contact box and active state
+        $('#contactbox').toggleClass('contact');
+        $this.toggleClass('active');
+    } else if ($this.attr('class') !== 'theme') {
+        // Remove the active class from all links
+        $('nav ul li').removeClass('active');
+        $('#contactbox').removeClass('contact');
+        
+        // Add active class to the clicked link
+        $this.addClass('active');
     }
-      
-      // Add active class to the clicked link
-      else{
-      $('#contactbox').addClass('contact');
-      $(this).addClass('active');
-    }}
-    else if ($(this).attr('class')!='theme'){
-      // Remove active class from all links
-      $('nav ul li').removeClass('active');
-      $('#contactbox').removeClass('contact');
-      console.log('class added')
-      
-      // Add active class to the clicked link
-      
-      $(this).addClass('active');
-    }
-   }));
 });
