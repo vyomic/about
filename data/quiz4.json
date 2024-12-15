@@ -1,0 +1,5414 @@
+[
+    {
+        "QuestionNumber": 1,
+        "Question": "Python Programming Language was developed by?",
+        "Options": {
+            "A": "Wick van Rossum",
+            "B": "Rasmus Lerdorf",
+            "C": "Niene Stom",
+            "D": "Guido van Rossum"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 2,
+        "Question": "Identify the correct option.",
+        "Options": {
+            "A": "Python code is only compiled",
+            "B": "Python code is neither compiled nor interpreted",
+            "C": "Python code is both compiled and interpreted",
+            "D": "Python code is only interpreted"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 3,
+        "Question": "Python Programming Language was developed by?",
+        "Options": {
+            "A": "Wick van Rossum",
+            "B": "Rasmus Lerdorf",
+            "C": "Niene Stom",
+            "D": "Guido van Rossum"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 4,
+        "Question": "Identify the correct option.",
+        "Options": {
+            "A": "Python code is only compiled",
+            "B": "Python code is neither compiled nor interpreted",
+            "C": "Python code is both compiled and interpreted",
+            "D": "Python code is only interpreted"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 5,
+        "Question": "In Python, all keywords are _________",
+        "Options": {
+            "A": "Capitalized",
+            "B": "lower case",
+            "C": "UPPER CASE",
+            "D": "None of the mentioned"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 6,
+        "Question": "Is Python a cross platform language?",
+        "Options": {
+            "A": "False",
+            "B": "True",
+            "C": "Can't say",
+            "D": "None of the above"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 7,
+        "Question": "Which of the following functions can help us to find the version of python that we are currently working on?",
+        "Options": {
+            "A": "sys.version",
+            "B": "sys.version(0)",
+            "C": "sys.version()",
+            "D": "sys.version(3)"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 8,
+        "Question": "In python, what does pip stand?",
+        "Options": {
+            "A": "Pip Installs Python",
+            "B": "Preferred Installer Program",
+            "C": "Pip Installs Packages",
+            "D": "All of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 9,
+        "Question": "Identify the correct definition for packages in Python?",
+        "Options": {
+            "A": "A set of main modules",
+            "B": "A set of programs making use of Python modules",
+            "C": "A number of files containing Python definitions and statements",
+            "D": "A folder of python modules"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 10,
+        "Question": "Is Python a dynamically typed language?",
+        "Options": {
+            "A": "False",
+            "B": "True",
+            "C": "Can't say",
+            "D": "None of the above"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 11,
+        "Question": "In Python, what are the two main types of functions?",
+        "Options": {
+            "A": "System function",
+            "B": "Custom function",
+            "C": "User function",
+            "D": "Built-in function & User defined function"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 12,
+        "Question": "Identify the feature of Python DocString?",
+        "Options": {
+            "A": "In Python all functions should have a docstring",
+            "B": "Docstrings can be accessed by the __doc__ attribute on objects",
+            "C": "All of the mentioned",
+            "D": "It provides a convenient way of associating documentation with Python modules, functions, classes, and methods"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 13,
+        "Question": "What is output of print(math.pow(2, 2))?",
+        "Options": {
+            "A": "4.0",
+            "B": "None",
+            "C": "8",
+            "D": "None of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 14,
+        "Question": "Identify the correct operator for power?",
+        "Options": {
+            "A": "X^y",
+            "B": "X^^y",
+            "C": "X**y",
+            "D": "None of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 15,
+        "Question": "Identify which one of these is floor division?",
+        "Options": {
+            "A": "/",
+            "B": "None of the mentioned",
+            "C": "%",
+            "D": "//"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 16,
+        "Question": "Operators with the same precedence are evaluated in which manner?",
+        "Options": {
+            "A": "Can’t say",
+            "B": "Right to Left",
+            "C": "Left to Right",
+            "D": "None of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 17,
+        "Question": "What is the output of this expression, 2*1**3?",
+        "Options": {
+            "A": "6",
+            "B": "9",
+            "C": "2",
+            "D": "1"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 18,
+        "Question": "Identify which one of the following has the same precedence level?",
+        "Options": {
+            "A": "Addition and Multiplication",
+            "B": "Multiplication, Division and Addition",
+            "C": "Multiplication, Division, Addition and Subtraction",
+            "D": "Addition and Subtraction"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 19,
+        "Question": "Identify which one of the following has the highest precedence in the expression?",
+        "Options": {
+            "A": "Parentheses",
+            "B": "Addition",
+            "C": "Multiplication",
+            "D": "Exponential"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 20,
+        "Question": "What is the average value of the following Python code snippet? >>>grade1 = 60 >>>grade2 = 90 >>>average = (grade1 + grade2) / 2",
+        "Options": {
+            "A": "75.0",
+            "B": "85.1",
+            "C": "95.0",
+            "D": "95.1"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 21,
+        "Question": "What does 5 ^ 4 evaluate to?",
+        "Options": {
+            "A": "31",
+            "B": "12",
+            "C": "0.75",
+            "D": "1"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 22,
+        "Question": "What will be the value of the following Python expression? 8 + 3 % 5",
+        "Options": {
+            "A": "5",
+            "B": "11",
+            "C": "2",
+            "D": "0"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 23,
+        "Question": "Evaluate the expression given below if a = 17 and b = 16. a % b // a",
+        "Options": {
+            "A": "0.0",
+            "B": "0",
+            "C": "1.0",
+            "D": "1"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 24,
+        "Question": "Identify which of the following operators has its associativity from right to left?",
+        "Options": {
+            "A": "**",
+            "B": "//",
+            "C": "%",
+            "D": "+"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 25,
+        "Question": "What is the value of the following expression? 3+4.00, 3**4.0",
+        "Options": {
+            "A": "(7.0, 81.0)",
+            "B": "(6.00, 16.00)",
+            "C": "(6, 16)",
+            "D": "(6.00, 16.0)"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 26,
+        "Question": "Identify which of the following is the truncation division operator?",
+        "Options": {
+            "A": "/",
+            "B": "//",
+            "C": "%",
+            "D": "|"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 27,
+        "Question": "Evaluate the value of the following expression? 16/4/2, 16/(4/2)",
+        "Options": {
+            "A": "(2.0, 8.0)",
+            "B": "(1.0, 1.0)",
+            "C": "(4.0. 1.0)",
+            "D": "(4.0, 4.0)"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 28,
+        "Question": "Evaluate the value of the following expression? float(32//3+2/2)",
+        "Options": {
+            "A": "8",
+            "B": "11.0",
+            "C": "8.3",
+            "D": "8.33"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 29,
+        "Question": "What will be the output of the following Python expression? print(8.00/(2.0+2.0))",
+        "Options": {
+            "A": "Error",
+            "B": "2.0",
+            "C": "1.00",
+            "D": "1"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 30,
+        "Question": "Identify which among the following list of operators has the highest precedence?  +, -, **, %, /, <<, >>, |",
+        "Options": {
+            "A": "<<, >>",
+            "B": "%",
+            "C": "|",
+            "D": "**"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 31,
+        "Question": "Identify which of the following expressions is an example of type conversion?",
+        "Options": {
+            "A": "5.0 + float(7)",
+            "B": "5.3 + 6.3",
+            "C": "5.0 + 3",
+            "D": "3 + 7"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 32,
+        "Question": "Evaluate the value of the following Python expression? 7+2**5//10",
+        "Options": {
+            "A": "5",
+            "B": "10",
+            "C": "77",
+            "D": "0"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 33,
+        "Question": "Identify which of the following represents the bitwise XOR operator?",
+        "Options": {
+            "A": "^",
+            "B": "&",
+            "C": "|",
+            "D": "!"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 34,
+        "Question": "Evaluate the result of the following Python code? True = False while True:     print(True)     break",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "error"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 35,
+        "Question": "Evaluate the result of the following Python code? for i in range(4):     if i == 4:         break     else:         print(i) else:     print(\"Here\")",
+        "Options": {
+            "A": "0 1 2 3 Here",
+            "B": "0 1 2 3 4 5 Here",
+            "C": "0 1 2 3 4",
+            "D": "1 2 3 4 5"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 36,
+        "Question": "Evaluate the result of the following Python code? string = \"my name is q\" for x in string:     print (x, end=\", \")",
+        "Options": {
+            "A": "m, y, , n, a, m, e, , i, s, , q,",
+            "B": "mynameisq",
+            "C": "my, name, is, q,",
+            "D": "error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 37,
+        "Question": "Which of the following statement prints hello\\example\\hello.txt?",
+        "Options": {
+            "A": "print(“hello\\example\\hello.txt”)",
+            "B": "print(“hello\\\\example\\\\hello.txt”)",
+            "C": "print(“hello\\”example\\”hello.txt”)",
+            "D": "print(“hello”\\example”\\hello.txt”)"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 38,
+        "Question": "Evaluate the result of the following Python code? print(\"xycdpq\".find(\"cd\"))",
+        "Options": {
+            "A": "True",
+            "B": "2",
+            "C": "3",
+            "D": "None of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 39,
+        "Question": "Evaluate the result of the following Python code? print(\"aadaddad\".find(\"a\"))",
+        "Options": {
+            "A": "4",
+            "B": "0",
+            "C": "Error",
+            "D": "True"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 40,
+        "Question": "Evaluate the result of the following Python code? print('cd'.isalpha())",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 41,
+        "Question": "Evaluate the result of the following Python code snippet? print(''.isdigit())",
+        "Options": {
+            "A": "False",
+            "B": "True",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 42,
+        "Question": "Evaluate the result of the following Python code snippet? print('25'.isnumeric())",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 43,
+        "Question": "Evaluate the result of the following Python code snippet? print('abxdefxdghxd'.split('xd'))",
+        "Options": {
+            "A": "[‘ab’, ‘ef’, ‘gh’]",
+            "B": "[‘ab’, ‘ef’, ‘gh’, '']",
+            "C": "('ab', ‘ef’, ‘gh’)",
+            "D": "error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 44,
+        "Question": "Suppose list1 is [7445,133,72454,123], what is max(list1)?",
+        "Options": {
+            "A": "7445",
+            "B": "133",
+            "C": "72454",
+            "D": "123"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 45,
+        "Question": "Suppose list1 is [9, 5, 25, 2, 3], what is min(list1)?",
+        "Options": {
+            "A": "3",
+            "B": "5",
+            "C": "25",
+            "D": "2"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 46,
+        "Question": "Suppose list1 is [3, 5, 9], what is sum(list1)?",
+        "Options": {
+            "A": "1",
+            "B": "9",
+            "C": "17",
+            "D": "Error"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 47,
+        "Question": "Evaluate the result of the following Python code? >>>t=(1,9,7,3) >>>t[1:3]",
+        "Options": {
+            "A": "(1, 9)",
+            "B": "(1, 9, 7)",
+            "C": "(9, 7)",
+            "D": "(9, 7, 3)"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 48,
+        "Question": "Evaluate the result of the following Python code? >>> a=(5,6,7,8) >>> del(a[2])",
+        "Options": {
+            "A": "Now, a=(5,6,8)",
+            "B": "Now, a=(5,7,8)",
+            "C": "Now a=(7,8)",
+            "D": "Error as tuple is immutable"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 49,
+        "Question": "What type of data is: a=[(2,3),(5,6),(4,8)]?",
+        "Options": {
+            "A": "Array of tuples",
+            "B": "List of tuples",
+            "C": "Tuples of lists",
+            "D": "Invalid type"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 50,
+        "Question": "Evaluate the result of the following Python code? >>> x=[(2,4),(1,2),(3,9)] >>> x.sort() >>> x",
+        "Options": {
+            "A": "[(1, 2), (2, 4), (3, 9)]",
+            "B": "[(2,4),(1,2),(3,9)]",
+            "C": "Error because tuples are immutable",
+            "D": "Error, tuple has no sort attribute"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 51,
+        "Question": "Evaluate the result of the following Python code snippet? >>> d = {\"annie\":40, \"peter\":45} >>> \"annie\" in d",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 52,
+        "Question": "Evaluate the result of the following Python code snippet? x1 = {\"jenny\":40, \"peter\":45} x2 = {\"jenny\":466, \"peter\":45} x1 == x2",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 53,
+        "Question": "Evaluate the result of the following Python code snippet? x1 = {\"jenny\":40, \"peter\":45} x2 = {\"jenny\":466, \"peter\":45} x1 > x2",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "Error",
+            "D": "None"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 54,
+        "Question": "Evaluate the result of the following Python code snippet? d = {\"jenny\":90, \"peter\":45} d[\"jenny\"]",
+        "Options": {
+            "A": "90",
+            "B": "45",
+            "C": "“jenny”",
+            "D": "“peter”"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 55,
+        "Question": "Evaluate the result of the following Python code? a={5:\"A\",6:\"B\",7:\"C\"} a.clear() print(a)",
+        "Options": {
+            "A": "None",
+            "B": "{ None:None, None:None, None:None}",
+            "C": "{1:None, 2:None, 3:None}",
+            "D": "{ }"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 56,
+        "Question": "Identify which of the following is wrong about dictionary keys?",
+        "Options": {
+            "A": "Keys must be integers",
+            "B": "Keys must be immutable",
+            "C": "More than one key isn’t allowed",
+            "D": "When duplicate keys encountered, the last assignment wins"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 57,
+        "Question": "Evaluate the result of the following Python code? a={4:5,6:3,8:4} a.pop(8) print(a)",
+        "Options": {
+            "A": "{1: 5}",
+            "B": "{1: 5, 2: 3}",
+            "C": "Error, syntax error for pop() method",
+            "D": "{1: 5, 3: 4}"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 58,
+        "Question": "Evaluate the result of the following Python code snippet? test = {4:'A', 5:'B', 6:'C'} test = {} print(len(test))",
+        "Options": {
+            "A": "0",
+            "B": "None",
+            "C": "3",
+            "D": "An exception is thrown"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 59,
+        "Question": "Evaluate the result of the following Python code snippet? test = {1:'X', 2:'Y', 3:'Z'} del test[1] test[1] = 'Q' del test[2] print(len(test))",
+        "Options": {
+            "A": "0",
+            "B": "2",
+            "C": "Error as the key-value pair of 1:'X' is already deleted",
+            "D": "1"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 60,
+        "Question": "Identify which of the following is the use of function in python?",
+        "Options": {
+            "A": "you can't also create your own functions",
+            "B": "Functions don't provide better modularity for your application",
+            "C": "Functions are reusable pieces of programs",
+            "D": "All of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 61,
+        "Question": "Evaluate the result of the following Python code? def Maxprint(x, y):     if x > y:         print(x, 'is maximum')     elif x == y:         print(x, 'is equal to', y)     else:         print(y, 'is maximum') Maxprint(5, 6)",
+        "Options": {
+            "A": "5",
+            "B": "6",
+            "C": "6 is maximum",
+            "D": "None of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 62,
+        "Question": "Identify which of the following is a feature of DocString?",
+        "Options": {
+            "A": "Provide a convenient way of associating documentation with Python modules, functions, classes, and methods",
+            "B": "All functions should have a docstring",
+            "C": "All of the mentioned",
+            "D": "Docstrings can be accessed by the __doc__ attribute on objects"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 63,
+        "Question": "Identify which are the advantages of functions in python?",
+        "Options": {
+            "A": "Reducing duplication of code",
+            "B": "All of the mentioned",
+            "C": "Improving clarity of the code",
+            "D": "Decomposing complex problems into simpler pieces"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 64,
+        "Question": "Evaluate the result of the following Python code? def cube(y):     return y * y * y       y = cube(2)     print x",
+        "Options": {
+            "A": "2",
+            "B": "4",
+            "C": "8",
+            "D": "20"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 65,
+        "Question": "Evaluate the result of the following Python code? def f1():     x=50     print(x) x=20 f1()",
+        "Options": {
+            "A": "Error",
+            "B": "20",
+            "C": "50",
+            "D": "5020"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 66,
+        "Question": "Evaluate the result of the following Python code? def san(y):     print(y+1) y=-2 y=4 san(20)",
+        "Options": {
+            "A": "21",
+            "B": "10",
+            "C": "2",
+            "D": "5"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 67,
+        "Question": "Identify the current syntax of rename() for a file?",
+        "Options": {
+            "A": "rename(()(current_file_name, new_file_name))",
+            "B": "rename(new_file_name, current_file_name,)",
+            "C": "rename(current_file_name, new_file_name)",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 68,
+        "Question": "Identify the use of truncate() method in file?",
+        "Options": {
+            "A": "deletes the file size",
+            "B": "deletes the content of the file",
+            "C": "truncates the file size",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 69,
+        "Question": "What represents an entity in the real world with its identity and behaviour?",
+        "Options": {
+            "A": "method",
+            "B": "operator",
+            "C": "class",
+            "D": "object"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 70,
+        "Question": "What is used to create an object?",
+        "Options": {
+            "A": "class",
+            "B": "In-built functions",
+            "C": "User-defined functions",
+            "D": "constructor"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 71,
+        "Question": "Evaluate the result of the following Python code? class test:      def __init__(self,a=\"Good Morning\"):          self.a=a       def display(self):          print(self.a) obj=test() obj.display()",
+        "Options": {
+            "A": "The program has an error because constructor can’t have default arguments",
+            "B": "Nothing is displayed",
+            "C": "“Good Morning” is displayed",
+            "D": "The program has an error display function doesn’t have parameters"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 72,
+        "Question": "Purpose of setattr()?",
+        "Options": {
+            "A": "access the attribute of the object",
+            "B": "delete an attribute",
+            "C": "check if an attribute exists or not",
+            "D": "set an attribute"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 73,
+        "Question": "Purpose of getattr()?",
+        "Options": {
+            "A": "check if an attribute exists or not",
+            "B": "delete an attribute",
+            "C": "access the attribute of the object",
+            "D": "set an attribute"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 74,
+        "Question": "Purpose of Instantiation in terms of OOP terminology?",
+        "Options": {
+            "A": "Creating an instance of class",
+            "B": "Modifying an instance of class",
+            "C": "Copying an instance of class",
+            "D": "Deleting an instance of class"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 75,
+        "Question": "Evaluate the result of the following Python code? class fruits:     def __init__(self, price):         self.price = price obj=fruits(50)  obj.quantity=10 obj.bags=2  print(obj.quantity+len(obj.__dict__))",
+        "Options": {
+            "A": "13",
+            "B": "52",
+            "C": "12",
+            "D": "60"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 76,
+        "Question": "The assignment of more than one function to a particular operator is _______",
+        "Options": {
+            "A": "Operator overloading",
+            "B": "Operator overriding",
+            "C": "Operator over-assignment",
+            "D": "Operator instance"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 77,
+        "Question": "Identify which of the following is not a class method?",
+        "Options": {
+            "A": "Unbounded",
+            "B": "Static",
+            "C": "Bounded",
+            "D": "Non-static"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 78,
+        "Question": "Identify the methods which begin and end with two underscore characters called?",
+        "Options": {
+            "A": "Additional methods",
+            "B": "In-built methods",
+            "C": "User-defined methods",
+            "D": "Special methods"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 79,
+        "Question": "Identify which of the following statement is wrong about inheritance?",
+        "Options": {
+            "A": "Private members of a class can be inherited and accessed",
+            "B": "The inheriting class is called a subclass",
+            "C": "Protected members of a class can be inherited",
+            "D": "Inheritance is one of the features of OOP"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 80,
+        "Question": "Evaluate the result of the following Python code? class C():     def disp(self):         print(\"Welcome\") class D(C):     pass obj = D() obj.disp()",
+        "Options": {
+            "A": "Invalid syntax for inheritance",
+            "B": "Error because when object is created, argument must be passed",
+            "C": "Nothing is printed",
+            "D": "Welcome"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 81,
+        "Question": "Identify which of the following is not a type of inheritance?",
+        "Options": {
+            "A": "Single-level",
+            "B": "Multi-level",
+            "C": "Double-level",
+            "D": "Multiple"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 82,
+        "Question": "Choose how many except statements can a try-except block have?",
+        "Options": {
+            "A": "zero",
+            "B": "more than zero",
+            "C": "more than one",
+            "D": "one"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 83,
+        "Question": "Identify when will the else part of try-except-else be executed?",
+        "Options": {
+            "A": "when no exception occurs",
+            "B": "when an exception occurs",
+            "C": "always",
+            "D": "when an exception occurs in to except block"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 84,
+        "Question": "Evaluate the result of the following Python code? def foo():     try:         return 1     finally:         return 5 k = foo() print(k)",
+        "Options": {
+            "A": "1",
+            "B": "5",
+            "C": "3",
+            "D": "error, there is more than one return statement in a single try-finally block"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 85,
+        "Question": "Identify which of the following is not an exception handling keyword in Python?",
+        "Options": {
+            "A": "try",
+            "B": "except",
+            "C": "finally",
+            "D": "accept"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 86,
+        "Question": "What is an exception?",
+        "Options": {
+            "A": "a module",
+            "B": "a special function",
+            "C": "a standard module",
+            "D": "an object"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 87,
+        "Question": "Identify which of the following blocks will be executed whether an exception is thrown or not?",
+        "Options": {
+            "A": "finally",
+            "B": "else",
+            "C": "except",
+            "D": "assert"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 88,
+        "Question": "What is a Django App?",
+        "Options": {
+            "A": "An app is a functionality, including models and views, that lives together in a single Python package.",
+            "B": "Django app is a python package with its own components.",
+            "C": "All of the above",
+            "D": "Django app is an extended package with base package is Django."
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 89,
+        "Question": "What will happen on execution of this command : > python manage.py createsuperuser?",
+        "Options": {
+            "A": "Both B and C",
+            "B": "It will ask for name and password of the superuser.",
+            "C": "It will create an admin superuser.",
+            "D": "None of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 90,
+        "Question": "Django is based on which framework?",
+        "Options": {
+            "A": "MVT or MTV (Model-View-Template)",
+            "B": "MVVM",
+            "C": "MVC",
+            "D": "None of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 91,
+        "Question": "In Django, this template {# #} is used for?",
+        "Options": {
+            "A": "It will raise an exception.",
+            "B": "It is used for business logic.",
+            "C": "It is comment in template language.",
+            "D": "None of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 92,
+        "Question": "Which of these commands are used to print the SQL query of the model in Django?",
+        "Options": {
+            "A": "sqlmigrations",
+            "B": "makemigrations",
+            "C": "migrates",
+            "D": "showmigration"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 93,
+        "Question": "Django is written in which language?",
+        "Options": {
+            "A": "JAVA",
+            "B": "PHP",
+            "C": "C Programming language",
+            "D": "Python"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 94,
+        "Question": "Django was introduced by whom?",
+        "Options": {
+            "A": "Rasmus Lerdorf",
+            "B": "Charls Holis",
+            "C": "Adrian Holovaty",
+            "D": "Tim beneres"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 95,
+        "Question": "What is the default database used in Django?",
+        "Options": {
+            "A": "MySQL",
+            "B": "SQLite",
+            "C": "PostgreSQL",
+            "D": "Oracle"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 96,
+        "Question": "What is Django's template language used for?",
+        "Options": {
+            "A": "Dynamic HTML generation",
+            "B": "URL routing",
+            "C": "Object-Relational Mapping",
+            "D": "Data Validation"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 97,
+        "Question": "What is Django's staticfiles app used for?",
+        "Options": {
+            "A": "Storing data in cache",
+            "B": "Generating dynamic HTML",
+            "C": "Handling user authentication",
+            "D": "Serving static files like images, CSS, and JavaScript"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 98,
+        "Question": "Identify the purpose of Django's manage.py file?",
+        "Options": {
+            "A": "run the development server",
+            "B": "handle URL routing",
+            "C": "manage project-level configuration and tasks",
+            "D": "serve static files"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 99,
+        "Question": "In which delimiter the conditional statements if-else and endif are enclosed in Django?",
+        "Options": {
+            "A": "[%..%]",
+            "B": "None",
+            "C": "(%..%)",
+            "D": "{%..%}"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 100,
+        "Question": "Flask is a web development framework created in which language?",
+        "Options": {
+            "A": "Java",
+            "B": "Javascript",
+            "C": "Python",
+            "D": "C++"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 101,
+        "Question": "WSGI stands for the?",
+        "Options": {
+            "A": "Write Server Gateway Interface",
+            "B": "Web Server Gateway Interact",
+            "C": "Web Static Gateway Interface",
+            "D": "Web Server Gateway Interface"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 102,
+        "Question": "Which is Flask default port?",
+        "Options": {
+            "A": "3000",
+            "B": "2020",
+            "C": "1000",
+            "D": "5000"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 103,
+        "Question": "To run the application in flask what is the command used for?",
+        "Options": {
+            "A": "flask",
+            "B": "run flask",
+            "C": "run - flask",
+            "D": "start -pythonflask"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 104,
+        "Question": "What construct is used to create anonymous functions at runtime in python?",
+        "Options": {
+            "A": "lambda",
+            "B": "anonymous",
+            "C": "pi",
+            "D": "none of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 105,
+        "Question": "Identify which of the following is the truncation division operator in Python?",
+        "Options": {
+            "A": "|",
+            "B": "%",
+            "C": "/",
+            "D": "//"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 106,
+        "Question": "Evaluate the result of the following Python code snippet? for i in [5, 6, 7, 8][::-1]:     print(i, end=' ')",
+        "Options": {
+            "A": "8 7 6 5",
+            "B": "error",
+            "C": "5 6 7 8",
+            "D": "none of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 107,
+        "Question": "Evaluate the result of the following Python code? print(\"abc. PQR\".capitalize())",
+        "Options": {
+            "A": "Abc. pqr",
+            "B": "abc. pqr",
+            "C": "Abc. Pqr",
+            "D": "ABC. PQR"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 108,
+        "Question": "To add a new element to a list we use which Python command?",
+        "Options": {
+            "A": "list1.addEnd(7)",
+            "B": "list1.addLast(7)",
+            "C": "list1.append(7)",
+            "D": "list1.add(7)"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 109,
+        "Question": "What is the maximum possible length of an identifier in Python?",
+        "Options": {
+            "A": "68 characters",
+            "B": "20 characters",
+            "C": "45 characters",
+            "D": "none of the mentioned"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 110,
+        "Question": "Evaluate the result of the following Python code? x = 'pqrs' for i in range(len(x)):     print(i)",
+        "Options": {
+            "A": "error",
+            "B": "1 2 3 4",
+            "C": "p q r s",
+            "D": "0 1 2 3"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 111,
+        "Question": "Evaluate the result of the following Python code snippet? z=set('apq$xy') 'a' in z",
+        "Options": {
+            "A": "Error",
+            "B": "True",
+            "C": "False",
+            "D": "No output"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 112,
+        "Question": "Evaluate the result of the following Python expression? round(5.576)",
+        "Options": {
+            "A": "4",
+            "B": "4.6",
+            "C": "6",
+            "D": "4.5"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 113,
+        "Question": "Evaluate the result of the following Python code? >>>x=\"hello\" >>>x[:2]",
+        "Options": {
+            "A": "he",
+            "B": "lo",
+            "C": "olleh",
+            "D": "hello"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 114,
+        "Question": "Identify the return type of function id?",
+        "Options": {
+            "A": "bool",
+            "B": "float",
+            "C": "int",
+            "D": "dict"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 115,
+        "Question": "Evaluate the result of the following Python expression? int(2055)?",
+        "Options": {
+            "A": "2055",
+            "B": "22",
+            "C": "25",
+            "D": "None"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 116,
+        "Question": "Evaluate the result of the following Python code? class Truth:  pass y=Truth() bool(y)",
+        "Options": {
+            "A": "true",
+            "B": "pass",
+            "C": "false",
+            "D": "error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 117,
+        "Question": "Evaluate the result of the following Python code? i = 0 while i < 3:     print(i)     i += 1 else:     print(0)",
+        "Options": {
+            "A": "0 1 2 3 0",
+            "B": "error",
+            "C": "0 1 2",
+            "D": "0 1 2 0"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 118,
+        "Question": "Evaluate the result of the following Python code? y = \"abcdef\" while p in y:     print(p, end=\" \")",
+        "Options": {
+            "A": "a b c d e f",
+            "B": "abcdef",
+            "C": "i i i i i i …",
+            "D": "error"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 119,
+        "Question": "Evaluate the result of the following Python code? d = {5: 'a', 6: 'b', 7: 'c'} for i in d:     print(i)",
+        "Options": {
+            "A": "5 6 7",
+            "B": "a b c",
+            "C": "5 a 6 b 7 c",
+            "D": "none of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 120,
+        "Question": "Evaluate the result of the following Python code? d = {5: 'a', 6: 'b', 7: 'c'} for x, y in d:     print(x, y)",
+        "Options": {
+            "A": "5 6 7",
+            "B": "a b c",
+            "C": "5 a 6 b 7 c",
+            "D": "none of the mentioned"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 121,
+        "Question": "Evaluate the result of the following Python code? d = {3, 4, 5} for x in d:     print(x)",
+        "Options": {
+            "A": "3 4 5",
+            "B": "{3, 4, 5} {3, 4, 5} {3, 4, 5}",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 122,
+        "Question": "Evaluate the result of the following Python code? for x in range(int(2.0)):     print(x)",
+        "Options": {
+            "A": "0.0 1.0",
+            "B": "0 1",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 123,
+        "Question": "Evaluate the result of the following Python code snippet? x = 2 for i in range(x):     x += 1     print (x)",
+        "Options": {
+            "A": "0 1 2 3 4 …",
+            "B": "3 4",
+            "C": "0 1",
+            "D": "0 1 2 3"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 124,
+        "Question": "Evaluate the result of the following Python code snippet? x = 3 for i in range(x):     x -= 2     print (x)",
+        "Options": {
+            "A": "0 1 2 3 4 …",
+            "B": "1 -1 -3",
+            "C": "0",
+            "D": "error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 125,
+        "Question": "Evaluate the result of the following Python code snippet? a = [0, 1, 2] for a[0] in a:     print(a[0])",
+        "Options": {
+            "A": "0 1 2",
+            "B": "0 1",
+            "C": "1 1 1",
+            "D": "error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 126,
+        "Question": "Evaluate the result of the following Python statement? >>>\"d\"+\"ef\"",
+        "Options": {
+            "A": "d",
+            "B": "ef",
+            "C": "none",
+            "D": "def"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 127,
+        "Question": "Evaluate the result of the following Python code snippet if y=1? y<<2",
+        "Options": {
+            "A": "4",
+            "B": "2",
+            "C": "1",
+            "D": "8"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 128,
+        "Question": "Evaluate the values of the following Python expressions?  2**(3**2)  (2**3)**2  2**3**2",
+        "Options": {
+            "A": "64, 64, 64",
+            "B": "512, 512, 512",
+            "C": "64, 512, 64",
+            "D": "512, 64, 512"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 129,
+        "Question": "Evaluate the result of the following Python function? min(max(False,-4,-5), 3,8)",
+        "Options": {
+            "A": "-4",
+            "B": "-3",
+            "C": "2",
+            "D": "False"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 130,
+        "Question": "Evaluate the result of the following Python program? def foo(x):     x[0] = ['def']     x[1] = ['abc']     return id(x) q = ['abc', 'def'] print(id(q) == foo(q))",
+        "Options": {
+            "A": "Error",
+            "B": "True",
+            "C": "False",
+            "D": "None"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 131,
+        "Question": "Which of the following Python statements will result in the output: 10? A = [[1, 2, 3],      [8, 9, 10],      [7, 8, 9]]",
+        "Options": {
+            "A": "A[2][1]",
+            "B": "A[1][2]",
+            "C": "A[3][2]",
+            "D": "A[2][3]"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 132,
+        "Question": "Evaluate the result of the following Python program? x = 0 while x < 5:     print(x)     x += 1     if x == 3:         break else:     print(0)",
+        "Options": {
+            "A": "error",
+            "B": "0 1 2 0",
+            "C": "0 1 2",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 133,
+        "Question": "Evaluate the result of the following Python program? def addItem(listParam):     listParam += [1]  mylist = [5,6,7,8,9] addItem(mylist) print(len(mylist))",
+        "Options": {
+            "A": "6",
+            "B": "5",
+            "C": "2",
+            "D": "1"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 134,
+        "Question": "Evaluate the result of the following Python code? print(\"Hi {0[0]} and {0[1]}\".format(('there', 'bin')))",
+        "Options": {
+            "A": "Hello ('there', 'bin') and ('foo', 'bin')",
+            "B": "Error",
+            "C": "Hi there and bin",
+            "D": "None of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 135,
+        "Question": "Evaluate the result of the following Python code? def foo():     try:         return 25     finally:         return 84 k = foo() print(k)",
+        "Options": {
+            "A": "error, there is more than one return statement in a single try-finally block",
+            "B": "3",
+            "C": "84",
+            "D": "1"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 136,
+        "Question": "Evaluate the result of the following Python code snippet? def example(a):     a = a + '2'     a = a*2     return a >>>x=example(\"hi\") >>>print(x)",
+        "Options": {
+            "A": "indentation Error",
+            "B": "cannot perform mathematical operation on strings",
+            "C": "hi2",
+            "D": "hi2hi2"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 137,
+        "Question": "Identify the return value of trunc()?",
+        "Options": {
+            "A": "float",
+            "B": "bool",
+            "C": "int",
+            "D": "None"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 138,
+        "Question": "Evaluate the result of print (0.2 + 0.4 == 0.5)?",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "Machine dependent",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 139,
+        "Question": "Identify the type of inf?",
+        "Options": {
+            "A": "Float",
+            "B": "Integer",
+            "C": "Boolean",
+            "D": "Complex"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 140,
+        "Question": "Is the value of the expressions 5/(3*(2-1)) and 5/3*(2-1) is same?",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "Can't say",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 141,
+        "Question": "What will be the value of x in the following Python expression? x = int(53.55+2/2)",
+        "Options": {
+            "A": "53",
+            "B": "54",
+            "C": "22",
+            "D": "23"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 142,
+        "Question": "Evaluate the value of y in the following Python expression? y = 2+8*((3*12)-8)/10",
+        "Options": {
+            "A": "30.0",
+            "B": "30.8",
+            "C": "28.4",
+            "D": "24.4"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 143,
+        "Question": "Evaluate the result of the following Python expression? 34//6%3, 34//4//2",
+        "Options": {
+            "A": "(2,4)",
+            "B": "(0,3)",
+            "C": "(1,0)",
+            "D": "(3,1)"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 144,
+        "Question": "What will be the value of y in the following Python expression, if the result of that expression is 4? y>>2",
+        "Options": {
+            "A": "8",
+            "B": "4",
+            "C": "2",
+            "D": "1"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 145,
+        "Question": "Evaluate the result of the following Python expression if x=10 and y=12? x & y",
+        "Options": {
+            "A": "b1101",
+            "B": "0b1101",
+            "C": "8",
+            "D": "1101"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 146,
+        "Question": "Evaluate the result of the following Python expression? 5^12",
+        "Options": {
+            "A": "2",
+            "B": "4",
+            "C": "9",
+            "D": "12"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 147,
+        "Question": "Evaluate the result of the following Python code if a=5 and b =10? a=5 b=10 a=a^b b=a^b a=a^b print(a,b)",
+        "Options": {
+            "A": "10 20",
+            "B": "10 10",
+            "C": "10 5",
+            "D": "20 20"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 148,
+        "Question": "Evaluate the result of the following Python code? if (8 < 0) and (0 < -8):     print(\"hello\") elif (8 > 0) or False:     print(\"good\") else:     print(\"bad\")",
+        "Options": {
+            "A": "error",
+            "B": "hello",
+            "C": "good",
+            "D": "bad"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 149,
+        "Question": "Evaluate the result of the following Python expression if x=56.236? print(\"%.2f\"%x)",
+        "Options": {
+            "A": "56.00",
+            "B": "0056.236",
+            "C": "56.23",
+            "D": "56.24"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 150,
+        "Question": "Evaluate the result of the following Python expression if y=22.19? print(\"%5.2f\"%y)",
+        "Options": {
+            "A": "22.1900",
+            "B": "22.00000",
+            "C": "22.20",
+            "D": "22.19"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 151,
+        "Question": "Identify the option that outputs: “There are 4 blue birds.”",
+        "Options": {
+            "A": "'There are %g %d birds.' %4 %blue",
+            "B": "'There are %d %s birds.' 4, blue",
+            "C": "'There are %s %d birds.' %[4, blue]",
+            "D": "'There are %d %s birds.' %(4, blue)"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 152,
+        "Question": "Evaluate the result of the following Python code? x = 1 while True:     if x%2 == 0:         break     print(x)     x += 2",
+        "Options": {
+            "A": "1",
+            "B": "1 2",
+            "C": "1 2 3 4 5 6 …",
+            "D": "1 3 5 7 9 11 …"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 153,
+        "Question": "Evaluate the result of the following Python code? x = 2 while True:     if x%3 == 0:         break     print(x)     x += 2",
+        "Options": {
+            "A": "2 4 6 8 10 …",
+            "B": "2 4",
+            "C": "2 3",
+            "D": "error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 154,
+        "Question": "Evaluate the result of the following Python code? y = 0 while y < 5:     print(y)     y += 1     if y == 3:         break else:     print(0)",
+        "Options": {
+            "A": "0 1 2 0",
+            "B": "none of the mentioned",
+            "C": "error",
+            "D": "0 1 2"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 155,
+        "Question": "Evaluate the result of the following Python code? x = \"pqrst\" i = \"z\" while i in x:     print(i, end=\" \")",
+        "Options": {
+            "A": "pqrst",
+            "B": "i i i i i i …",
+            "C": "x x x x x",
+            "D": "no output"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 156,
+        "Question": "Evaluate the result of the following Python code? x = \"pqrst\" i = \"p\" while i in x:     print(i, end = \" \")",
+        "Options": {
+            "A": "no output",
+            "B": "i i i i i i …",
+            "C": "p p p p p p …",
+            "D": "error"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 157,
+        "Question": "Evaluate the result of the following Python code? x = \"pqrst\" i = \"p\" while i in x:     x = x[:-1]     print(i, end = \" \")",
+        "Options": {
+            "A": "i i i i i i",
+            "B": "p p p p p p",
+            "C": "a a a",
+            "D": "none of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 158,
+        "Question": "Evaluate the result of the following Python code? x = 'pqrs' for i in x:     print(i)     x.upper()",
+        "Options": {
+            "A": "p Q R S",
+            "B": "p q r s",
+            "C": "P Q R S",
+            "D": "error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 159,
+        "Question": "Evaluate the result of the following Python code? x = 'efgh' for i in x:     print(i.upper())",
+        "Options": {
+            "A": "e f g h",
+            "B": "E F G H",
+            "C": "e F G H",
+            "D": "error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 160,
+        "Question": "Evaluate the result of the following Python code? x = 'pqrs' for i in range(x):     print(i)",
+        "Options": {
+            "A": "p q r s",
+            "B": "0 1 2 3",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 161,
+        "Question": "Evaluate the result of the following Python code snippet? x = 'pqrs' for i in range(len(x)):     i[x].upper() print (x)",
+        "Options": {
+            "A": "pqrs",
+            "B": "PQRS",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 162,
+        "Question": "Evaluate the result of the following Python code snippet? x = 'pqrs' for i in range(len(x)):     x = 'p'     print(x)",
+        "Options": {
+            "A": "p",
+            "B": "pqrs pqrs pqrs",
+            "C": "p p p p",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 163,
+        "Question": "Evaluate the result of the following Python code? x = 456 for i in x:     print(i)",
+        "Options": {
+            "A": "4 5 6",
+            "B": "456",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 164,
+        "Question": "Evaluate the result of the following Python code? d = {10: 'a', 11: 'b', 12: 'c'} for x, y in d.items():     print(x, y)",
+        "Options": {
+            "A": "10 11 12",
+            "B": "a b c",
+            "C": "10 a 11 b 12 c",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 165,
+        "Question": "Evaluate the result of the following Python code? d = {0: 'd', 1: 'e', 2: 'f'} for x in d.values():     print(x)",
+        "Options": {
+            "A": "0 1 2",
+            "B": "d e f",
+            "C": "0 d 1 e 2 f",
+            "D": "none of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 166,
+        "Question": "Evaluate the result of the following Python code? d = {0: 'x', 1: 'y', 2: 'z'} for x in d.values():     print(d[x])",
+        "Options": {
+            "A": "0 1 2",
+            "B": "a b c",
+            "C": "0 x 1 y 2 z",
+            "D": "error"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 167,
+        "Question": "Evaluate the result of the following Python code? for y in range(0):     print(y)",
+        "Options": {
+            "A": "0",
+            "B": "no output",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 168,
+        "Question": "Evaluate the result of the following Python code? for i in range(9.0):     print(i)",
+        "Options": {
+            "A": "0.0 1.0",
+            "B": "0 1 2",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 169,
+        "Question": "Evaluate the result of the following Python code? for x in range(float('inf')):     print (x)",
+        "Options": {
+            "A": "0.0 0.1 0.2 0.3 …",
+            "B": "0 1 2 3 …",
+            "C": "0.0 1.0 2.0 3.0 …",
+            "D": "error"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 170,
+        "Question": "Evaluate the result of the following Python code? for y in range(int(float('inf'))):     print (y)",
+        "Options": {
+            "A": "0.0 0.1 0.2 0.3 …",
+            "B": "0 1 2 3 …",
+            "C": "0.0 1.0 2.0 3.0 …",
+            "D": "error"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 171,
+        "Question": "Evaluate the result of the following Python code snippet? for x in 'abcd'[::-1]: print (i)",
+        "Options": {
+            "A": "a b c d",
+            "B": "error",
+            "C": "d c b a",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 172,
+        "Question": "Evaluate the result of the following Python code snippet? for x in '': print (x)",
+        "Options": {
+            "A": "None",
+            "B": "no output",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 173,
+        "Question": "Evaluate the result of the following Python code? for x in range(10): if x == 5: break else: print(x) else: print(\"Here\")",
+        "Options": {
+            "A": "0 1 2 3 4 Here",
+            "B": "0 1 2 3 4 5 Here",
+            "C": "1 2 3 4 5",
+            "D": "0 1 2 3 4"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 174,
+        "Question": "Evaluate the result of the following Python code? st = \"my name is z\" for i in st.split(): print (i, end=\", \")",
+        "Options": {
+            "A": "m, y, , n, a, m, e, , i, s, , z,",
+            "B": "m, y, , n, a, m, e, , i, s, , z",
+            "C": "my, name, is, z,",
+            "D": "error"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 175,
+        "Question": "Evaluate the result of the following Python code snippet? a = [0, 1, 2, 3, 4, 5] i = -2 for i not in a: print(i) i += 1",
+        "Options": {
+            "A": "-2 -1",
+            "B": "0",
+            "C": "none of the mentioned",
+            "D": "error"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 176,
+        "Question": "Evaluate the result of the following Python statement? >>>print('hi' 'there')",
+        "Options": {
+            "A": "Error",
+            "B": "Output equivalent to print ‘hi\\there’",
+            "C": "hithere",
+            "D": "hi there"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 177,
+        "Question": "Evaluate the result of the following Python code? >>>y1=\"helloworld\" >>>y1[::-1]",
+        "Options": {
+            "A": "world",
+            "B": "hello",
+            "C": "dlrowolleh",
+            "D": "helloworld"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 178,
+        "Question": "Evaluate the result of the following Python code? >>>ex1 = \"snow world\" >>>print(\"%s\" % ex1[4:7])",
+        "Options": {
+            "A": "sn",
+            "B": "world",
+            "C": "wo",
+            "D": "rl"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 179,
+        "Question": "Evaluate the result of the following Python code? >>>ex1 = \"hello world\" >>>ex1[3] = 's' >>>print ex1",
+        "Options": {
+            "A": "hello",
+            "B": "hello world",
+            "C": "Error",
+            "D": "he world"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 180,
+        "Question": "Provided a string example=\"billy\" what is the output of example.count('l')?",
+        "Options": {
+            "A": "2",
+            "B": "1",
+            "C": "None",
+            "D": "0"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 181,
+        "Question": "Evaluate the result of the following Python code? >>>example = \"benny\" >>>example.find(\"e\")",
+        "Options": {
+            "A": "Error",
+            "B": "-1",
+            "C": "1",
+            "D": "0"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 182,
+        "Question": "Evaluate the result of the following Python statement? >>>chr(ord('B'))",
+        "Options": {
+            "A": "21",
+            "B": "B",
+            "C": "a",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 183,
+        "Question": "Suppose p is \"\\t\\tHello\\n\", what is p.strip()?",
+        "Options": {
+            "A": "\\t\\tHello\\n",
+            "B": "none",
+            "C": "\\t\\tHELLO\\n",
+            "D": "Hello"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 184,
+        "Question": "The format function returns ___________ when applied on a string",
+        "Options": {
+            "A": "Error",
+            "B": "str",
+            "C": "bool",
+            "D": "int"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 185,
+        "Question": "What will be the output of the “hi” +1+2+3?",
+        "Options": {
+            "A": "hi123",
+            "B": "hi",
+            "C": "Error",
+            "D": "hi6"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 186,
+        "Question": "Suppose p=\"hello\" what will be the return value of type(p)?",
+        "Options": {
+            "A": "int",
+            "B": "bool",
+            "C": "str",
+            "D": "String"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 187,
+        "Question": "In order to return the length of string s what command do we execute?",
+        "Options": {
+            "A": "size(s)",
+            "B": "len(s) only",
+            "C": "len(s) OR s.__len__()",
+            "D": "s.size()"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 188,
+        "Question": "Evaluate the result of the following Python code? print(\"pqrst\".center(0))",
+        "Options": {
+            "A": "cd",
+            "B": "pqrst",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 189,
+        "Question": "Evaluate the result of the following Python code? print(\"pqrst\".center(7, 1))",
+        "Options": {
+            "A": "1abcdef",
+            "B": "abcdef1",
+            "C": "abcdef",
+            "D": "error"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 190,
+        "Question": "Evaluate the result of the following Python code? print(\"ayyzayzazayy\".count('yy'))",
+        "Options": {
+            "A": "2",
+            "B": "0",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 191,
+        "Question": "Evaluate the result of the following Python code? print(\"ayyzayzazayy\".count('yy', 1))",
+        "Options": {
+            "A": "2",
+            "B": "0",
+            "C": "1",
+            "D": "none of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 192,
+        "Question": "Evaluate the result of the following Python code? print(\"ayyzayzazayy\".count('yy', 2))",
+        "Options": {
+            "A": "2",
+            "B": "0",
+            "C": "1",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 193,
+        "Question": "Evaluate the result of the following Python code? print(\"ayyzayzazayy\".count('ayy', 0, 100))",
+        "Options": {
+            "A": "2",
+            "B": "0",
+            "C": "1",
+            "D": "error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 194,
+        "Question": "Evaluate the result of the following Python code? print('xyz'.encode())",
+        "Options": {
+            "A": "xyz",
+            "B": "‘xyz’",
+            "C": "b’xyz’",
+            "D": "h’xyz’"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 195,
+        "Question": "What is the default value of encoding in encode()?",
+        "Options": {
+            "A": "utf-8",
+            "B": "qwerty",
+            "C": "ascii",
+            "D": "utf-16"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 196,
+        "Question": "Evaluate the result of the following Python code? print(\"ayyzayzazayy\".endswith(\"ayy\"))",
+        "Options": {
+            "A": "1",
+            "B": "True",
+            "C": "3",
+            "D": "2"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 197,
+        "Question": "Evaluate the result of the following Python code? print(\"ayyzayzazayy\".endswith(\"ayy\", 0, 2))",
+        "Options": {
+            "A": "0",
+            "B": "1",
+            "C": "True",
+            "D": "False"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 198,
+        "Question": "Evaluate the result of the following Python code? print('{0:.3}'.format(1/3))",
+        "Options": {
+            "A": "0.333333",
+            "B": "0.333",
+            "C": "0.333333:.2",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 199,
+        "Question": "Evaluate the result of the following Python code? print('xy12'.isalnum())",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 200,
+        "Question": "Evaluate the result of the following Python code? print('x Y'.isalpha())",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 201,
+        "Question": "Evaluate the result of the following Python code snippet? print('0xa'.isdigit())",
+        "Options": {
+            "A": "False",
+            "B": "True",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 202,
+        "Question": "Evaluate the result of the following Python code snippet? print('hello'.isidentifier())",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 203,
+        "Question": "Evaluate the result of the following Python code snippet? print('__hello__'.isidentifier())",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 204,
+        "Question": "Evaluate the result of the following Python code snippet? print('forin'.isidentifier())",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 205,
+        "Question": "Evaluate the result of the following Python code snippet? print(''''''.isspace())",
+        "Options": {
+            "A": "False",
+            "B": "True",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 206,
+        "Question": "Evaluate the result of the following Python code snippet? print('\t'.isspace())",
+        "Options": {
+            "A": "False",
+            "B": "True",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 207,
+        "Question": "Evaluate the result of the following Python code snippet? print('WelcomeBack'.istitle())",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 208,
+        "Question": "Evaluate the result of the following Python code snippet? print('Welcome'.istitle())",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 209,
+        "Question": "Evaluate the result of the following Python code? print('Hello!2@#World'.istitle())",
+        "Options": {
+            "A": "False",
+            "B": "True",
+            "C": "None",
+            "D": "error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 210,
+        "Question": "Evaluate the result of the following Python code? print('1Xn@'.lower())",
+        "Options": {
+            "A": "n",
+            "B": "1xn@",
+            "C": "rn",
+            "D": "r"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 211,
+        "Question": "Evaluate the result of the following Python code? print('ayyzaayayy'.lstrip('ayy'))",
+        "Options": {
+            "A": "error",
+            "B": "zaayayy",
+            "C": "z",
+            "D": "zaay"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 212,
+        "Question": "Evaluate the result of the following Python code? print('abpqefpqgh'.partition('pq'))",
+        "Options": {
+            "A": "('ab', 'pq', 'ef', 'pq', 'gh')",
+            "B": "('ab', 'pq', 'efpqgh')",
+            "C": "('abpqef', 'pq', 'gh')",
+            "D": "error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 213,
+        "Question": "Evaluate the result of the following Python code snippet? print('xyyxyyxyxyxxy'.replace('xy', '12', 0))",
+        "Options": {
+            "A": "xyyxyyxyxyx12",
+            "B": "12y12y1212x12",
+            "C": "12yxyyxyxyxxy",
+            "D": "xyyxyyxyxyxxy"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 214,
+        "Question": "Evaluate the result of the following Python code snippet? print('xyyxyyxyxyxxy'.replace('xy', '12', 100))",
+        "Options": {
+            "A": "xyyxyyxyxyxxy",
+            "B": "error",
+            "C": "none of the mentioned",
+            "D": "12y12y1212x12"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 215,
+        "Question": "Evaluate the result of the following Python code snippet? print('abcdefcdghcd'.split('cd', 0))",
+        "Options": {
+            "A": "error",
+            "B": "'abcdefcdghcd'",
+            "C": "['abcdefcdghcd']",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 216,
+        "Question": "Evaluate the result of the following Python code snippet? print('abcdefcdghcd'.split('cd', -1))",
+        "Options": {
+            "A": "['ab', 'ef', 'gh']",
+            "B": "('ab', 'ef', 'gh', ”)",
+            "C": "('ab', 'ef', 'gh')",
+            "D": "['ab', 'ef', 'gh', ”]"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 217,
+        "Question": "Evaluate the result of the following Python code snippet? print('pq rs tu'.title())",
+        "Options": {
+            "A": "pq rs tu",
+            "B": "error",
+            "C": "Pq Rs Tu",
+            "D": "None of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 218,
+        "Question": "Evaluate the result of the following Python code snippet? print('abcd'.translate({97: 98, 98: 99, 99: 100}))",
+        "Options": {
+            "A": "bcdc",
+            "B": "none of the mentioned",
+            "C": "error",
+            "D": "abcd"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 219,
+        "Question": "What function do we use to shuffle the list(say list1)?",
+        "Options": {
+            "A": "random.shuffle(list1)",
+            "B": "shuffle(list1)",
+            "C": "list1.shuffle()",
+            "D": "random.shuffleList(list1)"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 220,
+        "Question": "Say list1 is [4, 2, 2, 4, 5, 2, 1, 0], Identify the correct syntax for slicing operation?",
+        "Options": {
+            "A": "print(list1[2:])",
+            "B": "print(list1[:2])",
+            "C": "all of the mentioned",
+            "D": "print(list1[:-2])"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 221,
+        "Question": "To insert 8 to the third position in list1, we use which command?",
+        "Options": {
+            "A": "list1.insert(3, 8)",
+            "B": "list1.insert(2, 8)",
+            "C": "list1.add(3, 8)",
+            "D": "list1.append(3, 8)"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 222,
+        "Question": "Identify the command to remove string “hi” from list1.",
+        "Options": {
+            "A": "list1.remove(“hi”)",
+            "B": "list1.remove(hi)",
+            "C": "list1.removeAll(“hi”)",
+            "D": "list1.removeOne(“hi”)"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 223,
+        "Question": "Say, listExample is [3, 4, 5, 20, 5, 25, 1, 3], Identify list1 after listExample.pop(1)?",
+        "Options": {
+            "A": "[3, 4, 5, 20, 5, 25, 1, 3]",
+            "B": "[1, 3, 3, 4, 5, 5, 20, 25]",
+            "C": "[1, 3, 4, 5, 20, 5, 25]",
+            "D": "[3, 5, 20, 5, 25, 1, 3]"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 224,
+        "Question": "Say listExample is [3, 4, 5, 20, 5, 25, 1, 3], Identify list1 after listExample.pop()?",
+        "Options": {
+            "A": "[3, 5, 20, 5, 25, 1, 3]",
+            "B": "[1, 3, 3, 4, 5, 5, 20, 25]",
+            "C": "[3, 4, 5, 20, 5, 25, 1]",
+            "D": "[1, 3, 4, 5, 20, 5, 25]"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 225,
+        "Question": "Evaluate the result of the following Python code? def f(i, values = []): values.append(i) return values f(4) f(5) v = f(6) print(v)",
+        "Options": {
+            "A": "[4] [5] [6]",
+            "B": "[4] [4, 5] [4, 5, 6]",
+            "C": "[4, 5, 6]",
+            "D": "4 5 6"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 226,
+        "Question": "Evaluate the result of the following Python code? names1 = ['Bob', 'Betty', 'John'] if 'bob' in names1: print(1) else: print(2)",
+        "Options": {
+            "A": "None",
+            "B": "1",
+            "C": "2",
+            "D": "Error"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 227,
+        "Question": "Evaluate the result of the following Python code? def addItem(listParam): listParam += [1] mylist = [31, 32, 33, 34] addItem(mylist) print(len(mylist))",
+        "Options": {
+            "A": "1",
+            "B": "4",
+            "C": "5",
+            "D": "8"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 228,
+        "Question": "Evaluate the result of the following Python code? values = [[3, 4, 5, 1], [33, 6, 1, 2]] v = values[0][0] for lst in values: for element in lst: if v > element: v = element print(v)",
+        "Options": {
+            "A": "6",
+            "B": "3",
+            "C": "5",
+            "D": "1"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 229,
+        "Question": "Evaluate the result of the following Python code? data = [[[11, 12], [13, 14]], [[15, 16], [17, 18]]] print(data[1][0][0])",
+        "Options": {
+            "A": "11",
+            "B": "12",
+            "C": "14",
+            "D": "15"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 230,
+        "Question": "Evaluate the result of the following Python code? points = [[10, 20], [30, 1.5], [0.5, 0.5]] points.sort() print(points)",
+        "Options": {
+            "A": "[[10, 20], [30, 1.5], [0.5, 0.5]]",
+            "B": "[[30, 1.5], [10, 20], [0.5, 0.5]]",
+            "C": "[[0.5, 0.5], [10, 20], [30, 1.5]]",
+            "D": "[[0.5, 0.5], [30, 1.5], [10, 20]]"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 231,
+        "Question": "Evaluate the result of the following Python code? a=[100,230,560,[780]] b=list(a) a[3][0]=950 a[1]=340 print(b)",
+        "Options": {
+            "A": "[100,340,560,[950]]",
+            "B": "[100,230,560,[780]]",
+            "C": "[100,230,560,[950]]",
+            "D": "[100,340,560,[780]]"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 232,
+        "Question": "Evaluate the result of the following Python code? lst=[3,4,6,1,2] lst[1:2]=[7,8] print(lst)",
+        "Options": {
+            "A": "[3,4,6,7,8]",
+            "B": "Syntax error",
+            "C": "[3,[7,8],6,1,2]",
+            "D": "[3, 7, 8, 6, 1, 2]"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 233,
+        "Question": "Evaluate the result of the following Python code? a= [10, 20, 30, 40, 50] for i in range(1, 5): a[i-1] = a[i] for i in range(0, 5): print(a[i],end = ' ')",
+        "Options": {
+            "A": "5 5 1 2 3",
+            "B": "50 10 20 30 40",
+            "C": "20 30 40 50 10",
+            "D": "20 30 40 50 50"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 234,
+        "Question": "Evaluate the result of the following Python code snippet? print([i.lower() for i in 'HELLO'])",
+        "Options": {
+            "A": "hello",
+            "B": "'hello'",
+            "C": "['hello']",
+            "D": "['h', 'e', 'l', 'l', 'o']"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 235,
+        "Question": "Evaluate the result of the following Python code? s=['pune', 'mumbai', 'delhi'] [(w.upper(), len(w)) for w in s]",
+        "Options": {
+            "A": "[('PUNE', 4), ('MUMBAI', 6), ('DELHI', 5)]",
+            "B": "['PUNE', 4, 'MUMBAI', 6, 'DELHI', 5]",
+            "C": "[PUNE, 4, MUMBAI, 6, DELHI, 5]",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 236,
+        "Question": "Evaluate the result of the following Python code? l=['good', 'oh!', 'excellent!', '#450'] print([n for n in l if n.isalpha() or n.isdigit()])",
+        "Options": {
+            "A": "['good', 'oh', 'excellent', '450']",
+            "B": "['oh!', 'excellent!', '#450']",
+            "C": "['good', '#450']",
+            "D": "['good']"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 237,
+        "Question": "Evaluate the result of the following Python code? A = [[11, 21, 31], [41, 51, 61], [71, 81, 91]] [A[row][1] for row in (0, 1, 2)]",
+        "Options": {
+            "A": "[71, 81, 91]",
+            "B": "[41, 51, 61]",
+            "C": "[21, 51, 81]",
+            "D": "[11, 41, 71]"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 238,
+        "Question": "Evaluate the result of the following Python code? A = [[11, 21, 31], [41, 51, 61], [71, 81, 91]] [A[i][i] for i in range(len(A))]",
+        "Options": {
+            "A": "[11, 51, 91]",
+            "B": "[31, 51, 71]",
+            "C": "[41, 51, 61]",
+            "D": "[21, 51, 81]"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 239,
+        "Question": "Evaluate the result of the following Python code? >>>t = (10, 20, 40, 30, 80, 90) >>>[t[i] for i in range(0, len(t), 2)]",
+        "Options": {
+            "A": "[20, 30, 90]",
+            "B": "[10, 20, 40, 30, 80, 90]",
+            "C": "[10, 40, 80]",
+            "D": "(10, 40, 80)"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 240,
+        "Question": "Evaluate the result of the following Python code? >>>t1 = (11, 21, 41, 31) >>>t2 = (11, 21, 31, 41) >>>t1 < t2",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "Error",
+            "D": "None"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 241,
+        "Question": "Evaluate the result of the following Python code? >>>my_tuple = (11, 21, 31, 41) >>>my_tuple.append( (51, 61, 71) ) >>>print len(my_tuple)",
+        "Options": {
+            "A": "1",
+            "B": "2",
+            "C": "5",
+            "D": "Error"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 242,
+        "Question": "If a=(11,21,31,41), a[1:-1] is _________",
+        "Options": {
+            "A": "Error, tuple slicing doesn’t exist",
+            "B": "[21,31]",
+            "C": "(21,31,41)",
+            "D": "(21,31)"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 243,
+        "Question": "Evaluate the result of the following Python code? >>> a=(11,21,(41,51)) >>> b=(11,21,(31,41)) >>> a<b",
+        "Options": {
+            "A": "False",
+            "B": "True",
+            "C": "Error, < operator is not valid for tuples",
+            "D": "Error, < operator is valid for tuples but not if there are sub-tuples"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 244,
+        "Question": "Evaluate the result of the following Python code? >>> a=(20,30,40) >>> sum(a,30)",
+        "Options": {
+            "A": "Too many arguments for sum() method",
+            "B": "The method sum() doesn't exist for tuples",
+            "C": "120",
+            "D": "90"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 245,
+        "Question": "Evaluate the result of the following Python code? >>> a=(0,11,21,31,41) >>> b=slice(0,2) >>> a[b]",
+        "Options": {
+            "A": "Invalid syntax for slicing",
+            "B": "[0,21]",
+            "C": "(0,11)",
+            "D": "(0,21)"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 246,
+        "Question": "Is the following Python code valid? >>> a,b,c=10,20,30 >>> a,b,c",
+        "Options": {
+            "A": "Yes, [10,20,30] is printed",
+            "B": "No, invalid syntax",
+            "C": "Yes, (10,20,30) is printed",
+            "D": "1 is printed"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 247,
+        "Question": "Is the following Python code valid? >>> a,b=11,21,31",
+        "Options": {
+            "A": "Yes, this is an example of tuple unpacking. a=11 and b=21",
+            "B": "Yes, this is an example of tuple unpacking. a=(11,21) and b=31",
+            "C": "No, too many values to unpack",
+            "D": "Yes, this is an example of tuple unpacking. a=11 and b=(21,31)"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 248,
+        "Question": "Evaluate the result of the following Python code? >>> a=(10,20) >>> b=(30,40) >>> c=a+b >>> c",
+        "Options": {
+            "A": "(40,60)",
+            "B": "(10,20,30,40)",
+            "C": "Error as tuples are immutable",
+            "D": "None"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 249,
+        "Question": "Evaluate the result of the following Python code? >>> a,b=60,70 >>> a,b=b,a >>> a,b",
+        "Options": {
+            "A": "(60,70)",
+            "B": "Invalid syntax",
+            "C": "(70,60)",
+            "D": "Nothing is printed"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 250,
+        "Question": "Is the following Python code valid? >>> a=21,31,41,51 >>> a",
+        "Options": {
+            "A": "Yes, 21 is printed",
+            "B": "Yes, [21,31,41,51] is printed",
+            "C": "No, too many values to unpack",
+            "D": "Yes, (21,31,41,51) is printed"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 251,
+        "Question": "Evaluate the result of the following Python code? >>> a=(21,31,11,51) >>> a.sort() >>> a",
+        "Options": {
+            "A": "(11,21,31,51)",
+            "B": "(21,31,11,51)",
+            "C": "None",
+            "D": "Error, tuple has no attribute sort"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 252,
+        "Question": "Is the following Python code valid? >>> a=(10,20,30) >>> b=a.update(40,)",
+        "Options": {
+            "A": "Yes, a=(10,20,30,40) and b=(10,20,30,40)",
+            "B": "Yes, a=(10,20,30) and b=(10,20,30,40)",
+            "C": "No because tuples are immutable",
+            "D": "No because wrong syntax for update() method"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 253,
+        "Question": "Which of the following is not the correct syntax for creating a set?",
+        "Options": {
+            "A": "set([[11,21],[31,41]])",
+            "B": "set([11,21,21,31,41])",
+            "C": "set((11,21,31,41))",
+            "D": "{11,21,31,41}"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 254,
+        "Question": "Evaluate the result of the following Python code? nums = set([10,10,20,30,30,30,40,40]) print(len(nums))",
+        "Options": {
+            "A": "7",
+            "B": "Error, invalid syntax for formation of set",
+            "C": "4",
+            "D": "8"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 255,
+        "Question": "Evaluate the result of the following Python code? >>> a={40,50,60} >>> b={20,80,60} >>> a+b",
+        "Options": {
+            "A": "{40,50,60,20,80}",
+            "B": "{40,50,60,20,80,60}",
+            "C": "Error as unsupported operand type for sets",
+            "D": "Error as the duplicate item 6 is present in both sets"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 256,
+        "Question": "Evaluate the result of the following Python code? >>> a={41,51,61} >>> b={21,81,61} >>> a-b",
+        "Options": {
+            "A": "{41,51}",
+            "B": "{61}",
+            "C": "Error as unsupported operand type for set data type",
+            "D": "Error as the duplicate item 6 is present in both sets"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 257,
+        "Question": "Evaluate the result of the following Python code? >>> a={51,61,71,81} >>> b={71,81,101,111} >>> a^b",
+        "Options": {
+            "A": "{51,61,71,81,101,111}",
+            "B": "{71,81}",
+            "C": "Error as unsupported operand type of set data type",
+            "D": "{51,61,101,111}"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 258,
+        "Question": "Evaluate the result of the following Python code? >>> a={30,40,50} >>> b={50,60,70} >>> a|b",
+        "Options": {
+            "A": "Invalid operation",
+            "B": "{30, 40, 50, 60, 70}",
+            "C": "{50}",
+            "D": "{30,40,60,70}"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 259,
+        "Question": "Is the following Python code valid? a={31,41,{71,51}} print(a[2][0])",
+        "Options": {
+            "A": "Yes, 71 is printed",
+            "B": "Error, elements of a set can’t be printed",
+            "C": "Error, subsets aren’t allowed",
+            "D": "Yes, {71,51} is printed"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 260,
+        "Question": "Identify which of these about a frozenset is not true?",
+        "Options": {
+            "A": "Immutable data type",
+            "B": "Allows duplicate values",
+            "C": "Data type with unordered values",
+            "D": "Mutable data type"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 261,
+        "Question": "Identify the syntax of the following Python code? >>> a=frozenset(set([51,61,71])) >>> a",
+        "Options": {
+            "A": "{51,61,71}",
+            "B": "frozenset({51,61,71})",
+            "C": "Error, not possible to convert set into frozenset",
+            "D": "Syntax error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 262,
+        "Question": "Is the following Python code valid? >>> a=frozenset([50,60,70]) >>> a >>> a.add(50)",
+        "Options": {
+            "A": "Yes, now a is {50,50,60,70}",
+            "B": "No, frozen set is immutable",
+            "C": "No, invalid syntax for add method",
+            "D": "Yes, now a is {50,60,70}"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 263,
+        "Question": "Evaluate the result of the following Python code? >>> a={31,41,51} >>> a.update([11,21,31]) >>> a",
+        "Options": {
+            "A": "Error, no method called update for set data type",
+            "B": "{11, 21, 31, 41, 51}",
+            "C": "Error, list can't be added to set",
+            "D": "Error, duplicate item present in list"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 264,
+        "Question": "Evaluate the result of the following Python code? >>> a={11,21,31} >>> b=a.copy() >>> b.add(41) >>> a",
+        "Options": {
+            "A": "{11,21,31}",
+            "B": "Error, invalid syntax for add",
+            "C": "{11,21,31,41}",
+            "D": "Error, copying of sets isn't allowed"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 265,
+        "Question": "Evaluate the result of the following Python code? >>> a={10,20,30} >>> b=a.add(40) >>> b",
+        "Options": {
+            "A": "0",
+            "B": "{10,20,30,40}",
+            "C": "{10,20,30}",
+            "D": "Nothing is printed"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 266,
+        "Question": "Evaluate the result of the following Python code? a={10,20,30} b={10,20,30} c=a.issubset(a) print(c)",
+        "Options": {
+            "A": "True",
+            "B": "Error, no method called issubset() exists",
+            "C": "Syntax error for issubset() method",
+            "D": "False"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 267,
+        "Question": "Is the following Python code valid? a={10,20,30} b={10,20,30,40} c=a.issuperset(b) print(c)",
+        "Options": {
+            "A": "False",
+            "B": "True",
+            "C": "Syntax error for issuperset() method",
+            "D": "Error, no method called issuperset() exists"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 268,
+        "Question": "Evaluate the result of the following Python code snippet? d = {'ben':40, 'peter':45} print(list(d.keys()))",
+        "Options": {
+            "A": "[“ben”, “peter”]",
+            "B": "[“ben”:40, “peter”:45]",
+            "C": "('ben', 'peter')",
+            "D": "('ben':40, 'peter':45)"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 269,
+        "Question": "Which of the following is not a declaration of the dictionary?",
+        "Options": {
+            "A": "{1: 'C', 2: 'D'}",
+            "B": "dict([[1,'C'],[2,'D']])",
+            "C": "{1,'C',2'D'}",
+            "D": "{}"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 270,
+        "Question": "Evaluate the result of the following Python code snippet? a={10:'A',20:'B',30:'C'} for i,j in a.items(): print(i,j,end=' ')",
+        "Options": {
+            "A": "10 A 20 B 30 C",
+            "B": "10 20 30",
+            "C": "A B C",
+            "D": "10:'A' 20:'B' 30:'C'"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 271,
+        "Question": "Evaluate the result of the following Python code snippet? a={11:'A',21:'B',31:'C'} print(a.get(11,41))",
+        "Options": {
+            "A": "1",
+            "B": "A",
+            "C": "4",
+            "D": "Invalid syntax for get method"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 272,
+        "Question": "Evaluate the result of the following Python code snippet? a={10:'A',20:'B',30:'C'} print(a.get(50,40))",
+        "Options": {
+            "A": "Error, invalid syntax",
+            "B": "A",
+            "C": "50",
+            "D": "40"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 273,
+        "Question": "Evaluate the result of the following Python code? a={10:'A',20:'B',30:'C'} b={40:'D',50:'E'} a.update(b) print(a)",
+        "Options": {
+            "A": "{10: 'A', 20: 'B', 30: 'C'}",
+            "B": "Method update() doesn't exist for dictionaries",
+            "C": "{10: 'A', 20: 'B', 30: 'C', 40: 'D', 50: 'E'}",
+            "D": "{40: 'D', 50: 'E'}"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 274,
+        "Question": "Evaluate the result of the following Python code? a={11:'A',21:'B',31:'C'} b=a.copy() b[21]='D' print(a)",
+        "Options": {
+            "A": "Error, copy() method doesn’t exist for dictionaries",
+            "B": "{11: 'A', 21: 'B', 31: 'C'}",
+            "C": "{11: 'A', 21: 'D', 31: 'C'}",
+            "D": "“None” is printed"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 275,
+        "Question": "Evaluate the result of the following Python code? a={10:5,20:3,30:4} print(a.pop(40,90))",
+        "Options": {
+            "A": "90",
+            "B": "30",
+            "C": "Too many arguments for pop() method",
+            "D": "40"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 276,
+        "Question": "Evaluate the result of the following Python code? >>> a={11:\"A\",21:\"B\",31:\"C\"} >>> a.items()",
+        "Options": {
+            "A": "Syntax error",
+            "B": "dict_items([('A'), ('B'), ('C')])",
+            "C": "dict_items([(11,21,31)])",
+            "D": "dict_items([(11, 'A'), (21, 'B'), (31, 'C')])"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 277,
+        "Question": "Evaluate the result of the following Python code snippet? >>> a={10:\"A\",20:\"B\",30:\"C\"} >>> del a",
+        "Options": {
+            "A": "method del doesn't exist for the dictionary",
+            "B": "del deletes the values in the dictionary",
+            "C": "del deletes the entire dictionary",
+            "D": "del deletes the keys in the dictionary"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 278,
+        "Question": "Evaluate the result of the following Python code snippet? a={} a['a']=10 a['b']=[20,30,40] print(a)",
+        "Options": {
+            "A": "Exception is thrown",
+            "B": "{'b': [20], 'a': 10}",
+            "C": "{'b': [20], 'a': [30]}",
+            "D": "{'a': 10, 'b': [20, 30, 40]}"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 279,
+        "Question": "Evaluate the result of the following Python code? def maximum(x, y): if x > y: return x elif x == y: return 'The numbers are equal' else: return y print(maximum(21, 31))",
+        "Options": {
+            "A": "21",
+            "B": "31",
+            "C": "The numbers are equal",
+            "D": "None of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 280,
+        "Question": "For what is hasattr(obj,name) used?",
+        "Options": {
+            "A": "check if an attribute exists or not",
+            "B": "delete an attribute",
+            "C": "access the attribute of the object",
+            "D": "set an attribute"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 281,
+        "Question": "For what is delattr(obj,name) used?",
+        "Options": {
+            "A": "print deleted attribute",
+            "B": "set an attribute",
+            "C": "check if an attribute is deleted or not",
+            "D": "delete an attribute"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 282,
+        "Question": "Say B is a subclass of A, to invoke the __init__ method in A from B, what is the line of code you should write?",
+        "Options": {
+            "A": "A.__init__(b)",
+            "B": "B.__init__(self)",
+            "C": "A.__init__(self)",
+            "D": "B.__init__(a)"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 283,
+        "Question": "Is the following Python code valid? try: # Do something except: # Do something finally: # Do something",
+        "Options": {
+            "A": "yes",
+            "B": "no, finally cannot be used with except",
+            "C": "no, finally must come before except",
+            "D": "no, there is no such thing as finally"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 284,
+        "Question": "Evaluate the result of the following Python code? lst = [11, 21, 31] lst[31]",
+        "Options": {
+            "A": "NameError",
+            "B": "ValueError",
+            "C": "IndexError",
+            "D": "TypeError"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 285,
+        "Question": "Evaluate the result of the following Python code? x[5]",
+        "Options": {
+            "A": "IndexError",
+            "B": "ValueError",
+            "C": "TypeError",
+            "D": "NameError"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 286,
+        "Question": "Evaluate the result of the following Python code, if the time module has already been imported? 5 + '4'",
+        "Options": {
+            "A": "NameError",
+            "B": "IndexError",
+            "C": "TypeError",
+            "D": "ValueError"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 287,
+        "Question": "What exceptions are raised as a result of an error in opening a particular file?",
+        "Options": {
+            "A": "IOError",
+            "B": "TypeError",
+            "C": "ImportError",
+            "D": "ValueError"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 288,
+        "Question": "What are Migrations in Django?",
+        "Options": {
+            "A": "Migrations are files where Django stores changes to your models.",
+            "B": "All of the above",
+            "C": "They are created when you run makemigrations command.",
+            "D": "They are files saved in migrations directory."
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 289,
+        "Question": "What does admin.autodiscover() do in Django?",
+        "Options": {
+            "A": "It will look through INSTALLED_APPS when admin is requested.",
+            "B": "If the installed apps have admin.py it will execute them.",
+            "C": "None of the above",
+            "D": "Both a and b"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 290,
+        "Question": "What is request.META in request object used in Django?",
+        "Options": {
+            "A": "It is a python dictionary.",
+            "B": "All of the above",
+            "C": "It contains the user’s IP address and machine specifications.",
+            "D": "It contains all the HTTP Headers associated with a particular request."
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 291,
+        "Question": "Identify what kind of non-HTML outputs can Django generate?",
+        "Options": {
+            "A": ".epub Files",
+            "B": "Python files",
+            "C": "Exe files",
+            "D": "Sitemaps (an XML format developed by google)"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 292,
+        "Question": "Identify what are request.GET and request.POST objects?",
+        "Options": {
+            "A": "Python Dictionary-Like objects",
+            "B": "Python Lists",
+            "C": "Python Dictionaries",
+            "D": "None of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 293,
+        "Question": "Identify the code that will give us a text area form field in Django?",
+        "Options": {
+            "A": "Field_name = forms.TextAreaField()",
+            "B": "Field_name = forms.ButtonField(widgets = forms.Textarea)",
+            "C": "Field_name = forms.CharField(widgets = forms.Textarea)",
+            "D": "None of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 294,
+        "Question": "Identify when url.py file is edited while the development server is still running in Django?",
+        "Options": {
+            "A": "Development server terminates.",
+            "B": "The web page is automatically reloaded.",
+            "C": "The development server does nothing.",
+            "D": "The development server automatically restarts."
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 295,
+        "Question": "Identify the purpose of __init__.py in project directories in Django?",
+        "Options": {
+            "A": "It is used to initialize any empty values.",
+            "B": "It is useless and can be deleted.",
+            "C": "It allows Python to recognize the folder as package.",
+            "D": "None of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 296,
+        "Question": "Identify the value of DEBUG when website is online/ or deployed using Django?",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Null"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 297,
+        "Question": "Identify what does {{ forloop.counter }} prints in Django?",
+        "Options": {
+            "A": "It prints the integer value of no. of times the loop executed.",
+            "B": "It will count the number of times loop ran.",
+            "C": "It will not print if for loop variable is not defined.",
+            "D": "None of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 298,
+        "Question": "Say you want to count the number of books in Django. books = Book.objects.all() Which implementation would be fastest?",
+        "Options": {
+            "A": "Template Language Implementation – {{ books | length }}",
+            "B": "Python Implementation – len(books)",
+            "C": "Database level Implementation – books.count()",
+            "D": "None of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 299,
+        "Question": "Identify the command which is not a management command of staticfiles in Django?",
+        "Options": {
+            "A": "python manage.py collectstatic",
+            "B": "python manage.py makemigrations",
+            "C": "python manage.py runserver –nostatic",
+            "D": "python manage.py findstatic"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 300,
+        "Question": "Identify which of these is not a valid method or approach to perform URL resolution in Django?",
+        "Options": {
+            "A": "Using Template {{ url : }} in template",
+            "B": "None of the above",
+            "C": "Using get_absolute_url()",
+            "D": "Using reverse() in View Functions"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 301,
+        "Question": "Identify which of the following Password Validators are not provided by default in Django?",
+        "Options": {
+            "A": "NumericPasswordValidator",
+            "B": "MaximumLengthValidator",
+            "C": "MinimumLengthValidator",
+            "D": "CommonPasswordValidator"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 302,
+        "Question": "Identify which of these are not built-in Validators in Django?",
+        "Options": {
+            "A": "MinLengthValidator",
+            "B": "EmailValidator",
+            "C": "None of the above",
+            "D": "ProhibitNullCharacterValidator"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 303,
+        "Question": "Identify which of these is not a step in Form Validation in Django?",
+        "Options": {
+            "A": "to_python() method",
+            "B": "clear()",
+            "C": "run_validators()",
+            "D": "validate() method"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 304,
+        "Question": "Identify which of these is not a valid backend for caching in Django?",
+        "Options": {
+            "A": "django.core.cache.backends.db.DatabaseCache",
+            "B": "django.core.cache.backends.locmem.LocMemCache",
+            "C": "django.core.cache.backends.filebased.FileBasedCache",
+            "D": "django.core.cache.backends.sys.memory"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 305,
+        "Question": "Identify per-site caching in Django?",
+        "Options": {
+            "A": "Caching of all the static files",
+            "B": "Caching of all the views on a website",
+            "C": "Caching of the whole website",
+            "D": "None of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 306,
+        "Question": "Identify the result of this code in admin.py file in Django? admin.site.site_header = “Django Hello”",
+        "Options": {
+            "A": "The title of Django's admin panel tab will change.",
+            "B": "The admin will have no changes at all.",
+            "C": "The admin will throw an error.",
+            "D": "The heading of the admin panel will change."
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 307,
+        "Question": "Identify the Django command to view a database schema of an existing (or legacy) database?",
+        "Options": {
+            "A": "django-admin.py schemadump",
+            "B": "manage.py inspect",
+            "C": "manage.py inspectdb",
+            "D": "manage.py legacydb"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 308,
+        "Question": "Identify the Django command to start a new app named 'users' in an existing project?",
+        "Options": {
+            "A": "manage.py users",
+            "B": "manage.py newapp users",
+            "C": "manage.py startapp users",
+            "D": "manage.py users start"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 309,
+        "Question": "What is the command used to create a new Django Project?",
+        "Options": {
+            "A": "$ django-admin startproject project_name",
+            "B": "$ django createproject project_name",
+            "C": "$ django-admin createproject project_name",
+            "D": "$ django startproject project_name"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 310,
+        "Question": "Select the correct statement to run migrate command in Django?",
+        "Options": {
+            "A": "py migrate",
+            "B": "py manage.py pymigrate",
+            "C": "py manage.py migrate",
+            "D": "run manage.py migrate"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 311,
+        "Question": "Except Django comment tag, what can be used to write smaller comments?",
+        "Options": {
+            "A": "{{# ... #}}",
+            "B": "{# ... #}",
+            "C": "#..",
+            "D": "/* … *"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 312,
+        "Question": "Identify the Django tag which is used to include a template inside the current template?",
+        "Options": {
+            "A": "insert",
+            "B": "allow",
+            "C": "import",
+            "D": "include"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 313,
+        "Question": "Which Django keyword is used to send variables into the template?",
+        "Options": {
+            "A": "export",
+            "B": "go",
+            "C": "with",
+            "D": "send"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 314,
+        "Question": "How can you define a one-to-many relationship between two models in Django?",
+        "Options": {
+            "A": "ManyToOneField()",
+            "B": "models.ForeignKey()",
+            "C": "ForeignKeyField()",
+            "D": "OneToManyField()"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 315,
+        "Question": "Identify which is used as a global namespace for holding any data during the application context?",
+        "Options": {
+            "A": "Flask q object",
+            "B": "Flask f object",
+            "C": "Flask g object",
+            "D": "Flask a object"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 316,
+        "Question": "Identify the function used to display a message in flask?",
+        "Options": {
+            "A": "flash()",
+            "B": "display()",
+            "C": "show()",
+            "D": "document()"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 317,
+        "Question": "Which of the following templates engines is the default choice for Flask?",
+        "Options": {
+            "A": "Handlebars",
+            "B": "Jinja",
+            "C": "Mako",
+            "D": "Django Templates"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 318,
+        "Question": "Evaluate the result of the following Python code? l=[11, 0, 21, 0, 'hello', '', []] list(filter(bool, l))",
+        "Options": {
+            "A": "[11, 0, 21, 'hello', '', []]",
+            "B": "Error",
+            "C": "[11, 21, 'hello']",
+            "D": "[11, 0, 21, 0, 'hello', '', []]"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 319,
+        "Question": "Evaluate the result of the following Python expression if x=76.236? print(\"%.2f\"%x)",
+        "Options": {
+            "A": "76.236",
+            "B": "76.23",
+            "C": "76.0000",
+            "D": "76.24"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 320,
+        "Question": "Evaluate the result of the following Python code? print('*', \"pqrst\".center(6), '*', sep='')",
+        "Options": {
+            "A": "*  tsrqp *",
+            "B": "*pqrst *",
+            "C": "error",
+            "D": "none"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 321,
+        "Question": "The process of pickling in Python includes ____________",
+        "Options": {
+            "A": "conversion of a list into a datatable",
+            "B": "conversion of a datatable into a list",
+            "C": "conversion of a byte stream into Python object hierarchy",
+            "D": "conversion of a Python object hierarchy into byte stream"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 322,
+        "Question": "Which of the following results in a SyntaxError?",
+        "Options": {
+            "A": "'”Once upon a time…”, she said.'",
+            "B": "“He said, ‘Yes!'”",
+            "C": "'5\\'",
+            "D": "'’That’s okay”'"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 323,
+        "Question": "What does ~6 evaluate to?",
+        "Options": {
+            "A": "-7",
+            "B": "-4",
+            "C": "-3",
+            "D": "+3"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 324,
+        "Question": "What does ~~~~~~6 evaluate to?",
+        "Options": {
+            "A": "+6",
+            "B": "-11",
+            "C": "+11",
+            "D": "-5"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 325,
+        "Question": "Identify in the following expressions which involves coercion when evaluated in Python?",
+        "Options": {
+            "A": "1.7 % 2",
+            "B": "7.9 * 6.3",
+            "C": "4.7 – 1.5",
+            "D": "3.4 + 4.6"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 326,
+        "Question": "Evaluate the result of the following Python expression if x=789? print(\"%-06d\"%x)",
+        "Options": {
+            "A": "000789",
+            "B": "789000",
+            "C": "789",
+            "D": "error"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 327,
+        "Question": "Evaluate the result of the following Python expression if X=678? print(\"%06d\"%X)",
+        "Options": {
+            "A": "678000",
+            "B": "000678",
+            "C": "000000678",
+            "D": "678000000"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 328,
+        "Question": "Evaluate the result of the following Python expression if X = -1122? print(\"-%06d\"%X)",
+        "Options": {
+            "A": "−0001122",
+            "B": "0001122",
+            "C": "−−01122",
+            "D": "−001122"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 329,
+        "Question": "Evaluate the result of the following Python expression if the value of x is 45? print(\"%f\"%x)",
+        "Options": {
+            "A": "45.0",
+            "B": "45",
+            "C": "45.000000",
+            "D": "error"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 330,
+        "Question": "Evaluate the result of the following Python code snippet? for i in ''.join(reversed(list('pqrs'))): print (i)",
+        "Options": {
+            "A": "p q r s",
+            "B": "s r q p",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 331,
+        "Question": "Evaluate the result of the following Python code? print(0xA + 0xB + 0xc)",
+        "Options": {
+            "A": "33",
+            "B": "Error",
+            "C": "0x22",
+            "D": "0xA0xB0xC"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 332,
+        "Question": "Evaluate the result of the following Python code? >>>max(\"what are you\")",
+        "Options": {
+            "A": "error",
+            "B": "y",
+            "C": "t",
+            "D": "u"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 333,
+        "Question": "Evaluate the result of the following Python code? >>>example=\"david\" >>>example[::-1].startswith(\"d\")",
+        "Options": {
+            "A": "error",
+            "B": "True",
+            "C": "-1",
+            "D": "None"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 334,
+        "Question": "Evaluate the result of the following Python statement? >>>print(chr(ord('c')+1))",
+        "Options": {
+            "A": "a",
+            "B": "b",
+            "C": "d",
+            "D": "A"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 335,
+        "Question": "Evaluate the result of the following Python statement?(python 3.xx) >>>print(format(\"Welcome\", \"10s\"), end = '#') >>>print(format(111, \"4d\"), end = '#') >>>print(format(924.656, \"3.2f\"))",
+        "Options": {
+            "A": "error",
+            "B": "none",
+            "C": "Welcome   # 111#924.66",
+            "D": "Welcome"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 336,
+        "Question": "What will be displayed by print(ord('d’)–ord(‘c’))?",
+        "Options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "2"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 337,
+        "Question": "What command do we execute to retrieve the character at index 2 from string s=”Hello”?",
+        "Options": {
+            "A": "s[]",
+            "B": "s.itemget(2)",
+            "C": "s.__getitem__(2)",
+            "D": "getItem.s(2)"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 338,
+        "Question": "If a class defines the __str__(self) method, for an object obj for the class, you can use which command to invoke the __str__ method.",
+        "Options": {
+            "A": "obj.__str__()",
+            "B": "all of the mentioned",
+            "C": "print obj",
+            "D": "str(obj)"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 339,
+        "Question": "To check whether string t1 contains another string t2, use ________",
+        "Options": {
+            "A": "t1.__contains__(t2)",
+            "B": "t2 in t1",
+            "C": "t1.contains(t2)",
+            "D": "t1.in(t2)"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 340,
+        "Question": "Evaluate the result of the following Python code? print('*', \"pqrstu\".center(7), '*')",
+        "Options": {
+            "A": "pqrstu",
+            "B": "* pqrstu *",
+            "C": "error",
+            "D": "none"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 341,
+        "Question": "Evaluate the result of the following Python code? print(\"ayyzayzazayy\".count('ayy', -10, -1))",
+        "Options": {
+            "A": "2",
+            "B": "0",
+            "C": "1",
+            "D": "error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 342,
+        "Question": "Evaluate the result of the following Python code? print(\"abxyef\".find(\"xy\") == \"xy\" in \"abxyef\")",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "Error",
+            "D": "None of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 343,
+        "Question": "Evaluate the result of the following Python code? print(\"Hello {0} and {1}\".format('hi', 'bye'))",
+        "Options": {
+            "A": "Hello hi and bye",
+            "B": "Hello {0} and {1} hi bye",
+            "C": "Error",
+            "D": "Hello 0 and 1"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 344,
+        "Question": "Evaluate the result of the following Python code snippet? print('The sum of {0:b} and {1:x} is {2:o}'.format(12, 110, 112))",
+        "Options": {
+            "A": "The sum of 12 and 110 is 112",
+            "B": "The sum of 110 and a is 114",
+            "C": "The sum of 110 and a is c",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 345,
+        "Question": "Evaluate the result of the following Python code snippet? print('{:,}'.format(1112223334))",
+        "Options": {
+            "A": "Error",
+            "B": "111,222,333,4",
+            "C": "1112223334",
+            "D": "1,112,223,334"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 346,
+        "Question": "Evaluate the result of the following Python code snippet? print('The sum of {0} and {1} is {2}'.format(20, 100, 120))",
+        "Options": {
+            "A": "The sum of 20 and 100 is 120",
+            "B": "Error",
+            "C": "The sum of 0 and 1 is 2",
+            "D": "None of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 347,
+        "Question": "Evaluate the result of the following Python code snippet? print('b@ 1,'.islower())",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 348,
+        "Question": "Evaluate the result of the following Python code snippet? print('5@ a'.isprintable())",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 349,
+        "Question": "Evaluate the result of the following Python code? print('cba'.maketrans('abc', '123'))",
+        "Options": {
+            "A": "123",
+            "B": "{65: 49, 66: 50, 67: 51}",
+            "C": "321",
+            "D": "{97: 49, 98: 50, 99: 51}"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 350,
+        "Question": "Evaluate the result of the following Python code? print('pqrstu'.partition('rs'))",
+        "Options": {
+            "A": "('pq', 'tu')",
+            "B": "('pqtu')",
+            "C": "('pq', 'rs', 'tu')",
+            "D": "2"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 351,
+        "Question": "Evaluate the result of the following Python code snippet? print('ab\\ncd\\nef'.splitlines())",
+        "Options": {
+            "A": "['ab', 'cd', 'ef\\n']",
+            "B": "['ab\\n', 'cd\\n', 'ef\\n']",
+            "C": "['ab\\n', 'cd\\n', 'ef']",
+            "D": "['ab', 'cd', 'ef']"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 352,
+        "Question": "Evaluate the result of the following Python code snippet? print('Cd!2'.swapcase())",
+        "Options": {
+            "A": "CD!@",
+            "B": "cd12",
+            "C": "cD!2",
+            "D": "error"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 353,
+        "Question": "Evaluate the result of the following Python code snippet? print('abcd'.translate('a'.maketrans('abc', 'bcd')))",
+        "Options": {
+            "A": "bcde",
+            "B": "bcdd",
+            "C": "error",
+            "D": "abcd"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 354,
+        "Question": "Evaluate the result of the following Python code snippet? print('xy'.zfill(5))",
+        "Options": {
+            "A": "000xy",
+            "B": "00xy0",
+            "C": "0xy00",
+            "D": "xy000"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 355,
+        "Question": "Evaluate the result of the following Python code? names1 = ['John', 'Carey', 'Christian', 'David'] names2 = names1 names3 = names1[:] names2[0] = 'Alice' names3[1] = 'Bob' sum = 0 for ls in (names1, names2, names3): if ls[0] == 'Alice': sum += 1 if ls[1] == 'Bob': sum += 10 print sum",
+        "Options": {
+            "A": "12",
+            "B": "11",
+            "C": "21",
+            "D": "22"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 356,
+        "Question": "Say list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.extend([28, 7])?",
+        "Options": {
+            "A": "[3, 4, 5, 20, 5, 25, 1, 3, 28, 7]",
+            "B": "[1, 3, 3, 4, 5, 5, 20, 25, 28, 7]",
+            "C": "[25, 20, 5, 5, 4, 3, 3, 1, 28, 7]",
+            "D": "[1, 3, 4, 5, 20, 5, 25, 3, 28, 7]"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 357,
+        "Question": "Evaluate the result of the following Python code? myList = [1, 3, 3, 3, 3, 1] max = myList[0] indexOfMax = 0 for i in range(1, len(myList)): if myList[i] > max: max = myList[i] indexOfMax = i >>>print(indexOfMax)",
+        "Options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 358,
+        "Question": "Evaluate the result of the following Python code? myList = [10, 20, 30, 40, 50, 60] for i in range(1, 6): myList[i - 1] = myList[i] for i in range(0, 6): print(myList[i], end = \" \")",
+        "Options": {
+            "A": "20 30 40 50 60 10",
+            "B": "60 10 20 30 40 50",
+            "C": "20 30 40 50 60 60",
+            "D": "10 10 20 30 40 50"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 359,
+        "Question": "Evaluate the result of the following Python code? def example(L): ''' (list) -> list ''' i = 0 result = [] while i < len(L): result.append(L[i]) i = i + 3 return result",
+        "Options": {
+            "A": "error",
+            "B": "Return an empty list",
+            "C": "Return a list containing every third item from L starting at index 0",
+            "D": "Return a list containing the items from L starting from index 0, omitting every third item"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 360,
+        "Question": "Evaluate the result of the following Python code? veggies = ['carrot', 'broccoli', 'potato', 'asparagus'] veggies.insert(veggies.index('broccoli'), 'celery') print(veggies)",
+        "Options": {
+            "A": "['celery', 'carrot', 'broccoli', 'potato', 'asparagus']",
+            "B": "['carrot', 'celery', 'potato', 'asparagus']",
+            "C": "['carrot', 'broccoli', 'celery', 'potato', 'asparagus']",
+            "D": "['carrot', 'celery', 'broccoli', 'potato', 'asparagus']"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 361,
+        "Question": "Evaluate the result of the following Python code? >>>m = [[y, y + 1, y + 2] for y in range(0, 3)]",
+        "Options": {
+            "A": "[[1, 2, 3], [4, 5, 6], [7, 8, 9]]",
+            "B": "[0, 1, 2, 1, 2, 3, 2, 3, 4]",
+            "C": "[1, 2, 3, 4, 5, 6, 7, 8, 9]",
+            "D": "[[0, 1, 2], [1, 2, 3], [2, 3, 4]]"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 362,
+        "Question": "Evaluate the result of the following Python code? values = [[3, 4, 5, 1], [25, 6, 1, 2]]  v = values[0][0] for row in range(0, len(values)): for column in range(0, len(values[row])): if v < values[row][column]: v = values[row][column] print(v)",
+        "Options": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "25"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 363,
+        "Question": "Evaluate the result of the following Python code? values = [[33, 43, 53, 13 ], [333, 63, 13, 23]]  for row in values: row.sort() for element in row: print(element, end = \" \") print()",
+        "Options": {
+            "A": "The program prints two rows 33 43 53 13 followed by 333 63 13 23",
+            "B": "The program prints on row 33 43 53 13 333 63 13 23",
+            "C": "The program prints two rows 33 43 53 13 followed by 333 63 13 23",
+            "D": "The program prints two rows 13 33 43 53 followed by 13 23 63 333"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 364,
+        "Question": "Evaluate the result of the following Python code? import copy a=[101,231,561,[781]] b=copy.deepcopy(a) a[3][0]=951 a[1]=341 print(b)",
+        "Options": {
+            "A": "[101,341,561,[951]]",
+            "B": "[101,231,561,[781]]",
+            "C": "[101,231,561,[951]]",
+            "D": "[101,341,561,[781]]"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 365,
+        "Question": "Evaluate the result of the following Python code? a=[10,20,30,40] b=[sum(a[0:x+1]) for x in range(0,len(a))] print(b)",
+        "Options": {
+            "A": "100",
+            "B": "[10,30,50,70]",
+            "C": "40",
+            "D": "[10,30,60,100]"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 366,
+        "Question": "Evaluate the result of the following Python code? y='hello' z=list((x.upper(),len(x)) for x in y) print(z)",
+        "Options": {
+            "A": "error",
+            "B": "[('HELLO', 5)]",
+            "C": "[('H', 5), ('E', 5), ('L', 5), ('L', 5), ('O', 5)]",
+            "D": "[('H', 1), ('E', 1), ('L', 1), ('L', 1), ('O', 1)]"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 367,
+        "Question": "Evaluate the result of the following Python code? a=[11,21,31,41] b=[sum(a[0:x+1]) for x in range(0,len(a))] print(b)",
+        "Options": {
+            "A": "10",
+            "B": "[11,31,51,71]",
+            "C": "41",
+            "D": "[11,32,63,104]"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 368,
+        "Question": "Evaluate the result of the following Python code? a=[[]]*4 a[1].append(9) print(a)",
+        "Options": {
+            "A": "Syntax error",
+            "B": "[[9], [9], [9], [9]]",
+            "C": "[[9], [], []]",
+            "D": "[[],9, [], []]"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 369,
+        "Question": "Evaluate the result of the following Python code? def unpack(a,b,c,d):     print(a+d) x = [12,22,32,42] unpack(*x)",
+        "Options": {
+            "A": "Error",
+            "B": "[1,4]",
+            "C": "[50]",
+            "D": "54"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 370,
+        "Question": "Evaluate the result of the following Python code? a = [12, 52, 72, 92, 92, 12] b=a[0] x= 0 for x in range(1, len(a)):     if a[x] > b:         b = a[x]         b= x print(b)",
+        "Options": {
+            "A": "5",
+            "B": "3",
+            "C": "4",
+            "D": "0"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 371,
+        "Question": "Evaluate the result of the following Python code? a=[\"Ant\",\"Bat\",\"Cat\"] a.sort(key=len) print(a)",
+        "Options": {
+            "A": "[‘Ant’, ‘Bat’, ‘Cat’]",
+            "B": "[‘Bat’, ‘Ant’, ‘Cat’]",
+            "C": "[‘Cat’, ‘Ant’, ‘Bat’]",
+            "D": "Invalid syntax for sort()"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 372,
+        "Question": "Evaluate the result of the following Python code snippet? x = [i**+2 for i in range(2)]; print(x);",
+        "Options": {
+            "A": "[0, 1]",
+            "B": "[1, 2]",
+            "C": "error, **+ is not a valid operator",
+            "D": "error, ‘;’ is not allowed"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 373,
+        "Question": "Evaluate the result of the following Python code snippet? for x in range(3):     if x%2==0:          print(x)     else:         print(x+1)",
+        "Options": {
+            "A": "[0, 2, 2]",
+            "B": "[1, 1, 3]",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 374,
+        "Question": "Evaluate the result of the following Python code? l1=[10,20,30] l2=[40,50,60] print([x*y for x in l1 for y in l2])",
+        "Options": {
+            "A": "[40, 80, 120, 50, 100, 150, 60, 120, 180]",
+            "B": "[400, 1000, 1800]",
+            "C": "[400, 500, 600, 800, 1000, 1200, 1200, 1500, 1800]",
+            "D": "[180, 120, 60, 150, 100, 50, 120, 80, 40]"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 375,
+        "Question": "Evaluate the result of the following Python code? A = [[11, 21, 31],      [41, 51, 61],      [71, 81, 91]]  print([[col + 10 for col in row] for row in A])",
+        "Options": {
+            "A": "[[21, 31, 41], [51, 61, 71], [81, 91, 101]]",
+            "B": "Error",
+            "C": "[11, 12, 13], [14, 15, 16], [17, 18, 19]",
+            "D": "[11, 12, 13, 14, 15, 16, 17, 18, 19]"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 376,
+        "Question": "Evaluate the result of the following Python code? a = [50,50,60,70,70,70] b = set(a) def test(lst):     if lst in b:         return 1     else:         return 0 for i in  filter(test, a):     print(i,end=\" \")",
+        "Options": {
+            "A": "50 50 60",
+            "B": "50 60 70",
+            "C": "50 50 60 70 70 70",
+            "D": "50 60 70 70 70"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 377,
+        "Question": "Evaluate the result of the following Python code. Suppose, \"data.txt\" is a file. f = None for i in range (3):     with open(\"data.txt\", \"w\") as f:         if i > 2:             break print(f.closed)",
+        "Options": {
+            "A": "Code is correct",
+            "B": "Code is wrong",
+            "C": "None",
+            "D": "Can't say"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 378,
+        "Question": "Evaluate the result of the following Python code?  class trial:     def __init__(self):         pass      def test(self):         print(__name__)  obj1 = trial() obj1.test()",
+        "Options": {
+            "A": "Exception is thrown",
+            "B": "__main__",
+            "C": "Demo",
+            "D": "test"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 379,
+        "Question": "Evaluate the result of the following Python code? #generator def f(y):     yield y+1 p=f(5) print(next(p))",
+        "Options": {
+            "A": "4",
+            "B": "6",
+            "C": "10",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 380,
+        "Question": "Evaluate the result of the following Python code? def f(y):     for i in range(4):         yield i p=f(6) print(list(p))",
+        "Options": {
+            "A": "[0, 1, 2, 3]",
+            "B": "[1, 2, 3, 4, 5, 6]",
+            "C": "[1, 2, 3, 4]",
+            "D": "[0, 1]"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 381,
+        "Question": "Evaluate the result of the following Python code? def show(m):     if m<1 or m>12:         raise ValueError(\"Invalid\")     print(m) show(5)",
+        "Options": {
+            "A": "ValueError",
+            "B": "Invalid",
+            "C": "5",
+            "D": "ValueError(“Invalid”)"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 382,
+        "Question": "Evaluate the result of the following Python code? def p(list):     v = list[0]     for e in list:       if v < e: v = e     return v  values = [[13, 14, 15, 11], [33, 16, 11, 12]]  for row in values:      print(p(row), end = \" \")",
+        "Options": {
+            "A": "13 33",
+            "B": "11 11",
+            "C": "15 16",
+            "D": "15 33"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 383,
+        "Question": "Evaluate the result of the following Python code? q=[22,31,41,52] p=list(filter(lambda x:x%2,q)) print(p)",
+        "Options": {
+            "A": "[21,41]",
+            "B": "[ ]",
+            "C": "[31, 41]",
+            "D": "Invalid arguments for filter function"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 384,
+        "Question": "Evaluate the result of the following Python code snippet? st1 = ['s','f','a','e'] k = [print(i) for i in st1 if i not in \"aeiou\"] print(k)",
+        "Options": {
+            "A": "prints all the vowels in st1",
+            "B": "error",
+            "C": "prints all characters of st1 that aren’t vowels",
+            "D": "no output"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 385,
+        "Question": "Evaluate the result of the following Python code snippet? st1 = \"evening\" p = [(i.upper(), len(i)) for i in st1] print(p)",
+        "Options": {
+            "A": "error",
+            "B": "[('E', 1), ('V', 1), ('E', 1), ('N', 1), ('I', 1), ('N', 1), ('G', 1)]",
+            "C": "[(‘EVENING’, 7)]",
+            "D": "none of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 386,
+        "Question": "Identify the purpose of __str__() method in Django?",
+        "Options": {
+            "A": "It will return the name of the post when Post object is printed.",
+            "B": "It will display the post_heading when __str__() is called.",
+            "C": "It displays a human-readable form of object.",
+            "D": "None of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 387,
+        "Question": "In the following code in Django framework, evaluate the result of variable m? from post.models import * m = Post.objects.filter(post_heading=\"post1\") m",
+        "Options": {
+            "A": "It will print all the objects which match the heading “post1”.",
+            "B": "It will print all objects.",
+            "C": "It will print the first object which matched with heading “post1” in argument.",
+            "D": "None of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 388,
+        "Question": "In Post.models.filter() you can pass multiple parameters in filter() to narrow your result/s in Django.",
+        "Options": {
+            "A": "False",
+            "B": "True",
+            "C": "Can’t say",
+            "D": "None of the above"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 389,
+        "Question": "In Django, what effect does this parameter causes? from post.models import * m = Post.objects.filter(post_heading__contains=\"post\") m",
+        "Options": {
+            "A": "It will throw an error as no post_heading__contains field does not exist.",
+            "B": "It will search for field post_heading__contains and match value with them.",
+            "C": "It will return the first object it matched the value with.",
+            "D": "It will select all the posts having post in their post_heading name."
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 390,
+        "Question": "Identify the setting that contains the parameter of main-urls file in Django?",
+        "Options": {
+            "A": "STATIC_URL",
+            "B": "MAIN_URLCONF",
+            "C": "ROOT_URLCONF",
+            "D": "MEDIA_URL"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 391,
+        "Question": "Identify the use of os.path.dirname(__file__) in this method?",
+        "Options": {
+            "A": "It is used to pass the value of current file in which this line is written.",
+            "B": "It is passing some value defined before.",
+            "C": "It is the default value and points to Django settings.py.",
+            "D": "None of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 392,
+        "Question": "Identify the type of configuration Django requires for logging?",
+        "Options": {
+            "A": "Django requires a dictConfig in settings.py.",
+            "B": "Django requires a configuration of handlers and loggers.",
+            "C": "Django requires no configuration. Use logging by an import.",
+            "D": "Logging can be directly used in each module separately."
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 393,
+        "Question": "Python support which type of Programming?",
+        "Options": {
+            "A": "object-oriented programming",
+            "B": "all of the mentioned",
+            "C": "functional programming",
+            "D": "structured programming"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 394,
+        "Question": "Identify which of the following is the correct extension of the Python file?",
+        "Options": {
+            "A": ".python",
+            "B": ".plt",
+            "C": ".pk",
+            "D": ".py"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 395,
+        "Question": "What will be the value of the following Python expression? 4 + 3 % 5",
+        "Options": {
+            "A": "13",
+            "B": "2",
+            "C": "4",
+            "D": "7"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 396,
+        "Question": "Identify which of the following is used to define a block of code in Python language?",
+        "Options": {
+            "A": "Brackets",
+            "B": "Key",
+            "C": "Indentation",
+            "D": "All of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 397,
+        "Question": "Identify which of the following character is used to give single-line comments in Python?",
+        "Options": {
+            "A": "#",
+            "B": "//",
+            "C": "!",
+            "D": "/*"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 398,
+        "Question": "Identify which of the following is true for variable names in Python?",
+        "Options": {
+            "A": "underscore and ampersand are the only two special characters allowed",
+            "B": "all private members must have leading and trailing underscores",
+            "C": "unlimited length",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 399,
+        "Question": "Identify which of the following is not a core data type in Python programming?",
+        "Options": {
+            "A": "Class",
+            "B": "Lists",
+            "C": "Tuples",
+            "D": "Dictionary"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 400,
+        "Question": "Evaluate the result of the following Python function? len([\"hello\",2, 4, 6])",
+        "Options": {
+            "A": "4",
+            "B": "6",
+            "C": "Error",
+            "D": "3"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 401,
+        "Question": "What arithmetic operators cannot be used with strings in Python?",
+        "Options": {
+            "A": "*",
+            "B": "+",
+            "C": "%",
+            "D": "All of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 402,
+        "Question": "In Django how would you retrieve all the 'User' records from a given database?",
+        "Options": {
+            "A": "User.objects.all()",
+            "B": "Users.objects.all()",
+            "C": "User.all_records()",
+            "D": "User.object.all()"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 403,
+        "Question": "Identify which of the following is a Python tuple?",
+        "Options": {
+            "A": "[1, 2, 3]",
+            "B": "{}",
+            "C": "{1, 2, 3}",
+            "D": "(1, 2, 3)"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 404,
+        "Question": "Identify which of the following cannot be a variable?",
+        "Options": {
+            "A": "xyz",
+            "B": "on",
+            "C": "it",
+            "D": "in"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 405,
+        "Question": "Choose the answer to this expression, 22 % 3 is?",
+        "Options": {
+            "A": "7",
+            "B": "5",
+            "C": "0",
+            "D": "1"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 406,
+        "Question": "What data type is the object below? L = [1, 23, 'hello', 1]",
+        "Options": {
+            "A": "array",
+            "B": "dictionary",
+            "C": "list",
+            "D": "tuple"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 407,
+        "Question": "What core data type we use in order to store values in terms of key and value.",
+        "Options": {
+            "A": "dictionary",
+            "B": "tuple",
+            "C": "class",
+            "D": "list"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 408,
+        "Question": "Identify what function do you use to read a string?",
+        "Options": {
+            "A": "enter(\"Enter a string\")",
+            "B": "eval(input(\"Enter a string\"))",
+            "C": "input(\"Enter a string\")",
+            "D": "eval(enter(\"Enter a string\"))"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 409,
+        "Question": "Evaluate the result of the following Python code snippet? print('abc'.islower())",
+        "Options": {
+            "A": "False",
+            "B": "True",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 410,
+        "Question": "Identify which of the following commands will create a list?",
+        "Options": {
+            "A": "list1 = list()",
+            "B": "all of the mentioned",
+            "C": "list1 = list([1, 2, 3])",
+            "D": "list1 = []"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 411,
+        "Question": "Say listExample is [‘h’,’e’,’l’,’l’,’o’], what is len(listExample)?",
+        "Options": {
+            "A": "4",
+            "B": "5",
+            "C": "None",
+            "D": "Error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 412,
+        "Question": "Evaluate the result of the following Python code? d = {\"john\":40, \"peter\":45} d[\"john\"]",
+        "Options": {
+            "A": "“peter”",
+            "B": "45",
+            "C": "“john”",
+            "D": "40"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 413,
+        "Question": "Evaluate the result of the following Python code? >>>t = (1, 2) >>>2 * t",
+        "Options": {
+            "A": "[1, 1, 2, 2]",
+            "B": "[1, 2, 1, 2]",
+            "C": "(1, 1, 2, 2)",
+            "D": "(1, 2, 1, 2)"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 414,
+        "Question": "Identify which of the following statements is used to create an empty set?",
+        "Options": {
+            "A": "{ }",
+            "B": "set()",
+            "C": "[ ]",
+            "D": "( )"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 415,
+        "Question": "Identify which of the following statements create a dictionary?",
+        "Options": {
+            "A": "All of the mentioned",
+            "B": "d = {“john”:40, “peter”:45}",
+            "C": "d = {40:”john”, 45:”peter”}",
+            "D": "d = {}"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 416,
+        "Question": "Identify which of these about a dictionary is false?",
+        "Options": {
+            "A": "The values of a dictionary can be accessed using keys",
+            "B": "Dictionaries are mutable",
+            "C": "Dictionaries aren’t ordered",
+            "D": "The keys of a dictionary can be accessed using values"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 417,
+        "Question": "Identify which keyword is used for function?",
+        "Options": {
+            "A": "def",
+            "B": "Define",
+            "C": "Fun",
+            "D": "Function"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 418,
+        "Question": "Identify which of the following best describes inheritance?",
+        "Options": {
+            "A": "Focuses on variables and passing of variables to functions",
+            "B": "Means of bundling instance variables and methods in order to restrict access to certain class members",
+            "C": "Ability of a class to derive members of another class as a part of its own definition",
+            "D": "Allows for implementation of elegant software that is well designed and easily modified"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 419,
+        "Question": "When is the finally block executed?",
+        "Options": {
+            "A": "when there is no exception",
+            "B": "always",
+            "C": "only if some condition that has been specified is satisfied",
+            "D": "when there is an exception"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 420,
+        "Question": "What does {{ name }} this mean in Django Templates?",
+        "Options": {
+            "A": "It will be displayed as name in HTML.",
+            "B": "None of the above",
+            "C": "{{ name }} will be the output.",
+            "D": "The name will be replaced with values of Python variable."
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 421,
+        "Question": "Django is a type of?",
+        "Options": {
+            "A": "Software",
+            "B": "None",
+            "C": "Programming Language",
+            "D": "Web Framework"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 422,
+        "Question": "Flask is a?",
+        "Options": {
+            "A": "peraframework",
+            "B": "miniframework",
+            "C": "microframework",
+            "D": "nanoframework"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 423,
+        "Question": "Identify which of the following is the use of id() function in python?",
+        "Options": {
+            "A": "Every object doesn’t have a unique id",
+            "B": "None of the mentioned",
+            "C": "All of the mentioned",
+            "D": "Id returns the identity of the object"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 424,
+        "Question": "Evaluate the result of the following Python code? >>>list1 = [1, 3] >>>list2 = list1 >>>list1[0] = 4 >>>print(list2)",
+        "Options": {
+            "A": "[4, 3]",
+            "B": "[1, 3, 4]",
+            "C": "[1, 4]",
+            "D": "[1, 3]"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 425,
+        "Question": "Identify which one of the following is the use of function in python?",
+        "Options": {
+            "A": "Functions are reusable pieces of programs",
+            "B": "you can’t also create your own functions",
+            "C": "Functions don’t provide better modularity for your application",
+            "D": "All of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 426,
+        "Question": "Identify what error occurs when you execute the following Python code snippet? apple = mango",
+        "Options": {
+            "A": "SyntaxError",
+            "B": "TypeError",
+            "C": "ValueError",
+            "D": "NameError"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 427,
+        "Question": "Evaluate the result of the following Python code snippet? not(11<21) and not(11>31)",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "Error",
+            "D": "No output"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 428,
+        "Question": "Evaluate the result of the following Python code? x = ['abc', 'cde'] for i in x:     i.upper() print(x)",
+        "Options": {
+            "A": "['abc', 'cde']",
+            "B": "['ABC', 'CDE']",
+            "C": "[None, None]",
+            "D": "none of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 429,
+        "Question": "Evaluate the result of the following Python statement? >>>\"efgh\"[2:]",
+        "Options": {
+            "A": "e",
+            "B": "ef",
+            "C": "gh",
+            "D": "hg"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 430,
+        "Question": "Evaluate the result of the following Python code? >>> str1 = 'hello' >>> str2 = ',' >>> str3 = 'world' >>> str1[-1:]",
+        "Options": {
+            "A": "olleh",
+            "B": "hello",
+            "C": "o",
+            "D": "h"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 431,
+        "Question": "Evaluate the result of the following Python code? >>>print (r\"\\nhi\")",
+        "Options": {
+            "A": "a new line and hi",
+            "B": "\\nhi",
+            "C": "the letter r and then hi",
+            "D": "error"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 432,
+        "Question": "What is “Hello”.replace(“l”, “e”)?",
+        "Options": {
+            "A": "None",
+            "B": "Heelo",
+            "C": "Heleo",
+            "D": "Heeeo"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 433,
+        "Question": "Evaluate the result of the following Python code snippet? print('abcdef12'.replace('cd', '12'))",
+        "Options": {
+            "A": "none of the mentioned",
+            "B": "abcdef12",
+            "C": "ab12efcd",
+            "D": "ab12ef12"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 434,
+        "Question": "Say list1 is [2, 33, 222, 14, 71], What is list1[-1]?",
+        "Options": {
+            "A": "Error",
+            "B": "None",
+            "C": "71",
+            "D": "2"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 435,
+        "Question": "Evaluate the result of the following Python code? >>>list1 = [12, 3, 24] >>>list2 = [12, 3, 3] >>>list1 < list2",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "Error",
+            "D": "None"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 436,
+        "Question": "Evaluate the result of the following Python code? >>>list1 = [1, 3] >>>list2 = list1 >>>list1[0] = 5 >>>print(list2)",
+        "Options": {
+            "A": "[1, 3]",
+            "B": "[5, 3]",
+            "C": "[1, 5]",
+            "D": "[1, 3, 5]"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 437,
+        "Question": "Evaluate the result of the following Python code? def f(values):     values[0] = 61  v = [1, 2, 3] f(v) print(v)",
+        "Options": {
+            "A": "[1, 61]",
+            "B": "[1, 2, 3, 61]",
+            "C": "[61, 2, 3]",
+            "D": "[1, 2, 3]"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 438,
+        "Question": "Evaluate the result of the following Python code? numbers = [9, 10, 11, 12]  numbers.append([5,6,7,8])  print(len(numbers))",
+        "Options": {
+            "A": "4",
+            "B": "5",
+            "C": "8",
+            "D": "12"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 439,
+        "Question": "Say t = (1, 2, 4, 3), which of the following is wrong?",
+        "Options": {
+            "A": "print(t[3])",
+            "B": "t[5] = 94",
+            "C": "print(max(t))",
+            "D": "print(len(t))"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 440,
+        "Question": "Evaluate the result of the following Python code? >>>t=(1,21,41,3) >>>t[1:-1]",
+        "Options": {
+            "A": "(1, 21)",
+            "B": "(1, 21, 41)",
+            "C": "(21, 41)",
+            "D": "(21, 41, 3)"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 441,
+        "Question": "Is the following Python code valid? >>> a=(10,20,30,40) >>> del a",
+        "Options": {
+            "A": "No because tuple is immutable",
+            "B": "Yes, first element in the tuple is deleted",
+            "C": "Yes, the entire tuple is deleted",
+            "D": "No, invalid syntax for del method"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 442,
+        "Question": "If a={5,6,7,8}, which of the following statements is false?",
+        "Options": {
+            "A": "print(len(a))",
+            "B": "print(min(a))",
+            "C": "a.remove(5)",
+            "D": "a[22]=39"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 443,
+        "Question": "If a={5,6,7}, what happens when a.add(5) is executed?",
+        "Options": {
+            "A": "a={5,5,6,7}",
+            "B": "Error as 5 already exists in the set",
+            "C": "Error as there is no add function for set data type",
+            "D": "a={5,6,7}"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 444,
+        "Question": "Evaluate the result of the following Python code? >>> s={52,62} >>> s*3",
+        "Options": {
+            "A": "Error as unsupported operand type for set data type",
+            "B": "{52,62,52,62,52,62}",
+            "C": "{52,62}",
+            "D": "Error as multiplication creates duplicate elements which isn’t allowed"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 445,
+        "Question": "Evaluate the result of the following Python code? >>> a={4,6,7} >>> sum(a,5)",
+        "Options": {
+            "A": "5",
+            "B": "22",
+            "C": "18",
+            "D": "Invalid syntax for sum method, too many arguments"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 446,
+        "Question": "Evaluate the result of the following Python code? >>> a={51,61,71,81} >>> b={71,81,91,101} >>> len(a+b)",
+        "Options": {
+            "A": "8",
+            "B": "Error, unsupported operand ‘+’ for sets",
+            "C": "6",
+            "D": "Nothing is displayed"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 447,
+        "Question": "Say d = {“sam”:40, “peter”:45}, to delete the entry for “sam” what command do we use?",
+        "Options": {
+            "A": "d.delete(“sam”:40)",
+            "B": "d.delete(“sam”)",
+            "C": "del d[“sam”]",
+            "D": "del d(“sam”:40)"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 448,
+        "Question": "Say d = {“sam”:40, “peter”:45}. To obtain the number of entries in dictionary which command do we use?",
+        "Options": {
+            "A": "d.size()",
+            "B": "len(d)",
+            "C": "size(d)",
+            "D": "d.len()"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 449,
+        "Question": "What type of inheritance is illustrated in the following Python code? class D():     pass class E():     pass class F(D,E):     pass",
+        "Options": {
+            "A": "Multi-level inheritance",
+            "B": "Multiple inheritance",
+            "C": "Hierarchical inheritance",
+            "D": "Single-level inheritance"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 450,
+        "Question": "Which of the following is not a standard exception in Python?",
+        "Options": {
+            "A": "NameError",
+            "B": "IOError",
+            "C": "ArrayAssignmentError",
+            "D": "ValueError"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 451,
+        "Question": "What does {% include %} does?",
+        "Options": {
+            "A": "None of the above",
+            "B": "It will include content from another template having the same templates defined.",
+            "C": "It is the same as {% extend %}.",
+            "D": "It will include another template."
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 452,
+        "Question": "Which method is used instead of path() in urls.py to pass in regular expressions as routes in Django?",
+        "Options": {
+            "A": "static()",
+            "B": "url()",
+            "C": "include()",
+            "D": "re_path()"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 453,
+        "Question": "What is the purpose of settings.py in Django?",
+        "Options": {
+            "A": "To configure settings for the Django project",
+            "B": "To set the date and time on the server",
+            "C": "To configure settings for an app",
+            "D": "To sync the database schema"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 454,
+        "Question": "Identify which of the following will run without errors?",
+        "Options": {
+            "A": "round(35.7)",
+            "B": "round(1234.898,2,5)",
+            "C": "round()",
+            "D": "round(5678.123,2,1)"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 455,
+        "Question": "Evaluate the result of the following Python code? d = {0: 'd', 1: 'e', 2: 'f'} for x in d.keys():     print(d[x])",
+        "Options": {
+            "A": "0 1 2",
+            "B": "d e f",
+            "C": "0 d 1 e 2 f",
+            "D": "none of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 456,
+        "Question": "Evaluate the result of the following Python code? d = {0, 4, 5} for x in d.values():     print(x)",
+        "Options": {
+            "A": "0 4 5",
+            "B": "None None None",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 457,
+        "Question": "Evaluate the result of the following Python code? d = {3, 4, 5} for x in d:     print(d.add(x))",
+        "Options": {
+            "A": "3 4 5",
+            "B": "3 4 5 3 4 5 3 4 5 …",
+            "C": "None None None",
+            "D": "None of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 458,
+        "Question": "Evaluate the result of the following Python code? x = (i for i in range(4)) for i in x:     print(i)",
+        "Options": {
+            "A": "0 1 2 3",
+            "B": "error",
+            "C": "0 1 2 0 1 2",
+            "D": "none of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 459,
+        "Question": "Evaluate the result of the following Python code snippet? a = [0, 1, 2, 3] for a[-1] in a:     print(a[-1])",
+        "Options": {
+            "A": "3 2 1 0",
+            "B": "error",
+            "C": "3 3 3 3",
+            "D": "0 1 2 2"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 460,
+        "Question": "Evaluate the result of the following Python code? >>>names = ['Anthony', 'Bill', 'Charlie', 'Saman'] >>>print(names[-1][-1])",
+        "Options": {
+            "A": "A",
+            "B": "Saman",
+            "C": "Error",
+            "D": "n"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 461,
+        "Question": "Say list1 = [0.5 * z for z in range(0, 4)], list1 is:",
+        "Options": {
+            "A": "[0, 1, 2, 3]",
+            "B": "[0, 1, 2, 3, 4]",
+            "C": "[0.0, 0.5, 1.0, 1.5, 2.0]",
+            "D": "[0.0, 0.5, 1.0, 1.5]"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 462,
+        "Question": "Evaluate the result of the following Python code? names1 = ['Amir', 'Bala', 'Marlie'] names2 = [name.lower() for name in names1]  print(names2[2][0])",
+        "Options": {
+            "A": "None",
+            "B": "a",
+            "C": "b",
+            "D": "m"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 463,
+        "Question": "How many elements are in m? m = [[a, b] for a in range(0, 4) for b in range(0, 4)]",
+        "Options": {
+            "A": "8",
+            "B": "12",
+            "C": "16",
+            "D": "32"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 464,
+        "Question": "Identify the true statement.",
+        "Options": {
+            "A": "When you open a file for reading, if the file does not exist, an error occurs",
+            "B": "When you open a file for writing, if the file does not exist, a new file is created",
+            "C": "All of the mentioned",
+            "D": "When you open a file for writing, if the file exists, the existing file is overwritten with the new file"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 465,
+        "Question": "To read three characters from a file object infile, we use ____________",
+        "Options": {
+            "A": "infile.read(3)",
+            "B": "infile.read()",
+            "C": "infile.readline()",
+            "D": "infile.readlines()"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 466,
+        "Question": "Identify the use of tell() method in python?",
+        "Options": {
+            "A": "file is opened or not",
+            "B": "end position within the file",
+            "C": "current position within the file",
+            "D": "none of the mentioned"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 467,
+        "Question": "Identify the use of seek() method in files?",
+        "Options": {
+            "A": "sets the file's current position within the file",
+            "B": "sets the file's previous position at the offset",
+            "C": "sets the file's current position at the offset",
+            "D": "none of the mentioned"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 468,
+        "Question": "In Django, What is Post.objects.all() is used for?",
+        "Options": {
+            "A": "Post object will bring objects from database with SQL Query: Select *.",
+            "B": "It is used to create a new Post object.",
+            "C": "It is used to bring all the objects stored in Post table.",
+            "D": "None of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 469,
+        "Question": "What happens when ‘2' == 2 is executed?",
+        "Options": {
+            "A": "we get a True",
+            "B": "we get a False",
+            "C": "an TypeError occurs",
+            "D": "a ValueError occurs"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 470,
+        "Question": "Evaluate the result of the following Python code? matrix = [[1, 21, 3, 4], [4, 51, 6, 7], [8, 91, 10, 11], [12, 131, 14, 15]] for i in range(0, 4): print(matrix[i][1], end = ' ')",
+        "Options": {
+            "A": "1 2 3 4",
+            "B": "4 5 6 7",
+            "C": "1 3 8 12",
+            "D": "21 51 91 131"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 471,
+        "Question": "Evaluate the result of the following Python expression? float(3+int(2.39)%2)",
+        "Options": {
+            "A": "5.0",
+            "B": "5",
+            "C": "3.0",
+            "D": "4"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 472,
+        "Question": "Evaluate the result of the following Python code snippet? for i in [5, 6, 7, 8][::-1]: print(i, end=' ')",
+        "Options": {
+            "A": "5 6 7 8",
+            "B": "8 7 6 5",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 473,
+        "Question": "Suppose list1 is [5, 3, 4], What is list1 * 2?",
+        "Options": {
+            "A": "[2, 6, 4]",
+            "B": "[5, 3, 2, 1, 3]",
+            "C": "[5, 3, 4, 5, 3, 4]",
+            "D": "[5, 3, 2, 3, 2, 1]"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 474,
+        "Question": "Suppose list1 is [1, 7, 5, 28, 5], what is list1.index(5)?",
+        "Options": {
+            "A": "0",
+            "B": "1",
+            "C": "4",
+            "D": "2"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 475,
+        "Question": "Suppose list1 is [9, 4, 8, 20, 8, 25, 1, 3], what is list1.count(5)?",
+        "Options": {
+            "A": "0",
+            "B": "4",
+            "C": "1",
+            "D": "2"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 476,
+        "Question": "Evaluate the result of the following Python code? >>>'Welcome to ADIT'.split()",
+        "Options": {
+            "A": "[“Welcome”, “to”, “ADIT”]",
+            "B": "('Welcome', 'to', 'ADIT')",
+            "C": "{“Welcome”, “to”, “ADIT”}",
+            "D": "“Welcome”, “to”, “ADIT”"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 477,
+        "Question": "Evaluate the result of the following Python code? >>>list('r#s#t#u'.split('#'))",
+        "Options": {
+            "A": "['r', 's', 't', 'u']",
+            "B": "['r s t u']",
+            "C": "['r#s#t#u']",
+            "D": "['rstu']"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 478,
+        "Question": "Identify which of the following the “in” operator can be used to check if an item is in it?",
+        "Options": {
+            "A": "Lists",
+            "B": "Dictionary",
+            "C": "All of the mentioned",
+            "D": "Set"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 479,
+        "Question": "Evaluate the result of the following Python code? list1 = [21, 22, 23, 24] list2 = [35, 36, 37, 38] print(len(list1 + list2))",
+        "Options": {
+            "A": "2",
+            "B": "4",
+            "C": "5",
+            "D": "8"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 480,
+        "Question": "Evaluate the result of the following Python code? A = [[1, 2, 3], [6, 5, 4], [7, 8, 9]] A[1]",
+        "Options": {
+            "A": "[6, 5, 4]",
+            "B": "[3, 6, 9]",
+            "C": "[1, 4, 7]",
+            "D": "[1, 2, 3]"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 481,
+        "Question": "Which of the following Python statements will result in the output: 11?",
+        "Options": {
+            "A": "A[2][3]",
+            "B": "A[2][1]",
+            "C": "A[1][2]",
+            "D": "A[3][2]"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 482,
+        "Question": "Identify which of the following is a Python tuple?",
+        "Options": {
+            "A": "[1, 2, 3]",
+            "B": "(4, 5, 6)",
+            "C": "{1, 2, 3}",
+            "D": "{}"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 483,
+        "Question": "Identify which of these about a set is not true?",
+        "Options": {
+            "A": "Mutable data type",
+            "B": "Does not allow duplicate values",
+            "C": "Immutable data type",
+            "D": "Data type with unordered values"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 484,
+        "Question": "Evaluate the result of the following Python code? >>> a={1,2} >>> b={1,2,4,5} >>> a<b",
+        "Options": {
+            "A": "{1,2}",
+            "B": "True",
+            "C": "False",
+            "D": "Invalid operation"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 485,
+        "Question": "Evaluate the result of the following Python code? >>> a={2,3,4,5} >>> b={4,5,3,2} >>> a==b",
+        "Options": {
+            "A": "True",
+            "B": "False",
+            "C": "Error",
+            "D": "No output"
+        },
+        "Answer": "A"
+    },
+    {
+        "QuestionNumber": 486,
+        "Question": "Evaluate the result of the following Python code? >>> a={1,2,8} >>> b=a >>> b.remove(8) >>> a",
+        "Options": {
+            "A": "{1,2,3}",
+            "B": "Error, copying of sets isn’t allowed",
+            "C": "{1,2}",
+            "D": "Error, invalid syntax for remove"
+        },
+        "Answer": "C"
+    },
+    {
+        "QuestionNumber": 487,
+        "Question": "Evaluate the result of the following Python code snippet? x = {\"john\":30, \"peter\":35} print(x)",
+        "Options": {
+            "A": "“john”, 30, “peter”, 35",
+            "B": "{‘john’: 30, ‘peter’: 35}",
+            "C": "30 and 35",
+            "D": "d = (30:\"john\", 35:\"peter\")"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 488,
+        "Question": "Identify which of the following is not a valid namespace?",
+        "Options": {
+            "A": "Global namespace",
+            "B": "Local namespace",
+            "C": "Built-in namespace",
+            "D": "Public namespace"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 489,
+        "Question": "What is returned by math.ceil(4.4)?",
+        "Options": {
+            "A": "3",
+            "B": "5",
+            "C": "4.0",
+            "D": "3.0"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 490,
+        "Question": "Evaluate the result of y if y = math.factorial(0)?",
+        "Options": {
+            "A": "0",
+            "B": "1",
+            "C": "error",
+            "D": "none of the mentioned"
+        },
+        "Answer": "B"
+    },
+    {
+        "QuestionNumber": 491,
+        "Question": "In python, the readlines() method returns ____________",
+        "Options": {
+            "A": "str",
+            "B": "a list of integers",
+            "C": "a list of single characters",
+            "D": "a list of lines"
+        },
+        "Answer": "D"
+    },
+    {
+        "QuestionNumber": 492,
+        "Question": "Identify the two built-in functions to read a line of text from standard input, which by default comes from the keyboard?",
+        "Options": {
+            "A": "Scan & Scanner",
+            "B": "Input & Scan",
+            "C": "Raw_input & Input",
+            "D": "Scanner"
+        },
+        "Answer": "C"
+    }
+]

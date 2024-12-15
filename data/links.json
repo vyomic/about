@@ -1,0 +1,13 @@
+[
+    {
+      "title": "quizApp",
+      "path": "bitapp/quiz_v2/quiz2.html",
+      "name": "qzv2"
+    },
+    {
+      "title": "speedOmeter",
+      "path": "bitapp/speedO/speedGps.html",
+      "name": "spdm"
+    }
+  ]
+  

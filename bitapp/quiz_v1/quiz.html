@@ -284,6 +284,19 @@
       /* Light green */
       color: darkgreen;
     }
+    .qzSel{
+      text-decoration: none;
+      border-radius: 8px;
+      color: rgb(0, 88, 15);
+      font-weight: 600;
+      border:2px solid;
+      padding: 8px;
+      background: linear-gradient(45deg, rgb(159, 207, 159), rgb(251, 142, 255));
+      border-top-color: #d169d1;
+    border-bottom-color: #53bf53;
+    border-left-color: #6bbb6b;
+    border-right-color: #fd5cfd;
+    }
 
     .incorrect {
       background-color: orangered;
@@ -311,6 +324,9 @@
 </head>
 
 <body>
+  <div>
+    <a href="/bitapp/quiz_v1/quiz.html" class="qzSel">Go to Quiz Selection</a>
+  </div>
   <h3>
     Mock Test App by <a href="https://github.com/vyomic">😎Me🤓</a>
   </h3>
@@ -394,7 +410,7 @@
 
     // Event listener for loading the default JSON
     document.getElementById('loadJsonButton5').addEventListener('click', function () {
-      fetch('quiz5.json')
+      fetch('../../data/quiz5.json')
         .then(response => response.json())
         .then(data => {
           questionsData = data;
@@ -406,7 +422,7 @@
         });
     });
     document.getElementById('loadJsonButton6').addEventListener('click', function () {
-      fetch('em1quiz6.json')
+      fetch('../../data/em1quiz6.json')
         .then(response => response.json())
         .then(data => {
           questionsData = data;
@@ -418,7 +434,7 @@
         });
     });
     document.getElementById('loadJsonButton1').addEventListener('click', function () {
-      fetch('Quiz1.json')
+      fetch('../../data/Quiz1.json')
         .then(response => response.json())
         .then(data => {
           questionsData = data;
@@ -430,7 +446,7 @@
         });
     });
     document.getElementById('loadJsonButton2').addEventListener('click', function () {
-      fetch('quiz_questions.json')
+      fetch('../../data/quiz_questions.json')
         .then(response => response.json())
         .then(data => {
           questionsData = data;
@@ -442,7 +458,7 @@
         });
     });
     document.getElementById('loadJsonButton3').addEventListener('click', function () {
-      fetch('quiz3.json')
+      fetch('../../data/quiz3.json')
         .then(response => response.json())
         .then(data => {
           questionsData = data;
@@ -454,7 +470,7 @@
         });
     });
     document.getElementById('loadJsonButton7').addEventListener('click', function () {
-      fetch('em3quiz.json')
+      fetch('../../data/em3quiz.json')
         .then(response => response.json())
         .then(data => {
           questionsData = data;
@@ -466,7 +482,7 @@
         });
     });
     document.getElementById('loadJsonButton4').addEventListener('click', function () {
-      fetch('quiz4.json')
+      fetch('../../data/quiz4.json')
         .then(response => response.json())
         .then(data => {
           questionsData = data;
@@ -619,36 +635,67 @@
         alert('Invalid question number');
       }
     });
+    // theme toggle
     document.addEventListener('DOMContentLoaded', () => {
-      const toggleButton = document.getElementById('toggleButton');
-      const slider = document.getElementsByClassName('slider')[0];
-      const questionsBox = document.getElementsByClassName('questionsBox'); // Get the questionsBox element
+  const toggleButton = document.getElementById('toggleButton');
+  const slider = document.getElementsByClassName('slider')[0];
+  const questionsBox = document.getElementsByClassName('questionsBox'); // Get the questionsBox element
 
-      toggleButton.addEventListener('change', () => {
-        if (toggleButton.checked) {
-          document.body.style.backgroundColor = '#000';
-          document.querySelectorAll('h2').forEach(h2 => {
-            h2.style.color = '#ffedb3';
-          });
-          document.querySelectorAll('h3').forEach(h3 => {
-            h3.style.color = '#ffedb3';
-          });
-          slider.classList.add('day-glow');
-
-        } else {
-          document.body.style.backgroundColor = '';
-          slider.classList.remove('day-glow');
-          document.querySelectorAll('h2').forEach(h2 => {
-            h2.style.color = '#000000';
-          });
-          document.querySelectorAll('h3').forEach(h3 => {
-            h3.style.color = '#000000';
-          });
-
-
-        }
-      });
+  // Check localStorage for the saved theme preference
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'dark') {
+    // Apply the dark theme if saved preference is 'dark'
+    document.body.style.backgroundColor = '#000';
+    document.querySelectorAll('h2').forEach(h2 => {
+      h2.style.color = '#ffedb3';
     });
+    document.querySelectorAll('h3').forEach(h3 => {
+      h3.style.color = '#ffedb3';
+    });
+    slider.classList.add('day-glow');
+    toggleButton.checked = true; // Keep the toggle in the 'on' state
+  } else {
+    // Apply light theme if no saved preference or 'light' preference is saved
+    document.body.style.backgroundColor = '';
+    slider.classList.remove('day-glow');
+    document.querySelectorAll('h2').forEach(h2 => {
+      h2.style.color = '#000000';
+    });
+    document.querySelectorAll('h3').forEach(h3 => {
+      h3.style.color = '#000000';
+    });
+    toggleButton.checked = false; // Keep the toggle in the 'off' state
+  }
+
+  // Event listener to toggle the theme and save it to localStorage
+  toggleButton.addEventListener('change', () => {
+    if (toggleButton.checked) {
+      document.body.style.backgroundColor = '#000';
+      document.querySelectorAll('h2').forEach(h2 => {
+        h2.style.color = '#ffedb3';
+      });
+      document.querySelectorAll('h3').forEach(h3 => {
+        h3.style.color = '#ffedb3';
+      });
+      slider.classList.add('day-glow');
+
+      // Save the dark theme preference to localStorage
+      localStorage.setItem('theme', 'dark');
+    } else {
+      document.body.style.backgroundColor = '';
+      slider.classList.remove('day-glow');
+      document.querySelectorAll('h2').forEach(h2 => {
+        h2.style.color = '#000000';
+      });
+      document.querySelectorAll('h3').forEach(h3 => {
+        h3.style.color = '#000000';
+      });
+
+      // Save the light theme preference to localStorage
+      localStorage.setItem('theme', 'light');
+    }
+  });
+});
 
   </script>
 

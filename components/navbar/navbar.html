@@ -1,0 +1,35 @@
+<nav  class="font-s">
+    <ul>
+        <li pageLoad="components/home/home.html" title="Home" class="active"><i class="fa fa-home fa-2x" aria-hidden="true"></i>
+        </li></li>
+        <li pageLoad="components/projects/projects.html" title="My Projects"><i class="fa fa-cubes fa-2x"
+            aria-hidden="true"></i></li>
+        <li pageLoad="components/contact/contact.html" title="Contact Me"><i
+            class="fa fa-envelope fa-2x" aria-hidden="true"></i></li>
+        <li class="theme" title="Change Theme"><i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i></li>
+    </ul>
+    <span class="exitFs" id="exitFs" title="Exit full screen" onclick="exitFs()"><i class="fa fa-compress" aria-hidden="true"></i></li>
+    </span>
+    <script>
+         function exitFs() {
+     // Exit full screen logic
+     if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.mozCancelFullScreen) { // Firefox
+      document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) { // Chrome, Safari, Opera
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) { // IE/Edge
+      document.msExitFullscreen();
+    }
+
+    // Hide the exit full-screen button when exiting full-screen mode
+    document.getElementById('exitFs').style.visibility = 'hidden';
+    document.getElementById('fullScreenBox').style.display = 'block';
+  };
+    </script>
+    <span id="timebox">
+        <div class="time"></div>
+        <div class="date"></div>
+    </span>
+</nav>

@@ -1,0 +1,4776 @@
+[
+{
+"QuestionNumber": 1,
+"Question": "What is a LAN?",
+"Options": {
+"A": "Local Area Network",
+"B": "Long Area Network",
+"C": "Large Area Network",
+"D": "Little Area Network"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 2,
+"Question": "What is a WAN?",
+"Options": {
+"A": "Wide Area Network",
+"B": "Wireless Area Network",
+"C": "Web Area Network",
+"D": "World Area Network"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 3,
+"Question": "What is an IP address?",
+"Options": {
+"A": "A unique identifier assigned to each device on a network",
+"B": "A type of software",
+"C": "A hardware component",
+"D": "A network protocol"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 4,
+"Question": "What is a broadband connection?",
+"Options": {
+"A": "A high-speed internet connection",
+"B": "A type of software",
+"C": "A hardware component",
+"D": "A network protocol"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 5,
+"Question": "What is network security?",
+"Options": {
+"A": "Protecting a computer from Overheating",
+"B": "Protecting a network from unauthorized access",
+"C": "Ensuring network performance",
+"D": "Managing network devices"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 6,
+"Question": "What is a network topology?",
+"Options": {
+"A": "The physical or logical arrangement of network devices",
+"B": "The speed of data transmission",
+"C": "The type of network media used",
+"D": "The number of devices on a network"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 7,
+"Question": "What is baseband transmission?",
+"Options": {
+"A": "Transmission of a single signal over a communication channel",
+"B": "Transmission of multiple signals over a communication channel",
+"C": "A type of modulation technique",
+"D": "A type of network topology"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 8,
+"Question": "What is broadband transmission?",
+"Options": {
+"A": "Transmission of a single signal over a communication channel",
+"B": "Transmission of multiple signals over a communication channel",
+"C": "A type of modulation technique",
+"D": "A type of network topology"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 9,
+"Question": "Which of the following is an example of baseband transmission?",
+"Options": {
+"A": "Ethernet",
+"B": "Cable TV",
+"C": "DSL",
+"D": "Wi-Fi"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 10,
+"Question": "What is UDP?",
+"Options": {
+"A": "User Datagram Protocol",
+"B": "Universal Datagram Protocol",
+"C": "Unified Datagram Protocol",
+"D": "Unique Datagram Protocol"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 11,
+"Question": "When is UDP used?",
+"Options": {
+"A": "For real-time applications like video streaming",
+"B": "For file transfer",
+"C": "For email",
+"D": "For secure data transmission"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 12,
+"Question": "What is the advantage of UDP over TCP?",
+"Options": {
+"A": "Faster",
+"B": "More reliable",
+"C": "Better error checking",
+"D": "More secure"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 13,
+"Question": "What is the disadvantage of UDP?",
+"Options": {
+"A": "Less reliable",
+"B": "Slower",
+"C": "More complex",
+"D": "Higher overhead"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 14,
+"Question": "What is IP?",
+"Options": {
+"A": "Internet Protocol",
+"B": "Internal Protocol",
+"C": "Integrated Protocol",
+"D": "Internet Program"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 15,
+"Question": "What is the function of IP?",
+"Options": {
+"A": "Delivering data packets from source to destination",
+"B": "Managing network addresses",
+"C": "Providing reliable data transmission",
+"D": "Ensuring data security"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 16,
+"Question": "What is POP?",
+"Options": {
+"A": "Post Office Protocol",
+"B": "Public Office Protocol",
+"C": "Private Office Protocol",
+"D": "Personal Office Protocol"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 17,
+"Question": "What is the function of POP?",
+"Options": {
+"A": "Retrieving emails from a mail server",
+"B": "Sending emails",
+"C": "Managing email accounts",
+"D": "Filtering spam"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 18,
+"Question": "What is IMAP?",
+"Options": {
+"A": "Internet Message Access Protocol",
+"B": "Integrated Message Access Protocol",
+"C": "Interactive Message Access Protocol",
+"D": "Independent Message Access Protocol"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 19,
+"Question": "What is an HTTP method?",
+"Options": {
+"A": "A type of web browser",
+"B": "A way to interact with web servers",
+"C": "A network protocol",
+"D": "A type of web application"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 20,
+"Question": "What is a modem?",
+"Options": {
+"A": "A device that modulates and demodulates signals for data transmission",
+"B": "A network device that connects multiple devices together",
+"C": "A device that amplifies network signals",
+"D": "A device that converts digital signals to analog signals"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 21,
+"Question": "What is a repeater?",
+"Options": {
+"A": "A device that amplifies and regenerates network signals",
+"B": "A network device that connects multiple devices together",
+"C": "A device that directs data packets to their destination",
+"D": "A device to convert analog signals to digital signals"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 22,
+"Question": "What is port 80 used for?",
+"Options": {
+"A": "HTTP",
+"B": "FTP",
+"C": "SMTP",
+"D": "DNS"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 23,
+"Question": "What is port 25 used for?",
+"Options": {
+"A": "HTTP",
+"B": "FTP",
+"C": "SMTP",
+"D": "DNS"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 24,
+"Question": "What is the OSI model?",
+"Options": {
+"A": "A physical network topology",
+"B": "A reference model for network communication",
+"C": "A network protocol",
+"D": "A type of network device"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 25,
+"Question": "Which layer of the OSI model is responsible for physical transmission of data?",
+"Options": {
+"A": "Physical layer",
+"B": "Data link layer",
+"C": "Network layer",
+"D": "Transport layer"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 26,
+"Question": "What is the TCP/IP model?",
+"Options": {
+"A": "A simplified version of the OSI model",
+"B": "A proprietary network protocol",
+"C": "A hardware component",
+"D": "A type of network topology"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 27,
+"Question": "What does ARP stand for in networking?",
+"Options": {
+"A": "Address Resolution Protocol",
+"B": "Advanced Routing Protocol",
+"C": "Address Reallocation Protocol",
+"D": "Automatic Resolution Protocol"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 28,
+"Question": "What does RADIUS stand for?",
+"Options": {
+"A": "Remote Authentication Dial-In User Service",
+"B": "Routing and Addressing Dial-Up System",
+"C": "Remote Access Directory User System",
+"D": "Reliable Authentication Database User Service"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 29,
+"Question": "Which protocol is used to dynamically assign IP addresses to devices on a network?",
+"Options": {
+"A": "ARP",
+"B": "RARP",
+"C": "DHCP",
+"D": "ICMP"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 30,
+"Question": "What is a firewall?",
+"Options": {
+"A": "A hardware or software security system that monitors incoming and outgoing network traffic",
+"B": "A type of antivirus software",
+"C": "A program that scans for viruses",
+"D": "A device that protects against hardware failures"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 31,
+"Question": "What is phishing?",
+"Options": {
+"A": "A type of malware",
+"B": "A social engineering tactic used to steal personal information",
+"C": "A hardware failure",
+"D": "A network error"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 32,
+"Question": "What is a spam email?",
+"Options": {
+"A": "An unwanted email",
+"B": "A virus-infected email",
+"C": "A legitimate email",
+"D": "A type of antivirus software"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 33,
+"Question": "What is the primary function of a firewall?",
+"Options": {
+"A": "Preventing unauthorized access to a network",
+"B": "Speeding up internet connections",
+"C": "Protecting against hardware failures",
+"D": "Improving computer performance"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 34,
+"Question": "What are the two main types of firewalls?",
+"Options": {
+"A": "Hardware and software",
+"B": "Internal and external",
+"C": "Public and private",
+"D": "Static and dynamic"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 35,
+"Question": "What is a web browser?",
+"Options": {
+"A": "A software application used to access the internet",
+"B": "A type of hardware",
+"C": "A network protocol",
+"D": "A computer operating system"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 36,
+"Question": "What is a URL?",
+"Options": {
+"A": "Uniform Resource Locator",
+"B": "Universal Resource Link",
+"C": "Unique Resource Locator",
+"D": "United Resource List"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 37,
+"Question": "What is demodulation?",
+"Options": {
+"A": "The process of converting digital signals into analog signals",
+"B": "The process of converting analog signals into digital signals",
+"C": "The process of amplifying signals",
+"D": "The process of filtering signals"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 38,
+"Question": "Which of the following is an example of broadband transmission?",
+"Options": {
+"A": "Ethernet",
+"B": "Cable TV",
+"C": "DSL",
+"D": "All of the above"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 39,
+"Question": "What is the advantage of broadband transmission over baseband transmission?",
+"Options": {
+"A": "Higher data rate",
+"B": "Better error correction",
+"C": "Less noise",
+"D": "All of the above"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 40,
+"Question": "What is a twisted pair cable?",
+"Options": {
+"A": "A type of wired transmission media",
+"B": "A type of wireless transmission media",
+"C": "A network device",
+"D": "A software application"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 41,
+"Question": "What is a coaxial cable?",
+"Options": {
+"A": "A type of wired transmission media",
+"B": "A type of wireless transmission media",
+"C": "A network device",
+"D": "A software application"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 42,
+"Question": "What is a fiber optic cable?",
+"Options": {
+"A": "A type of wired transmission media",
+"B": "A type of wireless transmission media",
+"C": "A network device",
+"D": "A software application"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 43,
+"Question": "What is a wireless transmission media?",
+"Options": {
+"A": "A physical path for data transmission without using wires",
+"B": "A type of wired transmission media",
+"C": "A network device",
+"D": "A software application"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 44,
+"Question": "What is radio wave transmission?",
+"Options": {
+"A": "A type of wireless transmission media",
+"B": "A type of wired transmission media",
+"C": "A network device",
+"D": "A software application"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 45,
+"Question": "What is the difference between a straight-through and crossover cable?",
+"Options": {
+"A": "The arrangement of wire pairs in the connectors",
+"B": "The length of the cable",
+"C": "The type of connector used",
+"D": "The speed of data transmission"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 46,
+"Question": "What is microwave transmission?",
+"Options": {
+"A": "A type of wireless transmission media",
+"B": "A type of wired transmission media",
+"C": "A network device",
+"D": "A software application"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 47,
+"Question": "What is infrared transmission?",
+"Options": {
+"A": "A type of wireless transmission media",
+"B": "A type of wired transmission media",
+"C": "A network device",
+"D": "A software application"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 48,
+"Question": "What is satellite communication?",
+"Options": {
+"A": "A type of wireless transmission media",
+"B": "A type of wired transmission media",
+"C": "A network device",
+"D": "A software application"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 49,
+"Question": "What is bandwidth?",
+"Options": {
+"A": "The amount of data that can be transmitted over a communication channel in a given amount of time",
+"B": "The distance between two points on a network",
+"C": "The number of devices connected to a network",
+"D": "The type of network topology"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 50,
+"Question": "What is latency?",
+"Options": {
+"A": "The time it takes for a data packet to travel from one point to another",
+"B": "The amount of data that can be transmitted over a communication channel in a given amount of time",
+"C": "The error rate of a communication channel",
+"D": "The type of network topology"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 51,
+"Question": "What is throughput?",
+"Options": {
+"A": "The actual data rate achieved in a communication system",
+"B": "The theoretical maximum data rate of a communication channel",
+"C": "The time it takes for a data packet to travel from one point to another",
+"D": "The error rate of a communication channel"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 52,
+"Question": "What is the difference between FTP and SFTP?",
+"Options": {
+"A": "SFTP is secure, FTP is not",
+"B": "SFTP is faster than FTP",
+"C": "SFTP is used for file sharing, FTP is used for email",
+"D": "There is no difference"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 53,
+"Question": "How many layers are there in the OSI model?",
+"Options": {
+"A": "5",
+"B": "7",
+"C": "9",
+"D": "11"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 54,
+"Question": "What is an ISP?",
+"Options": {
+"A": "A company that provides internet access",
+"B": "A software application for internet browsing",
+"C": "A type of network hardware",
+"D": "A network protocol"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 55,
+"Question": "What is broadband internet?",
+"Options": {
+"A": "A high-speed internet connection",
+"B": "A low-speed internet connection",
+"C": "A type of wireless connection",
+"D": "A type of wired connection"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 56,
+"Question": "What is the primary function of a firewall in a network?",
+"Options": {
+"A": "Connecting devices",
+"B": "Filtering incoming and outgoing traffic",
+"C": "Amplifying signals",
+"D": "Converting digital signals"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 57,
+"Question": "Which device can operate at both the Data Link and Network layers of the OSI model?",
+"Options": {
+"A": "Switch",
+"B": "Hub",
+"C": "Router",
+"D": "Bridge"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 58,
+"Question": "What device is used to boost signals in a wireless network?",
+"Options": {
+"A": "Access Point",
+"B": "Router",
+"C": "Repeater",
+"D": "Firewall"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 59,
+"Question": "Which device enables communication between devices in different VLANs?",
+"Options": {
+"A": "Router",
+"B": "Switch",
+"C": "Bridge",
+"D": "Hub"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 60,
+"Question": "Which device is primarily used to block unauthorized access to a network?",
+"Options": {
+"A": "Router",
+"B": "Switch",
+"C": "Firewall",
+"D": "Repeater"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 61,
+"Question": "Which security protocol is used to secure wireless networks?",
+"Options": {
+"A": "HTTP",
+"B": "FTP",
+"C": "WEP",
+"D": "WPA2"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 62,
+"Question": "Which method is used to verify the identity of a user attempting to access a network?",
+"Options": {
+"A": "Content filtering",
+"B": "Authentication",
+"C": "Encryption",
+"D": "Phishing"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 63,
+"Question": "What is the primary function of a network firewall?",
+"Options": {
+"A": "To encrypt data transmissions",
+"B": "To filter incoming and outgoing network traffic",
+"C": "To store and forward data packets",
+"D": "To manage network connections"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 64,
+"Question": "Which type of VPN connects remote users to a corporate network?",
+"Options": {
+"A": "Site-to-Site VPN",
+"B": "Client-to-Site VPN",
+"C": "Extranet VPN",
+"D": "Intranet VPN"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 65,
+"Question": "Which type of communication occurs in real-time, where both sender and receiver must be active simultaneously?",
+"Options": {
+"A": "Synchronous Communication",
+"B": "Asynchronous Communication",
+"C": "Broadcast Communication",
+"D": "Multicast Communication"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 66,
+"Question": "What is the primary purpose of a network?",
+"Options": {
+"A": "To share resources",
+"B": "To play games",
+"C": "To watch videos",
+"D": "To send emails"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 67,
+"Question": "What is the Internet?",
+"Options": {
+"A": "A global network of computers",
+"B": "A local area network",
+"C": "A type of software",
+"D": "A hardware component"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 68,
+"Question": "What is a network?",
+"Options": {
+"A": "A collection of interconnected devices",
+"B": "A single computer",
+"C": "A software application",
+"D": "A type of hardware"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 69,
+"Question": "What is a VPN?",
+"Options": {
+"A": "Virtual Private Network",
+"B": "Very Private Network",
+"C": "Video Private Network",
+"D": "Voice Private Network"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 70,
+"Question": "What is hyper terminal?",
+"Options": {
+"A": "Hyper Terminal is a communications software to connect and transfer files between the two computers.",
+"B": "It is a media player",
+"C": "It is an antivirus",
+"D": "Something else"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 71,
+"Question": "What is Hypernet?",
+"Options": {
+"A": "Hypernet is a parallel computing protocol",
+"B": "Takes advantage of idle computing power on a network of decentralized devices.",
+"C": "Hypernet connects network of devices in order to reduce computing time.",
+"D": "All of the mentioned"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 72,
+"Question": "Telnet is used for _______",
+"Options": {
+"A": "Television on net",
+"B": "Network of Telephones",
+"C": "Remote Login",
+"D": "Teleshopping site"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 73,
+"Question": "For which operating system, Absolute Telnet is a telnet client?",
+"Options": {
+"A": "Windows",
+"B": "Linux",
+"C": "Mac",
+"D": "Ubuntu"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 74,
+"Question": "Which level do the gateways route at?",
+"Options": {
+"A": "Physical level",
+"B": "Network-level",
+"C": "Application-level",
+"D": "Transport level"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 75,
+"Question": "TeamViewer was founded in Goppingen, Germany in _______",
+"Options": {
+"A": "2004",
+"B": "2005",
+"C": "2006",
+"D": "2007"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 76,
+"Question": "Which is a good way of flushing potentially sensitive information?",
+"Options": {
+"A": "Depleting",
+"B": "Moving",
+"C": "Clearing Cache",
+"D": "None"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 77,
+"Question": "Who provides the path for enterprise mode site list to overcome compatibility issues?",
+"Options": {
+"A": "Enterprise mode site list path",
+"B": "site list path",
+"C": "Enterprise browser path",
+"D": "Site path"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 78,
+"Question": "The purpose of a web browser?",
+"Options": {
+"A": "To fetch information resources from the Web and display them on a user's device.",
+"B": "To fetch information resources from the Web.",
+"C": "To delete the cookies",
+"D": "None"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 79,
+"Question": "What is populating the inbox of any targeted victim with junk emails?",
+"Options": {
+"A": "Phishing",
+"B": "Spamming",
+"C": "DoA",
+"D": "DoS"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 80,
+"Question": "What is routing?",
+"Options": {
+"A": "A path for sending packets through one network to another network.",
+"B": "The way of arranging the OSI model.",
+"C": "The path defining the dropping of the packets.",
+"D": "The path through which the network is accessed."
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 81,
+"Question": "Which route’s IP is always 127.0.0.1?",
+"Options": {
+"A": "Broadcast route",
+"B": "Default route",
+"C": "Local route",
+"D": "loopback route"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 82,
+"Question": "What kind of routing Is TCP/IP?",
+"Options": {
+"A": "Dynamic",
+"B": "Static",
+"C": "Neither A nor B",
+"D": "Either static or dynamic"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 83,
+"Question": "Which VPN type is best suited for a company that wants to securely connect its remote branch offices?",
+"Options": {
+"A": "Client-to-Site VPN",
+"B": "Site-to-Site VPN",
+"C": "Intranet VPN",
+"D": "Extranet VPN"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 84,
+"Question": "What is the purpose of the vlan database command on a switch?",
+"Options": {
+"A": "To display the VLANs configured on the switch",
+"B": "To enter VLAN configuration mode",
+"C": "To create a new VLAN",
+"D": "To delete a VLAN"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 85,
+"Question": "Which type of tunneling encapsulates one type of protocol within another to enable secure communication?",
+"Options": {
+"A": "HTTP Tunneling",
+"B": "GRE Tunneling",
+"C": "VPN Tunneling",
+"D": "Proxy Tunneling"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 86,
+"Question": "What is the POST method used for?",
+"Options": {
+"A": "Retrieving data from a server",
+"B": "Sending data to a server",
+"C": "Updating data on a server",
+"D": "Deleting data from a server"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 87,
+"Question": "What is the purpose of port 110?",
+"Options": {
+"A": "HTTP",
+"B": "FTP",
+"C": "POP3",
+"D": "SMTP"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 88,
+"Question": "DHCP uses UDP port _________ for sending data to the server.",
+"Options": {
+"A": "66",
+"B": "67",
+"C": "68",
+"D": "69"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 89,
+"Question": "The DHCP server can provide the _______ of the IP addresses.",
+"Options": {
+"A": "dynamic allocation",
+"B": "automatic allocation",
+"C": "static allocation",
+"D": "all of the mentioned"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 90,
+"Question": "Which of the following does authentication aim to accomplish?",
+"Options": {
+"A": "Restrict what operations/data the user can access",
+"B": "Determine if the user is an attacker",
+"C": "Flag the user if he/she misbehaves",
+"D": "Determine who the user is"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 91,
+"Question": "What is primarily required to achieve 56K modem speed?",
+"Options": {
+"A": "A modem capable of sending at 56K",
+"B": "A software package capable of sending at 56K",
+"C": "A cable modem",
+"D": "A modem on both ends of the connection that can send and receive at 56K"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 92,
+"Question": "What type of transceivers do modems use?",
+"Options": {
+"A": "RJ-11",
+"B": "RJ-12",
+"C": "UTP",
+"D": "RJ-45"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 93,
+"Question": "The entire hostname has a maximum of ___________",
+"Options": {
+"A": "255 characters",
+"B": "127 characters",
+"C": "63 characters",
+"D": "31 characters"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 94,
+"Question": "A DNS client is called _________",
+"Options": {
+"A": "DNS updater",
+"B": "DNS resolver",
+"C": "DNS handler",
+"D": "none of the mentioned"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 95,
+"Question": "Which of the following is an authentication method?",
+"Options": {
+"A": "Secret question",
+"B": "Biometric",
+"C": "Password",
+"D": "All of the above"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 96,
+"Question": "Which of the following describes the first step in establishing an encrypted session using a Data Encryption Standard (DES) key?",
+"Options": {
+"A": "Key clustering",
+"B": "Key compression",
+"C": "Key signing",
+"D": "Key exchange"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 97,
+"Question": "Which of the following entity is ultimately responsible for information security within an organization?",
+"Options": {
+"A": "IT Security Officer",
+"B": "Project Managers",
+"C": "Department Directors",
+"D": "Senior Management"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 98,
+"Question": "What type of cryptanalytic attack where an adversary has the least amount of information to work with?",
+"Options": {
+"A": "Known-plaintext",
+"B": "Ciphertext-only",
+"C": "Plaintext-only",
+"D": "Chosen-ciphertext"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 99,
+"Question": "Which of the following items is not used in Local Area Networks(LANs)?",
+"Options": {
+"A": "Computer",
+"B": "Cable",
+"C": "Modem",
+"D": "Interface card"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 100,
+"Question": "Which of the following represents the fastest data transmission speed?",
+"Options": {
+"A": "Gbps",
+"B": "Kbps",
+"C": "Bps",
+"D": "Mbps"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 101,
+"Question": "A device that connects to a network with out the use of cables is said to be",
+"Options": {
+"A": "Open source",
+"B": "Cabled",
+"C": "Distributed",
+"D": "Wireless"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 102,
+"Question": "WI – FI uses",
+"Options": {
+"A": "Phase line",
+"B": "Radio waves",
+"C": "Optic fiber",
+"D": "Sound waves"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 103,
+"Question": "Telnet protocol allows you to connect to remote hosts over ______ network.",
+"Options": {
+"A": "Free",
+"B": "Telnet",
+"C": "OS",
+"D": "TCP/IP"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 104,
+"Question": "Which yum command can be used to install telnet",
+"Options": {
+"A": "yum install telnet-server",
+"B": "yum install-telnet",
+"C": "yum apt get install telnet",
+"D": "None of the mentioned"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 105,
+"Question": "Which is the device that connects devices to create network?",
+"Options": {
+"A": "Switch",
+"B": "Router",
+"C": "Modem",
+"D": "LAN"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 106,
+"Question": "What is the device that connects separate network?",
+"Options": {
+"A": "Router",
+"B": "Modem",
+"C": "Internet",
+"D": "Hub"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 107,
+"Question": "Switches are the connectivity points of an ______ network.",
+"Options": {
+"A": "Wifi",
+"B": "WAN",
+"C": "All",
+"D": "Ethernet"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 108,
+"Question": "This cmd utility is used for remote server management.",
+"Options": {
+"A": "ping",
+"B": "ifconfig",
+"C": "telnet",
+"D": "ssh"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 109,
+"Question": "These type of switches have many features like the highest levels of security, precision control and full management of the network:",
+"Options": {
+"A": "Router",
+"B": "Managed Switch",
+"C": "Unmanaged Switch",
+"D": "None of the options"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 110,
+"Question": "Which of the following is not a feature of unmanaged switches:",
+"Options": {
+"A": "It has no concept of virtual LANs (VLANs).",
+"B": "All devices belong to the same broadcast domain.",
+"C": "Has defined user configuration.",
+"D": "All of the mentioned."
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 111,
+"Question": "A managed switch:",
+"Options": {
+"A": "Lets you adjust each port on the switch to any setting you desire.",
+"B": "Doesn't allow to configure your network.",
+"C": "No control over how data travels over the network.",
+"D": "All are true"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 112,
+"Question": "When it comes to smaller networks, such as for small businesses then ________ switch is more likely to be used.",
+"Options": {
+"A": "Managed",
+"B": "Unmanaged",
+"C": "Dual",
+"D": "Fully controlled"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 113,
+"Question": "Unmanaged switches only allow ethernet devices to communicate over the network.",
+"Options": {
+"A": "False",
+"B": "True",
+"C": "Never",
+"D": "Nil"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 114,
+"Question": "A managed switch supports:",
+"Options": {
+"A": "Port Security",
+"B": "Redundant Ring fail over protection",
+"C": "Port Mirroring",
+"D": "All are true"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 115,
+"Question": "Unmanaged and managed switches are type of:",
+"Options": {
+"A": "Fixed Configuration",
+"B": "Modular",
+"C": "Nil",
+"D": "None"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 116,
+"Question": "QOS(Quality of Service) is a feature of:",
+"Options": {
+"A": "Unmanaged Switches",
+"B": "Managed Switches",
+"C": "Both",
+"D": "None"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 117,
+"Question": "Wireless Access Point (WAP):",
+"Options": {
+"A": "segmentation of users cannot be done.",
+"B": "gives users less flexibility to stay online",
+"C": "is complicated to add new users in the network.",
+"D": "is easier to set up compared to setting up a wired network."
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 118,
+"Question": "The ______ standard designates the radio frequencies used and wireless access points (WAPs)",
+"Options": {
+"A": "801.17",
+"B": "802.11",
+"C": "800.19",
+"D": "804.22"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 119,
+"Question": "Managed Switches are used in:",
+"Options": {
+"A": "Data centre",
+"B": "Small Enterprise",
+"C": "Small Business",
+"D": "Home and Labs"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 120,
+"Question": "Which of this network is plug and play:",
+"Options": {
+"A": "Managed",
+"B": "Unmanaged",
+"C": "Auto",
+"D": "Expandable"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 121,
+"Question": "To configure a Wireless Access Point:",
+"Options": {
+"A": "Register the hardware (MAC. address of the wireless card.",
+"B": "Disable encryption",
+"C": "Reroute the SSID",
+"D": "Open network configuration and disable encryption."
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 122,
+"Question": "What WLAN device is installed in or attached to a PC to provide an interface to a wireless network?",
+"Options": {
+"A": "Network Adaptor",
+"B": "Access Point",
+"C": "Antenna",
+"D": "Repeater"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 123,
+"Question": "A wireless extension to a wired network can eliminate the need for new __________ to be installed.",
+"Options": {
+"A": "Cables",
+"B": "Access Point",
+"C": "Router",
+"D": "Bridges"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 124,
+"Question": "What is SSID?",
+"Options": {
+"A": "Stationary Set Identifier used to enter network.",
+"B": "Service Set Identifier used to identify the network.",
+"C": "Super Service Intermediator used to configure network",
+"D": "Stationary Set Intermediator used to identify network"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 125,
+"Question": "Broadband includes several high-speed transmission technologies such as:",
+"Options": {
+"A": "DSL",
+"B": "Cable Modem",
+"C": "Fiber",
+"D": "All"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 126,
+"Question": "Broadbands are available as______:",
+"Options": {
+"A": "Wired and Wireless",
+"B": "Wired",
+"C": "Wireless",
+"D": "Dual Network Mode"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 127,
+"Question": "ifcofig command helps to:",
+"Options": {
+"A": "Configure system security",
+"B": "Configure a network interface",
+"C": "Configure wireless ports only",
+"D": "Configure additional devices"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 128,
+"Question": "___________ is a tool used to perform DNS lookups in Linux.",
+"Options": {
+"A": "dns",
+"B": "lookup",
+"C": "dnslookup",
+"D": "nslookup"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 129,
+"Question": "Who invented spam & when?",
+"Options": {
+"A": "Jay Hormel in 1937",
+"B": "Jay Hormel in 1941",
+"C": "Jay Hormel in 1936",
+"D": "Jay Hormel in 1950"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 130,
+"Question": "What is spam?",
+"Options": {
+"A": "Spam can be defined as a relevant message sent over the internet.",
+"B": "Spam can be defined as irrelevant or unsolicited messages sent over the Internet.",
+"C": "None",
+"D": "Both"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 131,
+"Question": "Is using spamming tools illegal?",
+"Options": {
+"A": "No",
+"B": "Yes",
+"C": "Maybe",
+"D": "none"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 132,
+"Question": "What is ARP abbreviation for?",
+"Options": {
+"A": "Address route protocol",
+"B": "Address resolution protocol",
+"C": "Address reverse program",
+"D": "Attention resolution program"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 133,
+"Question": "A device designed to filter and transfer IP packets between computer networks is called:",
+"Options": {
+"A": "Hub",
+"B": "Modem",
+"C": "Router",
+"D": "IP configuration"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 134,
+"Question": "Which is not an objective of network security?",
+"Options": {
+"A": "Identification",
+"B": "Lock",
+"C": "Authentication",
+"D": "Access control"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 135,
+"Question": "___________ ensures the integrity and security of data that are passing over a network.",
+"Options": {
+"A": "Firewall",
+"B": "Antivirus",
+"C": "Pentesting Tools",
+"D": "Network-security protocols"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 136,
+"Question": "Which protocol will send a message to routers if a network outage or congestion occurs?",
+"Options": {
+"A": "IP",
+"B": "TCP",
+"C": "ARP",
+"D": "ICMP"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 137,
+"Question": "IPV4 address is:",
+"Options": {
+"A": "8-bit",
+"B": "16-bit",
+"C": "32-bit",
+"D": "64-bit"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 138,
+"Question": "Router operates in which physical layer of OSI Model",
+"Options": {
+"A": "Layer 1(Physical Layer)",
+"B": "Layer 2(Network Layer)",
+"C": "Layer 3(Transport Layer)",
+"D": "Layer 7(Application Layer)"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 139,
+"Question": "Hubs cannot filter data, so data packets are sent to all connected devices.",
+"Options": {
+"A": "True",
+"B": "False",
+"C": "Never",
+"D": "Nil"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 140,
+"Question": "The disadvantage of using hub is:",
+"Options": {
+"A": "Consumes Bandwidth",
+"B": "Slow down the system",
+"C": "Replication of all the bits",
+"D": "Cheapest"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 141,
+"Question": "What is the acronym given to a wireless network defined into a specific area?",
+"Options": {
+"A": "LAN",
+"B": "WLAN",
+"C": "WAN",
+"D": "CAN"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 142,
+"Question": "In order to connect a PC to a network, the PC must have a(n):",
+"Options": {
+"A": "Network Interface Card",
+"B": "ISP",
+"C": "Modem",
+"D": "Wireless Mouse"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 143,
+"Question": "What is the IEEE specification for wireless network?",
+"Options": {
+"A": "802.10",
+"B": "802.1x",
+"C": "802.15",
+"D": "802.11"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 144,
+"Question": "Geometric arrangement of devices on the network is called",
+"Options": {
+"A": "Protocols",
+"B": "Topology",
+"C": "Trailer",
+"D": "LAN"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 145,
+"Question": "Which type of network would use phone lines?",
+"Options": {
+"A": "Wireless",
+"B": "WAN",
+"C": "LAN",
+"D": "WWAN"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 146,
+"Question": "Which of the following is not a network device?",
+"Options": {
+"A": "Router",
+"B": "Modem",
+"C": "Bridge",
+"D": "Switch"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 147,
+"Question": "Which of the following refers to a small, single-site network?",
+"Options": {
+"A": "RAM",
+"B": "DSL",
+"C": "USB",
+"D": "LAN"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 148,
+"Question": "The open-source software version of Netscape is _________?",
+"Options": {
+"A": "Chrome",
+"B": "Mozilla",
+"C": "Internet Explorer",
+"D": "Erwise"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 149,
+"Question": "What is the access point (AP) in a wireless LAN?",
+"Options": {
+"A": "device that allows wireless devices to connect to a wired network",
+"B": "wireless devices itself",
+"C": "both device that allows wireless devices to connect to a wired network and wireless devices itself",
+"D": "all the nodes in the network"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 150,
+"Question": "Routers are often used to implement FIREWALLS",
+"Options": {
+"A": "True",
+"B": "False",
+"C": "May be",
+"D": "Can't say"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 151,
+"Question": "DNS database contains _______",
+"Options": {
+"A": "name server records",
+"B": "hostname-to-address records",
+"C": "hostname aliases",
+"D": "all of the mentioned"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 152,
+"Question": "There are _______ types of spamming.",
+"Options": {
+"A": "3",
+"B": "4",
+"C": "5",
+"D": "6"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 153,
+"Question": "Which of the following is not a proper way of how spammers get the email Ids?",
+"Options": {
+"A": "When a user registers to online services, blogs, and sites",
+"B": "Databases formed by spiders fetching email Ids from different sources",
+"C": "From offline form fill-up documents",
+"D": "Online ad-tracking tools"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 154,
+"Question": "Which of the following is considered as a first web browser?",
+"Options": {
+"A": "Internet explorer",
+"B": "Nexus",
+"C": "Google Chrome",
+"D": "none"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 155,
+"Question": "What's a web browser?",
+"Options": {
+"A": "A kind of spider",
+"B": "A computer that stores WWW files",
+"C": "A person who likes to look at websites",
+"D": "A software program that allows you to access sites on the World Wide Web"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 156,
+"Question": "What is the primary function of ARP in a network?",
+"Options": {
+"A": "To convert domain names to IP addresses",
+"B": "To resolve IP addresses to MAC addresses",
+"C": "To assign IP addresses to devices",
+"D": "To route data packets to the destination"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 157,
+"Question": "What device is used to extend the range of a wireless network?",
+"Options": {
+"A": "Router",
+"B": "Repeater",
+"C": "Switch",
+"D": "Firewall"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 158,
+"Question": "What is the function of HTTP?",
+"Options": {
+"A": "Transferring data between web clients and servers",
+"B": "Managing email",
+"C": "File transfer",
+"D": "Network address management"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 159,
+"Question": "What is HTTPS?",
+"Options": {
+"A": "Hypertext Transfer Protocol Secure",
+"B": "Hyper Secure Transfer Protocol",
+"C": "Hyper Text Secure Protocol",
+"D": "Hyper Text Secure Transfer"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 160,
+"Question": "What is the difference between HTTP and HTTPS?",
+"Options": {
+"A": "HTTPS uses encryption, HTTP does not",
+"B": "HTTP is faster than HTTPS",
+"C": "HTTP is used for email, HTTPS is used for web browsing",
+"D": "There is no difference"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 161,
+"Question": "What is the difference between IPv4 and IPv6?",
+"Options": {
+"A": "IPv6 has a larger address space",
+"B": "IPv4 is more secure",
+"C": "IPv4 is faster",
+"D": "IPv6 is older"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 186,
+"Question": "Which network security device can block traffic based on specific rules set by an administrator?",
+"Options": {
+"A": "Router",
+"B": "Switch",
+"C": "Firewall",
+"D": "Hub"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 187,
+"Question": "What is a denial-of-service (DoS) attack?",
+"Options": {
+"A": "An attempt to overload a system to prevent legitimate users from accessing it",
+"B": "A type of malware",
+"C": "A social engineering tactic",
+"D": "A hardware failure"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 188,
+"Question": "What is a backdoor?",
+"Options": {
+"A": "A way for an attacker to gain unauthorized access to a system",
+"B": "A type of antivirus software",
+"C": "A hardware component",
+"D": "A network protocol"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 189,
+"Question": "What is a domain name?",
+"Options": {
+"A": "A human-readable address for a website",
+"B": "A type of software",
+"C": "A hardware component",
+"D": "A network protocol"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 190,
+"Question": "What is an intranet?",
+"Options": {
+"A": "A private network within an organization",
+"B": "A public network",
+"C": "A type of software",
+"D": "A hardware component"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 191,
+"Question": "How is an intranet different from the internet?",
+"Options": {
+"A": "Intranets are private, while the internet is public",
+"B": "Intranets are slower than the internet",
+"C": "Intranets do not use computers",
+"D": "Intranets are only accessible to mobile devices"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 192,
+"Question": "What are some common uses of an intranet?",
+"Options": {
+"A": "Email, file sharing, collaboration",
+"B": "Online shopping, social networking",
+"C": "Gaming, streaming videos",
+"D": "Public access to information"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 193,
+"Question": "What is a NIC?",
+"Options": {
+"A": "Network Interface Card",
+"B": "Network Input Card",
+"C": "Network Internal Component",
+"D": "Network Integrated Circuit"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 194,
+"Question": "What is a bus topology?",
+"Options": {
+"A": "A network topology where all devices are connected to a central cable",
+"B": "A network topology where devices are connected in a ring",
+"C": "A network topology where devices are connected in a star pattern",
+"D": "A network topology where devices are connected in a mesh pattern"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 195,
+"Question": "What is a star topology?",
+"Options": {
+"A": "A network topology where all devices are connected to a central cable",
+"B": "A network topology where devices are connected in a ring",
+"C": "A network topology where devices are connected to a central hub or switch",
+"D": "A network topology where devices are connected in a mesh pattern"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 196,
+"Question": "What is a ring topology?",
+"Options": {
+"A": "A network topology where all devices are connected to a central cable",
+"B": "A network topology where devices are connected in a ring",
+"C": "A network topology where devices are connected to a central hub or switch",
+"D": "A network topology where devices are connected in a mesh pattern"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 197,
+"Question": "What is a mesh topology?",
+"Options": {
+"A": "A network topology where all devices are connected to a central cable",
+"B": "A network topology where devices are connected in a ring",
+"C": "A network topology where devices are connected to a central hub or switch",
+"D": "A network topology where devices are connected to multiple other devices"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 198,
+"Question": "Which topology is most suitable for coaxial cable?",
+"Options": {
+"A": "Bus",
+"B": "Star",
+"C": "Ring",
+"D": "Mesh"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 199,
+"Question": "Which topology is most suitable for fiber optic cable?",
+"Options": {
+"A": "Bus",
+"B": "Star",
+"C": "Ring",
+"D": "Any of the above"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 200,
+"Question": "Which topology is most reliable?",
+"Options": {
+"A": "Bus",
+"B": "Star",
+"C": "Ring",
+"D": "Mesh"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 201,
+"Question": "Which topology is most susceptible to failure?",
+"Options": {
+"A": "Internet",
+"B": "Star",
+"C": "Ring",
+"D": "Mesh"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 202,
+"Question": "What is the difference between baseband and broadband transmission?",
+"Options": {
+"A": "Baseband transmits one signal at a time, while broadband transmits multiple signals simultaneously",
+"B": "Baseband is digital, while broadband is analog",
+"C": "Baseband is wired, while broadband is wireless",
+"D": "Baseband is slower than broadband"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 203,
+"Question": "What is multiplexing?",
+"Options": {
+"A": "The process of combining multiple signals into a single channel",
+"B": "The process of splitting a signal into multiple channels",
+"C": "The process of amplifying signals",
+"D": "The process of filtering signals"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 204,
+"Question": "What is the RJ-45 connector used for?",
+"Options": {
+"A": "Connecting Ethernet cables",
+"B": "Connecting telephone lines",
+"C": "Connecting coaxial cables",
+"D": "Connecting fiber optic cables"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 205,
+"Question": "What is the color code for Ethernet cables?",
+"Options": {
+"A": "A standardized pattern of wire colors for easy identification",
+"B": "A random pattern of wire colors",
+"C": "No color code is required",
+"D": "The color code depends on the cable length"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 206,
+"Question": "What is the purpose of the crossover cable?",
+"Options": {
+"A": "To connect two computers directly",
+"B": "To connect a computer to a router",
+"C": "To connect a computer to a modem",
+"D": "To connect two hubs"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 207,
+"Question": "What is the purpose of the straight-through cable?",
+"Options": {
+"A": "To connect two computers directly",
+"B": "To connect a computer to a router",
+"C": "To connect a computer to a modem",
+"D": "To connect two hubs"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 208,
+"Question": "What is analog communication?",
+"Options": {
+"A": "Communication using continuous signals",
+"B": "Communication using discrete signals",
+"C": "A type of network topology",
+"D": "A type of modulation technique"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 209,
+"Question": "What is digital communication?",
+"Options": {
+"A": "Communication using continuous signals",
+"B": "Communication using discrete signals",
+"C": "A type of network topology",
+"D": "A type of modulation technique"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 210,
+"Question": "What is the advantage of digital communication over analog communication?",
+"Options": {
+"A": "Higher data rate",
+"B": "Better error correction",
+"C": "Less noise",
+"D": "All of the above"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 211,
+"Question": "What is a protocol?",
+"Options": {
+"A": "A set of rules for communication between devices",
+"B": "A type of hardware",
+"C": "A software application",
+"D": "A network topology"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 212,
+"Question": "What is the GET method used for?",
+"Options": {
+"A": "Retrieving data from a server",
+"B": "Sending data to a server",
+"C": "Updating data on a server",
+"D": "Deleting data from a server"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 213,
+"Question": "What is the PUT method used for?",
+"Options": {
+"A": "Retrieving data from a server",
+"B": "Sending data to a server",
+"C": "Updating or creating a resource",
+"D": "Deleting data from a server"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 214,
+"Question": "What is the DELETE method used for?",
+"Options": {
+"A": "Retrieving data from a server",
+"B": "Sending data to a server",
+"C": "Updating data on a server",
+"D": "Deleting a resource"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 215,
+"Question": "What is a DDoS attack?",
+"Options": {
+"A": "Distributed Denial of Service",
+"B": "Direct Denial of Service",
+"C": "Data Denial of Service",
+"D": "Digital Denial of Service"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 216,
+"Question": "What is a man-in-the-middle attack?",
+"Options": {
+"A": "An attacker intercepts communication between two parties",
+"B": "A type of malware",
+"C": "A hardware failure",
+"D": "A network error"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 217,
+"Question": "What is a port number?",
+"Options": {
+"A": "A unique identifier for a process or application on a computer",
+"B": "A physical address of a network device",
+"C": "A network protocol",
+"D": "A type of network topology"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 218,
+"Question": "Which of the following parameters should you definitely check and, if necessary, adjust in the [global] section of your smb.conf file when configuring Samba?",
+"Options": {
+"A": "path",
+"B": "workgroup",
+"C": "comment",
+"D": "write list"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 219,
+"Question": "Which port is commonly used for HTTP traffic?",
+"Options": {
+"A": "21",
+"B": "22",
+"C": "80",
+"D": "443"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 220,
+"Question": "What port is used by the FTP protocol for data transfer?",
+"Options": {
+"A": "20",
+"B": "21",
+"C": "23",
+"D": "25"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 221,
+"Question": "Which of the following is not a bulk emailing tool?",
+"Options": {
+"A": "Fairlogic Worldcast",
+"B": "123 Hidden sender",
+"C": "YL Mail Man",
+"D": "NetCut"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 222,
+"Question": "What have used which crawl web pages looking for email Ids and copies them to the database?",
+"Options": {
+"A": "Caches",
+"B": "Cookies",
+"C": "Bots",
+"D": "Spiders"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 223,
+"Question": "What is the default port number for the SMTP protocol?",
+"Options": {
+"A": "21",
+"B": "23",
+"C": "25",
+"D": "110"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 224,
+"Question": "Which media access method divides the channel into time slots?",
+"Options": {
+"A": "FDMA",
+"B": "TDMA",
+"C": "CDMA",
+"D": "CSMA/CD"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 225,
+"Question": "Which OSI layer converts digital signals into electrical signals?",
+"Options": {
+"A": "Network",
+"B": "Physical",
+"C": "Data Link",
+"D": "Transport"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 226,
+"Question": "Which media access method allows multiple signals to be transmitted simultaneously?",
+"Options": {
+"A": "FDMA",
+"B": "TDMA",
+"C": "CSMA/CD",
+"D": "CDMA"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 227,
+"Question": "Which layer of the OSI model handles error correction and flow control?",
+"Options": {
+"A": "Physical layer",
+"B": "Data link layer",
+"C": "Network layer",
+"D": "Transport layer"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 228,
+"Question": "Which layer of the OSI model is responsible for routing packets between networks?",
+"Options": {
+"A": "Physical layer",
+"B": "Data link layer",
+"C": "Network layer",
+"D": "Transport layer"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 229,
+"Question": "Which device is used to connect multiple networks together?",
+"Options": {
+"A": "Hub",
+"B": "Switch",
+"C": "Router",
+"D": "Repeater"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 230,
+"Question": "Which network device operates primarily at the Data Link layer of the OSI model?",
+"Options": {
+"A": "Router",
+"B": "Switch",
+"C": "Hub",
+"D": "Gateway"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 231,
+"Question": "Which type of communication allows data to be sent at any time, regardless of whether the receiver is ready?",
+"Options": {
+"A": "Synchronous Communication",
+"B": "Asynchronous Communication",
+"C": "Broadcast Communication",
+"D": "Multicast Communication"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 232,
+"Question": "In which mode of telnet, the client echoes the character on the screen but does not send it until a whole line is completed?",
+"Options": {
+"A": "null mode",
+"B": "character mode",
+"C": "server mode",
+"D": "default mode"
+},
+"Answer": "d"
+},
+{
+"QuestionNumber": 233,
+"Question": "Which is the number one tool for filtering spam?",
+"Options": {
+"A": "SPAMfighter",
+"B": "fighterSPAM",
+"C": "VIRUSfighter",
+"D": "fighterVIRUS"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 234,
+"Question": "What is another name for spambots?",
+"Options": {
+"A": "Spam spiders",
+"B": "fighterSPAM",
+"C": "VIRUSfighter",
+"D": "fighterVIRUS"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 235,
+"Question": "Which of the following is not a type of spamming attack?",
+"Options": {
+"A": "Page-jacking",
+"B": "Image spamming",
+"C": "Spear phishing",
+"D": "Blog & wiki spamming"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 236,
+"Question": "What is the host route?",
+"Options": {
+"A": "A gateway that can forward packets to a specific host on another network.",
+"B": "A gateway that can forward packets to any host on a specific network.",
+"C": "A gateway that can forward packets from a specific host to a specific network.",
+"D": "none"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 237,
+"Question": "If multiple matching routes have Equal distance which route is chosen?",
+"Options": {
+"A": "Most specific route",
+"B": "Random route",
+"C": "Both routes",
+"D": "depending on IP address"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 238,
+"Question": "When a local setting is inaccessible, it indicates that a ________ currently controls that setting.",
+"Options": {
+"A": "User",
+"B": "Guest User",
+"C": "Group Policy Object (GPO)",
+"D": "Something else"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 239,
+"Question": "To configure a setting using the Local Security Policy console, which file to run from start screen?",
+"Options": {
+"A": "Security Settings",
+"B": "Control Panel",
+"C": "secpol.msc",
+"D": "Something else"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 240,
+"Question": "Select the appropriate way to configure a security policy setting.",
+"Options": {
+"A": "Using the Local Security Policy console",
+"B": "Using the Local Group Policy Editor console",
+"C": "Using domain controller",
+"D": "All of the mentioned"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 241,
+"Question": "Why might you want to run SWAT?",
+"Options": {
+"A": "It provides name resolution using NetBIOS protocols.",
+"B": "It provides Web-based GUI administration of a Samba server.",
+"C": "Its run from the inetd or xinetd super server, unlike many servers.",
+"D": "It helps to find and correct bugs in a wide variety of servers."
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 242,
+"Question": "What port should you block with a firewall if you want to limit access to a web server running on its standard port?",
+"Options": {
+"A": "TCP port 22",
+"B": "TCP port 25",
+"C": "TCP port 80",
+"D": "TCP port 901"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 243,
+"Question": "Filter port allows you to ________ specific ports, displayed as rows.",
+"Options": {
+"A": "Drop",
+"B": "Configure",
+"C": "Hide or display",
+"D": "None of the mentioned"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 244,
+"Question": "A web server usually listens on Port Number:",
+"Options": {
+"A": "90",
+"B": "9",
+"C": "80",
+"D": "Any random assigned port"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 245,
+"Question": "Why should the ports not be kept open in a Linux Server?",
+"Options": {
+"A": "Open ports are connected to all folders.",
+"B": "Open ports cause OS to hang.",
+"C": "All of the mentioned.",
+"D": "Open port can be used by attackers to exploit a vulnerability."
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 246,
+"Question": "DHCP (dynamic host configuration protocol) provides __________ to the client.",
+"Options": {
+"A": "IP address",
+"B": "MAC address",
+"C": "Url",
+"D": "None of the mentioned"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 247,
+"Question": "DHCP is used for ________",
+"Options": {
+"A": "IPv6",
+"B": "IPv4",
+"C": "Both IPv6 and IPv4",
+"D": "None of the mentioned"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 248,
+"Question": "The DHCP server _________",
+"Options": {
+"A": "maintains a database of available IP addresses",
+"B": "maintains the information about client configuration parameters",
+"C": "grants an IP address when receives a request from a client",
+"D": "all of the mentioned"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 249,
+"Question": "IP assigned for a client by DHCP server is",
+"Options": {
+"A": "for a limited period",
+"B": "for an unlimited period",
+"C": "not time dependent",
+"D": "none of the mentioned"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 250,
+"Question": "DHCP client and servers on the same subnet communicate via _________",
+"Options": {
+"A": "UDP broadcast",
+"B": "UDP unicast",
+"C": "TCP broadcast",
+"D": "TCP unicast"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 251,
+"Question": "Hardware required to create a wired LAN is:",
+"Options": {
+"A": "NIC, Switch, Router, Transmission Media",
+"B": "WAP, NIC, Router, Hub",
+"C": "Router, Hub, NIC",
+"D": "NIC, Router, Switch, Hub"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 252,
+"Question": "You want to get information about DNS request types and DNS query packet content. What kind of DNS logging do you need to enable to get that information?",
+"Options": {
+"A": "DNS server log",
+"B": "Debug logging",
+"C": "Analytic event logging",
+"D": "DNS monitoring"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 253,
+"Question": "What security principal is assigned as the owner of files and folders created by the operating system?",
+"Options": {
+"A": "The Administrator account",
+"B": "The Administrators group",
+"C": "The SYSVOL special identity",
+"D": "The SYSTEM special identity"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 254,
+"Question": "By default, members of which Active Directory groups can assign ownership of an NTFS file or folder to another user?",
+"Options": {
+"A": "Administrators, Backup Operators",
+"B": "Administrators, Backup Operators, Server Operators",
+"C": "Administrators, Server Operators",
+"D": "Administrators, Backup Operators, Account Operators"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 255,
+"Question": "Unmanaged switch in network allows you to:",
+"Options": {
+"A": "Increase bandwidth",
+"B": "Have greater control",
+"C": "Immediately plug-and-play devices into your network",
+"D": "Prioritize channels"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 256,
+"Question": "Which of the following is true for unmanaged switch:",
+"Options": {
+"A": "It allows for networking of Ethernet devices for data communication.",
+"B": "Forward broadcasts",
+"C": "No user configuration",
+"D": "All are true"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 257,
+"Question": "The advantage to unmanaged switches when it comes to performance is that:",
+"Options": {
+"A": "You need to prioritize things",
+"B": "There’s no need to set anything up",
+"C": "Prioritize SNMP",
+"D": "Troubleshoot the network"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 258,
+"Question": "If you wanted to ping a host but also follow the path at which it pings, what would you use?",
+"Options": {
+"A": "ping",
+"B": "ifconfig",
+"C": "tracert",
+"D": "lookup"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 259,
+"Question": "You want to find out the IP address of a hostname, like google.com, you should use...",
+"Options": {
+"A": "ping",
+"B": "ifconfig",
+"C": "tracert",
+"D": "nslookup"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 260,
+"Question": "To configure managed switches:",
+"Options": {
+"A": "You can expand ports via WLAN",
+"B": "You can use port based VLAN connection or configure via RS232 port",
+"C": "You can restrict the numbers of ports via VLAN",
+"D": "Disconnect DB9 Connector"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 261,
+"Question": "Port mirroring in managed switches helps:",
+"Options": {
+"A": "Supervisor monitoring network",
+"B": "Mirror OS",
+"C": "Mirror all the rights"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 262,
+"Question": "Which of the following is not a technique used by spammers?",
+"Options": {
+"A": "Spoofing the domain",
+"B": "Sending attached virus in spams",
+"C": "Junk tags associated with spam-emails",
+"D": "Making important deals through such emails"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 263,
+"Question": "Among all the routes available which route is chosen?",
+"Options": {
+"A": "Highest distance metric",
+"B": "Lowest distance metric",
+"C": "metric 5",
+"D": "metric 10"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 264,
+"Question": "What is route restriction?",
+"Options": {
+"A": "Users are restricted to use a route",
+"B": "The administrator is restricted to use a route",
+"C": "only some users can access a route",
+"D": "No users can access a route"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 265,
+"Question": "When is a gateway declared dead?",
+"Options": {
+"A": "When it's too far",
+"B": "When it doesn’t send any request within a given period of time",
+"C": "When no response is received for a consecutive request",
+"D": "If the gateway sends too many requests"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 266,
+"Question": "What is another name for the distance metric?",
+"Options": {
+"A": "hop count",
+"B": "cost",
+"C": "hop count and cost",
+"D": "height, hop count and cost"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 267,
+"Question": "Which protocol does not provide feedback?",
+"Options": {
+"A": "TCP",
+"B": "UDP",
+"C": "IP",
+"D": "Something else"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 268,
+"Question": "What is the name of the protocol Apache uses to communicate with clients?",
+"Options": {
+"A": "The Patchy Server Protocol",
+"B": "The Hypertext Transfer Protocol",
+"C": "The Cloud Transfer Protocol",
+"D": "The Hypertext Markup Language"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 269,
+"Question": "How many individual queries are involved in a full recursive DNS lookup?",
+"Options": {
+"A": "1",
+"B": "3",
+"C": "7",
+"D": "A variable number"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 270,
+"Question": "If DHCP snooping is configured on a LAN switch, then clients having specific ______ can access the network.",
+"Options": {
+"A": "MAC address",
+"B": "IP address",
+"C": "Both MAC address and IP address",
+"D": "None of the mentioned"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 271,
+"Question": "Expansion of FTP is __________",
+"Options": {
+"A": "Fine Transfer Protocol",
+"B": "File Transfer Protocol",
+"C": "First Transfer Protocol",
+"D": "Fast Transfer Protocol"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 272,
+"Question": "FTP is built on _____ architecture.",
+"Options": {
+"A": "Client-server",
+"B": "P2P",
+"C": "Data centric",
+"D": "Service oriented"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 273,
+"Question": "FTP uses _________ parallel TCP connections to transfer a file.",
+"Options": {
+"A": "1",
+"B": "2",
+"C": "3",
+"D": "4"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 274,
+"Question": "Identify the incorrect statement regarding FTP.",
+"Options": {
+"A": "FTP stands for File Transfer Protocol",
+"B": "FTP uses two parallel TCP connections",
+"C": "FTP sends its control information in-band",
+"D": "FTP sends exactly one file over the data connection"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 275,
+"Question": "If 5 files are transferred from server A to client B in the same session. The number of TCP connections between A and B is _______",
+"Options": {
+"A": "5",
+"B": "10",
+"C": "2",
+"D": "6"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 276,
+"Question": "FTP server _____________",
+"Options": {
+"A": "Maintains state information",
+"B": "Is stateless",
+"C": "Has single TCP connection for a file transfer",
+"D": "Has UDP connection for file transfer"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 277,
+"Question": "The commands, from client to server, and replies, from server to client, are sent across the control connection in ________ bit ASCII format.",
+"Options": {
+"A": "8",
+"B": "7",
+"C": "3",
+"D": "5"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 278,
+"Question": "Servers handle requests for other domains _______",
+"Options": {
+"A": "directly",
+"B": "by contacting remote DNS server",
+"C": "it is not possible",
+"D": "none of the mentioned"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 279,
+"Question": "Which one of the following allows client to update their DNS entry as their IP address change?",
+"Options": {
+"A": "dynamic DNS",
+"B": "mail transfer agent",
+"C": "authoritative name server",
+"D": "none of the mentioned"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 280,
+"Question": "Wildcard domain names start with label _______",
+"Options": {
+"A": "@",
+"B": "*",
+"C": "&",
+"D": "#"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 281,
+"Question": "In a ring topology, the computer in possession of the ______ can transmit data.",
+"Options": {
+"A": "Data",
+"B": "Packet",
+"C": "Access method",
+"D": "Token"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 282,
+"Question": "Which of the following topologies is not of broadcast type",
+"Options": {
+"A": "Bus",
+"B": "Ring",
+"C": "Star",
+"D": "All of mentioned"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 283,
+"Question": "An alternate name for the completely interconnected network topology is",
+"Options": {
+"A": "Mesh",
+"B": "Star",
+"C": "Tree",
+"D": "Ring"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 284,
+"Question": "You are the new IT admin, and you need to find the network configuration. What should you use?",
+"Options": {
+"A": "ipconfig",
+"B": "netchange",
+"C": "ping",
+"D": "nwnet"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 285,
+"Question": "This command sends a request out and expects a response, indicating that both hosts are communicating:",
+"Options": {
+"A": "ping",
+"B": "ifconfig",
+"C": "tracert",
+"D": "lookup"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 286,
+"Question": "A network server:",
+"Options": {
+"A": "provides various shared resources to workstations and other servers on a network.",
+"B": "provides various links to access the network",
+"C": "provides WAP to all the connected devices",
+"D": "None"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 287,
+"Question": "________ is a company that provides users with access to the internet.",
+"Options": {
+"A": "Hub",
+"B": "Modem",
+"C": "Internet Service Provider",
+"D": "IP configuration"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 288,
+"Question": "Which part of TCP/IP prepares the message for being sent and reassembles any incoming messages?",
+"Options": {
+"A": "IP",
+"B": "TCP",
+"C": "Nil",
+"D": "Both"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 289,
+"Question": "Network security protocols:",
+"Options": {
+"A": "makes sure that the security and integrity of the data are preserved over a network.",
+"B": "helps to transfer files through routing",
+"C": "All are true",
+"D": "Helps to transfer emails"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 290,
+"Question": "______________ is a cryptographic network security protocol used for securing data communication over a network.",
+"Options": {
+"A": "SSL",
+"B": "HTTPS",
+"C": "SSH",
+"D": "AVG"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 291,
+"Question": "__________ is a set of conventions & rules set for communicating two or more devices residing in the same network?",
+"Options": {
+"A": "Security policies",
+"B": "Protocols",
+"C": "Wireless Network",
+"D": "Algorithms"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 292,
+"Question": "______________ is the central node of 802.11 wireless operations.",
+"Options": {
+"A": "Access Points",
+"B": "Protocols",
+"C": "Wireless Network",
+"D": "WAP"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 293,
+"Question": "When a router needs to send a packet destined for another network, it must know the",
+"Options": {
+"A": "IP Address",
+"B": "Datagram",
+"C": "Medium",
+"D": "Flow"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 294,
+"Question": "In network addresses, each router has two ______.",
+"Options": {
+"A": "Segments",
+"B": "Blocks",
+"C": "Address",
+"D": "Masks"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 295,
+"Question": "________ is actually a multiport repeater. It is normally used to create connections between stations in a physical star topology.",
+"Options": {
+"A": "Active Hub",
+"B": "Passive Hub",
+"C": "Both active and passive",
+"D": "None"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 296,
+"Question": "A _______ can check the MAC addresses contained in the frame.",
+"Options": {
+"A": "Hub",
+"B": "Router",
+"C": "Bridge",
+"D": "Network"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 297,
+"Question": "In ____________When a packet arrives at one port, it is copied to the other ports so that all segments of the LAN can see all packets.",
+"Options": {
+"A": "Router",
+"B": "Hub",
+"C": "Bridge",
+"D": "Network"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 298,
+"Question": "__________hubs which collect wiring from nodes and power supply from active hub. These hubs relay signals onto the network without cleaning and boosting them.",
+"Options": {
+"A": "Extended",
+"B": "Modular",
+"C": "Active",
+"D": "Passive"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 299,
+"Question": "To connect the router to the internet need a ________ to the internet service provider's website.",
+"Options": {
+"A": "ISP",
+"B": "MAC address",
+"C": "Link",
+"D": "Protocols"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 300,
+"Question": "Servers are other computer which provide resources to other computer connected by",
+"Options": {
+"A": "Super computer",
+"B": "Mainframe",
+"C": "Network",
+"D": "Client"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 301,
+"Question": "Which type of topology is in an infrastructure wireless network?",
+"Options": {
+"A": "Mesh",
+"B": "Ring",
+"C": "Star",
+"D": "Bus"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 302,
+"Question": "How many bits are there in the Ethernet address?",
+"Options": {
+"A": "16 bits",
+"B": "32 bits",
+"C": "48 bits",
+"D": "64 bits"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 303,
+"Question": "The computer is experiencing a network problem. The first thing you do is determine that the Broadcom Ethernet NIC is working by checking Device Manager. This is also known as...",
+"Options": {
+"A": "Verify the physical connectivity",
+"B": "Verify the ip configuration",
+"C": "Verify the network adapter",
+"D": "Verify the network connectivity"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 304,
+"Question": "Which protocol resolves an IP address to a physical network address?",
+"Options": {
+"A": "DNS",
+"B": "SNMP",
+"C": "ARP",
+"D": "RARP"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 305,
+"Question": "What is the most common type of connector used in Ethernet cables?",
+"Options": {
+"A": "RJ-16",
+"B": "RJ-45",
+"C": "BNC",
+"D": "USB"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 306,
+"Question": "Which service is used to anonymously browse the internet by hiding the user's IP address?",
+"Options": {
+"A": "DNS",
+"B": "DHCP",
+"C": "Proxy Service",
+"D": "Web Service"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 307,
+"Question": "SMTP is used for",
+"Options": {
+"A": "Sending emails",
+"B": "Receiving emails",
+"C": "Storing emails",
+"D": "Filtering emails"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 308,
+"Question": "After confirming drivers, plugging in cable, checking ipconfig (and fixing any issue) you go to test your connection through the PING command. All tests GOOD. This is also known as...",
+"Options": {
+"A": "Verify the physical connectivity",
+"B": "Verify the ip configuration",
+"C": "Verify the network adapter",
+"D": "Verify the network connectivity"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 309,
+"Question": "The role of RADIUS in network security is;",
+"Options": {
+"A": "To provide encryption for data transmissions",
+"B": "To authenticate and authorize users accessing the network",
+"C": "To filter and block malicious traffic",
+"D": "To resolve IP addresses to MAC addresses"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 310,
+"Question": "How does a firewall protect a network?",
+"Options": {
+"A": "By monitoring user activity",
+"B": "By blocking all incoming traffic",
+"C": "By allowing all outgoing traffic",
+"D": "By filtering network traffic"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 311,
+"Question": "Which device allows multiple computers to share a single Internet connection?",
+"Options": {
+"A": "Hub",
+"B": "Repeater",
+"C": "Router",
+"D": "Bridge"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 312,
+"Question": "If you are using a public system and you want to do a financial transaction, which method should you choose?",
+"Options": {
+"A": "Private window / Incognito mode",
+"B": "Normal mode",
+"C": "Install a new web browser",
+"D": "Something else"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 313,
+"Question": "Main component of Hypernet software infrastructure?",
+"Options": {
+"A": "Blockchain Resource Scheduler.",
+"B": "The API is based on the principle of distributed average consensus",
+"C": "Hypernet operating environment",
+"D": "All of the mentioned"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 314,
+"Question": "Which network security device can monitor and analyze network traffic to identify potential threats?",
+"Options": {
+"A": "Firewall",
+"B": "IDS",
+"C": "Switch",
+"D": "Router"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 315,
+"Question": "Hypernet ecosystem includes_____of computing power.",
+"Options": {
+"A": "Buyers and sellers",
+"B": "Producer and consumer",
+"C": "Company and User",
+"D": "Something else"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 316,
+"Question": "What is the range of IP addresses for a Class B network?",
+"Options": {
+"A": "1.0.0.0 to 126.0.0.0",
+"B": "128.0.0.0 to 191.255.255.255",
+"C": "192.0.0.0 to 223.255.255.255",
+"D": "224.0.0.0 to 239.255.255.255"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 317,
+"Question": "TeamViewer.exe is a legitimate executable file developed by _______",
+"Options": {
+"A": "TeamViewer GmbH",
+"B": "Dream Viewer",
+"C": "BlackBerry",
+"D": "None"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 318,
+"Question": "What is DNS caching?",
+"Options": {
+"A": "Compressing DNS data",
+"B": "Encrypting DNS traffic",
+"C": "Storing DNS records locally to improve performance",
+"D": "Protecting DNS servers from attacks"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 319,
+"Question": "Which network device is used to connect two or more network segments and reduce collisions?",
+"Options": {
+"A": "Hub",
+"B": "Bridge",
+"C": "Router",
+"D": "Repeater"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 320,
+"Question": "Which network security tool can simulate an environment to attract and analyze potential attackers?",
+"Options": {
+"A": "Honeypot",
+"B": "IDS",
+"C": "Firewall",
+"D": "VPN"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 321,
+"Question": "Which security feature prevents a user from accessing websites that may contain malware or inappropriate content?",
+"Options": {
+"A": "Content Filtering",
+"B": "Encryption",
+"C": "Hashing",
+"D": "Authentication"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 322,
+"Question": "What is the color code standard used for Ethernet cables?",
+"Options": {
+"A": "TIA/EIA 568A",
+"B": "EIA/TIA 568B",
+"C": "Both A and B",
+"D": "There is no standard color code"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 323,
+"Question": "What is the difference between TCP and UDP?",
+"Options": {
+"A": "TCP is connection-oriented, UDP is connectionless",
+"B": "TCP is slower than UDP",
+"C": "TCP is unreliable, UDP is reliable",
+"D": "TCP is used for video streaming, UDP is used for email"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 324,
+"Question": "Which amongst these is a valid Class B IP address?",
+"Options": {
+"A": "192.168.0.1",
+"B": "10.1.1.1",
+"C": "172.16.0.1",
+"D": "224.0.0.1"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 325,
+"Question": "Which layer of the OSI model is responsible for logical addressing?",
+"Options": {
+"A": "Data Link",
+"B": "Network",
+"C": "Transport",
+"D": "Physical"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 326,
+"Question": "What is ipconfig?",
+"Options": {
+"A": "A network utility to display network configuration information",
+"B": "A network protocol",
+"C": "A network device",
+"D": "A network topology"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 327,
+"Question": "What is FTP active mode?",
+"Options": {
+"A": "A mode where the data connection is initiated by the server",
+"B": "A mode where the data connection is initiated by the client",
+"C": "A mode where no data connection is established",
+"D": "A mode where data is transferred without encryption"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 328,
+"Question": "What is the function of the show interfaces command on a router?",
+"Options": {
+"A": "To display the configuration of interfaces",
+"B": "To display interface statistics",
+"C": "To reset the interfaces",
+"D": "To shut down the interfaces"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 329,
+"Question": "Which command is used to disable an interface on a switch?",
+"Options": {
+"A": "shutdown",
+"B": "disable interface",
+"C": "interface down",
+"D": "no enable"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 330,
+"Question": "What is the purpose of IMAP IDLE?",
+"Options": {
+"A": "To check for new emails periodically",
+"B": "To keep a continuous connection to the server",
+"C": "To delete emails from the server",
+"D": "To improve email security"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 331,
+"Question": "What is IMAP4rev1?",
+"Options": {
+"A": "An updated version of IMAP with improved features",
+"B": "A security protocol for IMAP",
+"C": "A compression method for IMAP",
+"D": "A type of IMAP client"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 332,
+"Question": "What is a DNS zone?",
+"Options": {
+"A": "A collection of DNS records for a specific domain",
+"B": "A geographical region served by a DNS server",
+"C": "A type of DNS record",
+"D": "A DNS server"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 333,
+"Question": "How does DNS work?",
+"Options": {
+"A": "By using a hierarchical database of domain names and IP addresses",
+"B": "By storing all domain names and IP addresses in a single database",
+"C": "By using a centralized server to manage all domain names",
+"D": "By using peer-to-peer technology"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 334,
+"Question": "What is a DNS resolver?",
+"Options": {
+"A": "A software application that queries DNS servers",
+"B": "A hardware device that stores DNS information",
+"C": "A network protocol",
+"D": "A type of DNS record"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 335,
+"Question": "How does SNMP work?",
+"Options": {
+"A": "By using a manager-agent model",
+"B": "By using a client-server model",
+"C": "By using a peer-to-peer model",
+"D": "By using a hybrid model"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 336,
+"Question": "What are SNMP messages?",
+"Options": {
+"A": "Get, Set, Trap",
+"B": "Request, Response, Error",
+"C": "Send, Receive, Acknowledge",
+"D": "Connect, Data, Disconnect"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 337,
+"Question": "What is the default mode of operation for an Ethernet switch port?",
+"Options": {
+"A": "Access",
+"B": "Trunk",
+"C": "Hybrid",
+"D": "Monitor"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 338,
+"Question": "What is tracert?",
+"Options": {
+"A": "A network utility to trace the route of packets",
+"B": "A network protocol",
+"C": "A network device",
+"D": "A network topology"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 339,
+"Question": "What is SNMPv3?",
+"Options": {
+"A": "The latest version of SNMP with improved security",
+"B": "An older version of SNMP",
+"C": "A specific type of SNMP message",
+"D": "A network management tool"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 340,
+"Question": "How does SMTP work?",
+"Options": {
+"A": "By using a client-server model",
+"B": "By using a peer-to-peer model",
+"C": "By using a cloud-based system",
+"D": "By using a hybrid model"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 341,
+"Question": "What is the role of SMTP in email communication?",
+"Options": {
+"A": "Sending emails",
+"B": "Receiving emails",
+"C": "Storing emails",
+"D": "Delivering emails to the final recipient"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 342,
+"Question": "What is the relationship between SMTP and POP3/IMAP?",
+"Options": {
+"A": "SMTP is used for sending emails, while POP3/IMAP is used for receiving emails",
+"B": "SMTP and POP3/IMAP are used for the same purpose",
+"C": "SMTP is a replacement for POP3/IMAP",
+"D": "SMTP and POP3/IMAP are not related"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 343,
+"Question": "What is WINS?",
+"Options": {
+"A": "A name resolution service for NetBIOS names",
+"B": "A dynamic host configuration protocol",
+"C": "A network management protocol",
+"D": "A security protocol"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 344,
+"Question": "How does WINS work?",
+"Options": {
+"A": "By maintaining a database of NetBIOS names and IP addresses",
+"B": "By using DNS to resolve NetBIOS names",
+"C": "By broadcasting NetBIOS name requests",
+"D": "By using a peer-to-peer approach"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 345,
+"Question": "What is the purpose of the show running-config command on a switch?",
+"Options": {
+"A": "To display the current operating system version",
+"B": "To display the active configuration in memory",
+"C": "To display all connected devices",
+"D": "To restart the switch"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 346,
+"Question": "Which of the following media access methods is used by Ethernet?",
+"Options": {
+"A": "Token Passing",
+"B": "CSMA/CD",
+"C": "Polling",
+"D": "FDMA"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 347,
+"Question": "What media access control method does Wi-Fi use?",
+"Options": {
+"A": "Token Ring",
+"B": "CSMA/CA",
+"C": "CDMA",
+"D": "Polling"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 348,
+"Question": "Which of the following is a RESTful web service method?",
+"Options": {
+"A": "CONNECT",
+"B": "POST",
+"C": "REPEAT",
+"D": "TRACE"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 349,
+"Question": "In which layer of the OSI model do switches operate?",
+"Options": {
+"A": "Physical",
+"B": "Data Link",
+"C": "Network",
+"D": "Transport"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 350,
+"Question": "What media access method is used in a Token Ring network?",
+"Options": {
+"A": "CSMA/CD",
+"B": "CSMA/CA",
+"C": "Polling",
+"D": "Token Passing"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 351,
+"Question": "Which media access method is used by CDMA networks?",
+"Options": {
+"A": "FDMA",
+"B": "TDMA",
+"C": "CDMA",
+"D": "CSMA/CA"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 352,
+"Question": "Which protocol is used to invoke web services in a standardized way?",
+"Options": {
+"A": "SOAP",
+"B": "TCP",
+"C": "ICMP",
+"D": "SNMP"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 353,
+"Question": "Which layer of the TCP/IP model is responsible for routing packets?",
+"Options": {
+"A": "Application layer",
+"B": "Transport layer",
+"C": "Internet layer",
+"D": "Network access layer"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 354,
+"Question": "Which layer of the TCP/IP model is responsible for data transfer between applications?",
+"Options": {
+"A": "Application layer",
+"B": "Transport layer",
+"C": "Internet layer",
+"D": "Network access layer"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 355,
+"Question": "What is the difference between a dial-up and broadband connection?",
+"Options": {
+"A": "Dial-up is slower and uses a phone line, while broadband is faster and uses various technologies",
+"B": "Dial-up is faster and uses a phone line, while broadband is slower and uses various technologies",
+"C": "There is no difference between dial-up and broadband",
+"D": "Dial-up is used for wired connections, while broadband is used for wireless connections"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 356,
+"Question": "Which device forwards data to all ports regardless of the destination?",
+"Options": {
+"A": "Hub",
+"B": "Switch",
+"C": "Router",
+"D": "Bridge"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 357,
+"Question": "Which device is typically used to divide a network into smaller, manageable segments?",
+"Options": {
+"A": "Router",
+"B": "Switch",
+"C": "Bridge",
+"D": "Hub"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 358,
+"Question": "What device converts digital signals to analog signals and vice versa for communication over telephone lines?",
+"Options": {
+"A": "Switch",
+"B": "Modem",
+"C": "Router",
+"D": "Bridge"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 359,
+"Question": "Which network device uses MAC addresses to forward data to the correct destination?",
+"Options": {
+"A": "Router",
+"B": "Switch",
+"C": "Hub",
+"D": "Modem"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 360,
+"Question": "Which device connects different types of networks and converts data formats if necessary?",
+"Options": {
+"A": "Switch",
+"B": "Router",
+"C": "Bridge",
+"D": "Gateway"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 361,
+"Question": "Which device provides a wireless network interface for devices to connect to a wired network?",
+"Options": {
+"A": "Hub",
+"B": "Switch",
+"C": "Wireless Access Point",
+"D": "Repeater"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 362,
+"Question": "Which device is responsible for forwarding packets based on IP addresses?",
+"Options": {
+"A": "Hub",
+"B": "Switch",
+"C": "Router",
+"D": "Bridge"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 363,
+"Question": "Which device is commonly used to create a boundary between two or more networks, typically for security purposes?",
+"Options": {
+"A": "Router",
+"B": "Firewall",
+"C": "Switch",
+"D": "Repeater"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 364,
+"Question": "Which device can be used to detect and prevent malicious activities on a network?",
+"Options": {
+"A": "Switch",
+"B": "Firewall",
+"C": "Intrusion Detection System (IDS)",
+"D": "Repeater"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 365,
+"Question": "Which encryption protocol is commonly used to secure data transmitted over a network?",
+"Options": {
+"A": "SSL/TLS",
+"B": "HTTP",
+"C": "FTP",
+"D": "Telnet"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 366,
+"Question": "What is the main purpose of using a proxy server in network security?",
+"Options": {
+"A": "To filter and cache web content",
+"B": "To monitor network performance",
+"C": "To encrypt network traffic",
+"D": "To share files between computers"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 367,
+"Question": "Which LAN security measure involves restricting access to specific devices based on their MAC address?",
+"Options": {
+"A": "IP Filtering",
+"B": "MAC Address Filtering",
+"C": "Content Filtering",
+"D": "Port Filtering"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 368,
+"Question": "Which security technique ensures that only authorized users can access specific network resources?",
+"Options": {
+"A": "Authentication",
+"B": "Encryption",
+"C": "Content Filtering",
+"D": "VPN"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 369,
+"Question": "Which device is used to prevent unauthorized access to a wireless network?",
+"Options": {
+"A": "Switch",
+"B": "Access Point",
+"C": "Wireless Router",
+"D": "Firewall"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 370,
+"Question": "What is the primary purpose of a Virtual Private Network (VPN)?",
+"Options": {
+"A": "To filter web content",
+"B": "To encrypt data and provide secure remote access",
+"C": "To monitor network traffic",
+"D": "To share files between computers"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 371,
+"Question": "What type of security policy involves restricting network access based on the time of day or location?",
+"Options": {
+"A": "Role-based Access Control (RBAC)",
+"B": "Time-based Access Control",
+"C": "Location-based Access Control",
+"D": "Network Segmentation"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 372,
+"Question": "Which device is typically used to segment a network into secure and unsecure zones?",
+"Options": {
+"A": "Hub",
+"B": "Firewall",
+"C": "Router",
+"D": "Switch"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 373,
+"Question": "Which protocol is used by RARP to obtain the IP address corresponding to a MAC address?",
+"Options": {
+"A": "ARP",
+"B": "DHCP",
+"C": "DNS",
+"D": "ICMP"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 374,
+"Question": "Which protocol is used by RADIUS for authentication and accounting?",
+"Options": {
+"A": "TCP",
+"B": "UDP",
+"C": "ICMP",
+"D": "FTP"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 375,
+"Question": "Which VPN protocol provides data integrity and confidentiality through encryption?",
+"Options": {
+"A": "L2TP",
+"B": "OpenVPN",
+"C": "PPTP",
+"D": "GRE"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 376,
+"Question": "Which of the following is a characteristic of asynchronous communication?",
+"Options": {
+"A": "Real-time data exchange",
+"B": "No need for synchronization",
+"C": "Continuous data flow",
+"D": "Both sender and receiver are active simultaneously"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 377,
+"Question": "Which protocol is often used to establish a VPN connection over the internet?",
+"Options": {
+"A": "DNS",
+"B": "IPsec",
+"C": "FTP",
+"D": "DHCP"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 378,
+"Question": "Which type of VPN is typically used to connect two or more corporate networks over a public network?",
+"Options": {
+"A": "Client-to-Site VPN",
+"B": "Intranet VPN",
+"C": "Site-to-Site VPN",
+"D": "Extranet VPN"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 379,
+"Question": "What is the function of the RARP protocol in a network?",
+"Options": {
+"A": "To map IP addresses to MAC addresses",
+"B": "To retrieve an IP address given a MAC address",
+"C": "To translate domain names into IP addresses",
+"D": "To route data packets between networks"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 380,
+"Question": "Which tunneling protocol is often used in combination with IPsec for a secure VPN?",
+"Options": {
+"A": "PPTP",
+"B": "L2TP",
+"C": "GRE",
+"D": "HTTPS"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 381,
+"Question": "Which protocol is responsible for translating an IP address into a MAC address?",
+"Options": {
+"A": "ARP",
+"B": "RARP",
+"C": "DNS",
+"D": "DHCP"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 382,
+"Question": "What is the role of RADIUS in network security?",
+"Options": {
+"A": "To provide encryption for data transmissions",
+"B": "To authenticate and authorize users accessing the network",
+"C": "To filter and block malicious traffic",
+"D": "To resolve IP addresses to MAC addresses"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 383,
+"Question": "Which VPN protocol is known for its simplicity and ease of use but has weaker security features?",
+"Options": {
+"A": "PPTP",
+"B": "IPsec",
+"C": "L2TP",
+"D": "OpenVPN"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 384,
+"Question": "What is the role of a reverse proxy?",
+"Options": {
+"A": "To monitor outgoing traffic",
+"B": "To provide access control",
+"C": "To distribute incoming requests to multiple servers",
+"D": "To cache web content"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 385,
+"Question": "Which security mechanism ensures that sensitive data is unreadable by unauthorized users?",
+"Options": {
+"A": "Hashing",
+"B": "Encryption",
+"C": "Authentication",
+"D": "Content Filtering"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 386,
+"Question": "Which communication method requires both the sender and receiver to be active at the same time for data exchange?",
+"Options": {
+"A": "Asynchronous Communication",
+"B": "Synchronous Communication",
+"C": "Half-Duplex Communication",
+"D": "Full-Duplex Communication"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 387,
+"Question": "Which port number is used for the SSH protocol?",
+"Options": {
+"A": "20",
+"B": "22",
+"C": "23",
+"D": "25"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 388,
+"Question": "What is the disadvantage of POP?",
+"Options": {
+"A": "Limited email storage",
+"B": "Slow download speeds",
+"C": "Emails are deleted from the server after download",
+"D": "Security vulnerabilities"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 389,
+"Question": "Which layer of the OSI model is responsible for flow control?",
+"Options": {
+"A": "Network",
+"B": "Data Link",
+"C": "Transport",
+"D": "Session"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 390,
+"Question": "Which OSI layer is responsible for data formatting and translation?",
+"Options": {
+"A": "Physical",
+"B": "Presentation",
+"C": "Application",
+"D": "Transport"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 391,
+"Question": "Which protocol is often used as a secure web service?",
+"Options": {
+"A": "FTP",
+"B": "HTTPS",
+"C": "SNMP",
+"D": "Telnet"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 392,
+"Question": "What is a web server?",
+"Options": {
+"A": "A network device",
+"B": "A software application",
+"C": "A type of hardware",
+"D": "A computer that hosts websites"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 393,
+"Question": "Which method is commonly used to provide stateless communication in web services?",
+"Options": {
+"A": "SOAP",
+"B": "REST",
+"C": "FTP",
+"D": "SMTP"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 394,
+"Question": "Which of the following is an example of asynchronous communication?",
+"Options": {
+"A": "Phone call",
+"B": "Instant messaging",
+"C": "Video conference",
+"D": "Email"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 395,
+"Question": "Which technology is used to ensure that data has not been altered during transmission?",
+"Options": {
+"A": "Encryption",
+"B": "Hashing",
+"C": "Authentication",
+"D": "Phishing"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 396,
+"Question": "What is the primary purpose of a Demilitarized Zone (DMZ) in network security?",
+"Options": {
+"A": "To store sensitive data",
+"B": "To isolate public-facing services from the internal network",
+"C": "To filter email content",
+"D": "To manage network traffic"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 397,
+"Question": "Which type of attack involves overwhelming a network with a flood of traffic to disrupt service?",
+"Options": {
+"A": "Phishing",
+"B": "Man-in-the-Middle",
+"C": "SQL Injection",
+"D": "Denial of Service (DoS)"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 398,
+"Question": "What is the function of a load balancer in a network?",
+"Options": {
+"A": "To filter traffic",
+"B": "To distribute traffic across multiple servers",
+"C": "To amplify signals",
+"D": "To translate IP addresses"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 399,
+"Question": "What is port 21 used for?",
+"Options": {
+"A": "HTTPS",
+"B": "FTP",
+"C": "SMTP",
+"D": "DNS"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 400,
+"Question": "Which device filters traffic between different segments of a network and operates at the Network layer?",
+"Options": {
+"A": "Hub",
+"B": "Switch",
+"C": "Router",
+"D": "Bridge"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 401,
+"Question": "Which network device can regenerate a signal to extend its transmission distance?",
+"Options": {
+"A": "Switch",
+"B": "Router",
+"C": "Repeater",
+"D": "Hub"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 402,
+"Question": "Which method is used by SOAP to send data over the network?",
+"Options": {
+"A": "REST",
+"B": "XML",
+"C": "JSON",
+"D": "HTML"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 403,
+"Question": "What is the difference between a well-known port and a registered port?",
+"Options": {
+"A": "Well-known ports are assigned by IANA, registered ports are assigned by organizations",
+"B": "Well-known ports are for client applications, registered ports are for server applications",
+"C": "Well-known ports are secure, registered ports are not",
+"D": "There is no difference"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 404,
+"Question": "What is FTP used for?",
+"Options": {
+"A": "Managing network devices",
+"B": "Sending emails",
+"C": "Transferring files between computers",
+"D": "Browsing the web"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 405,
+"Question": "FTP active mode is",
+"Options": {
+"A": "A mode where the data connection is initiated by the server",
+"B": "A mode where the data connection is initiated by the client",
+"C": "A mode where no data connection is established",
+"D": "A mode where data is transferred without encryption"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 406,
+"Question": "Which class of IP addresses is used for large networks and can have over 16 million hosts?",
+"Options": {
+"A": "Class A",
+"B": "Class X",
+"C": "Class C",
+"D": "Class Y"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 407,
+"Question": "What device is used to connect devices within a single network segment?",
+"Options": {
+"A": "Hub",
+"B": "Switch",
+"C": "Router",
+"D": "Modem"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 408,
+"Question": "Which class of IP addresses is used for multicast groups?",
+"Options": {
+"A": "Class X",
+"B": "Class Y",
+"C": "Class A",
+"D": "Class D"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 409,
+"Question": "Which class of IP addresses is typically used for small networks with up to 254 hosts?",
+"Options": {
+"A": "Class A",
+"B": "Class X",
+"C": "Class C",
+"D": "Class B"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 410,
+"Question": "Which protocol do the routed daemons support?",
+"Options": {
+"A": "RIP",
+"B": "RIPng",
+"C": "HELLO",
+"D": "ICMP"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 411,
+"Question": "How many account policy each domain can have?",
+"Options": {
+"A": "Only one account policy",
+"B": "Two account policy",
+"C": "No account policy",
+"D": "Something else"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 412,
+"Question": "WPS(Wi-Fi Protected Setup) is:",
+"Options": {
+"A": "It is a wireless network security standard that tries to make connections between a router and wireless devices faster and easier.",
+"B": "All are true",
+"C": "WPS works without the WPA Personal or WPA2 Personal security protocols.",
+"D": "WPS works on wireless networks that are using the deprecated WEP security."
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 413,
+"Question": "Which type of topology is in an adhoc wireless network?",
+"Options": {
+"A": "Star",
+"B": "Mesh",
+"C": "Bus",
+"D": "Ring"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 414,
+"Question": "When troubleshooting network connectivity or application-specific issues one of the first things to check should be what _________ are actually in use on your system.",
+"Options": {
+"A": "Ports",
+"B": "Modes",
+"C": "Connections",
+"D": "Server"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 415,
+"Question": "Which of the following statement is true for Telnet:",
+"Options": {
+"A": "Telnet is a user command and an underlying TCP/IP protocol.",
+"B": "Through Telnet, an administrator or another user can access someone else's computer remotely.",
+"C": "With Telnet, you log on as a regular user",
+"D": "All of the mentioned"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 416,
+"Question": "Once Telnet is installed in our client machine we need to:",
+"Options": {
+"A": "Start communication with the main host server.",
+"B": "Share FS.",
+"C": "Configure firewall to allow telnet service and traffic",
+"D": "Unblock all the ports."
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 417,
+"Question": "Network switch is:",
+"Options": {
+"A": "Networking hardware that connects all devices together on a LAN (Local Area Network).",
+"B": "Software device to redirect the data",
+"C": "Both hardware and software which sends data via WAN.",
+"D": "None"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 418,
+"Question": "In wireless distribution system __________",
+"Options": {
+"A": "multiple access point are inter-connected with each other",
+"B": "there is no access point",
+"C": "only one access point exists",
+"D": "access points are not required"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 419,
+"Question": "The wireless access points:",
+"Options": {
+"A": "provide a means for the data to travel from the wireless network to the client.",
+"B": "provide a means for the data to travel from the shared network to the client.",
+"C": "All are true",
+"D": "Provide a means for the data to travel from the wired network to the client."
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 420,
+"Question": "Some factors to be considered while managing broadband is/are:",
+"Options": {
+"A": "Downlink and uplink speed",
+"B": "Bandwidth",
+"C": "All factors are contributing",
+"D": "Usage of Network"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 421,
+"Question": "The command used to show several details about the path that a packet takes from the computer or device you're on to whatever destination you specify is:",
+"Options": {
+"A": "TRACERT",
+"B": "IFCONFIG",
+"C": "WGET",
+"D": "DYNO"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 422,
+"Question": "What device provides a bridging point for different communications technologies and forwards outbound and inbound traffic on a switched network.",
+"Options": {
+"A": "WAN Switch",
+"B": "LAN Switch",
+"C": "Hub",
+"D": "Router"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 423,
+"Question": "Which of the following is considered a standard NTFS permission?",
+"Options": {
+"A": "List Folder Contents",
+"B": "Read Extended Attributes",
+"C": "Create Folders/Append Data",
+"D": "List Folder/Read Data"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 424,
+"Question": "You want a user to take ownership of a file or folder that she did not create. Which of the following groups do you not add her to?",
+"Options": {
+"A": "Administrators group",
+"B": "Backup Operators group",
+"C": "Creator/Owner special identity",
+"D": "Server Operators group"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 425,
+"Question": "Which of the following statements is true of global groups?",
+"Options": {
+"A": "Global groups can include only users from within their domain.",
+"B": "Global groups can include users from any domain in the tree.",
+"C": "Global groups can include users from any domain in the forest.",
+"D": "Global groups can include users from any domain in Active Directory"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 426,
+"Question": "How many processors does the 64-bit version of Windows Server 2003 Datacenter Edition support?",
+"Options": {
+"A": "4",
+"B": "8",
+"C": "32",
+"D": "64"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 427,
+"Question": "Which of the following protocols is used by Remote Desktop and Remote Assistant?",
+"Options": {
+"A": "RDP",
+"B": "SMTP",
+"C": "ICMP",
+"D": "PPPoE"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 428,
+"Question": "There are two PCs with the IP addresses of 200.11.10.22 and 202.22.9.0 respectively. The PC will be able to:",
+"Options": {
+"A": "communicate via bridge",
+"B": "communicate via switch",
+"C": "communicate via hub",
+"D": "communicate via router"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 429,
+"Question": "What does a router do with a packet that it does not have a destination network for?",
+"Options": {
+"A": "Drops the packet",
+"B": "Sends it to the serial port",
+"C": "Forwards the packet to the next hop",
+"D": "Sends it back to the same interface it was received"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 430,
+"Question": "When extending an existing wireless network, if additional access points must be installed, the design issues of overlap, redundancy, and __________ must also be considered.",
+"Options": {
+"A": "Operating Range",
+"B": "Data Transfer",
+"C": "Capacity",
+"D": "Roaming"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 431,
+"Question": "Which of the following holds true for bridges:",
+"Options": {
+"A": "Bridges are simple and significant and reduce the amount of network traffic on a segment.",
+"B": "Bridges do not isolate a busy network from a not-so-busy one.",
+"C": "A bridge functions by keeping data and forwarding to all the devices.",
+"D": "All are true"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 432,
+"Question": "Which of the following holds true in case of a hub?",
+"Options": {
+"A": "In a hub, a frame is passed along or 'broadcast' to every one of its ports and hub has no way of distinguishing which port a frame should be sent to.",
+"B": "In a hub a frame is restricted to ports and we can distinguish which port it needs to be sent.",
+"C": "Hub is faster than switches as it can send or receive information just not at the same time.",
+"D": "All are true"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 433,
+"Question": "What will you do if you receive this message in your system, 'One or more network protocols are missing on this computer'?",
+"Options": {
+"A": "Reset system",
+"B": "Disable 3rd Party Firewall or Security Suite",
+"C": "Uninstall Network Adapters Using Device Manager",
+"D": "All are true"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 434,
+"Question": "Which among the following is the least strong security encryption standard?",
+"Options": {
+"A": "WAP3",
+"B": "WAP",
+"C": "WEP",
+"D": "WAP2"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 435,
+"Question": "A __________ reviews the destination of the packet before sending. If the destination address is not on the other side of the bridge it will not transmit the data.",
+"Options": {
+"A": "Hub",
+"B": "Router",
+"C": "Bridge",
+"D": "CAN"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 436,
+"Question": "Broadband service through DSL Provides:",
+"Options": {
+"A": "Wireline transmission technology that transmits data faster over traditional copper telephone lines already installed",
+"B": "Wireless transmission technology that transmits data through cable.",
+"C": "Wireline transmission technology that transmits data through coaxial cables.",
+"D": "None of the mentioned"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 437,
+"Question": "Which of the following is/are true for defining a router:",
+"Options": {
+"A": "The router is the device that connects several networks or segments to form a larger internetwork.",
+"B": "The router is the device that facilitates communication within this internetwork.",
+"C": "The router makes the selections about how best to send packets within the network so that they arrive at their destination.",
+"D": "All statements define router."
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 438,
+"Question": "The user management feature in managed switches allows to:",
+"Options": {
+"A": "Give controlled access to multiple users",
+"B": "Allow all users to access the network",
+"C": "Partial control over devices.",
+"D": "Full control to all the devices."
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 439,
+"Question": "Sending address, destination address and the data are major components in",
+"Options": {
+"A": "Building a physical Network Infrastructure",
+"B": "TCP/IP packet sent over ethernet",
+"C": "Building MAC address",
+"D": "Having connectivity with local network via router."
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 440,
+"Question": "When the ports are connected by default connections in Linux server which of the statement is true?",
+"Options": {
+"A": "We need to connect the sub ports also.",
+"B": "The associated port gets connected automatically.",
+"C": "All the connections need to be done manually.",
+"D": "Ports are blocked."
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 441,
+"Question": "Installing an unmanaged switch involves: A. All the options B. Connect an Ethernet cable from each device that will share the network connection to an open port on the switch. C. Disconnect all the devices from uplink. D. Uninstall OS",
+"Options": {
+"A": "All the options",
+"B": "Connect an Ethernet cable from each device that will share the network connection to an open port on the switch.",
+"C": "Disconnect all the devices from uplink.",
+"D": "Uninstall OS"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 442,
+"Question": "The right to use a domain name is delegated by domain name registers which are accredited by _______",
+"Options": {
+"A": "internet architecture board",
+"B": "internet society",
+"C": "internet research task force",
+"D": "internet corporation for assigned names and numbers"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 443,
+"Question": "The domain name system is maintained by _______",
+"Options": {
+"A": "distributed database system",
+"B": "a single server",
+"C": "a single computer",
+"D": "none of the mentioned"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 444,
+"Question": "After obtaining the IP address, to prevent the IP conflict the client may use _________",
+"Options": {
+"A": "internet relay chat",
+"B": "broader gateway protocol",
+"C": "address resolution protocol",
+"D": "none of the mentioned"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 445,
+"Question": "You install Windows NT Server on a computer, making the computer a backup domain controller in an existing domain. After installation, you discover that you used the wrong domain name. What should you do?",
+"Options": {
+"A": "Change the domain name by using Control Panel",
+"B": "Modify the domain name in the Registry",
+"C": "Reinstall Windows NT Server",
+"D": "Change the domain name by using the Emergency Repair disk"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 446,
+"Question": "Windows Naming Service (WINS)",
+"Options": {
+"A": "dynamically allocates IP addresses to client computers",
+"B": "runs on Windows NT W/S",
+"C": "resolves computer names to IP addresses",
+"D": "Increases broadcast traffic"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 447,
+"Question": "If a server has no clue about where to find the address for a hostname then _______",
+"Options": {
+"A": "server asks to the root server",
+"B": "server asks to its adjacent server",
+"C": "request is not processed",
+"D": "none of the mentioned"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 448,
+"Question": "What tool is used to enable Remote Desktop on a server?",
+"Options": {
+"A": "Terminal Services Manager",
+"B": "Terminal Services Configuration",
+"C": "System Properties in Control Panel",
+"D": "Terminal Services Licensing"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 449,
+"Question": "Network backup devices most commonly use which drive interface?",
+"Options": {
+"A": "IDE",
+"B": "SCSI",
+"C": "USB",
+"D": "Parallel port"
+},
+"Answer": "B"
+},
+{
+"QuestionNumber": 450,
+"Question": "What determines the assignment of data classifications in a mandatory access control (MAC) philosophy?",
+"Options": {
+"A": "The analysis of the users in conjunction with the audit department",
+"B": "The assessment by the information security department",
+"C": "The users evaluation of a particular information element",
+"D": "The organizations published security policy for data classification"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 451,
+"Question": "Which e-mail standard relies on 'Web of Trust'?",
+"Options": {
+"A": "Pretty Good Privacy (PGP)",
+"B": "Privacy Enhanced Mail (PEM)",
+"C": "MIME Object Security Services (MOSS)",
+"D": "Secure Multipurpose Internet Mail Extensions (S/MIME)"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 452,
+"Question": "What determines the assignment of data classifications in a mandatory access control (MAC) philosophy?",
+"Options": {
+"A": "The analysis of the users in conjunction with the audit department",
+"B": "The assessment by the information security department",
+"C": "The users evaluation of a particular information element",
+"D": "The organizations published security policy for data classification"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 453,
+"Question": "What are the modes routing daemons operate in?",
+"Options": {
+"A": "Passive and active",
+"B": "Active",
+"C": "Passive",
+"D": "Passive or active"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 454,
+"Question": "Which protocol is supported by the gated daemons?",
+"Options": {
+"A": "BGP",
+"B": "OSPF",
+"C": "SNMP",
+"D": "all"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 455,
+"Question": "In which mode dynamic routing daemons must be run?",
+"Options": {
+"A": "Passive",
+"B": "active",
+"C": "Static",
+"D": "Virtual"
+},
+"Answer": "A"
+},
+{
+"QuestionNumber": 456,
+"Question": "RIP protocol is enhanced to RIPng to support what?",
+"Options": {
+"A": "IPv4",
+"B": "IPvX",
+"C": "IPv6",
+"D": "IP"
+},
+"Answer": "C"
+},
+{
+"QuestionNumber": 457,
+"Question": "What decides the number of gateways we need to configure?",
+"Options": {
+"A": "The number of networks you want to connect",
+"B": "How you want to connect the networks",
+"C": "The level of activity on the connected networks",
+"D": "All"
+},
+"Answer": "D"
+},
+{
+"QuestionNumber": 458,
+"Question": "When frames are not reaching their destination and the routing table indicates the correct route, what might be the problem?",
+"Options": {
+"A": "Network is failing",
+"B": "Remote host or gateway",
+"C": "Remote host or gateway is down",
+"D": "All"
+},
+"Answer": "D"
+}
+
+]

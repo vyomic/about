@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'console'; /* Give your font a name */
+    src: url('../fonts/console3.ttf') format('truetype'); /* Provide the path to your TTF file */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.active{
+    background-color: var(--activebg);
+    font-weight: 500;
+    color: var(--activetext);
+}
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 9999999999999;
+    
+}
+#fullScreenBox{
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    position: relative;
+    z-index: 12;
+
+}
+.fullScreen {
+    display: flex;
+    padding: 2px 0px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 30, 92);
+}
+.fullScreenBtn{
+    border-radius: 5px;
+    background-color: rgb(38, 51, 44);
+    color: rgb(255, 255, 255);
+    padding: 4px 8px;
+}
+.nav nav{
+    display: flex;
+    /* border: 2px solid rgb(0, 47, 201); */
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--navbg);
+    color: var(--navtext);
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 999999900;
+
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    /* border: 1px solid blue; */
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.exitFs{
+    width: 35px;
+    visibility: hidden;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    border: 1px solid rgb(42, 42, 48);
+    transition: all ease 0.5s;
+}
+.exitFs:hover{
+    background-color: var(--hoverbg);
+    color: var(--hovertext); 
+}
+
+.nav li:hover{
+    background-color: var(--hoverbg);
+    color: var(--hovertext);
+}
+#timebox{
+    /* border: 1px solid red; */
+    text-align: right;
+}
+.font-s{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.font-m{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    
+}
+.font-l{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    
+}
+.font-xl{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+
+}
+@keyframes animate {
+    0%{
+        width: 5vw;
+        height: 2vh;
+        bottom: 15px;
+        left: 122px;
+      
+    }
+
+
+    10%{
+        width: 5vw;
+        height: 5vh;
+        left: 122px;
+        background-color: white;
+        z-index: 999999999999999999999999;
+        
+    }
+    70%{
+        width: 5vw;
+        height: 5vh;
+        bottom: 50vh;
+        left: 45vw;
+        background-color: white;
+        z-index: 9
+    }
+    100%{
+        width: 50vw;
+        height: 72vh;
+        bottom: 90px;
+        left: 25vw;
+    }
+}
+.contact{
+    position: fixed;
+    width: 50vw;
+    height: 72vh;
+    bottom: 90px;
+    left: 25vw;
+    z-index: 9;
+    animation: animate 2s ease-in forwards;
+    overflow: scroll;
+}
+#contcard{
+    background-color: rgba(255, 255, 255, 0.685) !important;
+    backdrop-filter: blur(16px);
+}
+
+.box{
+    margin: 12px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100vw;
+    height: 300px;
+    display: grid ;
+    grid-template-columns: 2fr 3fr;
+}
+.carouselimg{
+    width: 100%;
+    height: 297px;
+    min-height: 250px;
+    background-color: #8e9eaf !important;
+    background-blend-mode: multiply;
+    display: flex;
+}
+.typingtext{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      background-color: #effaff;
+      overflow: hidden;
+}
+.sentenceBox{
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.sentence {
+    position: relative; /* Ensures the cursor is positioned relative to the text */
+    /* display: inline-block; Ensures the text behaves like inline text, while still positioning the cursor */
+    font-family: sans-serif;
+    font-size: 25px;
+   
+    white-space: wrap; /* Prevents the text from wrapping */
+}
+
+.sentence::after {
+    content: '_';
+    position: relative;
+    top: -6px;
+    right: -5px;
+     /* Position the cursor to the right of the text */
+    transform: translateX(5px); /* Fine-tune the cursor's position to be slightly apart from the text */
+    font-size: 32px;
+    text-shadow: 0px 0pc 2px black;
+    font-family: 'console',sans serif;
+    font-weight: 900; /* Make sure the cursor is a visible size */
+    color: #00b109; /* Cursor color */
+    animation: blink 0.8s linear infinite;
+}
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    60%{
+        opacity: 0.8;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
