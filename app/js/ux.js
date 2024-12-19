@@ -52,11 +52,13 @@ $(document).ready(function () {
       // Remove active class from all links
       if ($('#contactbox').hasClass('contact')) {
         $('#contactbox').removeClass('contact');
+        $('#contactbox').addClass('hideContact');
         $('nav ul li').removeClass('active');
       }
 
       // Add active class to the clicked link
       else {
+        $('#contactbox').removeClass('hideContact');
         $('#contactbox').addClass('contact');
         $(this).addClass('active');
       }
