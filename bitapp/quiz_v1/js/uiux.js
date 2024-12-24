@@ -11,6 +11,14 @@ function loadQuizData() {
     startTimer(); // Start the timer
     displayQuestion(currentQuestionIndex);
   }
+  function playSound() {
+    var audio = new Audio('audio/next.mp3');
+    audio.play();
+  }
+  function soundEffect(sound) {
+    var audio = new Audio('audio/'+sound+'.mp3');
+    audio.play();
+  }
 
 
   function startTimer() {
@@ -69,10 +77,12 @@ function loadQuizData() {
 
 
         if (key === item.Answer) {
+          soundEffect('right')
           optionButton.style.backgroundColor = '#7affa9'; // Correct answer color
           optionButton.style.color = 'black'; // Change text color for visibility
           correctAnswers++;
         } else {
+          soundEffect('wrong')
           optionButton.style.backgroundColor = 'red'; // Incorrect answer color
           optionButton.style.color = 'white'; // Change text color for visibility
           incorrectAnswers++;

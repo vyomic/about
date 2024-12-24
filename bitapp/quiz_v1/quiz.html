@@ -5,10 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quiz App</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="../../app/icons4/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <div id="fullScreenBox" style="display: block;">
+    <div class="fullScreen">
+      <span> For Better Experience Enter to Full Screen.</span>
+      <span class="fullScreenBtn" id="fullScreen"><i class="fa fa-expand" aria-hidden="true"></i>
+      </span>
+    </div>
+  </div>
   <div>
     <a href="/about/bitapp/quiz_v1/quiz.html" class="qzSel">Go to Quiz Selection</a>
   </div>
@@ -66,12 +75,13 @@
 
   <div class="navigation">
     <button id="prevButton" style="display: none;">Previous</button>
-    <button id="nextButton" style="display: none;">Next</button>
+    <button id="nextButton" style="display: none;" onclick="playSound()">Next</button>
   </div>
   <script src="js/loadFromFile.js"></script>
   <script src="js/uiux.js"></script>
 
   <script>
+    
     // Event listener for loading the default JSON
     document.getElementById('loadJsonButton5').addEventListener('click', function () {
       fetch('../../data/quiz5.json')
@@ -158,7 +168,7 @@
         });
     });
   </script>
-
+  <script src="../../app/js/ux.js"></script>
 
 </body>
 
