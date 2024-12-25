@@ -4,7 +4,7 @@
     --hovertext: rgb(255, 255, 255);
     --activebg: rgb(0, 38, 255);
     --activetext: white;
-    --navbg: black;
+    --navbg: rgba(25, 29, 36, 0.822);
     --navtext: white;
 }
 body{

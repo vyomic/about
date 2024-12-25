@@ -20,6 +20,7 @@
     text-align: center;
     z-index: 9999999999999;
     
+    
 }
 #fullScreenBox{
     /*  */
@@ -58,6 +59,8 @@
     align-items: center;
     background-color: var(--navbg);
     color: var(--navtext);
+    box-shadow: inset 1px 1px 10px 3px #00000036;
+    backdrop-filter: blur(9px);
     margin: 0;
     position: fixed;
     bottom: 0;
